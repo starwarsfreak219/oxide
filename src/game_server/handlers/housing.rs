@@ -500,10 +500,10 @@ pub fn process_housing_packet(
             }
             HousingOpCode::LeaveRequest => {
                 game_server.lock_enforcer().write_characters(
-                    |mut characters_table_write_handle, minigame_data_lock_enforcer| {
+                    |characters_table_write_handle, minigame_data_lock_enforcer| {
                         let zones_lock_enforcer: ZoneLockEnforcer<'_> =
                             minigame_data_lock_enforcer.into();
-                        zones_lock_enforcer.write_zones(|mut zones_table_write_handle| {
+                        zones_lock_enforcer.write_zones(|zones_table_write_handle| {
                             // Get the player's previous location from their character data.
                             let previous_location = {
                                 let Some(character_read_handle) =
@@ -530,8 +530,8 @@ pub fn process_housing_packet(
                             };
 
                             let dest_instance_guid = game_server.get_or_create_instance(
-                                &mut characters_table_write_handle,
-                                &mut zones_table_write_handle,
+                                characters_table_write_handle,
+                                zones_table_write_handle,
                                 previous_location.template_guid,
                                 1,
                             )?;
