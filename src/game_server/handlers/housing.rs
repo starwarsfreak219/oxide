@@ -498,6 +498,70 @@ pub fn process_housing_packet(
                     },
                 )
             }
+            HousingOpCode::LeaveRequest => {
+                game_server.lock_enforcer().write_characters(
+                    |mut characters_table_write_handle, minigame_data_lock_enforcer| {
+                        let zones_lock_enforcer: ZoneLockEnforcer<'_> =
+                            minigame_data_lock_enforcer.into();
+                        zones_lock_enforcer.write_zones(|mut zones_table_write_handle| {
+                            // Get the player's previous location from their character data.
+                            let previous_location = {
+                                let Some(character_read_handle) =
+                                    characters_table_write_handle.get(player_guid(sender))
+                                else {
+                                    return Err(ProcessPacketError::new(
+                                        ProcessPacketErrorType::ConstraintViolated,
+                                        format!("Unknown player {sender} tried to leave a house"),
+                                    ));
+                                };
+                                let character_read_handle = character_read_handle.read();
+
+                                let super::character::CharacterType::Player(player) =
+                                    &character_read_handle.stats.character_type
+                                else {
+                                    return Err(ProcessPacketError::new(
+                                        ProcessPacketErrorType::ConstraintViolated,
+                                        format!(
+                                            "Non-player character {sender} tried to leave a house"
+                                        ),
+                                    ));
+                                };
+                                player.previous_location.clone()
+                            };
+
+                            let dest_instance_guid = game_server.get_or_create_instance(
+                                &mut characters_table_write_handle,
+                                &mut zones_table_write_handle,
+                                previous_location.template_guid,
+                                1,
+                            )?;
+
+                            let Some(dest_zone_read_handle) =
+                                zones_table_write_handle.get(dest_instance_guid)
+                            else {
+                                return Err(ProcessPacketError::new(
+                                    ProcessPacketErrorType::ConstraintViolated,
+                                    format!(
+                                        "Failed to get or create destination zone instance {}",
+                                        dest_instance_guid
+                                    ),
+                                ));
+                            };
+
+                            // Teleport the player back to their previous location.
+                            teleport_to_zone!(
+                                characters_table_write_handle,
+                                sender,
+                                zones_table_write_handle,
+                                &dest_zone_read_handle.read(),
+                                Some(previous_location.pos),
+                                Some(previous_location.rot),
+                                game_server.mounts(),
+                            )
+                        })
+                    },
+                )
+            }
             _ => {
                 let mut buffer = Vec::new();
                 cursor.read_to_end(&mut buffer)?;

@@ -8,6 +8,7 @@ use super::{item::BaseAttachmentGroup, GamePacket, OpCode, Pos};
 pub enum HousingOpCode {
     SetEditMode = 0x6,
     RequestPlayerHouseList = 0xb,
+    LeaveRequest = 0x9,
     EnterRequest = 0x10,
     InstanceData = 0x18,
     InstanceList = 0x26,
@@ -56,6 +57,18 @@ pub struct EnterRequest {
 impl GamePacket for EnterRequest {
     type Header = HousingOpCode;
     const HEADER: Self::Header = HousingOpCode::EnterRequest;
+}
+
+#[derive(SerializePacket)]
+pub struct LeaveRequest {
+    pub house_guid: u64,
+    pub unknown1: u32,
+    pub unknown2: u32,
+}
+
+impl GamePacket for LeaveRequest {
+    type Header = HousingOpCode;
+    const HEADER: Self::Header = HousingOpCode::LeaveRequest;
 }
 
 #[derive(SerializePacket, DeserializePacket)]
