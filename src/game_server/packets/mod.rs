@@ -18,12 +18,16 @@ pub mod saber_strike;
 pub mod squad;
 pub mod store;
 pub mod time;
+pub mod tower_defense;
 pub mod tunnel;
 pub mod ui;
 pub mod update_position;
 pub mod zone;
 
-use std::fmt::Display;
+use std::{
+    fmt::Display,
+    ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Sub, SubAssign},
+};
 
 use num_enum::{IntoPrimitive, TryFromPrimitive};
 use packet_serialize::{DeserializePacket, SerializePacket};
@@ -65,11 +69,11 @@ pub enum OpCode {
     ClientMetrics = 0x69,
     ClientLog = 0x6d,
     TeleportToSafety = 0x7a,
-    UpdatePlayerPosition = 0x7d,
+    UpdatePlayerPos = 0x7d,
     UpdatePlayerCamera = 0x7e,
     Housing = 0x7f,
     Squad = 0x81,
-    UpdatePlayerPlatformPosition = 0xb8,
+    UpdatePlayerPlatformPos = 0xb8,
     DailyMinigame = 0x8e,
     ClientGameSettings = 0x8f,
     Portrait = 0x9b,
@@ -102,6 +106,134 @@ pub struct Pos {
     pub y: f32,
     pub z: f32,
     pub w: f32,
+}
+
+impl Add for Pos {
+    type Output = Self;
+
+    fn add(self, rhs: Self) -> Self::Output {
+        Pos {
+            x: self.x + rhs.x,
+            y: self.y + rhs.y,
+            z: self.z + rhs.z,
+            w: self.w + rhs.w,
+        }
+    }
+}
+
+impl Sub for Pos {
+    type Output = Pos;
+
+    fn sub(self, rhs: Self) -> Self::Output {
+        Pos {
+            x: self.x - rhs.x,
+            y: self.y - rhs.y,
+            z: self.z - rhs.z,
+            w: self.w - rhs.w,
+        }
+    }
+}
+
+impl Mul for Pos {
+    type Output = Pos;
+
+    fn mul(self, rhs: Self) -> Self::Output {
+        Pos {
+            x: self.x * rhs.x,
+            y: self.y * rhs.y,
+            z: self.z * rhs.z,
+            w: self.w * rhs.w,
+        }
+    }
+}
+
+impl Div for Pos {
+    type Output = Pos;
+
+    fn div(self, rhs: Self) -> Self::Output {
+        Pos {
+            x: self.x / rhs.x,
+            y: self.y / rhs.y,
+            z: self.z / rhs.z,
+            w: self.w / rhs.w,
+        }
+    }
+}
+
+impl Add<f32> for Pos {
+    type Output = Self;
+
+    fn add(self, rhs: f32) -> Self::Output {
+        Pos {
+            x: self.x + rhs,
+            y: self.y + rhs,
+            z: self.z + rhs,
+            w: self.w + rhs,
+        }
+    }
+}
+
+impl Sub<f32> for Pos {
+    type Output = Self;
+
+    fn sub(self, rhs: f32) -> Self::Output {
+        Pos {
+            x: self.x - rhs,
+            y: self.y - rhs,
+            z: self.z - rhs,
+            w: self.w - rhs,
+        }
+    }
+}
+
+impl Mul<f32> for Pos {
+    type Output = Pos;
+
+    fn mul(self, rhs: f32) -> Self::Output {
+        Pos {
+            x: self.x * rhs,
+            y: self.y * rhs,
+            z: self.z * rhs,
+            w: self.w * rhs,
+        }
+    }
+}
+
+impl Div<f32> for Pos {
+    type Output = Pos;
+
+    fn div(self, rhs: f32) -> Self::Output {
+        Pos {
+            x: self.x / rhs,
+            y: self.y / rhs,
+            z: self.z / rhs,
+            w: self.w / rhs,
+        }
+    }
+}
+
+impl AddAssign for Pos {
+    fn add_assign(&mut self, rhs: Self) {
+        *self = *self + rhs;
+    }
+}
+
+impl SubAssign for Pos {
+    fn sub_assign(&mut self, rhs: Self) {
+        *self = *self - rhs;
+    }
+}
+
+impl MulAssign for Pos {
+    fn mul_assign(&mut self, rhs: Self) {
+        *self = *self * rhs;
+    }
+}
+
+impl DivAssign for Pos {
+    fn div_assign(&mut self, rhs: Self) {
+        *self = *self / rhs;
+    }
 }
 
 #[derive(Clone, SerializePacket, DeserializePacket)]
@@ -449,4 +581,48 @@ pub struct RewardBundle {
     pub name_id: u32,
     pub entries: Vec<RewardEntry>,
     pub unknown17: u32,
+}
+
+#[derive(
+    Copy, Clone, Debug, TryFromPrimitive, IntoPrimitive, SerializePacket, DeserializePacket,
+)]
+#[repr(u32)]
+pub enum ActionBarType {
+    Weapon = 1,
+    Consumable = 2,
+    Minigame = 3,
+}
+
+#[derive(
+    Copy, Clone, Debug, TryFromPrimitive, IntoPrimitive, SerializePacket, DeserializePacket,
+)]
+#[repr(u32)]
+pub enum AbilitySubType {
+    CastableGroundAoeRadius1 = 1,
+    CastableSingleTarget = 2,
+    CastableGroundAoe = 3,
+    CastableTargetedAoe = 4,
+    InstantSingleTarget = 5,
+    CastableSingleTargetNoCursor = 6,
+    InstantTargetedNonCombat = 7,
+}
+
+#[derive(Clone, SerializePacket, DeserializePacket)]
+pub struct ActionBarSlot {
+    pub is_empty: bool,
+    pub icon_id: u32,
+    pub icon_tint_id: u32,
+    pub name_id: u32,
+    pub ability_type: u32,
+    pub ability_sub_type: AbilitySubType,
+    pub area_of_effect_radius: f32,
+    pub max_distance_from_player: f32,
+    pub required_force_points: u32,
+    pub is_enabled: bool,
+    pub use_cooldown_millis: u32,
+    pub init_cooldown_millis: u32,
+    pub unknown13: u32,
+    pub quantity: u32,
+    pub is_consumable: bool,
+    pub millis_since_last_use: u32,
 }

@@ -1,5 +1,5 @@
 use std::{
-    collections::{BTreeMap, BTreeSet, HashMap},
+    collections::{BTreeMap, BTreeSet, HashMap, HashSet},
     fs,
     fs::File,
     iter,
@@ -13,6 +13,7 @@ use serde_yaml::{Mapping, Value};
 
 use crate::{
     game_server::{
+        handlers::dialog::{DialogChoiceConfig, DialogChoiceInstance, DialogChoiceTemplate},
         packets::{
             client_update::Position,
             command::MoveToInteract,
@@ -41,13 +42,13 @@ use super::{
     housing::prepare_init_house_packets,
     lock_enforcer::{
         CharacterLockRequest, CharacterReadGuard, CharacterTableWriteHandle, CharacterWriteGuard,
-        ZoneLockEnforcer, ZoneTableWriteHandle,
+        ZoneLockEnforcer, ZoneLockRequest, ZoneTableWriteHandle,
     },
     mount::MountConfig,
     unique_guid::{
         npc_guid, player_guid, shorten_player_guid, zone_template_guid, FIXTURE_DISCRIMINANT,
     },
-    update_position::UpdatePositionPacket,
+    update_position::UpdatePosPacket,
     WriteLockingBroadcastSupplier,
 };
 
@@ -103,6 +104,8 @@ pub struct ZoneConfig {
     update_previous_location_on_leave: bool,
     #[serde(default)]
     map_id: u32,
+    #[serde(default)]
+    dialog_choices: Vec<DialogChoiceConfig>,
 }
 
 #[derive(Clone)]
@@ -125,6 +128,7 @@ pub struct ZoneTemplate {
     pub seconds_per_day: u32,
     update_previous_location_on_leave: bool,
     map_id: u32,
+    pub dialog_choices: BTreeMap<u32, DialogChoiceTemplate>,
 }
 
 impl Guid<u8> for ZoneTemplate {
@@ -162,26 +166,71 @@ impl From<&Vec<Character>>
 
 impl From<ZoneConfig> for ZoneTemplate {
     fn from(value: ZoneConfig) -> Self {
+        let mut button_keys_to_id = HashMap::new();
+        let mut seen_keys = HashSet::new();
+        let mut next_id = 1;
+
+        for choice in &value.dialog_choices {
+            if !seen_keys.insert(choice.button_key.clone()) {
+                panic!(
+                    "Duplicate (Button Key: '{}') found in (Zone Template GUID: {})",
+                    choice.button_key, value.guid
+                );
+            }
+
+            button_keys_to_id.insert(choice.button_key.clone(), next_id);
+            next_id += 1;
+        }
+
         let mut characters = Vec::new();
 
         let mut index = 0;
 
         {
-            for ambient_npc in value.ambient_npcs.values() {
-                characters.push(NpcTemplate::from_config(ambient_npc.clone(), index));
+            for (name, ambient_npc) in value.ambient_npcs {
+                characters.push(NpcTemplate::from_config(
+                    ambient_npc.clone(),
+                    index,
+                    &button_keys_to_id,
+                    value.guid,
+                    &name,
+                ));
                 index += 1;
             }
 
-            for door in value.doors.values() {
-                characters.push(NpcTemplate::from_config(door.clone(), index));
+            for (name, door) in value.doors {
+                characters.push(NpcTemplate::from_config(
+                    door.clone(),
+                    index,
+                    &button_keys_to_id,
+                    value.guid,
+                    &name,
+                ));
                 index += 1;
             }
 
-            for transport in value.transports.values() {
-                characters.push(NpcTemplate::from_config(transport.clone(), index));
+            for (name, transport) in value.transports {
+                characters.push(NpcTemplate::from_config(
+                    transport.clone(),
+                    index,
+                    &button_keys_to_id,
+                    value.guid,
+                    &name,
+                ));
                 index += 1;
             }
         }
+
+        let dialog_choices = value
+            .dialog_choices
+            .iter()
+            .map(|choice| {
+                let choice_template =
+                    DialogChoiceTemplate::from_config(choice, value.guid, &button_keys_to_id);
+
+                (choice_template.button_id, choice_template)
+            })
+            .collect();
 
         ZoneTemplate {
             guid: value.guid,
@@ -202,6 +251,7 @@ impl From<ZoneConfig> for ZoneTemplate {
             seconds_per_day: value.seconds_per_day,
             update_previous_location_on_leave: value.update_previous_location_on_leave,
             map_id: value.map_id,
+            dialog_choices,
         }
     }
 }
@@ -258,6 +308,11 @@ impl ZoneTemplate {
             seconds_per_day: self.seconds_per_day,
             update_previous_location_on_leave: self.update_previous_location_on_leave,
             map_id: self.map_id,
+            dialog_choices: self
+                .dialog_choices
+                .values()
+                .map(|template| DialogChoiceInstance::from_template(template, &keys_to_guid))
+                .collect(),
         }
     }
 }
@@ -288,7 +343,7 @@ enum CharacterMovementType {
 }
 
 pub struct ZoneInstance {
-    guid: u64,
+    pub guid: u64,
     pub template_guid: u8,
     pub template_name: u32,
     pub max_players: u32,
@@ -307,6 +362,7 @@ pub struct ZoneInstance {
     pub seconds_per_day: u32,
     update_previous_location_on_leave: bool,
     map_id: u32,
+    pub dialog_choices: Vec<DialogChoiceInstance>,
 }
 
 impl IndexedGuid<u64, u8> for ZoneInstance {
@@ -609,6 +665,7 @@ impl ZoneInstance {
         moved_character_guid: u64,
         character_diffs: CharacterDiffResult,
         characters_read: &BTreeMap<u64, CharacterReadGuard<'_>>,
+        moved_character_handle: &Character,
         mount_configs: &BTreeMap<u32, MountConfig>,
         item_definitions: &BTreeMap<u32, ItemDefinition>,
         customizations: &BTreeMap<u32, Customization>,
@@ -637,23 +694,21 @@ impl ZoneInstance {
             broadcasts.push(Broadcast::Single(moved_player_guid, diff_packets));
         }
 
-        if let Some(moved_character_read_handle) = characters_read.get(&moved_character_guid) {
-            broadcasts.push(Broadcast::Multi(
-                character_diffs.new_players_close_to_moved_character,
-                moved_character_read_handle.stats.add_packets(
-                    false,
-                    mount_configs,
-                    item_definitions,
-                    customizations,
-                ),
-            ));
-            broadcasts.push(Broadcast::Multi(
-                character_diffs.players_too_far_from_moved_character,
-                moved_character_read_handle
-                    .stats
-                    .remove_packets(RemovalMode::default()),
-            ));
-        }
+        broadcasts.push(Broadcast::Multi(
+            character_diffs.new_players_close_to_moved_character,
+            moved_character_handle.stats.add_packets(
+                false,
+                mount_configs,
+                item_definitions,
+                customizations,
+            ),
+        ));
+        broadcasts.push(Broadcast::Multi(
+            character_diffs.players_too_far_from_moved_character,
+            moved_character_handle
+                .stats
+                .remove_packets(RemovalMode::default()),
+        ));
 
         broadcasts
     }
@@ -667,14 +722,14 @@ impl ZoneInstance {
         moved_character_write_handle.stats.rot = new_rot;
     }
 
-    pub fn move_character<T: UpdatePositionPacket>(
-        mut full_update_packet: T,
+    pub fn move_character<T: UpdatePosPacket>(
+        mut pos_update: T,
         should_teleport: bool,
         game_server: &GameServer,
     ) -> Result<Vec<Broadcast>, ProcessPacketError> {
-        let moved_character_guid = full_update_packet.guid();
-        let new_pos = full_update_packet.pos();
-        let new_rot = full_update_packet.rot();
+        let moved_character_guid = pos_update.guid();
+        let new_pos = pos_update.pos();
+        let new_rot = pos_update.rot();
 
         let movement_result: Result<(Vec<Broadcast>, CharacterMovementType), ProcessPacketError> =
             game_server
@@ -730,7 +785,7 @@ impl ZoneInstance {
                                     character_handle.stats.jump_height_multiplier.total()
                                 })
                                 .unwrap_or(1.0);
-                            full_update_packet.apply_jump_height_multiplier(jump_multiplier);
+                            pos_update.apply_jump_height_multiplier(jump_multiplier);
 
                             ZoneInstance::move_character_with_locks(
                                 characters_write.get_mut(&moved_character_guid).unwrap(),
@@ -750,7 +805,7 @@ impl ZoneInstance {
                                 other_players_nearby,
                                 vec![GamePacket::serialize(&TunneledPacket {
                                     unknown1: true,
-                                    inner: full_update_packet,
+                                    inner: pos_update,
                                 })],
                             ));
                             Ok((
@@ -789,29 +844,6 @@ impl ZoneInstance {
                                 moved_character_guid
                             );
 
-                            broadcasts.append(&mut ZoneInstance::diff_character_broadcasts(
-                                moved_character_guid,
-                                character_diffs,
-                                &characters_read,
-                                game_server.mounts(),
-                                game_server.items(),
-                                game_server.customizations(),
-                            ));
-
-                            // Remove the moved character when they change chunks
-                            let previous_other_players_nearby = ZoneInstance::other_players_nearby(
-                                shorten_player_guid(moved_character_guid).ok(),
-                                old_chunk,
-                                instance_guid,
-                                characters_table_write_handle,
-                            );
-                            broadcasts.push(Broadcast::Multi(
-                                previous_other_players_nearby,
-                                moved_character_write_handle
-                                    .stats
-                                    .remove_packets(RemovalMode::default()),
-                            ));
-
                             // Move the character
                             ZoneInstance::move_character_with_locks(
                                 moved_character_write_handle,
@@ -823,27 +855,17 @@ impl ZoneInstance {
                                 .stats
                                 .jump_height_multiplier
                                 .total();
-                            full_update_packet.apply_jump_height_multiplier(jump_multiplier);
+                            pos_update.apply_jump_height_multiplier(jump_multiplier);
 
-                            let other_players_nearby = ZoneInstance::other_players_nearby(
-                                shorten_player_guid(moved_character_guid).ok(),
-                                new_chunk,
-                                instance_guid,
-                                characters_table_write_handle,
-                            );
-                            let mut new_chunk_packets =
-                                moved_character_write_handle.stats.add_packets(
-                                    false,
-                                    game_server.mounts(),
-                                    game_server.items(),
-                                    game_server.customizations(),
-                                );
-                            new_chunk_packets.push(GamePacket::serialize(&TunneledPacket {
-                                unknown1: true,
-                                inner: full_update_packet,
-                            }));
-                            broadcasts
-                                .push(Broadcast::Multi(other_players_nearby, new_chunk_packets));
+                            broadcasts.append(&mut ZoneInstance::diff_character_broadcasts(
+                                moved_character_guid,
+                                character_diffs,
+                                &characters_read,
+                                moved_character_write_handle,
+                                game_server.mounts(),
+                                game_server.items(),
+                                game_server.customizations(),
+                            ));
                         },
                     )
                 })
@@ -1219,6 +1241,14 @@ pub enum DestinationZoneInstance {
     },
 }
 
+#[derive(Clone, Deserialize)]
+pub struct Destination {
+    pub pos: Pos,
+    pub rot: Pos,
+    #[serde(default)]
+    pub zone: DestinationZoneInstance,
+}
+
 pub fn teleport_anywhere(
     destination_pos: Pos,
     destination_rot: Pos,
@@ -1292,7 +1322,7 @@ pub fn interact_with_character(
         .read_characters(|_characters_table_read_handle_| CharacterLockRequest {
             read_guids: Vec::new(),
             write_guids: vec![requester, target],
-            character_consumer: move |characters_table_read_handle, _, mut characters_write, _| {
+            character_consumer: move |characters_table_read_handle, _, mut characters_write, minigame_data_lock_enforcer| {
                 let Some(mut requester_read_handle) = characters_write.remove(&requester) else {
                     return coerce_to_broadcast_supplier(|_| Ok(Vec::new()));
                 };
@@ -1307,70 +1337,102 @@ pub fn interact_with_character(
                     characters_table_read_handle,
                 );
 
-                let player_stats = match &mut requester_read_handle.stats.character_type {
-                    CharacterType::Player(player) => Some(player.as_mut()),
-                    _ => None,
-                };
+                let zones_lock_enforcer: ZoneLockEnforcer = minigame_data_lock_enforcer.into();
 
-                let result = (|| {
-                    let Some(target_read_handle) = characters_write.get_mut(&target) else {
-                        return Err(ProcessPacketError::new(
-                            ProcessPacketErrorType::ConstraintViolated,
-                            format!("Received request to interact with unknown NPC {target} from {requester}"),
-                        ));
-                    };
-
-                    if !target_read_handle.stats.is_spawned {
-                        return Err(ProcessPacketError::new(
-                            ProcessPacketErrorType::ConstraintViolated,
-                            format!("Received request to interact with inactive NPC {target} from {requester}"),
-                        ));
-                    }
-
-                    let distance = distance3(
-                        requester_pos.x,
-                        requester_pos.y,
-                        requester_pos.z,
-                        target_read_handle.stats.pos.x,
-                        target_read_handle.stats.pos.y,
-                        target_read_handle.stats.pos.z,
-                    );
-
-                    // Interact if player is within range; otherwise, send MoveToInteract
-                    if distance > target_read_handle.stats.interact_radius
-                        || target_read_handle.stats.instance_guid != requester_instance
-                    {
-                        let interaction_angle = (target_read_handle.stats.pos.z - requester_pos.z)
-                            .atan2(target_read_handle.stats.pos.x - requester_pos.x);
-
-                        let destination = Pos {
-                            x: target_read_handle.stats.pos.x
-                                - target_read_handle.stats.move_to_interact_offset * interaction_angle.cos(),
-                            y: target_read_handle.stats.pos.y,
-                            z: target_read_handle.stats.pos.z
-                                - target_read_handle.stats.move_to_interact_offset * interaction_angle.sin(),
-                            w: 1.0,
+                zones_lock_enforcer.read_zones(|_| ZoneLockRequest {
+                    read_guids: vec![requester_instance],
+                    write_guids: Vec::new(),
+                    zone_consumer: move |_, zones_read, _| {
+                        let zone_instance = match zones_read.get(&requester_instance) {
+                            Some(zone) => zone,
+                            None => {
+                                return coerce_to_broadcast_supplier(move |_| Err(ProcessPacketError::new(
+                                    ProcessPacketErrorType::ConstraintViolated,
+                                    format!(
+                                        "Requester {requester} is in a non-existent zone {requester_instance}"
+                                    ),
+                                )));
+                            }
                         };
 
-                        return coerce_to_broadcast_supplier(move |_| {
-                            Ok(vec![Broadcast::Single(
+                        let result = (|| {
+                            let player_stats = match &mut requester_read_handle.stats.character_type {
+                                CharacterType::Player(player) => player.as_mut(),
+                                _ => {
+                                    return Err(ProcessPacketError::new(
+                                        ProcessPacketErrorType::ConstraintViolated,
+                                        format!(
+                                            "Received request to interact with NPC {target} from {requester} but they were not a player"
+                                        ),
+                                    ));
+                                }
+                            };
+
+                            let Some(target_read_handle) = characters_write.get_mut(&target) else {
+                                return Err(ProcessPacketError::new(
+                                    ProcessPacketErrorType::ConstraintViolated,
+                                    format!("Received request to interact with unknown NPC {target} from {requester}"),
+                                ));
+                            };
+
+                            if !target_read_handle.stats.is_spawned {
+                                return Err(ProcessPacketError::new(
+                                    ProcessPacketErrorType::ConstraintViolated,
+                                    format!("Received request to interact with inactive NPC {target} from {requester}"),
+                                ));
+                            }
+
+                            let distance = distance3(
+                                requester_pos.x,
+                                requester_pos.y,
+                                requester_pos.z,
+                                target_read_handle.stats.pos.x,
+                                target_read_handle.stats.pos.y,
+                                target_read_handle.stats.pos.z,
+                            );
+
+                            if distance > target_read_handle.stats.interact_radius
+                                || target_read_handle.stats.instance_guid != requester_instance
+                            {
+                                let interaction_angle = (target_read_handle.stats.pos.z - requester_pos.z)
+                                    .atan2(target_read_handle.stats.pos.x - requester_pos.x);
+
+                                let destination = Pos {
+                                    x: target_read_handle.stats.pos.x
+                                        - target_read_handle.stats.move_to_interact_offset * interaction_angle.cos(),
+                                    y: target_read_handle.stats.pos.y,
+                                    z: target_read_handle.stats.pos.z
+                                        - target_read_handle.stats.move_to_interact_offset * interaction_angle.sin(),
+                                    w: 1.0,
+                                };
+
+                                return coerce_to_broadcast_supplier(move |_| {
+                                    Ok(vec![Broadcast::Single(
+                                        requester_guid,
+                                        vec![GamePacket::serialize(&TunneledPacket {
+                                            unknown1: true,
+                                            inner: MoveToInteract {
+                                                destination,
+                                                target,
+                                            },
+                                        })],
+                                    )])
+                                });
+                            }
+
+                            target_read_handle.interact(
                                 requester_guid,
-                                vec![GamePacket::serialize(&TunneledPacket {
-                                    unknown1: true,
-                                    inner: MoveToInteract {
-                                        destination,
-                                        target,
-                                    },
-                                })],
-                            )])
-                        });
-                    }
+                                player_stats,
+                                &nearby_player_guids,
+                                zone_instance,
+                                game_server,
+                            )
+                        })();
 
-                    target_read_handle.interact(requester_guid, player_stats, &nearby_player_guids)
-                })();
-
-                characters_write.insert(requester, requester_read_handle);
-                result
+                        characters_write.insert(requester, requester_read_handle);
+                        result
+                    },
+                })
             },
         });
 

@@ -19,12 +19,12 @@ members_only:
           weight: 300
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -34,7 +34,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -42,7 +42,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -66,12 +66,12 @@ members_only:
           weight: 300
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -81,7 +81,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -89,7 +89,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -113,12 +113,12 @@ members_only:
           weight: 150
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -128,7 +128,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -136,7 +136,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 150
@@ -167,7 +167,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -178,12 +178,12 @@ members_only:
         spawn:
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: idle
         idle:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -193,7 +193,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -201,7 +201,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -233,7 +233,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -244,12 +244,12 @@ members_only:
         spawn:
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: idle
         idle:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -259,7 +259,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -267,7 +267,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -307,7 +307,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -319,12 +319,12 @@ members_only:
           weight: 300
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -334,13 +334,13 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -372,7 +372,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 100
         despawn_npc: true
         removal_mode: !Graceful
@@ -384,12 +384,12 @@ members_only:
           weight: 150
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -399,13 +399,13 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 150
@@ -441,7 +441,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -452,12 +452,12 @@ members_only:
         spawn:
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: idle
         idle:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -467,7 +467,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -475,7 +475,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -511,7 +511,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -522,12 +522,12 @@ members_only:
         spawn:
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: idle
         idle:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -537,7 +537,7 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
             - procedure: empty
@@ -545,7 +545,7 @@ members_only:
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -577,7 +577,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 25
         despawn_npc: true
         removal_mode: !Graceful
@@ -589,12 +589,12 @@ members_only:
           weight: 300
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -604,13 +604,13 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 300
@@ -634,7 +634,7 @@ members_only:
       is_spawned: false
       enable_interact_popup: false
       show_name: false
-      one_shot_action_on_interact:
+      one_shot_interaction:
         award_credits: 100
         despawn_npc: true
         removal_mode: !Graceful
@@ -646,12 +646,12 @@ members_only:
           weight: 150
           steps:
             - spawned_state: Always
-              duration_millis: 1
+              min_duration_millis: 1
           next_possible_procedures:
             - procedure: lifespan
         lifespan:
           steps:
-            - duration_millis: 1200000
+            - min_duration_millis: 1200000
           next_possible_procedures:
             - procedure: remove
         remove:
@@ -661,13 +661,13 @@ members_only:
                 Graceful:
                   fade_duration_millis: 1000
                   removal_delay_millis: 0
-              duration_millis: 1000
+              min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
         empty:
           weight: 89700
           steps:
-            - duration_millis: 1000
+            - min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
               weight: 150
