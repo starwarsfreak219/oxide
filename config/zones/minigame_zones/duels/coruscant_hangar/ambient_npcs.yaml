@@ -31,3 +31,45 @@ duel_coruscant_hangar_singleplayer:
         z: -0.9
         w: 0
       stand_animation_id: 2527
+    republic_gunship:
+      model_id: 197
+      scale: 0.5
+      pos:
+        x: 282.78
+        y: 93.32988
+        z: 157.1319
+        w: 1.0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+      is_spawned: false
+      enable_gravity: false
+      tickable_procedures:
+        spawn:
+          weight: 36
+          steps:
+            - spawned_state: OnFirstStepTick
+              rail_id: 1046
+              composite_effect_id: 1916
+              min_duration_millis: 10000
+          next_possible_procedures:
+            - procedure: remove
+        remove:
+          steps:
+            - spawned_state: Despawn
+              min_duration_millis: 1000
+          next_possible_procedures:
+            - procedure: spawn
+            - procedure: empty
+              weight: 1259
+        empty:
+          weight: 1259
+          steps:
+            - min_duration_millis: 1000
+          next_possible_procedures:
+            - procedure: spawn
+              weight: 36
+            - procedure: empty
+              weight: 1259
