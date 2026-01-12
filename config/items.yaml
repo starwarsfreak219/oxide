@@ -55409,9 +55409,9 @@
   unknown40: 0
   stats: []
   abilities: []
-# Cad Bane's Blaster
+# Cad Bane's Right Blaster
 - guid: 110060
-  name_id: 2406
+  name_id: 8779
   description_id: 14
   icon_set_id: 248
   tint: 0
@@ -56012,7 +56012,7 @@
   abilities: []
 # IG-113's Electrostaff
 - guid: 110074
-  name_id: 52541
+  name_id: 4959
   description_id: 14
   icon_set_id: 3002
   tint: 0
