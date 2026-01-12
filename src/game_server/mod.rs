@@ -59,6 +59,7 @@ use packets::zone::PointOfInterestTeleportRequest;
 use packets::{GamePacket, OpCode};
 use rand::Rng;
 
+use crate::game_server::handlers::combat::{load_enemy_types, EnemyTypeConfig};
 use crate::game_server::handlers::tick::reset_daily_minigames;
 use crate::ConfigError;
 use packet_serialize::{DeserializePacket, DeserializePacketError};
@@ -183,6 +184,7 @@ pub struct GameServer {
     customizations: BTreeMap<u32, Customization>,
     customization_item_mappings: BTreeMap<u32, Vec<u32>>,
     default_sabers: BTreeMap<u32, DefaultSaber>,
+    enemy_types: EnemyTypeConfig,
     lock_enforcer_source: LockEnforcerSource,
     items: BTreeMap<u32, ItemDefinition>,
     item_classes: ItemClassDefinitions,
@@ -206,6 +208,7 @@ impl GameServer {
             customizations: load_customizations(config_dir)?,
             customization_item_mappings: load_customization_item_mappings(config_dir)?,
             default_sabers: load_default_sabers(config_dir)?,
+            enemy_types: load_enemy_types(config_dir)?,
             lock_enforcer_source: LockEnforcerSource::from(characters, zones, GuidTable::new()),
             items: item_definitions,
             item_classes: load_item_classes(config_dir)?,
@@ -772,10 +775,19 @@ impl GameServer {
                 OpCode::Minigame => {
                     broadcasts.append(&mut process_minigame_packet(&mut cursor, sender, self)?);
                 }
+                // Ignore these packets to reduce log spam for now
                 OpCode::LobbyGameDefinition => {}
                 OpCode::UiInteractions => {}
                 OpCode::ClientMetrics => {}
+                OpCode::LuaMetrics => {}
                 OpCode::ClientLog => {}
+                OpCode::SetLocale => {}
+                OpCode::ClientIsDoneLoading => {}
+                OpCode::PlayerUpdate => {}
+                OpCode::SecondsOffGmt => {}
+                OpCode::Purchase => {}
+                OpCode::Portrait => {}
+                OpCode::ClickedLocation => {}
                 _ => {
                     return Err(ProcessPacketError::new(
                         ProcessPacketErrorType::UnknownOpCode,
@@ -808,6 +820,10 @@ impl GameServer {
 
     pub fn default_sabers(&self) -> &BTreeMap<u32, DefaultSaber> {
         &self.default_sabers
+    }
+
+    pub fn enemy_types(&self) -> &EnemyTypeConfig {
+        &self.enemy_types
     }
 
     pub fn items(&self) -> &BTreeMap<u32, ItemDefinition> {
