@@ -47,7 +47,7 @@ categories:
               short_name: sp
               stages:
                 - !Stage
-                  guid: 31003
+                  guid: 73
                   name_id: 6370
                   description_id: 6371
                   stage_icon_id: 130
@@ -150,7 +150,7 @@ categories:
                   score_to_credits_expression: x / 168
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31023
+                    - guid: 2008
                       name_id: &saber_duel_memory_name_id 9379
                       description_id: &saber_duel_memory_description_id 9380
                       min_players: 1
@@ -189,7 +189,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 168
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31024
+                    - guid: 2009
                       name_id: &saber_duel_10_key_name_id 9382
                       description_id: &saber_duel_10_key_description_id 9381
                       min_players: 1
@@ -228,7 +228,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 168
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31025
+                    - guid: 2010
                       name_id: &saber_duel_accuracy_name_id 9365
                       description_id: &saber_duel_accuracy_description_id 9366
                       min_players: 1
@@ -267,7 +267,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 168
                 - !Stage
-                  guid: 31004
+                  guid: 74
                   name_id: 6372
                   description_id: 6382
                   stage_icon_id: 123
@@ -327,7 +327,7 @@ categories:
                   score_to_credits_expression: x / 117.5
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31026
+                    - guid: 2011
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -366,7 +366,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 117.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31027
+                    - guid: 2012
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -405,7 +405,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 117.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31028
+                    - guid: 2013
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -444,7 +444,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 117.5
                 - !Stage
-                  guid: 31005
+                  guid: 75
                   name_id: 6373
                   description_id: 6383
                   stage_icon_id: 125
@@ -504,7 +504,7 @@ categories:
                   score_to_credits_expression: x / 115.5
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31029
+                    - guid: 2014
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -543,7 +543,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 115.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31030
+                    - guid: 2015
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -582,7 +582,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 115.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31031
+                    - guid: 2016
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -621,7 +621,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 115.5
                 - !Stage
-                  guid: 31006
+                  guid: 76
                   name_id: 6374
                   description_id: 6384
                   stage_icon_id: 126
@@ -681,7 +681,7 @@ categories:
                   score_to_credits_expression: x / 107
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31032
+                    - guid: 2017
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -720,7 +720,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31033
+                    - guid: 2018
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -759,7 +759,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31034
+                    - guid: 2019
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -798,7 +798,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107
                 - !Stage
-                  guid: 31007
+                  guid: 77
                   name_id: 6375
                   description_id: 6385
                   stage_icon_id: 127
@@ -858,7 +858,7 @@ categories:
                   score_to_credits_expression: x / 114.5
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31035
+                    - guid: 2020
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -897,7 +897,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 114.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31036
+                    - guid: 2021
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -936,7 +936,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 114.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31037
+                    - guid: 2022
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -975,7 +975,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 114.5
                 - !Stage
-                  guid: 31008
+                  guid: 78
                   name_id: 6376
                   description_id: 6386
                   stage_icon_id: 122
@@ -1039,7 +1039,7 @@ categories:
                   score_to_credits_expression: x / 138
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31038
+                    - guid: 2023
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1078,7 +1078,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 138
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31039
+                    - guid: 2024
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -1117,7 +1117,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 138
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31040
+                    - guid: 2025
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -1156,7 +1156,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 138
                 - !Stage
-                  guid: 31009
+                  guid: 79
                   name_id: 6377
                   description_id: 6387
                   stage_icon_id: 128
@@ -1216,7 +1216,7 @@ categories:
                   score_to_credits_expression: x / 125
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31041
+                    - guid: 2026
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1255,7 +1255,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 125
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31042
+                    - guid: 2027
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -1294,7 +1294,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 125
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31043
+                    - guid: 2028
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -1333,7 +1333,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 125
                 - !Stage
-                  guid: 31010
+                  guid: 2003
                   name_id: 9369
                   description_id: 9370
                   stage_icon_id: 360
@@ -1393,7 +1393,7 @@ categories:
                   score_to_credits_expression: x / 108
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31044
+                    - guid: 2035
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1432,7 +1432,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 108
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31045
+                    - guid: 2036
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -1471,7 +1471,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 108
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31046
+                    - guid: 2037
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -1510,7 +1510,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 108
                 - !Stage
-                  guid: 31011
+                  guid: 81
                   name_id: 6370
                   description_id: 6389
                   stage_icon_id: 130
@@ -1570,7 +1570,7 @@ categories:
                   score_to_credits_expression: x / 133
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31047
+                    - guid: 2041
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1609,7 +1609,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 133
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31048
+                    - guid: 2042
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -1648,7 +1648,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 133
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31049
+                    - guid: 2043
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -1687,7 +1687,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 133
                 - !Stage
-                  guid: 31012
+                  guid: 2004
                   name_id: 9371
                   description_id: 9372
                   stage_icon_id: 361
@@ -1747,7 +1747,7 @@ categories:
                   score_to_credits_expression: x / 146.5
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31050
+                    - guid: 2038
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1786,7 +1786,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 146.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31051
+                    - guid: 2039
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -1825,7 +1825,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 146.5
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31052
+                    - guid: 2040
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -1864,7 +1864,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 146.5
                 - !Stage
-                  guid: 31013
+                  guid: 80
                   name_id: 6378
                   description_id: 6388
                   stage_icon_id: 131
@@ -1924,7 +1924,7 @@ categories:
                   score_to_credits_expression: x / 107.25
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31053
+                    - guid: 2029
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -1963,7 +1963,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107.25
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31054
+                    - guid: 2030
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -2002,7 +2002,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107.25
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31055
+                    - guid: 2031
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -2041,7 +2041,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 107.25
                 - !Stage
-                  guid: 31014
+                  guid: 83
                   name_id: 6380
                   description_id: 6391
                   stage_icon_id: 129
@@ -2101,7 +2101,7 @@ categories:
                   score_to_credits_expression: x / 109
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31056
+                    - guid: 2007
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -2140,7 +2140,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 109
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31057
+                    - guid: 2001
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -2179,7 +2179,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 109
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31058
+                    - guid: 2002
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -2218,7 +2218,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 109
                 - !Stage
-                  guid: 31015
+                  guid: 2078
                   name_id: 17234
                   description_id: 17235
                   stage_icon_id: 1801
@@ -2278,7 +2278,7 @@ categories:
                   score_to_credits_expression: x / 111
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31059
+                    - guid: 2118
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -2317,7 +2317,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 111
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31060
+                    - guid: 2119
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -2356,7 +2356,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 111
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31061
+                    - guid: 2120
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -2395,7 +2395,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 111
                 - !Stage
-                  guid: 31016
+                  guid: 82
                   name_id: 6379
                   description_id: 6390
                   stage_icon_id: 124
@@ -2455,7 +2455,7 @@ categories:
                   score_to_credits_expression: x / 89.75
                   challenges:
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31062
+                    - guid: 2032
                       name_id: *saber_duel_memory_name_id
                       description_id: *saber_duel_memory_description_id
                       min_players: 1
@@ -2494,7 +2494,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 89.75
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31063
+                    - guid: 2033
                       name_id: *saber_duel_10_key_name_id
                       description_id: *saber_duel_10_key_description_id
                       min_players: 1
@@ -2533,7 +2533,7 @@ categories:
                       zone_template_guid: 202
                       score_to_credits_expression: x / 89.75
                     # Use base level's credit ratio as a placeholder
-                    - guid: 31064
+                    - guid: 2034
                       name_id: *saber_duel_accuracy_name_id
                       description_id: *saber_duel_accuracy_description_id
                       min_players: 1
@@ -2947,7 +2947,7 @@ categories:
               short_name: mp
               stages:
                 - !Stage
-                  guid: 31020
+                  guid: 1005
                   name_id: 9162
                   description_id: 9163
                   stage_icon_id: 1410
@@ -3000,7 +3000,7 @@ categories:
                   zone_template_guid: 203
                   score_to_credits_expression: x / 103
                 - !Stage
-                  guid: 31021
+                  guid: 2005
                   name_id: 9373
                   description_id: 9163
                   stage_icon_id: 1412
@@ -3053,7 +3053,7 @@ categories:
                   zone_template_guid: 203
                   score_to_credits_expression: x / 112.5
                 - !Stage
-                  guid: 31022
+                  guid: 2006
                   name_id: 9374
                   description_id: 9163
                   stage_icon_id: 1411
@@ -3150,7 +3150,7 @@ categories:
               short_name: sp
               stages:
                 - !Stage
-                  guid: 32003
+                  guid: 2112
                   name_id: 33129
                   description_id: 44382
                   stage_icon_id: 2731
@@ -3229,7 +3229,7 @@ categories:
                   zone_template_guid: 206
                   score_to_credits_expression: x / 104.5
                 - !Stage
-                  guid: 32004
+                  guid: 2113
                   name_id: 33130
                   description_id: 44383
                   stage_icon_id: 2732
@@ -3309,7 +3309,7 @@ categories:
                   zone_template_guid: 206
                   score_to_credits_expression: x / 104.5
                 - !Stage
-                  guid: 32005
+                  guid: 2114
                   name_id: 33131
                   description_id: 44384
                   stage_icon_id: 2733
@@ -3390,7 +3390,7 @@ categories:
                   zone_template_guid: 206
                   score_to_credits_expression: x / 104.5
                 - !Stage
-                  guid: 32006
+                  guid: 2109
                   name_id: 44693
                   description_id: 32961
                   stage_icon_id: 2728
@@ -3471,7 +3471,7 @@ categories:
                   zone_template_guid: 207
                   score_to_credits_expression: x / 108.5
                 - !Stage
-                  guid: 32007
+                  guid: 2108
                   name_id: 32957
                   description_id: 32958
                   stage_icon_id: 2730
@@ -3545,7 +3545,7 @@ categories:
                   zone_template_guid: 208
                   score_to_credits_expression: x / 117
                 - !Stage
-                  guid: 32008
+                  guid: 2110
                   name_id: 32962
                   description_id: 32963
                   stage_icon_id: 2727
@@ -3615,7 +3615,7 @@ categories:
                   zone_template_guid: 209
                   score_to_credits_expression: x / 134.5
                 - !Stage
-                  guid: 32009
+                  guid: 2111
                   name_id: 33011
                   description_id: 33012
                   stage_icon_id: 2729
@@ -3783,7 +3783,7 @@ categories:
               short_name: mp
               stages:
                 - !Stage
-                  guid: 32011
+                  guid: 2115
                   name_id: 9162
                   description_id: 33021
                   stage_icon_id: 2745
@@ -3847,7 +3847,7 @@ categories:
                   zone_template_guid: 211
                   score_to_credits_expression: x / 103
                 - !Stage
-                  guid: 32012
+                  guid: 2116
                   name_id: 9373
                   description_id: 33021
                   stage_icon_id: 2746
@@ -3915,7 +3915,7 @@ categories:
                   zone_template_guid: 212
                   score_to_credits_expression: x / 112.5
                 - !Stage
-                  guid: 32013
+                  guid: 2117
                   name_id: 9374
                   description_id: 33021
                   stage_icon_id: 2747
@@ -3978,7 +3978,7 @@ categories:
                     force_powers: *saber_duel_force_power_definitions
                   zone_template_guid: 213
                   score_to_credits_expression: x / 122.5
-      - guid: 9000
+      - guid: 1032
         name_id: 45187
         description_id: 45193
         members_only: true
@@ -4001,7 +4001,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 9001
+              guid: 2124
               name_id: 45254
               description_id: 45193
               stage_icon_id: 4906
@@ -4020,7 +4020,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 177
             - !Stage
-              guid: 9002
+              guid: 2125
               name_id: 45255
               description_id: 45193
               stage_icon_id: 4907
@@ -4039,7 +4039,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 208
             - !Stage
-              guid: 9003
+              guid: 2126
               name_id: 45256
               description_id: 45193
               stage_icon_id: 4908
@@ -4057,7 +4057,7 @@ categories:
                 game_swf_name: HasbroAttackShip.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 219
-      - guid: 10000
+      - guid: 1011
         name_id: 7103
         description_id: 9754
         members_only: false
@@ -4080,7 +4080,7 @@ categories:
           stage_select_map_name: ''
           stages:
             - !Stage
-              guid: 10001
+              guid: 224
               name_id: 7103
               description_id: 9754
               stage_icon_id: 1253
@@ -4098,7 +4098,7 @@ categories:
                 game_swf_name: StuntGungan.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 29
-      - guid: 11000
+      - guid: 1015
         name_id: 19700
         description_id: 14960
         members_only: true
@@ -4121,7 +4121,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 11001
+              guid: 8
               name_id: 19701
               description_id: 14960
               stage_icon_id: 2377
@@ -4140,7 +4140,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 160
             - !Stage
-              guid: 11002
+              guid: 1009
               name_id: 19702
               description_id: 14960
               stage_icon_id: 2378
@@ -4159,7 +4159,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 180
             - !Stage
-              guid: 11003
+              guid: 1010
               name_id: 19703
               description_id: 14960
               stage_icon_id: 2379
@@ -4177,7 +4177,7 @@ categories:
                 game_swf_name: CrisisZiro.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 180
-      - guid: 22
+      - guid: 1014
         name_id: 12200
         description_id: 11921
         members_only: false
@@ -4200,7 +4200,7 @@ categories:
           stage_select_map_name: r2
           stages:
             - !Stage
-              guid: 12001
+              guid: 630
               name_id: 11920
               description_id: 11921
               stage_icon_id: 376
@@ -4219,7 +4219,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 15.25
             - !Stage
-              guid: 12002
+              guid: 631
               name_id: 11922
               description_id: 11923
               stage_icon_id: 376
@@ -4238,7 +4238,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 14
             - !Stage
-              guid: 12003
+              guid: 632
               name_id: 11924
               description_id: 11925
               stage_icon_id: 376
@@ -4257,7 +4257,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 14.45
             - !Stage
-              guid: 12004
+              guid: 633
               name_id: 11926
               description_id: 11927
               stage_icon_id: 376
@@ -4276,7 +4276,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 19.4
             - !Stage
-              guid: 12005
+              guid: 634
               name_id: 11928
               description_id: 11929
               stage_icon_id: 376
@@ -4295,7 +4295,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 13.9
             - !Stage
-              guid: 12006
+              guid: 635
               name_id: 11930
               description_id: 11931
               stage_icon_id: 376
@@ -4314,7 +4314,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 14.7
             - !Stage
-              guid: 12007
+              guid: 636
               name_id: 11932
               description_id: 11933
               stage_icon_id: 376
@@ -4333,7 +4333,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 19.8
             - !Stage
-              guid: 12008
+              guid: 637
               name_id: 11934
               description_id: 11935
               stage_icon_id: 376
@@ -4352,7 +4352,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 11.55
             - !Stage
-              guid: 12009
+              guid: 638
               name_id: 11936
               description_id: 11937
               stage_icon_id: 376
@@ -4371,7 +4371,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 12.55
             - !Stage
-              guid: 12010
+              guid: 639
               name_id: 11938
               description_id: 11939
               stage_icon_id: 376
@@ -4390,7 +4390,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 22.7
             - !Stage
-              guid: 12011
+              guid: 800
               name_id: 11940
               description_id: 11941
               stage_icon_id: 378
@@ -4409,7 +4409,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 17
             - !Stage
-              guid: 12012
+              guid: 801
               name_id: 11942
               description_id: 11943
               stage_icon_id: 378
@@ -4428,7 +4428,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 17
             - !Stage
-              guid: 12013
+              guid: 802
               name_id: 11944
               description_id: 11945
               stage_icon_id: 378
@@ -4447,7 +4447,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 11
             - !Stage
-              guid: 12014
+              guid: 803
               name_id: 11946
               description_id: 11947
               stage_icon_id: 378
@@ -4466,7 +4466,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 17
             - !Stage
-              guid: 12015
+              guid: 804
               name_id: 11948
               description_id: 11949
               stage_icon_id: 378
@@ -4485,7 +4485,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 18
             - !Stage
-              guid: 12016
+              guid: 805
               name_id: 11950
               description_id: 11951
               stage_icon_id: 378
@@ -4504,7 +4504,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 25
             - !Stage
-              guid: 12017
+              guid: 806
               name_id: 11952
               description_id: 11953
               stage_icon_id: 378
@@ -4523,7 +4523,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 17
             - !Stage
-              guid: 12018
+              guid: 807
               name_id: 11954
               description_id: 11955
               stage_icon_id: 378
@@ -4542,7 +4542,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 39
             - !Stage
-              guid: 12019
+              guid: 808
               name_id: 11956
               description_id: 11957
               stage_icon_id: 378
@@ -4561,7 +4561,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 18
             - !Stage
-              guid: 12020
+              guid: 809
               name_id: 11958
               description_id: 11959
               stage_icon_id: 378
@@ -4580,7 +4580,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 24
             - !Stage
-              guid: 12021
+              guid: 810
               name_id: 11960
               description_id: 11961
               stage_icon_id: 377
@@ -4599,7 +4599,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 20
             - !Stage
-              guid: 12022
+              guid: 811
               name_id: 11962
               description_id: 11963
               stage_icon_id: 377
@@ -4618,7 +4618,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 22
             - !Stage
-              guid: 12023
+              guid: 812
               name_id: 11964
               description_id: 11965
               stage_icon_id: 377
@@ -4637,7 +4637,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 12
             - !Stage
-              guid: 12024
+              guid: 813
               name_id: 11966
               description_id: 11967
               stage_icon_id: 377
@@ -4656,7 +4656,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 18
             - !Stage
-              guid: 12025
+              guid: 814
               name_id: 11968
               description_id: 11969
               stage_icon_id: 377
@@ -4675,7 +4675,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 18
             - !Stage
-              guid: 12026
+              guid: 815
               name_id: 11970
               description_id: 11971
               stage_icon_id: 377
@@ -4694,7 +4694,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 15
             - !Stage
-              guid: 12027
+              guid: 816
               name_id: 11972
               description_id: 11973
               stage_icon_id: 377
@@ -4713,7 +4713,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 19
             - !Stage
-              guid: 12028
+              guid: 817
               name_id: 11974
               description_id: 11975
               stage_icon_id: 377
@@ -4732,7 +4732,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 21
             - !Stage
-              guid: 12029
+              guid: 818
               name_id: 11976
               description_id: 11977
               stage_icon_id: 377
@@ -4751,7 +4751,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 15
             - !Stage
-              guid: 12030
+              guid: 819
               name_id: 11978
               description_id: 11979
               stage_icon_id: 377
@@ -4769,7 +4769,7 @@ categories:
                 game_swf_name: r2.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 20
-      - guid: 13000
+      - guid: 1016
         name_id: 14051
         description_id: 14964
         members_only: true
@@ -4792,7 +4792,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 13001
+              guid: 623
               name_id: 14961
               description_id: 14964
               stage_icon_id: 1261
@@ -4811,7 +4811,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 115
             - !Stage
-              guid: 13002
+              guid: 624
               name_id: 14962
               description_id: 14964
               stage_icon_id: 1263
@@ -4830,7 +4830,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 167
             - !Stage
-              guid: 13003
+              guid: 625
               name_id: 14963
               description_id: 14964
               stage_icon_id: 1262
@@ -4848,7 +4848,7 @@ categories:
                 game_swf_name: RepublicGunship.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 201
-      - guid: 14000
+      - guid: 1033
         name_id: 45898
         description_id: 45897
         members_only: true
@@ -4871,7 +4871,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 14001
+              guid: 2127
               name_id: 45892
               description_id: 45897
               stage_icon_id: 5153
@@ -4890,7 +4890,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 102.5
             - !Stage
-              guid: 14002
+              guid: 2128
               name_id: 45893
               description_id: 45897
               stage_icon_id: 5154
@@ -4909,7 +4909,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 108
             - !Stage
-              guid: 14003
+              guid: 2129
               name_id: 45894
               description_id: 45897
               stage_icon_id: 5155
@@ -4928,7 +4928,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 168
       # Medium and Hard currently use Easy's ratio as a placeholder
-      - guid: 11
+      - guid: 1013
         name_id: 6237
         description_id: 9755
         members_only: true
@@ -4951,7 +4951,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 15001
+              guid: 230
               name_id: 13950
               description_id: 9755
               stage_icon_id: 315
@@ -4970,7 +4970,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 180
             - !Stage
-              guid: 15002
+              guid: 220
               name_id: 13951
               description_id: 9755
               stage_icon_id: 317
@@ -4989,7 +4989,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 180
             - !Stage
-              guid: 15003
+              guid: 231
               name_id: 13952
               description_id: 9755
               stage_icon_id: 316
@@ -5007,7 +5007,7 @@ categories:
                 game_swf_name: BlasterTraining.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 180
-      - guid: 26000
+      - guid: 1030
         name_id: 43960
         description_id: 44217
         members_only: false
@@ -5030,7 +5030,7 @@ categories:
           stage_select_map_name: ''
           stages:
             - !Stage
-              guid: 26001
+              guid: 2122
               name_id: 43960
               description_id: 44217
               stage_icon_id: 4597
@@ -5077,7 +5077,7 @@ categories:
           stage_select_map_name: saberStrike
           stages:
             - !Stage
-              guid: 27001
+              guid: 401
               name_id: 7270
               description_id: 9000
               stage_icon_id: 247
@@ -5097,7 +5097,7 @@ categories:
               score_to_credits_expression: x / 129
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27100
+                - guid: 437
                   name_id: 9050
                   description_id: 9135
                   min_players: 1
@@ -5110,7 +5110,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 129
                 # Use base level's credit ratio as a placeholder
-                - guid: 27101
+                - guid: 438
                   name_id: 9051
                   description_id: 9136
                   min_players: 1
@@ -5123,7 +5123,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 129
             - !Stage
-              guid: 27002
+              guid: 402
               name_id: 7271
               description_id: 9001
               stage_icon_id: 248
@@ -5143,7 +5143,7 @@ categories:
               score_to_credits_expression: x / 94
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27102
+                - guid: 439
                   name_id: 9052
                   description_id: 9137
                   min_players: 1
@@ -5156,7 +5156,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 94
                 # Use base level's credit ratio as a placeholder
-                - guid: 27103
+                - guid: 440
                   name_id: 9053
                   description_id: 9138
                   min_players: 1
@@ -5169,7 +5169,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 94
             - !Stage
-              guid: 27003
+              guid: 403
               name_id: 7272
               description_id: 9002
               stage_icon_id: 249
@@ -5189,7 +5189,7 @@ categories:
               score_to_credits_expression: x / 160
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27104
+                - guid: 441
                   name_id: 9054
                   description_id: 9138
                   min_players: 1
@@ -5202,7 +5202,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 160
                 # Use base level's credit ratio as a placeholder
-                - guid: 27105
+                - guid: 442
                   name_id: 9055
                   description_id: 9135
                   min_players: 1
@@ -5215,7 +5215,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 160
             - !Stage
-              guid: 27004
+              guid: 404
               name_id: 7273
               description_id: 9003
               stage_icon_id: 250
@@ -5235,7 +5235,7 @@ categories:
               score_to_credits_expression: x / 143
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27106
+                - guid: 443
                   name_id: 9056
                   description_id: 9136
                   min_players: 1
@@ -5248,7 +5248,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 143
                 # Use base level's credit ratio as a placeholder
-                - guid: 27107
+                - guid: 444
                   name_id: 9057
                   description_id: 9138
                   min_players: 1
@@ -5261,7 +5261,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 143
             - !Stage
-              guid: 27005
+              guid: 405
               name_id: 7274
               description_id: 9004
               stage_icon_id: 251
@@ -5281,7 +5281,7 @@ categories:
               score_to_credits_expression: x / 157
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27108
+                - guid: 445
                   name_id: 9058
                   description_id: 9136
                   min_players: 1
@@ -5294,7 +5294,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 157
                 # Use base level's credit ratio as a placeholder
-                - guid: 27109
+                - guid: 446
                   name_id: 9059
                   description_id: 9139
                   min_players: 1
@@ -5307,7 +5307,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 157
             - !Stage
-              guid: 27006
+              guid: 406
               name_id: 7275
               description_id: 9005
               stage_icon_id: 252
@@ -5327,7 +5327,7 @@ categories:
               score_to_credits_expression: x / 120
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27110
+                - guid: 447
                   name_id: 9060
                   description_id: 9140
                   min_players: 1
@@ -5340,7 +5340,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 120
                 # Use base level's credit ratio as a placeholder
-                - guid: 27111
+                - guid: 448
                   name_id: 9061
                   description_id: 9135
                   min_players: 1
@@ -5353,7 +5353,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 120
             - !Stage
-              guid: 27007
+              guid: 407
               name_id: 7276
               description_id: 9006
               stage_icon_id: 253
@@ -5373,7 +5373,7 @@ categories:
               score_to_credits_expression: x / 244
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27112
+                - guid: 449
                   name_id: 9062
                   description_id: 9140
                   min_players: 1
@@ -5386,7 +5386,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 244
                 # Use base level's credit ratio as a placeholder
-                - guid: 27113
+                - guid: 450
                   name_id: 9063
                   description_id: 9138
                   min_players: 1
@@ -5399,7 +5399,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 244
             - !Stage
-              guid: 27008
+              guid: 408
               name_id: 7277
               description_id: 9007
               stage_icon_id: 254
@@ -5419,7 +5419,7 @@ categories:
               score_to_credits_expression: x / 1148
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27114
+                - guid: 451
                   name_id: 9064
                   description_id: 9139
                   min_players: 1
@@ -5432,7 +5432,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 1148
                 # Use base level's credit ratio as a placeholder
-                - guid: 27115
+                - guid: 452
                   name_id: 9065
                   description_id: 9142
                   min_players: 1
@@ -5445,7 +5445,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 1148
             - !Stage
-              guid: 27009
+              guid: 409
               name_id: 8421
               description_id: 9008
               stage_icon_id: 255
@@ -5465,7 +5465,7 @@ categories:
               score_to_credits_expression: x / 1014
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27116
+                - guid: 453
                   name_id: 9066
                   description_id: 9142
                   min_players: 1
@@ -5478,7 +5478,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 1014
                 # Use base level's credit ratio as a placeholder
-                - guid: 27117
+                - guid: 454
                   name_id: 9067
                   description_id: 9136
                   min_players: 1
@@ -5491,7 +5491,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 1014
             - !Stage
-              guid: 27010
+              guid: 410
               name_id: 7278
               description_id: 9009
               stage_icon_id: 256
@@ -5511,7 +5511,7 @@ categories:
               score_to_credits_expression: x / 114
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27118
+                - guid: 455
                   name_id: 9068
                   description_id: 9136
                   min_players: 1
@@ -5524,7 +5524,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 114
                 # Use base level's credit ratio as a placeholder
-                - guid: 27119
+                - guid: 456
                   name_id: 9069
                   description_id: 9137
                   min_players: 1
@@ -5537,7 +5537,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 114
             - !Stage
-              guid: 27011
+              guid: 411
               name_id: 7279
               description_id: 9010
               stage_icon_id: 257
@@ -5557,7 +5557,7 @@ categories:
               score_to_credits_expression: x / 93
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27120
+                - guid: 457
                   name_id: 9070
                   description_id: 9135
                   min_players: 1
@@ -5570,7 +5570,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 93
                 # Use base level's credit ratio as a placeholder
-                - guid: 27121
+                - guid: 458
                   name_id: 9071
                   description_id: 9138
                   min_players: 1
@@ -5583,7 +5583,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 93
             - !Stage
-              guid: 27012
+              guid: 412
               name_id: 7280
               description_id: 9011
               stage_icon_id: 258
@@ -5603,7 +5603,7 @@ categories:
               score_to_credits_expression: x / 170
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27122
+                - guid: 459
                   name_id: 9072
                   description_id: 9139
                   min_players: 1
@@ -5616,7 +5616,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 170
                 # Use base level's credit ratio as a placeholder
-                - guid: 27123
+                - guid: 460
                   name_id: 9073
                   description_id: 9135
                   min_players: 1
@@ -5629,7 +5629,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 170
             - !Stage
-              guid: 27013
+              guid: 413
               name_id: 7281
               description_id: 9012
               stage_icon_id: 259
@@ -5649,7 +5649,7 @@ categories:
               score_to_credits_expression: x / 144
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27124
+                - guid: 461
                   name_id: 9074
                   description_id: 9137
                   min_players: 1
@@ -5662,7 +5662,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
                 # Use base level's credit ratio as a placeholder
-                - guid: 27125
+                - guid: 462
                   name_id: 9075
                   description_id: 9138
                   min_players: 1
@@ -5675,7 +5675,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
             - !Stage
-              guid: 27014
+              guid: 414
               name_id: 7282
               description_id: 9013
               stage_icon_id: 260
@@ -5695,7 +5695,7 @@ categories:
               score_to_credits_expression: x / 147
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27126
+                - guid: 463
                   name_id: 9076
                   description_id: 9135
                   min_players: 1
@@ -5708,7 +5708,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 147
                 # Use base level's credit ratio as a placeholder
-                - guid: 27127
+                - guid: 464
                   name_id: 9077
                   description_id: 9139
                   min_players: 1
@@ -5721,7 +5721,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 147
             - !Stage
-              guid: 27015
+              guid: 415
               name_id: 7283
               description_id: 9014
               stage_icon_id: 261
@@ -5741,7 +5741,7 @@ categories:
               score_to_credits_expression: x / 237
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27128
+                - guid: 465
                   name_id: 9078
                   description_id: 9141
                   min_players: 1
@@ -5754,7 +5754,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 237
                 # Use base level's credit ratio as a placeholder
-                - guid: 27129
+                - guid: 466
                   name_id: 9079
                   description_id: 9139
                   min_players: 1
@@ -5767,7 +5767,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 237
             - !Stage
-              guid: 27016
+              guid: 416
               name_id: 7284
               description_id: 9015
               stage_icon_id: 262
@@ -5787,7 +5787,7 @@ categories:
               score_to_credits_expression: x / 144
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27130
+                - guid: 467
                   name_id: 9080
                   description_id: 9135
                   min_players: 1
@@ -5800,7 +5800,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
                 # Use base level's credit ratio as a placeholder
-                - guid: 27131
+                - guid: 468
                   name_id: 9081
                   description_id: 9137
                   min_players: 1
@@ -5813,7 +5813,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
             - !Stage
-              guid: 27017
+              guid: 417
               name_id: 7285
               description_id: 9016
               stage_icon_id: 263
@@ -5833,7 +5833,7 @@ categories:
               score_to_credits_expression: x / 141
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27132
+                - guid: 469
                   name_id: 9082
                   description_id: 9141
                   min_players: 1
@@ -5846,7 +5846,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 141
                 # Use base level's credit ratio as a placeholder
-                - guid: 27133
+                - guid: 470
                   name_id: 9083
                   description_id: 9138
                   min_players: 1
@@ -5859,7 +5859,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 141
             - !Stage
-              guid: 27018
+              guid: 418
               name_id: 8422
               description_id: 9017
               stage_icon_id: 264
@@ -5879,7 +5879,7 @@ categories:
               score_to_credits_expression: x / 159
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27134
+                - guid: 471
                   name_id: 9084
                   description_id: 9136
                   min_players: 1
@@ -5892,7 +5892,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 159
                 # Use base level's credit ratio as a placeholder
-                - guid: 27135
+                - guid: 472
                   name_id: 9085
                   description_id: 9137
                   min_players: 1
@@ -5905,7 +5905,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 159
             - !Stage
-              guid: 27019
+              guid: 419
               name_id: 7286
               description_id: 9018
               stage_icon_id: 265
@@ -5925,7 +5925,7 @@ categories:
               score_to_credits_expression: x / 140
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27136
+                - guid: 473
                   name_id: 9086
                   description_id: 9139
                   min_players: 1
@@ -5938,7 +5938,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 140
                 # Use base level's credit ratio as a placeholder
-                - guid: 27137
+                - guid: 474
                   name_id: 9087
                   description_id: 9143
                   min_players: 1
@@ -5951,7 +5951,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 140
             - !Stage
-              guid: 27020
+              guid: 420
               name_id: 7287
               description_id: 9019
               stage_icon_id: 266
@@ -5971,7 +5971,7 @@ categories:
               score_to_credits_expression: x / 191
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27138
+                - guid: 475
                   name_id: 9088
                   description_id: 9138
                   min_players: 1
@@ -5984,7 +5984,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 191
                 # Use base level's credit ratio as a placeholder
-                - guid: 27139
+                - guid: 476
                   name_id: 9089
                   description_id: 9137
                   min_players: 1
@@ -5997,7 +5997,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 191
             - !Stage
-              guid: 27021
+              guid: 421
               name_id: 7288
               description_id: 9020
               stage_icon_id: 267
@@ -6017,7 +6017,7 @@ categories:
               score_to_credits_expression: x / 116
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27140
+                - guid: 477
                   name_id: 9090
                   description_id: 9137
                   min_players: 1
@@ -6030,7 +6030,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 116
                 # Use base level's credit ratio as a placeholder
-                - guid: 27141
+                - guid: 478
                   name_id: 9091
                   description_id: 9139
                   min_players: 1
@@ -6043,7 +6043,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 116
             - !Stage
-              guid: 27022
+              guid: 422
               name_id: 7289
               description_id: 9021
               stage_icon_id: 268
@@ -6063,7 +6063,7 @@ categories:
               score_to_credits_expression: x / 289
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27142
+                - guid: 479
                   name_id: 9092
                   description_id: 9137
                   min_players: 1
@@ -6076,7 +6076,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 289
                 # Use base level's credit ratio as a placeholder
-                - guid: 27143
+                - guid: 480
                   name_id: 9093
                   description_id: 9136
                   min_players: 1
@@ -6089,7 +6089,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 289
             - !Stage
-              guid: 27023
+              guid: 423
               name_id: 7290
               description_id: 9022
               stage_icon_id: 269
@@ -6109,7 +6109,7 @@ categories:
               score_to_credits_expression: x / 214
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27144
+                - guid: 481
                   name_id: 9094
                   description_id: 9135
                   min_players: 1
@@ -6122,7 +6122,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 214
                 # Use base level's credit ratio as a placeholder
-                - guid: 27145
+                - guid: 482
                   name_id: 9095
                   description_id: 9139
                   min_players: 1
@@ -6135,7 +6135,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 214
             - !Stage
-              guid: 27024
+              guid: 424
               name_id: 7291
               description_id: 9023
               stage_icon_id: 270
@@ -6155,7 +6155,7 @@ categories:
               score_to_credits_expression: x / 594
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27146
+                - guid: 483
                   name_id: 9096
                   description_id: 9137
                   min_players: 1
@@ -6168,7 +6168,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 594
                 # Use base level's credit ratio as a placeholder
-                - guid: 27147
+                - guid: 484
                   name_id: 9097
                   description_id: 9138
                   min_players: 1
@@ -6181,7 +6181,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 594
             - !Stage
-              guid: 27025
+              guid: 425
               name_id: 7292
               description_id: 9024
               stage_icon_id: 271
@@ -6201,7 +6201,7 @@ categories:
               score_to_credits_expression: x / 432
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27148
+                - guid: 485
                   name_id: 9098
                   description_id: 9139
                   min_players: 1
@@ -6214,7 +6214,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 432
                 # Use base level's credit ratio as a placeholder
-                - guid: 27149
+                - guid: 486
                   name_id: 9099
                   description_id: 9137
                   min_players: 1
@@ -6227,7 +6227,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 432
             - !Stage
-              guid: 27026
+              guid: 426
               name_id: 7293
               description_id: 9025
               stage_icon_id: 272
@@ -6247,7 +6247,7 @@ categories:
               score_to_credits_expression: x / 144
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27150
+                - guid: 487
                   name_id: 9100
                   description_id: 9137
                   min_players: 1
@@ -6260,7 +6260,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
                 # Use base level's credit ratio as a placeholder
-                - guid: 27151
+                - guid: 488
                   name_id: 9101
                   description_id: 9138
                   min_players: 1
@@ -6273,7 +6273,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 144
             - !Stage
-              guid: 27027
+              guid: 427
               name_id: 8423
               description_id: 9026
               stage_icon_id: 273
@@ -6293,7 +6293,7 @@ categories:
               score_to_credits_expression: x / 173
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27152
+                - guid: 489
                   name_id: 9102
                   description_id: 9136
                   min_players: 1
@@ -6306,7 +6306,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 173
                 # Use base level's credit ratio as a placeholder
-                - guid: 27153
+                - guid: 490
                   name_id: 9103
                   description_id: 9139
                   min_players: 1
@@ -6319,7 +6319,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 173
             - !Stage
-              guid: 27028
+              guid: 428
               name_id: 7294
               description_id: 9027
               stage_icon_id: 274
@@ -6339,7 +6339,7 @@ categories:
               score_to_credits_expression: x / 110
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27154
+                - guid: 491
                   name_id: 9104
                   description_id: 9140
                   min_players: 1
@@ -6352,7 +6352,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 110
                 # Use base level's credit ratio as a placeholder
-                - guid: 27155
+                - guid: 492
                   name_id: 9105
                   description_id: 9138
                   min_players: 1
@@ -6365,7 +6365,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 110
                 # Use base level's credit ratio as a placeholder
-                - guid: 27156
+                - guid: 493
                   name_id: 9106
                   description_id: 9137
                   min_players: 1
@@ -6378,7 +6378,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 110
             - !Stage
-              guid: 27029
+              guid: 429
               name_id: 7295
               description_id: 9028
               stage_icon_id: 275
@@ -6398,7 +6398,7 @@ categories:
               score_to_credits_expression: x / 153
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27157
+                - guid: 494
                   name_id: 9107
                   description_id: 9137
                   min_players: 1
@@ -6411,7 +6411,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
                 # Use base level's credit ratio as a placeholder
-                - guid: 27158
+                - guid: 495
                   name_id: 9108
                   description_id: 9135
                   min_players: 1
@@ -6424,7 +6424,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
                 # Use base level's credit ratio as a placeholder
-                - guid: 27159
+                - guid: 496
                   name_id: 9109
                   description_id: 9139
                   min_players: 1
@@ -6437,7 +6437,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
             - !Stage
-              guid: 27030
+              guid: 430
               name_id: 7296
               description_id: 9029
               stage_icon_id: 276
@@ -6457,7 +6457,7 @@ categories:
               score_to_credits_expression: x / 244
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27160
+                - guid: 497
                   name_id: 9110
                   description_id: 9138
                   min_players: 1
@@ -6470,7 +6470,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 244
                 # Use base level's credit ratio as a placeholder
-                - guid: 27161
+                - guid: 498
                   name_id: 9111
                   description_id: 9139
                   min_players: 1
@@ -6483,7 +6483,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 244
                 # Use base level's credit ratio as a placeholder
-                - guid: 27162
+                - guid: 499
                   name_id: 9112
                   description_id: 9143
                   min_players: 1
@@ -6496,7 +6496,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 244
             - !Stage
-              guid: 27031
+              guid: 431
               name_id: 7297
               description_id: 9030
               stage_icon_id: 277
@@ -6516,7 +6516,7 @@ categories:
               score_to_credits_expression: x / 221
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27163
+                - guid: 500
                   name_id: 9128
                   description_id: 9142
                   min_players: 1
@@ -6529,7 +6529,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 221
                 # Use base level's credit ratio as a placeholder
-                - guid: 27164
+                - guid: 501
                   name_id: 9114
                   description_id: 9139
                   min_players: 1
@@ -6542,7 +6542,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 221
                 # Use base level's credit ratio as a placeholder
-                - guid: 27165
+                - guid: 502
                   name_id: 9130
                   description_id: 9137
                   min_players: 1
@@ -6555,7 +6555,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 221
             - !Stage
-              guid: 27032
+              guid: 432
               name_id: 7298
               description_id: 9032
               stage_icon_id: 278
@@ -6575,7 +6575,7 @@ categories:
               score_to_credits_expression: x / 170
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27166
+                - guid: 506
                   name_id: 9119
                   description_id: 9137
                   min_players: 1
@@ -6586,9 +6586,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 120
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 170
+                  score_to_credits_expression: x / 147
                 # Use base level's credit ratio as a placeholder
-                - guid: 27167
+                - guid: 507
                   name_id: 9120
                   description_id: 9143
                   min_players: 1
@@ -6599,9 +6599,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 121
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 170
+                  score_to_credits_expression: x / 147
                 # Use base level's credit ratio as a placeholder
-                - guid: 27168
+                - guid: 508
                   name_id: 9121
                   description_id: 9139
                   min_players: 1
@@ -6612,9 +6612,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 122
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 170
+                  score_to_credits_expression: x / 147
             - !Stage
-              guid: 27033
+              guid: 433
               name_id: 7299
               description_id: 9031
               stage_icon_id: 279
@@ -6634,7 +6634,7 @@ categories:
               score_to_credits_expression: x / 147
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27169
+                - guid: 503
                   name_id: 9116
                   description_id: 9139
                   min_players: 1
@@ -6645,9 +6645,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 117
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 147
+                  score_to_credits_expression: x / 170
                 # Use base level's credit ratio as a placeholder
-                - guid: 27170
+                - guid: 504
                   name_id: 9117
                   description_id: 9135
                   min_players: 1
@@ -6658,9 +6658,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 118
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 147
+                  score_to_credits_expression: x / 170
                 # Use base level's credit ratio as a placeholder
-                - guid: 27171
+                - guid: 505
                   name_id: 9118
                   description_id: 9138
                   min_players: 1
@@ -6671,9 +6671,9 @@ categories:
                     !SaberStrike
                     saber_strike_stage_id: 119
                   zone_template_guid: 200
-                  score_to_credits_expression: x / 147
+                  score_to_credits_expression: x / 170
             - !Stage
-              guid: 27034
+              guid: 434
               name_id: 7300
               description_id: 9033
               stage_icon_id: 280
@@ -6693,7 +6693,7 @@ categories:
               score_to_credits_expression: x / 126
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27172
+                - guid: 509
                   name_id: 9122
                   description_id: 9137
                   min_players: 1
@@ -6706,7 +6706,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 126
                 # Use base level's credit ratio as a placeholder
-                - guid: 27173
+                - guid: 510
                   name_id: 9123
                   description_id: 9138
                   min_players: 1
@@ -6719,7 +6719,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 126
                 # Use base level's credit ratio as a placeholder
-                - guid: 27174
+                - guid: 511
                   name_id: 9124
                   description_id: 9139
                   min_players: 1
@@ -6732,7 +6732,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 126
             - !Stage
-              guid: 27035
+              guid: 435
               name_id: 7301
               description_id: 9034
               stage_icon_id: 281
@@ -6752,7 +6752,7 @@ categories:
               score_to_credits_expression: x / 152
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27175
+                - guid: 512
                   name_id: 9125
                   description_id: 9139
                   min_players: 1
@@ -6765,7 +6765,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 152
                 # Use base level's credit ratio as a placeholder
-                - guid: 27176
+                - guid: 513
                   name_id: 9126
                   description_id: 9137
                   min_players: 1
@@ -6778,7 +6778,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 152
                 # Use base level's credit ratio as a placeholder
-                - guid: 27177
+                - guid: 514
                   name_id: 9127
                   description_id: 9143
                   min_players: 1
@@ -6791,7 +6791,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 152
             - !Stage
-              guid: 27036
+              guid: 436
               name_id: 8424
               description_id: 9035
               stage_icon_id: 282
@@ -6811,7 +6811,7 @@ categories:
               score_to_credits_expression: x / 153
               challenges:
                 # Use base level's credit ratio as a placeholder
-                - guid: 27178
+                - guid: 515
                   name_id: 9128
                   description_id: 9142
                   min_players: 1
@@ -6824,7 +6824,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
                 # Use base level's credit ratio as a placeholder
-                - guid: 27179
+                - guid: 516
                   name_id: 9129
                   description_id: 9138
                   min_players: 1
@@ -6837,7 +6837,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
                 # Use base level's credit ratio as a placeholder
-                - guid: 27180
+                - guid: 517
                   name_id: 9130
                   description_id: 9137
                   min_players: 1
@@ -6849,7 +6849,7 @@ categories:
                     saber_strike_stage_id: 131
                   zone_template_guid: 200
                   score_to_credits_expression: x / 153
-      - guid: 16000
+      - guid: 1012
         name_id: 5555
         description_id: 9757
         members_only: false
@@ -6872,7 +6872,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 16001
+              guid: 550
               name_id: 13953
               description_id: 9757
               stage_icon_id: 362
@@ -6891,7 +6891,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 153
             - !Stage
-              guid: 16002
+              guid: 551
               name_id: 13954
               description_id: 9757
               stage_icon_id: 364
@@ -6910,7 +6910,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 153
             - !Stage
-              guid: 16003
+              guid: 552
               name_id: 13955
               description_id: 9757
               stage_icon_id: 363
@@ -6928,7 +6928,7 @@ categories:
                 game_swf_name: CrystalAttunement.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 153
-      - guid: 8
+      - guid: 1008
         name_id: 5557
         description_id: 14128
         members_only: false
@@ -6952,7 +6952,7 @@ categories:
           stage_select_map_name: infiltration
           stages:
             - !Stage
-              guid: 17001
+              guid: 700
               name_id: 14100
               description_id: 14128
               stage_icon_id: 332
@@ -6971,7 +6971,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 40
             - !Stage
-              guid: 17002
+              guid: 701
               name_id: 14101
               description_id: 14129
               stage_icon_id: 333
@@ -6990,7 +6990,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 65
             - !Stage
-              guid: 17003
+              guid: 702
               name_id: 14102
               description_id: 14130
               stage_icon_id: 334
@@ -7009,7 +7009,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 71
             - !Stage
-              guid: 17004
+              guid: 703
               name_id: 14103
               description_id: 14131
               stage_icon_id: 335
@@ -7028,7 +7028,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 57
             - !Stage
-              guid: 17005
+              guid: 704
               name_id: 14104
               description_id: 14132
               stage_icon_id: 336
@@ -7047,7 +7047,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 70
             - !Stage
-              guid: 17006
+              guid: 705
               name_id: 14105
               description_id: 14133
               stage_icon_id: 337
@@ -7066,7 +7066,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 76
             - !Stage
-              guid: 17007
+              guid: 706
               name_id: 14106
               description_id: 14134
               stage_icon_id: 338
@@ -7085,7 +7085,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 120
             - !Stage
-              guid: 17008
+              guid: 707
               name_id: 14107
               description_id: 14135
               stage_icon_id: 339
@@ -7104,7 +7104,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 71
             - !Stage
-              guid: 17009
+              guid: 708
               name_id: 14108
               description_id: 14136
               stage_icon_id: 340
@@ -7123,7 +7123,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 140
             - !Stage
-              guid: 17010
+              guid: 709
               name_id: 14109
               description_id: 14137
               stage_icon_id: 341
@@ -7142,7 +7142,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 76
             - !Stage
-              guid: 17011
+              guid: 710
               name_id: 14110
               description_id: 14138
               stage_icon_id: 342
@@ -7161,7 +7161,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 114
             - !Stage
-              guid: 17012
+              guid: 711
               name_id: 14111
               description_id: 14139
               stage_icon_id: 343
@@ -7180,7 +7180,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 267
             - !Stage
-              guid: 17013
+              guid: 712
               name_id: 14112
               description_id: 14140
               stage_icon_id: 344
@@ -7199,7 +7199,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 87
             - !Stage
-              guid: 17014
+              guid: 713
               name_id: 14113
               description_id: 14141
               stage_icon_id: 345
@@ -7218,7 +7218,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 160
             - !Stage
-              guid: 17015
+              guid: 714
               name_id: 14114
               description_id: 14142
               stage_icon_id: 346
@@ -7237,7 +7237,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 120
             - !Stage
-              guid: 17016
+              guid: 715
               name_id: 14115
               description_id: 14143
               stage_icon_id: 347
@@ -7256,7 +7256,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 159
             - !Stage
-              guid: 17017
+              guid: 716
               name_id: 14116
               description_id: 14144
               stage_icon_id: 348
@@ -7275,7 +7275,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 90
             - !Stage
-              guid: 17018
+              guid: 717
               name_id: 14117
               description_id: 14145
               stage_icon_id: 349
@@ -7294,7 +7294,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 94
             - !Stage
-              guid: 17019
+              guid: 718
               name_id: 14118
               description_id: 14146
               stage_icon_id: 350
@@ -7313,7 +7313,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 85
             - !Stage
-              guid: 17020
+              guid: 719
               name_id: 14119
               description_id: 14147
               stage_icon_id: 351
@@ -7332,7 +7332,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 90.5
             - !Stage
-              guid: 17021
+              guid: 720
               name_id: 14120
               description_id: 14148
               stage_icon_id: 352
@@ -7351,7 +7351,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 125
             - !Stage
-              guid: 17022
+              guid: 721
               name_id: 14121
               description_id: 14149
               stage_icon_id: 353
@@ -7370,7 +7370,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17023
+              guid: 722
               name_id: 14122
               description_id: 14150
               stage_icon_id: 354
@@ -7389,7 +7389,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17024
+              guid: 723
               name_id: 14123
               description_id: 14151
               stage_icon_id: 355
@@ -7408,7 +7408,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17025
+              guid: 724
               name_id: 14124
               description_id: 14152
               stage_icon_id: 356
@@ -7427,7 +7427,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17026
+              guid: 725
               name_id: 14125
               description_id: 14153
               stage_icon_id: 357
@@ -7446,7 +7446,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17027
+              guid: 726
               name_id: 14126
               description_id: 14154
               stage_icon_id: 358
@@ -7465,7 +7465,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 91
             - !Stage
-              guid: 17028
+              guid: 727
               name_id: 14127
               description_id: 14155
               stage_icon_id: 359
@@ -7483,7 +7483,7 @@ categories:
                 game_swf_name: Infiltration.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 91
-      - guid: 10
+      - guid: 1009
         name_id: 5559
         description_id: 9756
         members_only: true
@@ -7506,7 +7506,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 18001
+              guid: 201
               name_id: 13959
               description_id: 9756
               stage_icon_id: 321
@@ -7525,7 +7525,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 437
             - !Stage
-              guid: 18002
+              guid: 202
               name_id: 13960
               description_id: 9756
               stage_icon_id: 323
@@ -7544,7 +7544,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 439
             - !Stage
-              guid: 18003
+              guid: 200
               name_id: 13961
               description_id: 9756
               stage_icon_id: 322
@@ -7562,7 +7562,7 @@ categories:
                 game_swf_name: ForcePerception.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 446
-      - guid: 15
+      - guid: 1007
         name_id: 7133
         description_id: 11468
         members_only: false
@@ -7586,7 +7586,7 @@ categories:
           stage_select_map_name: DroidProgramming
           stages:
             - !Stage
-              guid: 19001
+              guid: 640
               name_id: 11469
               description_id: 11468
               stage_icon_id: 318
@@ -7605,7 +7605,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 243
             - !Stage
-              guid: 19002
+              guid: 641
               name_id: 11470
               description_id: 11471
               stage_icon_id: 318
@@ -7624,7 +7624,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 225
             - !Stage
-              guid: 19003
+              guid: 642
               name_id: 11472
               description_id: 11473
               stage_icon_id: 318
@@ -7643,7 +7643,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 215
             - !Stage
-              guid: 19004
+              guid: 643
               name_id: 11474
               description_id: 11475
               stage_icon_id: 318
@@ -7662,7 +7662,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 224
             - !Stage
-              guid: 19005
+              guid: 644
               name_id: 11476
               description_id: 11477
               stage_icon_id: 318
@@ -7681,7 +7681,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 218
             - !Stage
-              guid: 19006
+              guid: 645
               name_id: 11182
               description_id: 11183
               stage_icon_id: 318
@@ -7700,7 +7700,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 217
             - !Stage
-              guid: 19007
+              guid: 646
               name_id: 11478
               description_id: 11479
               stage_icon_id: 318
@@ -7719,7 +7719,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 214
             - !Stage
-              guid: 19008
+              guid: 647
               name_id: 11480
               description_id: 11481
               stage_icon_id: 318
@@ -7738,7 +7738,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 220
             - !Stage
-              guid: 19009
+              guid: 648
               name_id: 11482
               description_id: 11483
               stage_icon_id: 318
@@ -7757,7 +7757,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 217
             - !Stage
-              guid: 19010
+              guid: 649
               name_id: 11484
               description_id: 11485
               stage_icon_id: 318
@@ -7776,7 +7776,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 211.5
             - !Stage
-              guid: 19011
+              guid: 650
               name_id: 11486
               description_id: 11487
               stage_icon_id: 320
@@ -7795,7 +7795,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 247
             - !Stage
-              guid: 19012
+              guid: 651
               name_id: 11488
               description_id: 11489
               stage_icon_id: 320
@@ -7814,7 +7814,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 241
             - !Stage
-              guid: 19013
+              guid: 652
               name_id: 11490
               description_id: 11491
               stage_icon_id: 320
@@ -7833,7 +7833,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 278
             - !Stage
-              guid: 19014
+              guid: 653
               name_id: 11492
               description_id: 11493
               stage_icon_id: 320
@@ -7852,7 +7852,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 238
             - !Stage
-              guid: 19015
+              guid: 654
               name_id: 11494
               description_id: 11495
               stage_icon_id: 320
@@ -7871,7 +7871,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 270
             - !Stage
-              guid: 19016
+              guid: 655
               name_id: 11496
               description_id: 11497
               stage_icon_id: 320
@@ -7890,7 +7890,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 242
             - !Stage
-              guid: 19017
+              guid: 656
               name_id: 11498
               description_id: 11499
               stage_icon_id: 320
@@ -7909,7 +7909,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 234
             - !Stage
-              guid: 19018
+              guid: 657
               name_id: 11500
               description_id: 11501
               stage_icon_id: 320
@@ -7928,7 +7928,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 232
             - !Stage
-              guid: 19019
+              guid: 658
               name_id: 11502
               description_id: 11503
               stage_icon_id: 320
@@ -7947,7 +7947,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 285
             - !Stage
-              guid: 19020
+              guid: 659
               name_id: 11504
               description_id: 11505
               stage_icon_id: 320
@@ -7966,7 +7966,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 225
             - !Stage
-              guid: 19021
+              guid: 660
               name_id: 11506
               description_id: 11507
               stage_icon_id: 319
@@ -7985,7 +7985,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 235
             - !Stage
-              guid: 19022
+              guid: 661
               name_id: 11508
               description_id: 11509
               stage_icon_id: 319
@@ -8004,7 +8004,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 249
             - !Stage
-              guid: 19023
+              guid: 662
               name_id: 11510
               description_id: 11511
               stage_icon_id: 319
@@ -8023,7 +8023,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 251
             - !Stage
-              guid: 19024
+              guid: 663
               name_id: 11512
               description_id: 11513
               stage_icon_id: 319
@@ -8042,7 +8042,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 189
             - !Stage
-              guid: 19025
+              guid: 664
               name_id: 11514
               description_id: 11515
               stage_icon_id: 319
@@ -8061,7 +8061,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 229
             - !Stage
-              guid: 19026
+              guid: 665
               name_id: 11516
               description_id: 11517
               stage_icon_id: 319
@@ -8080,7 +8080,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 229
             - !Stage
-              guid: 19027
+              guid: 666
               name_id: 11518
               description_id: 11519
               stage_icon_id: 319
@@ -8099,7 +8099,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 229
             - !Stage
-              guid: 19028
+              guid: 667
               name_id: 11520
               description_id: 11521
               stage_icon_id: 319
@@ -8118,7 +8118,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 229
             - !Stage
-              guid: 19029
+              guid: 668
               name_id: 11522
               description_id: 11523
               stage_icon_id: 319
@@ -8137,7 +8137,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 229
             - !Stage
-              guid: 19030
+              guid: 669
               name_id: 11524
               description_id: 11525
               stage_icon_id: 319
@@ -8155,7 +8155,7 @@ categories:
                 game_swf_name: DroidProgramming.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 229
-      - guid: 20000
+      - guid: 1026
         name_id: 32802
         description_id: 43676
         members_only: true
@@ -8189,7 +8189,7 @@ categories:
               short_name: sp
               stages:
                 - !Stage
-                  guid: 20002
+                  guid: 2104
                   name_id: 43672
                   description_id: 43676
                   stage_icon_id: 4454
@@ -8209,7 +8209,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 80.5
                 - !Stage
-                  guid: 20003
+                  guid: 2105
                   name_id: 43673
                   description_id: 43676
                   stage_icon_id: 4455
@@ -8229,7 +8229,7 @@ categories:
                   zone_template_guid: 200
                   score_to_credits_expression: x / 72.75
                 - !Stage
-                  guid: 20004
+                  guid: 2106
                   name_id: 43674
                   description_id: 43676
                   stage_icon_id: 4456
@@ -8261,7 +8261,7 @@ categories:
               default_stage_instance: 20006
               stages:
                 - !Stage
-                  guid: 20006
+                  guid: 2107
                   name_id: 43675
                   description_id: 43676
                   stage_icon_id: 4457
@@ -8280,7 +8280,7 @@ categories:
                     game_type: FleetCommander
                   zone_template_guid: 201
                   score_to_credits_expression: x / 72.75
-      - guid: 21000
+      - guid: 1020
         name_id: 14050
         description_id: 14955
         members_only: true
@@ -8303,7 +8303,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 21001
+              guid: 620
               name_id: 14956
               description_id: 14955
               stage_icon_id: 1258
@@ -8322,7 +8322,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 139
             - !Stage
-              guid: 21002
+              guid: 621
               name_id: 14957
               description_id: 14955
               stage_icon_id: 1260
@@ -8341,7 +8341,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 169.25
             - !Stage
-              guid: 21003
+              guid: 622
               name_id: 14958
               description_id: 14955
               stage_icon_id: 1259
@@ -8359,7 +8359,7 @@ categories:
                 game_swf_name: MineBuster.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 71.5
-      - guid: 22000
+      - guid: 1029
         name_id: 33611
         description_id: 33612
         members_only: true
@@ -8402,7 +8402,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 18.55
             - !Stage
-              guid: 22002
+              guid: 2121
               name_id: 19815
               description_id: 33612
               stage_icon_id: 1413
@@ -8424,7 +8424,7 @@ categories:
               single_player_stage:
                 stage_group_guid: 22000
                 stage_guid: 22001
-      - guid: 23000
+      - guid: 1034
         name_id: 50473
         description_id: 50472
         members_only: true
@@ -8447,7 +8447,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 23001
+              guid: 2130
               name_id: 50467
               description_id: 50472
               stage_icon_id: 5346
@@ -8466,7 +8466,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 200
             - !Stage
-              guid: 23002
+              guid: 2131
               name_id: 50468
               description_id: 50472
               stage_icon_id: 5347
@@ -8485,7 +8485,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 200
             - !Stage
-              guid: 23003
+              guid: 2132
               name_id: 50469
               description_id: 50472
               stage_icon_id: 5348
@@ -8503,7 +8503,7 @@ categories:
                 game_swf_name: HoloScramble.swf
               zone_template_guid: 200
               score_to_credits_expression: x / 200
-      - guid: 12
+      - guid: 1010
         name_id: 6171
         description_id: 9753
         members_only: true
@@ -8526,7 +8526,7 @@ categories:
           stage_select_map_name: RepublicGunship
           stages:
             - !Stage
-              guid: 25001
+              guid: 221
               name_id: 13956
               description_id: 9753
               stage_icon_id: 324
@@ -8545,7 +8545,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 40.9
             - !Stage
-              guid: 25002
+              guid: 222
               name_id: 13957
               description_id: 9753
               stage_icon_id: 326
@@ -8564,7 +8564,7 @@ categories:
               zone_template_guid: 200
               score_to_credits_expression: x / 80
             - !Stage
-              guid: 25003
+              guid: 223
               name_id: 13958
               description_id: 9753
               stage_icon_id: 325
