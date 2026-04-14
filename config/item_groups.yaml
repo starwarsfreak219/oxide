@@ -1001,7 +1001,7 @@
       unknown: 0
     - guid: 622
       unknown: 0
-# Clone Phase II - This is guessed based on pattern of name IDs and descriptions in this range of GIDs
+# Clone Phase II - This is guessed based on pattern of name IDs and descriptions.
 - guid: 33
   unknown2: 0
   name_id: 8616
