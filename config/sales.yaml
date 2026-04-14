@@ -1,4 +1,148 @@
 ---
+- item_group_guid: 1
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 2
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 10
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 11
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 12
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 13
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 14
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 15
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 18
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 19
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 20
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 21
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 22
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 23
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 24
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 25
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 26
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 27
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 28
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 29
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 30
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 31
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 32
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 34
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 36
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 37
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 38
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 39
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 40
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 42
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 43
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 44
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 45
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 46
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 48
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 49
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 50
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 51
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 52
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 57
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 58
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 60
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 61
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 62
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 64
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 66
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 67
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 73
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 75
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 78
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 81
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 83
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 84
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 94
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 97
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 98
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 99
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 101
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 102
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 103
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 104
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 105
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 106
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 107
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 110
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 111
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 112
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 114
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 118
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 119
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 120
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 121
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
 - item_group_guid: 122
   members_cost_expression: 'max(0.9*x - 1, 0.0)'
 - item_group_guid: 123
@@ -11,6 +155,708 @@
   members_cost_expression: 'max(0.9*x - 1, 0.0)'
 - item_group_guid: 127
   members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 131
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 132
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 133
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 134
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 135
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 136
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 137
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 138
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
 - item_group_guid: 139
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 142
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 143
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 144
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 145
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 146
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 148
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 155
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 156
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 158
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 159
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 162
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 163
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 164
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 165
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 167
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 168
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 169
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 170
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 171
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 172
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 173
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 174
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 175
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 176
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 178
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 179
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 180
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 186
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 187
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 188
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 190
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 192
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 193
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 194
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 195
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 196
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 197
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 198
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 199
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 200
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 201
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 202
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 203
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 204
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 205
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 206
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 207
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 208
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 209
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 210
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 211
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 212
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 213
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 214
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 215
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 219
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 220
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 223
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 224
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 226
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 227
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 503
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 504
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 505
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 506
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 507
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 508
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 509
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 510
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 511
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 512
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 513
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 514
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 515
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 516
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 527
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 528
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 529
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 530
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 531
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 532
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 533
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 534
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 535
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 536
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 537
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 538
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 539
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 540
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 541
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 542
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 543
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 544
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 545
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 546
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 547
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 548
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 549
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 550
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 551
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 552
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 553
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 554
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 555
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 556
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 557
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 558
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 560
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 561
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 562
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 563
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 564
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 565
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 566
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 567
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 595
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 596
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 597
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 599
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 600
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 601
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 602
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 603
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 607
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 608
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 609
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 610
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 611
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 625
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 626
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 627
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 628
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 629
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 630
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 631
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 632
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 633
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 634
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 635
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 636
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 637
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 638
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 639
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 640
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 641
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 642
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 643
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 644
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 645
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 646
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 650
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 651
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 652
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 653
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 654
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 655
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 657
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 658
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 659
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 660
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 661
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 662
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 663
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 664
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 665
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 669
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 670
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 671
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 672
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 673
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 674
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 675
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 676
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 677
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 678
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 679
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 680
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 681
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 682
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 683
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 684
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 685
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 686
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 687
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 688
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 689
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 690
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 691
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 692
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 693
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 694
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 695
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 696
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 697
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 697
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 698
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 699
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 700
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 701
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 702
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 703
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 704
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 705
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 706
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 707
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 708
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 709
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 710
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 711
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 712
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 713
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 714
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 715
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 716
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 717
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 718
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 720
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 721
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 722
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 723
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 724
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 725
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 726
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 727
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 728
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 729
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 730
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 731
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 732
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 733
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 734
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 735
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 736
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 737
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 738
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 739
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 740
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 741
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 742
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 743
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 744
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 745
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 746
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 747
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 748
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 749
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 750
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 751
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 752
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 753
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 754
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 755
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 756
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 757
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 759
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 760
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 761
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 763
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 764
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 766
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 767
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 769
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 770
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 771
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 772
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 773
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 777
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 779
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 780
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 781
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 782
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 783
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 784
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 785
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 786
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 787
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 788
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 789
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 790
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 791
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 792
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 794
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 795
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 797
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 798
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 799
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 806
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 807
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 808
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 809
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 810
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 811
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 818
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 819
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 821
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 835
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 836
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 837
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 839
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 840
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 841
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 842
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 843
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 844
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 845
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 848
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 849
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 850
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 851
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 852
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 853
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 856
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 857
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 858
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 859
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 860
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 861
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 863
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 864
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 865
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 866
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 867
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 868
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 869
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 870
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 871
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 872
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 873
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 874
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 875
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 876
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 877
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 878
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 879
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 880
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 881
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 882
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 883
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 884
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 885
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 1005
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 1006
+  members_cost_expression: 'max(0.9*x - 1, 0.0)'
+- item_group_guid: 1006
   members_cost_expression: 'max(0.9*x - 1, 0.0)'
 - item_group_guid: 10000

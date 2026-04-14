@@ -1,37 +1,89 @@
 ---
+# Large Standard Crate
+- guid: 1385
+  name_id: 2156
+  description_id: 14
+  icon_set_id: 1752
+  slot: !Equipment None
+  model_name: Furniture_BuildingSetGeneric_BoxLarge01.adr
+  item_type: 29
+  category: 1000
+  cost: 80
+  max_stack_size: 1000
+# Medium Standard Crate
+- guid: 1386
+  name_id: 2157
+  description_id: 14
+  icon_set_id: 1753
+  slot: !Equipment None
+  model_name: Furniture_BuildingSetGeneric_BoxMedium01.adr
+  item_type: 29
+  category: 1000
+  cost: 40
+  max_stack_size: 1000
+# Small Standard Crate
+- guid: 1387
+  name_id: 2158
+  description_id: 14
+  icon_set_id: 1754
+  slot: !Equipment None
+  model_name: Furniture_BuildingSetGeneric_BoxSmall01.adr
+  item_type: 29
+  category: 1000
+  cost: 20
+  max_stack_size: 1000
+# Standard Ceiling Tile
+- guid: 1388
+  name_id: 2159
+  description_id: 14
+  icon_set_id: 1755
+  slot: !Equipment None
+  model_name: Furniture_BuildingSetGeneric_Ceiling01.adr
+  item_type: 29
+  category: 1000
+  cost: 50
+  max_stack_size: 1000
+# Standard Doorway Panel
 - guid: 1389
+  name_id: 2160
   description_id: 14
   icon_set_id: 1756
   slot: !Equipment None
   model_name: Furniture_BuildingSetGeneric_Door01.adr
   item_type: 29
   category: 1000
-  max_stack_size: -1
-- guid: 1391
-  description_id: 14
-  slot: !Equipment None
-  model_name: Furniture_BuildingSetGeneric_Wall01.adr
-  item_type: 29
-  category: 1000
+  cost: 100
   max_stack_size: 1000
-- guid: 1392
-  description_id: 14
-  slot: !Equipment None
-  model_name: Furniture_BuildingSetGeneric_Window01.adr
-  item_type: 29
-  category: 1000
-  max_stack_size: -1
+# Standard Floor Tile
 - guid: 1390
+  name_id: 2161
   description_id: 14
+  icon_set_id: 1757
   slot: !Equipment None
   model_name: Furniture_BuildingSetGeneric_Floor01.adr
   item_type: 29
   category: 1000
+  cost: 50
   max_stack_size: 1000
-- guid: 1388
+# Standard Wall Panel
+- guid: 1391
+  name_id: 2162
   description_id: 14
+  icon_set_id: 1758
   slot: !Equipment None
-  model_name: Furniture_BuildingSetGeneric_Ceiling01.adr
+  model_name: Furniture_BuildingSetGeneric_Wall01.adr
   item_type: 29
   category: 1000
+  cost: 100
+  max_stack_size: 1000
+# Standard Window Panel
+- guid: 1392
+  name_id: 2163
+  description_id: 14
+  icon_set_id: 1759
+  slot: !Equipment None
+  model_name: Furniture_BuildingSetGeneric_Window01.adr
+  item_type: 29
+  category: 1000
+  cost: 100
   max_stack_size: 1000
