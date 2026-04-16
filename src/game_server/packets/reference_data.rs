@@ -129,7 +129,7 @@ pub struct ItemGroupDefinition {
     pub category: u32,
     pub page: u32,
     pub preview_model_id: u32,
-    pub preview_animation_id: u32,
+    pub preview_animation_id: i32,
     pub is_new: bool,
     pub unknown12: u32,
     pub unknown13: u32,
