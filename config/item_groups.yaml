@@ -8,14 +8,14 @@
   icon_set_id: 893
   category: 101
   page: 0
-  unknown9: 35
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 35
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 10
       unknown: 0
@@ -36,14 +36,14 @@
   icon_set_id: 25
   category: 102
   page: 0
-  unknown9: 1019
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1019
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 416
       unknown: 0
@@ -62,14 +62,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 63
       unknown: 0
@@ -206,14 +206,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 100000
       unknown: 0
@@ -250,14 +250,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 90000
       unknown: 0
@@ -308,14 +308,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 300
       unknown: 0
@@ -430,14 +430,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 120000
       unknown: 0
@@ -488,14 +488,14 @@
   icon_set_id: 71
   category: 71
   page: 0
-  unknown9: 259
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 259
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 542
       unknown: 0
@@ -508,14 +508,14 @@
   icon_set_id: 63
   category: 71
   page: 0
-  unknown9: 279
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 279
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 632
       unknown: 0
@@ -528,14 +528,14 @@
   icon_set_id: 70
   category: 71
   page: 0
-  unknown9: 300
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 300
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 554
       unknown: 0
@@ -548,14 +548,14 @@
   icon_set_id: 73
   category: 71
   page: 0
-  unknown9: 248
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 248
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 543
       unknown: 0
@@ -568,14 +568,14 @@
   icon_set_id: 79
   category: 71
   page: 0
-  unknown9: 353
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 353
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 633
       unknown: 0
@@ -588,14 +588,14 @@
   icon_set_id: 72
   category: 71
   page: 0
-  unknown9: 233
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 233
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 544
       unknown: 0
@@ -608,14 +608,14 @@
   icon_set_id: 887
   category: 104
   page: 0
-  unknown9: 428
-  unknown10: 908
-  unknown11: false
+  preview_model_id: 428
+  preview_animation_id: 908
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 400
       unknown: 0
@@ -638,14 +638,14 @@
   icon_set_id: 1169
   category: 109
   page: 0
-  unknown9: 993
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 993
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 537
       unknown: 0
@@ -662,14 +662,14 @@
   icon_set_id: 31
   category: 102
   page: 0
-  unknown9: 1021
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1021
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 405
       unknown: 0
@@ -688,14 +688,14 @@
   icon_set_id: 926
   category: 102
   page: 0
-  unknown9: 1020
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1020
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 463
       unknown: 0
@@ -714,14 +714,14 @@
   icon_set_id: 925
   category: 102
   page: 0
-  unknown9: 1200
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1200
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 534
       unknown: 0
@@ -740,14 +740,14 @@
   icon_set_id: 920
   category: 102
   page: 0
-  unknown9: 1328
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1328
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 468
       unknown: 0
@@ -766,14 +766,14 @@
   icon_set_id: 881
   category: 102
   page: 0
-  unknown9: 657
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 657
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 187
       unknown: 0
@@ -794,14 +794,14 @@
   icon_set_id: 882
   category: 102
   page: 0
-  unknown9: 1018
-  unknown10: 904
-  unknown11: false
+  preview_model_id: 1018
+  preview_animation_id: 904
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 190
       unknown: 0
@@ -820,14 +820,14 @@
   icon_set_id: 933
   category: 102
   page: 0
-  unknown9: 434
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 434
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 411
       unknown: 0
@@ -846,14 +846,14 @@
   icon_set_id: 932
   category: 102
   page: 0
-  unknown9: 432
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 432
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 448
       unknown: 0
@@ -872,14 +872,14 @@
   icon_set_id: 931
   category: 102
   page: 0
-  unknown9: 433
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 433
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 9
       unknown: 0
@@ -898,14 +898,14 @@
   icon_set_id: 880
   category: 101
   page: 0
-  unknown9: 417
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 417
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 10
       unknown: 0
@@ -926,14 +926,14 @@
   icon_set_id: 890
   category: 101
   page: 0
-  unknown9: 1023
-  unknown10: 908
-  unknown11: false
+  preview_model_id: 1023
+  preview_animation_id: 908
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 17
       unknown: 0
@@ -956,14 +956,14 @@
   icon_set_id: 903
   category: 101
   page: 0
-  unknown9: 1487
-  unknown10: 911
-  unknown11: false
+  preview_model_id: 1487
+  preview_animation_id: 911
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 473
       unknown: 0
@@ -984,14 +984,14 @@
   icon_set_id: 897
   category: 101
   page: 0
-  unknown9: 593
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 593
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 10
       unknown: 0
@@ -1010,14 +1010,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 599
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 599
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 230060
       unknown: 0
@@ -1036,14 +1036,14 @@
   icon_set_id: 898
   category: 101
   page: 0
-  unknown9: 422
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 422
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 457
       unknown: 0
@@ -1062,14 +1062,14 @@
   icon_set_id: 888
   category: 109
   page: 0
-  unknown9: 429
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 429
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 485
       unknown: 0
@@ -1088,14 +1088,14 @@
   icon_set_id: 883
   category: 109
   page: 0
-  unknown9: 427
-  unknown10: 905
-  unknown11: false
+  preview_model_id: 427
+  preview_animation_id: 905
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 300
       unknown: 0
@@ -1114,14 +1114,14 @@
   icon_set_id: 1954
   category: 109
   page: 0
-  unknown9: 992
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 992
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 855
       unknown: 0
@@ -1136,14 +1136,14 @@
   icon_set_id: 915
   category: 108
   page: 0
-  unknown9: 995
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 995
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 858
       unknown: 0
@@ -1162,14 +1162,14 @@
   icon_set_id: 894
   category: 107
   page: 0
-  unknown9: 648
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 648
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 54
       unknown: 0
@@ -1190,14 +1190,14 @@
   icon_set_id: 956
   category: 107
   page: 0
-  unknown9: 437
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 437
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 48
       unknown: 0
@@ -1218,14 +1218,14 @@
   icon_set_id: 940
   category: 107
   page: 0
-  unknown9: 654
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 654
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 768
       unknown: 0
@@ -1244,14 +1244,14 @@
   icon_set_id: 957
   category: 108
   page: 0
-  unknown9: 436
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 436
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 59
       unknown: 0
@@ -1272,14 +1272,14 @@
   icon_set_id: 901
   category: 101
   page: 0
-  unknown9: 386
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 386
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 26
       unknown: 0
@@ -1298,14 +1298,14 @@
   icon_set_id: 895
   category: 101
   page: 0
-  unknown9: 418
-  unknown10: 912
-  unknown11: false
+  preview_model_id: 418
+  preview_animation_id: 912
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 497
       unknown: 0
@@ -1326,14 +1326,14 @@
   icon_set_id: 958
   category: 105
   page: 0
-  unknown9: 601
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 601
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 11
       unknown: 0
@@ -1350,14 +1350,14 @@
   icon_set_id: 1170
   category: 105
   page: 0
-  unknown9: 635
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 635
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 251
       unknown: 0
@@ -1376,14 +1376,14 @@
   icon_set_id: 914
   category: 111
   page: 0
-  unknown9: 594
-  unknown10: 907
-  unknown11: false
+  preview_model_id: 594
+  preview_animation_id: 907
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 60
       unknown: 0
@@ -1400,14 +1400,14 @@
   icon_set_id: 885
   category: 104
   page: 0
-  unknown9: 595
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 595
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 57
       unknown: 0
@@ -1428,14 +1428,14 @@
   icon_set_id: 906
   category: 109
   page: 0
-  unknown9: 656
-  unknown10: 903
-  unknown11: false
+  preview_model_id: 656
+  preview_animation_id: 903
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 437
       unknown: 0
@@ -1454,14 +1454,14 @@
   icon_set_id: 884
   category: 104
   page: 0
-  unknown9: 425
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 425
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 513
       unknown: 0
@@ -1482,14 +1482,14 @@
   icon_set_id: 938
   category: 108
   page: 0
-  unknown9: 602
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 602
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 388
       unknown: 0
@@ -1510,14 +1510,14 @@
   icon_set_id: 891
   category: 108
   page: 0
-  unknown9: 991
-  unknown10: 907
-  unknown11: false
+  preview_model_id: 991
+  preview_animation_id: 907
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 58
       unknown: 0
@@ -1538,14 +1538,14 @@
   icon_set_id: 912
   category: 101
   page: 0
-  unknown9: 653
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 653
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 767
       unknown: 0
@@ -1564,14 +1564,14 @@
   icon_set_id: 911
   category: 105
   page: 0
-  unknown9: 630
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 630
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 247
       unknown: 0
@@ -1590,14 +1590,14 @@
   icon_set_id: 929
   category: 105
   page: 0
-  unknown9: 600
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 600
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 259
       unknown: 0
@@ -1616,14 +1616,14 @@
   icon_set_id: 923
   category: 109
   page: 0
-  unknown9: 603
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 603
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 64
       unknown: 0
@@ -1640,14 +1640,14 @@
   icon_set_id: 1254
   category: 105
   page: 0
-  unknown9: 1094
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1094
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1100
       unknown: 0
@@ -1662,14 +1662,14 @@
   icon_set_id: 1926
   category: 105
   page: 0
-  unknown9: 1529
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1529
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1121
       unknown: 0
@@ -1684,14 +1684,14 @@
   icon_set_id: 928
   category: 105
   page: 0
-  unknown9: 1617
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1617
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 993
       unknown: 0
@@ -1708,14 +1708,14 @@
   icon_set_id: 908
   category: 109
   page: 0
-  unknown9: 1001
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1001
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 856
       unknown: 0
@@ -1734,14 +1734,14 @@
   icon_set_id: 930
   category: 105
   page: 0
-  unknown9: 639
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 639
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 263
       unknown: 0
@@ -1756,14 +1756,14 @@
   icon_set_id: 1802
   category: 108
   page: 0
-  unknown9: 604
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 604
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 392
       unknown: 0
@@ -1782,14 +1782,14 @@
   icon_set_id: 892
   category: 108
   page: 0
-  unknown9: 633
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 633
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 233
       unknown: 0
@@ -1806,14 +1806,14 @@
   icon_set_id: 1047
   category: 30
   page: 0
-  unknown9: 621
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 621
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 46
       unknown: 0
@@ -1834,14 +1834,14 @@
   icon_set_id: 1039
   category: 30
   page: 0
-  unknown9: 614
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 614
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 35
       unknown: 0
@@ -1868,14 +1868,14 @@
   icon_set_id: 1036
   category: 30
   page: 0
-  unknown9: 609
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 609
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 665
       unknown: 0
@@ -1904,14 +1904,14 @@
   icon_set_id: 1041
   category: 30
   page: 0
-  unknown9: 616
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 616
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 115
       unknown: 0
@@ -1938,14 +1938,14 @@
   icon_set_id: 1037
   category: 30
   page: 0
-  unknown9: 610
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 610
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 107
       unknown: 0
@@ -1972,14 +1972,14 @@
   icon_set_id: 1042
   category: 30
   page: 0
-  unknown9: 617
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 617
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 682
       unknown: 0
@@ -2008,14 +2008,14 @@
   icon_set_id: 1043
   category: 30
   page: 0
-  unknown9: 618
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 618
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 126
       unknown: 0
@@ -2042,14 +2042,14 @@
   icon_set_id: 1044
   category: 30
   page: 0
-  unknown9: 619
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 619
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 691
       unknown: 0
@@ -2076,14 +2076,14 @@
   icon_set_id: 1048
   category: 30
   page: 0
-  unknown9: 612
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 612
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 142
       unknown: 0
@@ -2104,14 +2104,14 @@
   icon_set_id: 1046
   category: 30
   page: 0
-  unknown9: 620
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 620
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 153
       unknown: 0
@@ -2132,14 +2132,14 @@
   icon_set_id: 1045
   category: 30
   page: 0
-  unknown9: 622
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 622
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 134
       unknown: 0
@@ -2164,14 +2164,14 @@
   icon_set_id: 698
   category: 32
   page: 0
-  unknown9: 1000
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1000
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 646
       unknown: 0
@@ -2188,14 +2188,14 @@
   icon_set_id: 695
   category: 32
   page: 0
-  unknown9: 999
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 999
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 652
       unknown: 0
@@ -2212,14 +2212,14 @@
   icon_set_id: 702
   category: 32
   page: 0
-  unknown9: 998
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 998
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 644
       unknown: 0
@@ -2234,14 +2234,14 @@
   icon_set_id: 685
   category: 33
   page: 0
-  unknown9: 698
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 698
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 50
       unknown: 0
@@ -2258,14 +2258,14 @@
   icon_set_id: 992
   category: 20
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 43
       unknown: 0
@@ -2282,14 +2282,14 @@
   icon_set_id: 1022
   category: 21
   page: 0
-  unknown9: 2180
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2180
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 443
       unknown: 0
@@ -2308,14 +2308,14 @@
   icon_set_id: 1006
   category: 22
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 565
       unknown: 0
@@ -2334,14 +2334,14 @@
   icon_set_id: 1008
   category: 22
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 567
       unknown: 0
@@ -2360,14 +2360,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 40118
       unknown: 0
@@ -2616,14 +2616,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 30021
       unknown: 0
@@ -2678,14 +2678,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 10012
       unknown: 0
@@ -2722,14 +2722,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 60029
       unknown: 0
@@ -2800,14 +2800,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 50062
       unknown: 0
@@ -2944,14 +2944,14 @@
   icon_set_id: 0
   category: 0
   page: 9
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 70012
       unknown: 0
@@ -2988,14 +2988,14 @@
   icon_set_id: 66
   category: 71
   page: 0
-  unknown9: 642
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 642
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 546
       unknown: 0
@@ -3008,14 +3008,14 @@
   icon_set_id: 64
   category: 71
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 545
       unknown: 0
@@ -3028,14 +3028,14 @@
   icon_set_id: 67
   category: 71
   page: 0
-  unknown9: 264
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 264
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 547
       unknown: 0
@@ -3048,14 +3048,14 @@
   icon_set_id: 68
   category: 71
   page: 0
-  unknown9: 643
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 643
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 548
       unknown: 0
@@ -3068,14 +3068,14 @@
   icon_set_id: 69
   category: 71
   page: 0
-  unknown9: 265
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 265
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 549
       unknown: 0
@@ -3088,14 +3088,14 @@
   icon_set_id: 77
   category: 71
   page: 0
-  unknown9: 644
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 644
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 550
       unknown: 0
@@ -3108,14 +3108,14 @@
   icon_set_id: 78
   category: 71
   page: 0
-  unknown9: 646
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 646
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 551
       unknown: 0
@@ -3128,39 +3128,39 @@
   icon_set_id: 76
   category: 71
   page: 0
-  unknown9: 647
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 647
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 552
       unknown: 0
 # D-0T
-# - guid: 139
-#   unknown2: 0
-#   name_id: 7562
-#   description_id: 2497
-#   sort_order: 0
-#   icon_set_id: 75
-#   category: 71
-#   page: 0
-#   unknown9: 645
-#   unknown10: 0
-#   unknown11: false
-#   unknown12: 0
-#   unknown13: 0
-#   unknown14: 0
-#   unknown16: ''
-#   unknown17: false
-#   items:
-#     - guid: 553
-#       unknown: 0
-# Facial Hair
 - guid: 139
+  unknown2: 0
+  name_id: 7562
+  description_id: 2497
+  sort_order: 0
+  icon_set_id: 75
+  category: 71
+  page: 0
+  preview_model_id: 645
+  preview_animation_id: 0
+  is_new: false
+  unknown12: 0
+  unknown13: 0
+  unknown14: 0
+  unknown16: ''
+  members_only: false
+  items:
+    - guid: 553
+      unknown: 0
+# Facial Hair
+- guid: 140
   unknown2: 0
   name_id: 0
   description_id: 0
@@ -3168,14 +3168,14 @@
   icon_set_id: 0
   category: 0
   page: 8
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 20014
       unknown: 0
@@ -3216,14 +3216,14 @@
   icon_set_id: 900
   category: 101
   page: 0
-  unknown9: 1577
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1577
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 583
       unknown: 0
@@ -3242,14 +3242,14 @@
   icon_set_id: 907
   category: 108
   page: 0
-  unknown9: 430
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 430
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 587
       unknown: 0
@@ -3270,14 +3270,14 @@
   icon_set_id: 909
   category: 101
   page: 0
-  unknown9: 1481
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 1481
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 439
       unknown: 0
@@ -3298,14 +3298,14 @@
   icon_set_id: 917
   category: 101
   page: 0
-  unknown9: 421
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 421
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 595
       unknown: 0
@@ -3324,14 +3324,14 @@
   icon_set_id: 921
   category: 111
   page: 0
-  unknown9: 431
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 431
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 601
       unknown: 0
@@ -3350,14 +3350,14 @@
   icon_set_id: 937
   category: 102
   page: 0
-  unknown9: 1022
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1022
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 63
       unknown: 0
@@ -3378,14 +3378,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 130000
       unknown: 0
@@ -3422,14 +3422,14 @@
   icon_set_id: 948
   category: 101
   page: 0
-  unknown9: 1485
-  unknown10: 911
-  unknown11: false
+  preview_model_id: 1485
+  preview_animation_id: 911
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 384
       unknown: 0
@@ -3450,14 +3450,14 @@
   icon_set_id: 886
   category: 102
   page: 0
-  unknown9: 634
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 634
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 230
       unknown: 0
@@ -3476,14 +3476,14 @@
   icon_set_id: 902
   category: 101
   page: 0
-  unknown9: 631
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 631
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 240
       unknown: 0
@@ -3504,14 +3504,14 @@
   icon_set_id: 905
   category: 102
   page: 0
-  unknown9: 640
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 640
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 244
       unknown: 0
@@ -3530,14 +3530,14 @@
   icon_set_id: 943
   category: 109
   page: 0
-  unknown9: 638
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 638
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 265
       unknown: 0
@@ -3558,14 +3558,14 @@
   icon_set_id: 955
   category: 107
   page: 0
-  unknown9: 629
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 629
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 269
       unknown: 0
@@ -3584,14 +3584,14 @@
   icon_set_id: 687
   category: 33
   page: 0
-  unknown9: 1003
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1003
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 49
       unknown: 0
@@ -3608,14 +3608,14 @@
   icon_set_id: 910
   category: 104
   page: 0
-  unknown9: 994
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 994
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 759
       unknown: 0
@@ -3636,14 +3636,14 @@
   icon_set_id: 942
   category: 102
   page: 0
-  unknown9: 1090
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1090
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 763
       unknown: 0
@@ -3660,14 +3660,14 @@
   icon_set_id: 71
   category: 72
   page: 0
-  unknown9: 259
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 259
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 424
       unknown: 0
@@ -3682,14 +3682,14 @@
   icon_set_id: 63
   category: 72
   page: 0
-  unknown9: 279
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 279
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 563
       unknown: 0
@@ -3704,14 +3704,14 @@
   icon_set_id: 70
   category: 72
   page: 0
-  unknown9: 300
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 300
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 445
       unknown: 0
@@ -3726,14 +3726,14 @@
   icon_set_id: 73
   category: 72
   page: 0
-  unknown9: 248
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 248
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 657
       unknown: 0
@@ -3750,14 +3750,14 @@
   icon_set_id: 79
   category: 72
   page: 0
-  unknown9: 353
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 353
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 560
       unknown: 0
@@ -3774,14 +3774,14 @@
   icon_set_id: 72
   category: 72
   page: 0
-  unknown9: 233
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 233
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 428
       unknown: 0
@@ -3798,14 +3798,14 @@
   icon_set_id: 65
   category: 72
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 309
       unknown: 0
@@ -3822,14 +3822,14 @@
   icon_set_id: 74
   category: 72
   page: 0
-  unknown9: 164
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 164
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 311
       unknown: 0
@@ -3846,14 +3846,14 @@
   icon_set_id: 1032
   category: 75
   page: 0
-  unknown9: 1036
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1036
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 20
       unknown: 0
@@ -3866,14 +3866,14 @@
   icon_set_id: 1026
   category: 75
   page: 0
-  unknown9: 1033
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1033
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 22
       unknown: 0
@@ -3886,14 +3886,14 @@
   icon_set_id: 1028
   category: 75
   page: 0
-  unknown9: 1034
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1034
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 23
       unknown: 0
@@ -3906,14 +3906,14 @@
   icon_set_id: 1030
   category: 75
   page: 0
-  unknown9: 1035
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1035
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 24
       unknown: 0
@@ -3926,14 +3926,14 @@
   icon_set_id: 939
   category: 102
   page: 0
-  unknown9: 740
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 740
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 787
       unknown: 0
@@ -3954,14 +3954,14 @@
   icon_set_id: 947
   category: 102
   page: 0
-  unknown9: 741
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 741
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 789
       unknown: 0
@@ -3982,14 +3982,14 @@
   icon_set_id: 922
   category: 111
   page: 0
-  unknown9: 996
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 996
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 922
       unknown: 0
@@ -4004,14 +4004,14 @@
   icon_set_id: 1646
   category: 80
   page: 0
-  unknown9: 2636
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2636
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 952
       unknown: 0
@@ -4024,14 +4024,14 @@
   icon_set_id: 949
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 849
       unknown: 0
@@ -4050,14 +4050,14 @@
   icon_set_id: 950
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 850
       unknown: 0
@@ -4076,14 +4076,14 @@
   icon_set_id: 951
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 851
       unknown: 0
@@ -4102,14 +4102,14 @@
   icon_set_id: 952
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 852
       unknown: 0
@@ -4128,14 +4128,14 @@
   icon_set_id: 953
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 854
       unknown: 0
@@ -4154,14 +4154,14 @@
   icon_set_id: 1330
   category: 80
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 966
       unknown: 0
@@ -4180,14 +4180,14 @@
   icon_set_id: 276
   category: 30
   page: 0
-  unknown9: 1043
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1043
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 978
       unknown: 0
@@ -4200,14 +4200,14 @@
   icon_set_id: 1231
   category: 71
   page: 0
-  unknown9: 1082
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1082
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 998
       unknown: 0
@@ -4220,14 +4220,14 @@
   icon_set_id: 1243
   category: 101
   page: 0
-  unknown9: 1093
-  unknown10: 911
-  unknown11: false
+  preview_model_id: 1093
+  preview_animation_id: 911
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 522
       unknown: 0
@@ -4248,14 +4248,14 @@
   icon_set_id: 1242
   category: 108
   page: 0
-  unknown9: 1091
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1091
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 991
       unknown: 0
@@ -4270,14 +4270,14 @@
   icon_set_id: 1241
   category: 101
   page: 0
-  unknown9: 1092
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1092
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 996
       unknown: 0
@@ -4292,14 +4292,14 @@
   icon_set_id: 1255
   category: 108
   page: 0
-  unknown9: 1095
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1095
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1102
       unknown: 0
@@ -4318,14 +4318,14 @@
   icon_set_id: 1256
   category: 108
   page: 0
-  unknown9: 1096
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1096
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1123
       unknown: 0
@@ -4344,14 +4344,14 @@
   icon_set_id: 1258
   category: 71
   page: 0
-  unknown9: 1099
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1099
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2092
       unknown: 0
@@ -4364,14 +4364,14 @@
   icon_set_id: 1260
   category: 108
   page: 0
-  unknown9: 1103
-  unknown10: 907
-  unknown11: false
+  preview_model_id: 1103
+  preview_animation_id: 907
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 987
       unknown: 0
@@ -4392,14 +4392,14 @@
   icon_set_id: 1259
   category: 108
   page: 0
-  unknown9: 1102
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1102
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1113
       unknown: 0
@@ -4418,14 +4418,14 @@
   icon_set_id: 1035
   category: 71
   page: 0
-  unknown9: 1104
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1104
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 917
       unknown: 0
@@ -4438,14 +4438,14 @@
   icon_set_id: 1354
   category: 108
   page: 0
-  unknown9: 1113
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1113
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1147
       unknown: 0
@@ -4464,14 +4464,14 @@
   icon_set_id: 1355
   category: 108
   page: 0
-  unknown9: 1114
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 1114
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1154
       unknown: 0
@@ -4492,14 +4492,14 @@
   icon_set_id: 1356
   category: 108
   page: 0
-  unknown9: 1115
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1115
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1162
       unknown: 0
@@ -4516,14 +4516,14 @@
   icon_set_id: 1357
   category: 21
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 747
       unknown: 0
@@ -4542,14 +4542,14 @@
   icon_set_id: 693
   category: 32
   page: 0
-  unknown9: 729
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 729
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 650
       unknown: 0
@@ -4562,14 +4562,14 @@
   icon_set_id: 1586
   category: 30
   page: 0
-  unknown9: 1300
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1300
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1383
       unknown: 0
@@ -4582,14 +4582,14 @@
   icon_set_id: 1594
   category: 33
   page: 0
-  unknown9: 1321
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1321
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1384
       unknown: 0
@@ -4602,14 +4602,14 @@
   icon_set_id: 1837
   category: 30
   page: 0
-  unknown9: 1503
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1503
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2746
       unknown: 0
@@ -4622,14 +4622,14 @@
   icon_set_id: 1956
   category: 80
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1417
       unknown: 0
@@ -4642,14 +4642,14 @@
   icon_set_id: 1961
   category: 21
   page: 0
-  unknown9: 1559
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1559
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1418
       unknown: 0
@@ -4662,14 +4662,14 @@
   icon_set_id: 1963
   category: 30
   page: 0
-  unknown9: 1566
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1566
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 31
       unknown: 0
@@ -4686,14 +4686,14 @@
   icon_set_id: 2136
   category: 102
   page: 0
-  unknown9: 1712
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1712
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1992
       unknown: 0
@@ -4706,14 +4706,14 @@
   icon_set_id: 2339
   category: 101
   page: 0
-  unknown9: 1928
-  unknown10: 908
-  unknown11: false
+  preview_model_id: 1928
+  preview_animation_id: 908
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2909
       unknown: 0
@@ -4728,14 +4728,14 @@
   icon_set_id: 1196
   category: 107
   page: 0
-  unknown9: 655
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 655
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 769
       unknown: 0
@@ -4754,14 +4754,14 @@
   icon_set_id: 1360
   category: 108
   page: 0
-  unknown9: 1132
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1132
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1158
       unknown: 0
@@ -4780,14 +4780,14 @@
   icon_set_id: 1359
   category: 108
   page: 0
-  unknown9: 1131
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1131
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1183
       unknown: 0
@@ -4804,14 +4804,14 @@
   icon_set_id: 1358
   category: 108
   page: 0
-  unknown9: 1130
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1130
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1180
       unknown: 0
@@ -4828,14 +4828,14 @@
   icon_set_id: 1361
   category: 30
   page: 0
-  unknown9: 1133
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1133
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1248
       unknown: 0
@@ -4862,14 +4862,14 @@
   icon_set_id: 1424
   category: 104
   page: 0
-  unknown9: 1134
-  unknown10: 908
-  unknown11: false
+  preview_model_id: 1134
+  preview_animation_id: 908
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1145
       unknown: 0
@@ -4890,14 +4890,14 @@
   icon_set_id: 960
   category: 107
   page: 0
-  unknown9: 1137
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1137
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 866
       unknown: 0
@@ -4916,14 +4916,14 @@
   icon_set_id: 1425
   category: 107
   page: 0
-  unknown9: 1135
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1135
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1107
       unknown: 0
@@ -4940,14 +4940,14 @@
   icon_set_id: 1426
   category: 107
   page: 0
-  unknown9: 1136
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1136
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1106
       unknown: 0
@@ -4968,14 +4968,14 @@
   icon_set_id: 1398
   category: 72
   page: 0
-  unknown9: 1138
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1138
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2109
       unknown: 0
@@ -4988,14 +4988,14 @@
   icon_set_id: 1396
   category: 72
   page: 0
-  unknown9: 1140
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1140
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2085
       unknown: 0
@@ -5014,14 +5014,14 @@
   icon_set_id: 1384
   category: 71
   page: 0
-  unknown9: 1141
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1141
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2115
       unknown: 0
@@ -5034,14 +5034,14 @@
   icon_set_id: 1385
   category: 71
   page: 0
-  unknown9: 1142
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1142
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2114
       unknown: 0
@@ -5054,14 +5054,14 @@
   icon_set_id: 1404
   category: 30
   page: 0
-  unknown9: 1139
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1139
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2117
       unknown: 0
@@ -5086,14 +5086,14 @@
   icon_set_id: 1405
   category: 30
   page: 0
-  unknown9: 1159
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1159
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2116
       unknown: 0
@@ -5118,14 +5118,14 @@
   icon_set_id: 1399
   category: 21
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2110
       unknown: 0
@@ -5144,14 +5144,14 @@
   icon_set_id: 65
   category: 72
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 438
       unknown: 0
@@ -5166,14 +5166,14 @@
   icon_set_id: 74
   category: 72
   page: 0
-  unknown9: 164
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 164
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 425
       unknown: 0
@@ -5188,14 +5188,14 @@
   icon_set_id: 1438
   category: 102
   page: 0
-  unknown9: 1166
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1166
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1151
       unknown: 0
@@ -5214,14 +5214,14 @@
   icon_set_id: 1460
   category: 102
   page: 0
-  unknown9: 1177
-  unknown10: 905
-  unknown11: false
+  preview_model_id: 1177
+  preview_animation_id: 905
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1274
       unknown: 0
@@ -5242,14 +5242,14 @@
   icon_set_id: 1461
   category: 102
   page: 0
-  unknown9: 1178
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1178
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1278
       unknown: 0
@@ -5266,14 +5266,14 @@
   icon_set_id: 1462
   category: 108
   page: 0
-  unknown9: 1179
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1179
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1281
       unknown: 0
@@ -5292,14 +5292,14 @@
   icon_set_id: 1463
   category: 109
   page: 0
-  unknown9: 1176
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1176
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1289
       unknown: 0
@@ -5314,14 +5314,14 @@
   icon_set_id: 935
   category: 105
   page: 0
-  unknown9: 1180
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1180
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 859
       unknown: 0
@@ -5336,14 +5336,14 @@
   icon_set_id: 946
   category: 109
   page: 0
-  unknown9: 1016
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1016
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 788
       unknown: 0
@@ -5364,14 +5364,14 @@
   icon_set_id: 1474
   category: 104
   page: 0
-  unknown9: 1191
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1191
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2148
       unknown: 0
@@ -5390,14 +5390,14 @@
   icon_set_id: 1475
   category: 104
   page: 0
-  unknown9: 1192
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1192
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2152
       unknown: 0
@@ -5414,14 +5414,14 @@
   icon_set_id: 1490
   category: 101
   page: 0
-  unknown9: 1204
-  unknown10: 911
-  unknown11: false
+  preview_model_id: 1204
+  preview_animation_id: 911
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 520
       unknown: 0
@@ -5442,14 +5442,14 @@
   icon_set_id: 1510
   category: 107
   page: 0
-  unknown9: 1203
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1203
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2184
       unknown: 0
@@ -5464,14 +5464,14 @@
   icon_set_id: 1509
   category: 107
   page: 0
-  unknown9: 1201
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1201
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2190
       unknown: 0
@@ -5490,14 +5490,14 @@
   icon_set_id: 1508
   category: 107
   page: 0
-  unknown9: 1202
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1202
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2198
       unknown: 0
@@ -5516,14 +5516,14 @@
   icon_set_id: 1502
   category: 33
   page: 0
-  unknown9: 1206
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1206
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2206
       unknown: 0
@@ -5538,14 +5538,14 @@
   icon_set_id: 1533
   category: 30
   page: 0
-  unknown9: 1228
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1228
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2216
       unknown: 0
@@ -5572,14 +5572,14 @@
   icon_set_id: 1533
   category: 30
   page: 0
-  unknown9: 1229
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1229
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2224
       unknown: 0
@@ -5608,14 +5608,14 @@
   icon_set_id: 1464
   category: 71
   page: 0
-  unknown9: 1227
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1227
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2146
       unknown: 0
@@ -5628,14 +5628,14 @@
   icon_set_id: 1465
   category: 71
   page: 0
-  unknown9: 1319
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1319
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2147
       unknown: 0
@@ -5648,14 +5648,14 @@
   icon_set_id: 65
   category: 72
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2155
       unknown: 0
@@ -5670,14 +5670,14 @@
   icon_set_id: 74
   category: 72
   page: 0
-  unknown9: 164
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 164
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2156
       unknown: 0
@@ -5690,14 +5690,14 @@
   icon_set_id: 71
   category: 72
   page: 0
-  unknown9: 259
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 259
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2157
       unknown: 0
@@ -5712,14 +5712,14 @@
   icon_set_id: 1541
   category: 21
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2234
       unknown: 0
@@ -5734,14 +5734,14 @@
   icon_set_id: 1587
   category: 34
   page: 0
-  unknown9: 1295
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1295
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2236
       unknown: 0
@@ -5754,14 +5754,14 @@
   icon_set_id: 1581
   category: 20
   page: 0
-  unknown9: 1322
-  unknown10: 913
-  unknown11: false
+  preview_model_id: 1322
+  preview_animation_id: 913
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2237
       unknown: 0
@@ -5778,14 +5778,14 @@
   icon_set_id: 1589
   category: 30
   page: 0
-  unknown9: 1296
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1296
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1347
       unknown: 0
@@ -5814,14 +5814,14 @@
   icon_set_id: 1539
   category: 30
   page: 0
-  unknown9: 1298
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1298
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1351
       unknown: 0
@@ -5846,14 +5846,14 @@
   icon_set_id: 1590
   category: 30
   page: 0
-  unknown9: 1297
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1297
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1344
       unknown: 0
@@ -5880,14 +5880,14 @@
   icon_set_id: 1591
   category: 30
   page: 0
-  unknown9: 1299
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1299
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1348
       unknown: 0
@@ -5912,14 +5912,14 @@
   icon_set_id: 1616
   category: 109
   page: 0
-  unknown9: 1327
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1327
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 528
       unknown: 0
@@ -5936,14 +5936,14 @@
   icon_set_id: 1618
   category: 108
   page: 0
-  unknown9: 1324
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1324
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2243
       unknown: 0
@@ -5960,14 +5960,14 @@
   icon_set_id: 1617
   category: 108
   page: 0
-  unknown9: 1325
-  unknown10: 914
-  unknown11: false
+  preview_model_id: 1325
+  preview_animation_id: 914
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2250
       unknown: 0
@@ -5988,14 +5988,14 @@
   icon_set_id: 1619
   category: 102
   page: 0
-  unknown9: 1326
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1326
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 536
       unknown: 0
@@ -6014,14 +6014,14 @@
   icon_set_id: 1630
   category: 109
   page: 0
-  unknown9: 1338
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 1338
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2255
       unknown: 0
@@ -6040,14 +6040,14 @@
   icon_set_id: 1631
   category: 108
   page: 0
-  unknown9: 1335
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1335
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2262
       unknown: 0
@@ -6066,14 +6066,14 @@
   icon_set_id: 1629
   category: 108
   page: 0
-  unknown9: 1337
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1337
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2267
       unknown: 0
@@ -6090,14 +6090,14 @@
   icon_set_id: 1628
   category: 101
   page: 0
-  unknown9: 1482
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 1482
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 439
       unknown: 0
@@ -6118,14 +6118,14 @@
   icon_set_id: 1637
   category: 101
   page: 0
-  unknown9: 1483
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 1483
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 439
       unknown: 0
@@ -6146,14 +6146,14 @@
   icon_set_id: 1638
   category: 101
   page: 0
-  unknown9: 1381
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1381
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2355
       unknown: 0
@@ -6172,14 +6172,14 @@
   icon_set_id: 1643
   category: 109
   page: 0
-  unknown9: 1382
-  unknown10: 903
-  unknown11: false
+  preview_model_id: 1382
+  preview_animation_id: 903
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2255
       unknown: 0
@@ -6198,14 +6198,14 @@
   icon_set_id: 1647
   category: 80
   page: 0
-  unknown9: 2641
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2641
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2373
       unknown: 0
@@ -6218,14 +6218,14 @@
   icon_set_id: 1663
   category: 80
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2371
       unknown: 0
@@ -6240,14 +6240,14 @@
   icon_set_id: 1661
   category: 108
   page: 0
-  unknown9: 1388
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1388
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2374
       unknown: 0
@@ -6266,14 +6266,14 @@
   icon_set_id: 1662
   category: 108
   page: 0
-  unknown9: 1389
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1389
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2378
       unknown: 0
@@ -6290,14 +6290,14 @@
   icon_set_id: 694
   category: 32
   page: 0
-  unknown9: 730
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 730
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 651
       unknown: 0
@@ -6310,14 +6310,14 @@
   icon_set_id: 1673
   category: 107
   page: 0
-  unknown9: 1407
-  unknown10: 914
-  unknown11: false
+  preview_model_id: 1407
+  preview_animation_id: 914
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2388
       unknown: 0
@@ -6338,14 +6338,14 @@
   icon_set_id: 1737
   category: 21
   page: 0
-  unknown9: 2263
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2263
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2386
       unknown: 0
@@ -6360,14 +6360,14 @@
   icon_set_id: 1677
   category: 72
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2381
       unknown: 0
@@ -6380,14 +6380,14 @@
   icon_set_id: 1676
   category: 72
   page: 0
-  unknown9: 1395
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1395
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2382
       unknown: 0
@@ -6400,14 +6400,14 @@
   icon_set_id: 1675
   category: 71
   page: 0
-  unknown9: 1408
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1408
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2393
       unknown: 0
@@ -6420,14 +6420,14 @@
   icon_set_id: 1749
   category: 101
   page: 0
-  unknown9: 1444
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1444
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2693
       unknown: 0
@@ -6446,14 +6446,14 @@
   icon_set_id: 1750
   category: 101
   page: 0
-  unknown9: 1484
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 1484
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 439
       unknown: 0
@@ -6474,14 +6474,14 @@
   icon_set_id: 1775
   category: 30
   page: 0
-  unknown9: 1446
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1446
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1393
       unknown: 0
@@ -6512,14 +6512,14 @@
   icon_set_id: 1774
   category: 30
   page: 0
-  unknown9: 1447
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1447
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1385
       unknown: 0
@@ -6546,14 +6546,14 @@
   icon_set_id: 1751
   category: 34
   page: 0
-  unknown9: 1449
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1449
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2702
       unknown: 0
@@ -6566,14 +6566,14 @@
   icon_set_id: 1793
   category: 102
   page: 0
-  unknown9: 1451
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1451
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2703
       unknown: 0
@@ -6592,14 +6592,14 @@
   icon_set_id: 1794
   category: 109
   page: 0
-  unknown9: 1452
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1452
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2706
       unknown: 0
@@ -6614,14 +6614,14 @@
   icon_set_id: 1796
   category: 33
   page: 0
-  unknown9: 1463
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1463
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2709
       unknown: 0
@@ -6636,14 +6636,14 @@
   icon_set_id: 1797
   category: 30
   page: 0
-  unknown9: 1464
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1464
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1404
       unknown: 0
@@ -6674,14 +6674,14 @@
   icon_set_id: 1798
   category: 34
   page: 0
-  unknown9: 1466
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1466
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2711
       unknown: 0
@@ -6694,14 +6694,14 @@
   icon_set_id: 1800
   category: 72
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2714
       unknown: 0
@@ -6714,14 +6714,14 @@
   icon_set_id: 1852
   category: 21
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2753
       unknown: 0
@@ -6736,14 +6736,14 @@
   icon_set_id: 1839
   category: 108
   page: 0
-  unknown9: 1496
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1496
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2747
       unknown: 0
@@ -6756,14 +6756,14 @@
   icon_set_id: 1841
   category: 108
   page: 0
-  unknown9: 1497
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1497
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2750
       unknown: 0
@@ -6778,14 +6778,14 @@
   icon_set_id: 1840
   category: 102
   page: 0
-  unknown9: 1495
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1495
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2748
       unknown: 0
@@ -6800,14 +6800,14 @@
   icon_set_id: 1846
   category: 84
   page: 0
-  unknown9: 1486
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1486
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2752
       unknown: 0
@@ -6820,14 +6820,14 @@
   icon_set_id: 1846
   category: 85
   page: 0
-  unknown9: 1498
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1498
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2715
       unknown: 0
@@ -6842,14 +6842,14 @@
   icon_set_id: 1912
   category: 101
   page: 0
-  unknown9: 1504
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 1504
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 439
       unknown: 0
@@ -6870,14 +6870,14 @@
   icon_set_id: 1919
   category: 101
   page: 0
-  unknown9: 1505
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1505
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2398
       unknown: 0
@@ -6896,14 +6896,14 @@
   icon_set_id: 1917
   category: 101
   page: 0
-  unknown9: 1506
-  unknown10: 912
-  unknown11: false
+  preview_model_id: 1506
+  preview_animation_id: 912
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 521
       unknown: 0
@@ -6924,14 +6924,14 @@
   icon_set_id: 1923
   category: 101
   page: 0
-  unknown9: 1507
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1507
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2406
       unknown: 0
@@ -6950,14 +6950,14 @@
   icon_set_id: 1922
   category: 101
   page: 0
-  unknown9: 1508
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1508
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2410
       unknown: 0
@@ -6976,14 +6976,14 @@
   icon_set_id: 1918
   category: 101
   page: 0
-  unknown9: 1512
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1512
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2426
       unknown: 0
@@ -7002,14 +7002,14 @@
   icon_set_id: 1913
   category: 101
   page: 0
-  unknown9: 1513
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1513
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2430
       unknown: 0
@@ -7028,14 +7028,14 @@
   icon_set_id: 1914
   category: 101
   page: 0
-  unknown9: 1514
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1514
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2434
       unknown: 0
@@ -7054,14 +7054,14 @@
   icon_set_id: 1915
   category: 101
   page: 0
-  unknown9: 1515
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1515
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2438
       unknown: 0
@@ -7080,14 +7080,14 @@
   icon_set_id: 1916
   category: 107
   page: 0
-  unknown9: 1516
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1516
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2442
       unknown: 0
@@ -7106,14 +7106,14 @@
   icon_set_id: 1924
   category: 101
   page: 0
-  unknown9: 1517
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1517
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2446
       unknown: 0
@@ -7132,14 +7132,14 @@
   icon_set_id: 1935
   category: 101
   page: 0
-  unknown9: 1535
-  unknown10: 911
-  unknown11: false
+  preview_model_id: 1535
+  preview_animation_id: 913
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1415
       unknown: 0
@@ -7152,14 +7152,14 @@
   icon_set_id: 1950
   category: 102
   page: 0
-  unknown9: 1541
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1541
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2769
       unknown: 0
@@ -7176,14 +7176,14 @@
   icon_set_id: 1952
   category: 30
   page: 0
-  unknown9: 1553
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1553
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2758
       unknown: 0
@@ -7206,14 +7206,14 @@
   icon_set_id: 1953
   category: 30
   page: 0
-  unknown9: 1554
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1554
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2764
       unknown: 0
@@ -7234,14 +7234,14 @@
   icon_set_id: 1951
   category: 21
   page: 0
-  unknown9: 1555
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1555
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2772
       unknown: 0
@@ -7254,14 +7254,14 @@
   icon_set_id: 959
   category: 102
   page: 0
-  unknown9: 1558
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1558
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 227
       unknown: 0
@@ -7280,14 +7280,14 @@
   icon_set_id: 1960
   category: 102
   page: 0
-  unknown9: 1557
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1557
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2774
       unknown: 0
@@ -7304,14 +7304,14 @@
   icon_set_id: 1974
   category: 101
   page: 0
-  unknown9: 1567
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1567
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2782
       unknown: 0
@@ -7326,14 +7326,14 @@
   icon_set_id: 1975
   category: 101
   page: 0
-  unknown9: 1568
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1568
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2784
       unknown: 0
@@ -7348,14 +7348,14 @@
   icon_set_id: 1981
   category: 102
   page: 0
-  unknown9: 1572
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1572
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2787
       unknown: 0
@@ -7372,14 +7372,14 @@
   icon_set_id: 1977
   category: 76
   page: 0
-  unknown9: 1573
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1573
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1419
       unknown: 0
@@ -7392,14 +7392,14 @@
   icon_set_id: 1976
   category: 84
   page: 0
-  unknown9: 1570
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1570
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2786
       unknown: 0
@@ -7412,14 +7412,14 @@
   icon_set_id: 1993
   category: 102
   page: 0
-  unknown9: 1601
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1601
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2801
       unknown: 0
@@ -7432,14 +7432,14 @@
   icon_set_id: 1988
   category: 102
   page: 0
-  unknown9: 1600
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1600
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2794
       unknown: 0
@@ -7456,14 +7456,14 @@
   icon_set_id: 1989
   category: 102
   page: 0
-  unknown9: 1599
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1599
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2791
       unknown: 0
@@ -7480,14 +7480,14 @@
   icon_set_id: 1992
   category: 20
   page: 0
-  unknown9: 1023
-  unknown10: 915
-  unknown11: false
+  preview_model_id: 1023
+  preview_animation_id: 915
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2797
       unknown: 0
@@ -7502,14 +7502,14 @@
   icon_set_id: 74
   category: 71
   page: 0
-  unknown9: 164
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 164
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 541
       unknown: 0
@@ -7522,14 +7522,14 @@
   icon_set_id: 1997
   category: 84
   page: 0
-  unknown9: 1612
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1612
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2802
       unknown: 0
@@ -7542,14 +7542,14 @@
   icon_set_id: 1999
   category: 21
   page: 0
-  unknown9: 1613
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1613
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2807
       unknown: 0
@@ -7562,14 +7562,14 @@
   icon_set_id: 2012
   category: 102
   page: 0
-  unknown9: 1616
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1616
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2816
       unknown: 0
@@ -7586,14 +7586,14 @@
   icon_set_id: 2000
   category: 21
   page: 0
-  unknown9: 1614
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1614
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2808
       unknown: 0
@@ -7606,14 +7606,14 @@
   icon_set_id: 2013
   category: 107
   page: 0
-  unknown9: 1615
-  unknown10: 916
-  unknown11: false
+  preview_model_id: 1615
+  preview_animation_id: 916
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2809
       unknown: 0
@@ -7638,14 +7638,14 @@
   icon_set_id: 2011
   category: 72
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2819
       unknown: 0
@@ -7658,14 +7658,14 @@
   icon_set_id: 1998
   category: 71
   page: 0
-  unknown9: 1622
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1622
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2804
       unknown: 0
@@ -7678,14 +7678,14 @@
   icon_set_id: 2059
   category: 101
   page: 0
-  unknown9: 1659
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1659
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2820
       unknown: 0
@@ -7704,14 +7704,14 @@
   icon_set_id: 2035
   category: 21
   page: 0
-  unknown9: 1626
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1626
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2831
       unknown: 0
@@ -7724,14 +7724,14 @@
   icon_set_id: 2057
   category: 101
   page: 0
-  unknown9: 1660
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1660
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2824
       unknown: 0
@@ -7750,14 +7750,14 @@
   icon_set_id: 2058
   category: 20
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2828
       unknown: 0
@@ -7774,14 +7774,14 @@
   icon_set_id: 2036
   category: 21
   page: 0
-  unknown9: 1627
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1627
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2832
       unknown: 0
@@ -7794,14 +7794,14 @@
   icon_set_id: 2060
   category: 30
   page: 0
-  unknown9: 1662
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1662
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2833
       unknown: 0
@@ -7814,14 +7814,14 @@
   icon_set_id: 2133
   category: 34
   page: 0
-  unknown9: 1711
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1711
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2892
       unknown: 0
@@ -7834,14 +7834,14 @@
   icon_set_id: 2061
   category: 102
   page: 0
-  unknown9: 1693
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1693
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2835
       unknown: 0
@@ -7858,14 +7858,14 @@
   icon_set_id: 2137
   category: 30
   page: 0
-  unknown9: 1694
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1694
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2838
       unknown: 0
@@ -7896,14 +7896,14 @@
   icon_set_id: 919
   category: 102
   page: 0
-  unknown9: 1695
-  unknown10: 902
-  unknown11: false
+  preview_model_id: 1695
+  preview_animation_id: 902
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 762
       unknown: 0
@@ -7922,14 +7922,14 @@
   icon_set_id: 2138
   category: 30
   page: 0
-  unknown9: 1696
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1696
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2848
       unknown: 0
@@ -7946,14 +7946,14 @@
   icon_set_id: 2139
   category: 30
   page: 0
-  unknown9: 1697
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1697
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2851
       unknown: 0
@@ -7980,14 +7980,14 @@
   icon_set_id: 2140
   category: 30
   page: 0
-  unknown9: 1698
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1698
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2859
       unknown: 0
@@ -8012,14 +8012,14 @@
   icon_set_id: 2097
   category: 102
   page: 0
-  unknown9: 1699
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1699
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2866
       unknown: 0
@@ -8036,14 +8036,14 @@
   icon_set_id: 2131
   category: 21
   page: 0
-  unknown9: 1709
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1709
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2890
       unknown: 0
@@ -8056,14 +8056,14 @@
   icon_set_id: 2141
   category: 30
   page: 0
-  unknown9: 1700
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1700
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1431
       unknown: 0
@@ -8084,14 +8084,14 @@
   icon_set_id: 2102
   category: 26
   page: 0
-  unknown9: 1701
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1701
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2869
       unknown: 0
@@ -8110,14 +8110,14 @@
   icon_set_id: 2107
   category: 26
   page: 0
-  unknown9: 1702
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1702
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2873
       unknown: 0
@@ -8136,14 +8136,14 @@
   icon_set_id: 2112
   category: 26
   page: 0
-  unknown9: 1703
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1703
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2877
       unknown: 0
@@ -8162,14 +8162,14 @@
   icon_set_id: 2117
   category: 26
   page: 0
-  unknown9: 1704
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 1704
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2255
       unknown: 0
@@ -8188,14 +8188,14 @@
   icon_set_id: 2119
   category: 26
   page: 0
-  unknown9: 1705
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1705
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 10
       unknown: 0
@@ -8214,14 +8214,14 @@
   icon_set_id: 2123
   category: 26
   page: 0
-  unknown9: 1706
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1706
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2885
       unknown: 0
@@ -8238,14 +8238,14 @@
   icon_set_id: 2127
   category: 26
   page: 0
-  unknown9: 1707
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1707
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 17
       unknown: 0
@@ -8264,14 +8264,14 @@
   icon_set_id: 2129
   category: 26
   page: 0
-  unknown9: 1708
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1708
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2703
       unknown: 0
@@ -8288,14 +8288,14 @@
   icon_set_id: 2132
   category: 26
   page: 0
-  unknown9: 1710
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1710
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2891
       unknown: 0
@@ -8308,14 +8308,14 @@
   icon_set_id: 2168
   category: 102
   page: 0
-  unknown9: 1730
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1730
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2451
       unknown: 0
@@ -8332,14 +8332,14 @@
   icon_set_id: 2169
   category: 30
   page: 0
-  unknown9: 1731
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1731
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1437
       unknown: 0
@@ -8358,14 +8358,14 @@
   icon_set_id: 2173
   category: 30
   page: 0
-  unknown9: 1732
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1732
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1458
       unknown: 0
@@ -8394,14 +8394,14 @@
   icon_set_id: 2172
   category: 30
   page: 0
-  unknown9: 1733
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1733
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1452
       unknown: 0
@@ -8424,14 +8424,14 @@
   icon_set_id: 1801
   category: 72
   page: 0
-  unknown9: 279
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 279
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2713
       unknown: 0
@@ -8444,14 +8444,14 @@
   icon_set_id: 2170
   category: 108
   page: 0
-  unknown9: 1734
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1734
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2454
       unknown: 0
@@ -8470,14 +8470,14 @@
   icon_set_id: 2159
   category: 34
   page: 0
-  unknown9: 1735
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1735
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2503
       unknown: 0
@@ -8490,14 +8490,14 @@
   icon_set_id: 2160
   category: 21
   page: 0
-  unknown9: 1714
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1714
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2898
       unknown: 0
@@ -8510,14 +8510,14 @@
   icon_set_id: 2171
   category: 30
   page: 0
-  unknown9: 1736
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1736
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1421
       unknown: 0
@@ -8548,14 +8548,14 @@
   icon_set_id: 2143
   category: 84
   page: 0
-  unknown9: 1737
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1737
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2899
       unknown: 0
@@ -8568,14 +8568,14 @@
   icon_set_id: 2300
   category: 21
   page: 0
-  unknown9: 1820
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1820
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2906
       unknown: 0
@@ -8588,14 +8588,14 @@
   icon_set_id: 2198
   category: 30
   page: 0
-  unknown9: 1822
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1822
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1477
       unknown: 0
@@ -8616,14 +8616,14 @@
   icon_set_id: 2243
   category: 30
   page: 0
-  unknown9: 1823
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1823
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1522
       unknown: 0
@@ -8644,14 +8644,14 @@
   icon_set_id: 2301
   category: 30
   page: 0
-  unknown9: 1824
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1824
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1547
       unknown: 0
@@ -8678,14 +8678,14 @@
   icon_set_id: 2302
   category: 30
   page: 0
-  unknown9: 1825
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1825
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1555
       unknown: 0
@@ -8710,14 +8710,14 @@
   icon_set_id: 2303
   category: 30
   page: 0
-  unknown9: 1826
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1826
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1562
       unknown: 0
@@ -8748,14 +8748,14 @@
   icon_set_id: 2304
   category: 102
   page: 0
-  unknown9: 1827
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1827
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2458
       unknown: 0
@@ -8772,14 +8772,14 @@
   icon_set_id: 2305
   category: 72
   page: 0
-  unknown9: 31
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 31
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2903
       unknown: 0
@@ -8796,14 +8796,14 @@
   icon_set_id: 2188
   category: 30
   page: 0
-  unknown9: 1828
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1828
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1467
       unknown: 0
@@ -8824,14 +8824,14 @@
   icon_set_id: 2258
   category: 30
   page: 0
-  unknown9: 1829
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1829
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1537
       unknown: 0
@@ -8852,14 +8852,14 @@
   icon_set_id: 2306
   category: 30
   page: 0
-  unknown9: 1830
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1830
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1572
       unknown: 0
@@ -8878,14 +8878,14 @@
   icon_set_id: 2307
   category: 102
   page: 0
-  unknown9: 1831
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1831
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2461
       unknown: 0
@@ -8902,14 +8902,14 @@
   icon_set_id: 2308
   category: 21
   page: 0
-  unknown9: 1821
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1821
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2907
       unknown: 0
@@ -8922,14 +8922,14 @@
   icon_set_id: 2193
   category: 30
   page: 0
-  unknown9: 1832
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1832
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1472
       unknown: 0
@@ -8950,14 +8950,14 @@
   icon_set_id: 2208
   category: 30
   page: 0
-  unknown9: 1833
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1833
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1487
       unknown: 0
@@ -8978,14 +8978,14 @@
   icon_set_id: 2314
   category: 102
   page: 0
-  unknown9: 1864
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1864
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1310
       unknown: 0
@@ -9004,14 +9004,14 @@
   icon_set_id: 2315
   category: 105
   page: 0
-  unknown9: 1874
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1874
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1311
       unknown: 0
@@ -9030,14 +9030,14 @@
   icon_set_id: 2316
   category: 108
   page: 0
-  unknown9: 1865
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1865
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1307
       unknown: 0
@@ -9054,14 +9054,14 @@
   icon_set_id: 2322
   category: 21
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2913
       unknown: 0
@@ -9076,14 +9076,14 @@
   icon_set_id: 2233
   category: 30
   page: 0
-  unknown9: 1869
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1869
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1512
       unknown: 0
@@ -9104,14 +9104,14 @@
   icon_set_id: 2223
   category: 30
   page: 0
-  unknown9: 1868
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1868
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1502
       unknown: 0
@@ -9132,14 +9132,14 @@
   icon_set_id: 2317
   category: 108
   page: 0
-  unknown9: 1866
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 1866
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1314
       unknown: 0
@@ -9158,14 +9158,14 @@
   icon_set_id: 2318
   category: 108
   page: 0
-  unknown9: 1867
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1867
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1318
       unknown: 0
@@ -9182,14 +9182,14 @@
   icon_set_id: 2352
   category: 101
   page: 0
-  unknown9: 1932
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1932
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1170
       unknown: 0
@@ -9208,14 +9208,14 @@
   icon_set_id: 2320
   category: 21
   page: 0
-  unknown9: 1873
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1873
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2915
       unknown: 0
@@ -9228,14 +9228,14 @@
   icon_set_id: 2263
   category: 30
   page: 0
-  unknown9: 1870
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1870
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1542
       unknown: 0
@@ -9256,14 +9256,14 @@
   icon_set_id: 2228
   category: 30
   page: 0
-  unknown9: 1941
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1941
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1507
       unknown: 0
@@ -9284,14 +9284,14 @@
   icon_set_id: 2343
   category: 101
   page: 0
-  unknown9: 1930
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1930
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1131
       unknown: 0
@@ -9310,14 +9310,14 @@
   icon_set_id: 2354
   category: 30
   page: 0
-  unknown9: 1933
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1933
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1576
       unknown: 0
@@ -9330,14 +9330,14 @@
   icon_set_id: 2355
   category: 30
   page: 0
-  unknown9: 1934
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1934
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1577
       unknown: 0
@@ -9350,14 +9350,14 @@
   icon_set_id: 2356
   category: 30
   page: 0
-  unknown9: 1935
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1935
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1578
       unknown: 0
@@ -9370,14 +9370,14 @@
   icon_set_id: 2375
   category: 21
   page: 0
-  unknown9: 1931
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1931
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2920
       unknown: 0
@@ -9390,14 +9390,14 @@
   icon_set_id: 2374
   category: 21
   page: 0
-  unknown9: 1938
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1938
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3070
       unknown: 0
@@ -9410,14 +9410,14 @@
   icon_set_id: 2376
   category: 21
   page: 0
-  unknown9: 1939
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1939
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3071
       unknown: 0
@@ -9430,14 +9430,14 @@
   icon_set_id: 2238
   category: 30
   page: 0
-  unknown9: 1943
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1943
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1517
       unknown: 0
@@ -9458,14 +9458,14 @@
   icon_set_id: 2357
   category: 84
   page: 0
-  unknown9: 1944
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1944
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3073
       unknown: 0
@@ -9478,14 +9478,14 @@
   icon_set_id: 2358
   category: 84
   page: 0
-  unknown9: 1945
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1945
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3074
       unknown: 0
@@ -9498,14 +9498,14 @@
   icon_set_id: 2377
   category: 30
   page: 0
-  unknown9: 1964
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1964
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1579
       unknown: 0
@@ -9528,14 +9528,14 @@
   icon_set_id: 2363
   category: 101
   page: 0
-  unknown9: 1967
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1967
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2504
       unknown: 0
@@ -9554,14 +9554,14 @@
   icon_set_id: 2367
   category: 108
   page: 0
-  unknown9: 2030
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2030
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3077
       unknown: 0
@@ -9576,14 +9576,14 @@
   icon_set_id: 1961
   category: 88
   page: 0
-  unknown9: 2031
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2031
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3079
       unknown: 0
@@ -9596,14 +9596,14 @@
   icon_set_id: 2386
   category: 107
   page: 0
-  unknown9: 2052
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2052
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1596
       unknown: 0
@@ -9622,14 +9622,14 @@
   icon_set_id: 2387
   category: 108
   page: 0
-  unknown9: 2053
-  unknown10: 910
-  unknown11: false
+  preview_model_id: 2053
+  preview_animation_id: 910
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1585
       unknown: 0
@@ -9648,14 +9648,14 @@
   icon_set_id: 2203
   category: 30
   page: 0
-  unknown9: 2055
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2055
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1482
       unknown: 0
@@ -9676,14 +9676,14 @@
   icon_set_id: 2248
   category: 30
   page: 0
-  unknown9: 2057
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2057
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1527
       unknown: 0
@@ -9704,14 +9704,14 @@
   icon_set_id: 2392
   category: 71
   page: 0
-  unknown9: 2035
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2035
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3080
       unknown: 0
@@ -9724,14 +9724,14 @@
   icon_set_id: 2393
   category: 71
   page: 0
-  unknown9: 2060
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2060
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3081
       unknown: 0
@@ -9744,14 +9744,14 @@
   icon_set_id: 2400
   category: 33
   page: 0
-  unknown9: 2062
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2062
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3097
       unknown: 0
@@ -9768,14 +9768,14 @@
   icon_set_id: 2404
   category: 20
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3095
       unknown: 0
@@ -9790,14 +9790,14 @@
   icon_set_id: 2394
   category: 107
   page: 0
-  unknown9: 2061
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 2061
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3088
       unknown: 0
@@ -9818,14 +9818,14 @@
   icon_set_id: 2583
   category: 95
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1776
       unknown: 0
@@ -9838,14 +9838,14 @@
   icon_set_id: 2415
   category: 108
   page: 0
-  unknown9: 2105
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 2105
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3162
       unknown: 0
@@ -9864,14 +9864,14 @@
   icon_set_id: 2416
   category: 101
   page: 0
-  unknown9: 2104
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2104
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1606
       unknown: 0
@@ -9890,14 +9890,14 @@
   icon_set_id: 2213
   category: 30
   page: 0
-  unknown9: 2106
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2106
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1492
       unknown: 0
@@ -9918,14 +9918,14 @@
   icon_set_id: 2417
   category: 20
   page: 0
-  unknown9: 83
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 83
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3169
       unknown: 0
@@ -9942,14 +9942,14 @@
   icon_set_id: 2422
   category: 108
   page: 0
-  unknown9: 2108
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2108
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3165
       unknown: 0
@@ -9968,14 +9968,14 @@
   icon_set_id: 2450
   category: 34
   page: 0
-  unknown9: 2134
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2134
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3173
       unknown: 0
@@ -9988,14 +9988,14 @@
   icon_set_id: 2427
   category: 30
   page: 0
-  unknown9: 2121
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2121
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3174
       unknown: 0
@@ -10026,14 +10026,14 @@
   icon_set_id: 2449
   category: 30
   page: 0
-  unknown9: 2132
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2132
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3184
       unknown: 0
@@ -10064,14 +10064,14 @@
   icon_set_id: 2451
   category: 101
   page: 0
-  unknown9: 2145
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2145
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3196
       unknown: 0
@@ -10090,14 +10090,14 @@
   icon_set_id: 2501
   category: 34
   page: 0
-  unknown9: 2146
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2146
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3218
       unknown: 0
@@ -10110,14 +10110,14 @@
   icon_set_id: 2453
   category: 30
   page: 0
-  unknown9: 2199
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2199
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3208
       unknown: 0
@@ -10148,14 +10148,14 @@
   icon_set_id: 2454
   category: 30
   page: 0
-  unknown9: 2178
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2178
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3220
       unknown: 0
@@ -10170,14 +10170,14 @@
   icon_set_id: 2218
   category: 30
   page: 0
-  unknown9: 2150
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2150
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 1497
       unknown: 0
@@ -10198,14 +10198,14 @@
   icon_set_id: 2456
   category: 101
   page: 0
-  unknown9: 2148
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2148
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3200
       unknown: 0
@@ -10224,14 +10224,14 @@
   icon_set_id: 2494
   category: 30
   page: 0
-  unknown9: 2198
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2198
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3238
       unknown: 0
@@ -10258,14 +10258,14 @@
   icon_set_id: 2459
   category: 101
   page: 0
-  unknown9: 2149
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2149
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3204
       unknown: 0
@@ -10284,14 +10284,14 @@
   icon_set_id: 2461
   category: 30
   page: 0
-  unknown9: 2180
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2180
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3227
       unknown: 0
@@ -10310,14 +10310,14 @@
   icon_set_id: 2462
   category: 30
   page: 0
-  unknown9: 2179
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2179
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3223
       unknown: 0
@@ -10334,14 +10334,14 @@
   icon_set_id: 2463
   category: 84
   page: 0
-  unknown9: 2161
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2161
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3219
       unknown: 0
@@ -10354,14 +10354,14 @@
   icon_set_id: 2502
   category: 102
   page: 0
-  unknown9: 2204
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2204
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3248
       unknown: 0
@@ -10376,14 +10376,14 @@
   icon_set_id: 2503
   category: 108
   page: 0
-  unknown9: 2205
-  unknown10: 909
-  unknown11: false
+  preview_model_id: 2205
+  preview_animation_id: 909
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3250
       unknown: 0
@@ -10402,14 +10402,14 @@
   icon_set_id: 2504
   category: 30
   page: 0
-  unknown9: 2210
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2210
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3255
       unknown: 0
@@ -10426,14 +10426,14 @@
   icon_set_id: 2505
   category: 101
   page: 0
-  unknown9: 2211
-  unknown10: 906
-  unknown11: false
+  preview_model_id: 2211
+  preview_animation_id: 906
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3258
       unknown: 0
@@ -10454,14 +10454,14 @@
   icon_set_id: 2506
   category: 30
   page: 0
-  unknown9: 2209
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2209
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3263
       unknown: 0
@@ -10478,14 +10478,14 @@
   icon_set_id: 2507
   category: 30
   page: 0
-  unknown9: 2218
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2218
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3268
       unknown: 0
@@ -10508,14 +10508,14 @@
   icon_set_id: 2601
   category: 101
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3276
       unknown: 0
@@ -10536,14 +10536,14 @@
   icon_set_id: 2602
   category: 104
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2487
       unknown: 0
@@ -10562,14 +10562,14 @@
   icon_set_id: 1075
   category: 71
   page: 0
-  unknown9: 2220
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2220
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 916
       unknown: 0
@@ -10582,14 +10582,14 @@
   icon_set_id: 2487
   category: 93
   page: 0
-  unknown9: 1940
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1940
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3281
       unknown: 0
@@ -10602,14 +10602,14 @@
   icon_set_id: 2586
   category: 107
   page: 0
-  unknown9: 2235
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2235
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3307
       unknown: 0
@@ -10628,14 +10628,14 @@
   icon_set_id: 2527
   category: 85
   page: 0
-  unknown9: 2226
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2226
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3274
       unknown: 0
@@ -10650,14 +10650,14 @@
   icon_set_id: 2587
   category: 21
   page: 0
-  unknown9: 1713
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 1713
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2450
       unknown: 0
@@ -10670,14 +10670,14 @@
   icon_set_id: 2587
   category: 84
   page: 0
-  unknown9: 2228
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2228
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3100
       unknown: 0
@@ -10690,14 +10690,14 @@
   icon_set_id: 2574
   category: 71
   page: 0
-  unknown9: 2236
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2236
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3284
       unknown: 0
@@ -10710,14 +10710,14 @@
   icon_set_id: 2572
   category: 84
   page: 0
-  unknown9: 2224
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2224
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3282
       unknown: 0
@@ -10730,14 +10730,14 @@
   icon_set_id: 2575
   category: 85
   page: 0
-  unknown9: 2238
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2238
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3285
       unknown: 0
@@ -10750,14 +10750,14 @@
   icon_set_id: 2576
   category: 30
   page: 0
-  unknown9: 2229
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2229
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3286
       unknown: 0
@@ -10772,14 +10772,14 @@
   icon_set_id: 2573
   category: 84
   page: 0
-  unknown9: 2225
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2225
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3283
       unknown: 0
@@ -10792,14 +10792,14 @@
   icon_set_id: 2636
   category: 30
   page: 0
-  unknown9: 2258
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2258
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3319
       unknown: 0
@@ -10818,14 +10818,14 @@
   icon_set_id: 2637
   category: 101
   page: 0
-  unknown9: 2259
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2259
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3329
       unknown: 0
@@ -10838,14 +10838,14 @@
   icon_set_id: 2638
   category: 101
   page: 0
-  unknown9: 2260
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2260
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3331
       unknown: 0
@@ -10858,14 +10858,14 @@
   icon_set_id: 2639
   category: 109
   page: 0
-  unknown9: 2261
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2261
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3332
       unknown: 0
@@ -10884,14 +10884,14 @@
   icon_set_id: 2640
   category: 108
   page: 0
-  unknown9: 2262
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2262
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3336
       unknown: 0
@@ -10910,14 +10910,14 @@
   icon_set_id: 2641
   category: 30
   page: 0
-  unknown9: 2263
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2263
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3342
       unknown: 0
@@ -10932,14 +10932,14 @@
   icon_set_id: 2644
   category: 104
   page: 0
-  unknown9: 2288
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2288
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3328
       unknown: 0
@@ -10960,14 +10960,14 @@
   icon_set_id: 2645
   category: 109
   page: 0
-  unknown9: 2289
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2289
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3352
       unknown: 0
@@ -10980,14 +10980,14 @@
   icon_set_id: 2646
   category: 30
   page: 0
-  unknown9: 2282
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2282
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3353
       unknown: 0
@@ -11000,14 +11000,14 @@
   icon_set_id: 2647
   category: 104
   page: 0
-  unknown9: 2290
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2290
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3327
       unknown: 0
@@ -11028,14 +11028,14 @@
   icon_set_id: 2648
   category: 21
   page: 0
-  unknown9: 2165
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2165
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3222
       unknown: 0
@@ -11048,14 +11048,14 @@
   icon_set_id: 2649
   category: 30
   page: 0
-  unknown9: 2291
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2291
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3358
       unknown: 0
@@ -11070,14 +11070,14 @@
   icon_set_id: 2667
   category: 84
   page: 0
-  unknown9: 2293
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2293
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3366
       unknown: 0
@@ -11090,14 +11090,14 @@
   icon_set_id: 2692
   category: 104
   page: 0
-  unknown9: 2302
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2302
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3374
       unknown: 0
@@ -11114,14 +11114,14 @@
   icon_set_id: 1341
   category: 88
   page: 0
-  unknown9: 2257
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2257
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3341
       unknown: 0
@@ -11134,14 +11134,14 @@
   icon_set_id: 2693
   category: 104
   page: 0
-  unknown9: 2301
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2301
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3383
       unknown: 0
@@ -11160,14 +11160,14 @@
   icon_set_id: 2694
   category: 34
   page: 0
-  unknown9: 2298
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2298
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3372
       unknown: 0
@@ -11180,14 +11180,14 @@
   icon_set_id: 2700
   category: 84
   page: 0
-  unknown9: 2299
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2299
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3373
       unknown: 0
@@ -11200,14 +11200,14 @@
   icon_set_id: 2453
   category: 30
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3360
       unknown: 0
@@ -11228,14 +11228,14 @@
   icon_set_id: 2711
   category: 30
   page: 0
-  unknown9: 2316
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2316
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3391
       unknown: 0
@@ -11260,14 +11260,14 @@
   icon_set_id: 2712
   category: 30
   page: 0
-  unknown9: 2317
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2317
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3399
       unknown: 0
@@ -11282,14 +11282,14 @@
   icon_set_id: 2713
   category: 101
   page: 0
-  unknown9: 2318
-  unknown10: 913
-  unknown11: false
+  preview_model_id: 2318
+  preview_animation_id: 913
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3369
       unknown: 0
@@ -11306,14 +11306,14 @@
   icon_set_id: 2714
   category: 30
   page: 0
-  unknown9: 2320
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2320
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3321
       unknown: 0
@@ -11332,14 +11332,14 @@
   icon_set_id: 2131
   category: 88
   page: 0
-  unknown9: 2315
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2315
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3398
       unknown: 0
@@ -11352,14 +11352,14 @@
   icon_set_id: 2715
   category: 104
   page: 0
-  unknown9: 2319
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2319
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3401
       unknown: 0
@@ -11378,14 +11378,14 @@
   icon_set_id: 2716
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items: []
 # Dengar
 - guid: 877
@@ -11396,14 +11396,14 @@
   icon_set_id: 2717
   category: 104
   page: 0
-  unknown9: 2335
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2335
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3409
       unknown: 0
@@ -11422,14 +11422,14 @@
   icon_set_id: 2718
   category: 21
   page: 0
-  unknown9: 2334
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2334
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3405
       unknown: 0
@@ -11442,14 +11442,14 @@
   icon_set_id: 2733
   category: 30
   page: 0
-  unknown9: 2328
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2328
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3404
       unknown: 0
@@ -11462,14 +11462,14 @@
   icon_set_id: 2743
   category: 104
   page: 0
-  unknown9: 2350
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2350
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3413
       unknown: 0
@@ -11492,14 +11492,14 @@
   icon_set_id: 2744
   category: 30
   page: 0
-  unknown9: 2351
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2351
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3426
       unknown: 0
@@ -11524,14 +11524,14 @@
   icon_set_id: 2745
   category: 21
   page: 0
-  unknown9: 2340
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2340
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3433
       unknown: 0
@@ -11544,14 +11544,14 @@
   icon_set_id: 2746
   category: 21
   page: 0
-  unknown9: 2339
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2339
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3434
       unknown: 0
@@ -11564,14 +11564,14 @@
   icon_set_id: 2747
   category: 108
   page: 0
-  unknown9: 2349
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2349
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3435
       unknown: 0
@@ -11590,14 +11590,14 @@
   icon_set_id: 2748
   category: 21
   page: 0
-  unknown9: 2341
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2341
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3439
       unknown: 0
@@ -11608,16 +11608,16 @@
   description_id: 4695
   sort_order: 0
   icon_set_id: 2743
-  category: 104
+  category: 91
   page: 0
-  unknown9: 2350
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2350
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3413
       unknown: 0
@@ -11638,16 +11638,16 @@
   description_id: 4699
   sort_order: 0
   icon_set_id: 2747
-  category: 108
+  category: 91
   page: 0
-  unknown9: 2349
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2349
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3435
       unknown: 0
@@ -11664,16 +11664,16 @@
   description_id: 4700
   sort_order: 0
   icon_set_id: 2748
-  category: 21
+  category: 91
   page: 0
-  unknown9: 2341
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 2341
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 3439
       unknown: 0
@@ -11686,14 +11686,14 @@
   icon_set_id: 0
   category: 0
   page: 0
-  unknown9: 0
-  unknown10: 0
-  unknown11: false
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
   unknown12: 0
   unknown13: 0
   unknown14: 0
   unknown16: ''
-  unknown17: false
+  members_only: false
   items:
     - guid: 2240
       unknown: 0

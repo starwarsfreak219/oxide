@@ -9,7 +9,7 @@ definitions:
 
   # Root
   - guid: -1
-    name_id: 0
+    name_id: 2940
     icon_set_id: 0
     sort_order: -1
     visible: true
@@ -19,7 +19,7 @@ definitions:
     name_id: 0
     icon_set_id: 0
     sort_order: -1
-    visible: true
+    visible: false
 
   # Store
   - guid: 2
@@ -161,6 +161,13 @@ definitions:
     sort_order: 35
     visible: true
 
+  # Excluded Store Category
+  - guid: 45
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
   # My Headgear
   - guid: 60
     name_id: 1228
@@ -264,6 +271,13 @@ definitions:
     name_id: 43527
     icon_set_id: 1854
     sort_order: 85
+    visible: true
+
+  # Sale
+  - guid: 86
+    name_id: 4249
+    icon_set_id: 2371
+    sort_order: 2
     visible: true
 
   # Sidekicks
@@ -378,9 +392,21 @@ definitions:
     sort_order: 1001
     visible: true
 relations:
+  # Store = 2     --- Item Sets use this category
+  # My Gear = 70  --- Single Items use this category
+
+
   # Root -> Portal
   - parent_guid: -1
     child_guid: 10
+
+  # Root -> Store
+  - parent_guid: -1
+    child_guid: 2
+
+  # Root -> My Gear
+  - parent_guid: -1
+    child_guid: 70
 
   # Store -> Gear
   - parent_guid: 2
@@ -409,6 +435,10 @@ relations:
   # Store -> Card Commander
   - parent_guid: 2
     child_guid: 80
+
+  # Store -> Sale
+  - parent_guid: 2
+    child_guid: 86
 
   # Store -> Hot Items!
   - parent_guid: 2
@@ -573,10 +603,6 @@ relations:
   # Housing -> Tables
   - parent_guid: 65
     child_guid: 1001
-
-  # My Gear -> Store
-  - parent_guid: 70
-    child_guid: 2
 
   # My Gear -> Gear
   - parent_guid: 70
