@@ -10,6 +10,7 @@
   texture_alias: PloKoon
   item_type: 25
   category: 64
+  cost: 2500
   members: true
   action_bar:
     ability_keys:
@@ -28,6 +29,7 @@
   texture_alias: ZebraStripes
   item_type: 25
   category: 64
+  cost: 20000
   members: true
   action_bar:
     ability_keys:
@@ -46,6 +48,7 @@
   texture_alias: Ahsoka
   item_type: 25
   category: 64
+  cost: 4000
   members: true
   action_bar:
     ability_keys:
@@ -81,6 +84,7 @@
   texture_alias: DarthMaul
   item_type: 25
   category: 64
+  cost: 4000
   members: true
   action_bar:
     ability_keys:
@@ -99,6 +103,7 @@
   texture_alias: AdiGallia
   item_type: 25
   category: 64
+  cost: 800
   members: true
   action_bar:
     ability_keys:
@@ -117,6 +122,7 @@
   texture_alias: PreVizsla
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "pre_vizsla_darksaber"
@@ -134,6 +140,7 @@
   texture_alias: Dooku
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "count_dooku_lightsaber"
@@ -168,6 +175,7 @@
   texture_alias: Luminara
   item_type: 25
   category: 64
+  cost: 800
   members: true
   action_bar:
     ability_keys:
@@ -186,6 +194,7 @@
   texture_alias: MaceWindu
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "mace_windu_lightsaber"
@@ -203,6 +212,7 @@
   texture_alias: ObiWan
   item_type: 25
   category: 64
+  cost: 900
   members: true
   action_bar:
     ability_keys:
@@ -221,6 +231,7 @@
   texture_alias: Sidious
   item_type: 25
   category: 64
+  cost: 300
   action_bar:
     ability_keys:
       - "darth_sidious_lightsaber"
@@ -238,6 +249,7 @@
   texture_alias: Padawan1
   item_type: 25
   category: 64
+  cost: 200
   action_bar:
     ability_keys:
       - "training_lightsaber"
@@ -255,6 +267,7 @@
   texture_alias: Ventress
   item_type: 25
   category: 64
+  cost: 1000
   members: true
   action_bar:
     ability_keys:
@@ -273,6 +286,7 @@
   texture_alias: CompressedCrystal
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "miko_jedi_lightsaber"
@@ -290,6 +304,7 @@
   texture_alias: SamuraiJedi
   item_type: 25
   category: 64
+  cost: 500
   action_bar:
     ability_keys:
       - "mestare_lightsaber"
@@ -307,6 +322,7 @@
   texture_alias: ShaakTi
   item_type: 25
   category: 64
+  cost: 1000
   members: true
   action_bar:
     ability_keys:
@@ -325,6 +341,7 @@
   texture_alias: Unstable
   item_type: 25
   category: 64
+  cost: 4000
   members: true
   action_bar:
     ability_keys:
@@ -360,6 +377,7 @@
   texture_alias: PulsatingCrystal
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "shotem_jedi_lightsaber"
@@ -395,6 +413,7 @@
   texture_alias: Spiraling
   item_type: 25
   category: 64
+  cost: 4000
   members: true
   action_bar:
     ability_keys:
@@ -413,6 +432,7 @@
   texture_alias: BuggyCrystal
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "ancient_cobal_lightsaber"
@@ -447,6 +467,7 @@
   texture_alias: QuinlanVos
   item_type: 25
   category: 64
+  cost: 1000
   action_bar:
     ability_keys:
       - "quinlan_vos_lightsaber"
@@ -464,6 +485,7 @@
   texture_alias: Ahsoka
   item_type: 25
   category: 64
+  cost: 1000
   action_bar:
     ability_keys:
       - "ahsoka_tano_lightsaber"
@@ -481,6 +503,7 @@
   texture_alias: Opress
   item_type: 25
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "savage_opress_lightsaber"
@@ -498,6 +521,7 @@
   texture_alias: SaeseeTiin
   item_type: 25
   category: 64
+  cost: 1500
   action_bar:
     ability_keys:
       - "saesee_tiin_lightsaber"
@@ -515,6 +539,7 @@
   texture_alias: Kashyyk
   item_type: 25
   category: 64
+  cost: 64000
   members: true
   action_bar:
     ability_keys:
