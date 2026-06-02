@@ -10,6 +10,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Bravis Sith Hood
 - guid: 911
   name_id: 1420
@@ -21,6 +22,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Bravis Sith Gloves
 - guid: 890
   name_id: 1378
@@ -32,6 +34,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Bravis Sith Boots
 - guid: 881
   name_id: 1360
@@ -43,6 +46,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Savek Sith Suit
 - guid: 267
   name_id: 886
@@ -53,7 +57,9 @@
   texture_alias: SithArmor
   item_type: 1
   category: 61
+  cost: 750
   members: true
+
 # Savek Sith Hood
 - guid: 265
   name_id: 882
@@ -64,7 +70,9 @@
   texture_alias: SithArmor
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # Savek Sith Gloves
 - guid: 266
   name_id: 884
@@ -75,7 +83,9 @@
   texture_alias: SithArmor
   item_type: 1
   category: 62
+  cost: 100
   members: true
+
 # Savek Sith Boots
 - guid: 268
   name_id: 888
@@ -86,7 +96,9 @@
   texture_alias: SithArmor
   item_type: 1
   category: 63
+  cost: 100
   members: true
+
 # Moralo Eval's Prison Outfit
 - guid: 3352
   name_id: 4588
@@ -97,7 +109,9 @@
   texture_alias: MoraloEval
   item_type: 1
   category: 61
+  cost: 1250
   members: true
+
 # Lux Bonteri's Suit
 - guid: 3334
   name_id: 4548
@@ -108,6 +122,8 @@
   texture_alias: LuxBonteri
   item_type: 1
   category: 61
+  cost: 1500
+
 # Lux Bonteri's Beanie
 - guid: 3332
   name_id: 4546
@@ -118,6 +134,8 @@
   texture_alias: LuxBonteri
   item_type: 1
   category: 60
+  cost: 1000
+
 # Lux Bonteri's Gloves
 - guid: 3333
   name_id: 4547
@@ -128,6 +146,8 @@
   texture_alias: LuxBonteri
   item_type: 1
   category: 62
+  cost: 500
+
 # Lux Bonteri's Boots
 - guid: 3335
   name_id: 4549
@@ -138,6 +158,8 @@
   texture_alias: LuxBonteri
   item_type: 1
   category: 63
+  cost: 500
+
 # Count Dooku's Original Robes
 - guid: 855
   name_id: 1309
@@ -148,6 +170,7 @@
   texture_alias: CountDooku
   item_type: 1
   category: 61
+
 # Count Dooku's Original Boots
 - guid: 873
   name_id: 1305
@@ -158,6 +181,7 @@
   texture_alias: CountDooku
   item_type: 1
   category: 63
+
 # Count Dooku's Robes
 - guid: 2241
   name_id: 32929
@@ -168,6 +192,8 @@
   texture_alias: CountDookuV2
   item_type: 1
   category: 61
+  cost: 1000
+
 # Count Dooku's Boots
 - guid: 2242
   name_id: 32930
@@ -178,6 +204,8 @@
   texture_alias: CountDookuV2
   item_type: 1
   category: 63
+  cost: 500
+
 # Captain Argyus' Armor
 - guid: 485
   name_id: 8918
@@ -188,6 +216,7 @@
   texture_alias: CaptArgyus
   item_type: 1
   category: 61
+
 # Captain Argyus' Helmet
 - guid: 488
   name_id: 8924
@@ -198,6 +227,7 @@
   texture_alias: CaptArgyus
   item_type: 1
   category: 60
+
 # Captain Argyus' Gloves
 - guid: 487
   name_id: 8922
@@ -208,6 +238,7 @@
   texture_alias: CaptArgyus
   item_type: 1
   category: 62
+
 # Captain Argyus' Boots
 - guid: 486
   name_id: 8920
@@ -218,6 +249,7 @@
   texture_alias: CaptArgyus
   item_type: 1
   category: 63
+
 # Osi Sobeck's Suit
 - guid: 2707
   name_id: 43189
@@ -228,7 +260,9 @@
   texture_alias: Osi
   item_type: 1
   category: 61
+  cost: 800
   members: true
+
 # Osi Sobeck's Bracers
 - guid: 2706
   name_id: 43188
@@ -239,7 +273,9 @@
   texture_alias: Osi
   item_type: 1
   category: 62
+  cost: 300
   members: true
+
 # Separatist Scientist's Coat
 - guid: 856
   name_id: 1311
@@ -250,7 +286,9 @@
   texture_alias: DrNuvoVindi
   item_type: 1
   category: 61
+  cost: 1000
   members: true
+
 # Separatist Scientist's Breather
 - guid: 905
   name_id: 1408
@@ -261,7 +299,9 @@
   texture_alias: DrNuvoVindi
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # Separatist Scientist's Gloves
 - guid: 891
   name_id: 1380
@@ -272,7 +312,9 @@
   texture_alias: DrNuvoVindi
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Separatist Scientist's Boots
 - guid: 874
   name_id: 1346
@@ -283,7 +325,9 @@
   texture_alias: DrNuvoVindi
   item_type: 1
   category: 63
+  cost: 200
   members: true
+
 # Lok Durd's Robes
 - guid: 64
   name_id: 361
@@ -294,7 +338,9 @@
   texture_alias: LokDurd
   item_type: 1
   category: 61
+  cost: 600
   members: true
+
 # Lok Durd's Fancy Hat
 - guid: 66
   name_id: 363
@@ -305,7 +351,9 @@
   texture_alias: LokDurd
   item_type: 1
   category: 60
+  cost: 1000
   members: true
+
 # Lok Durd's Boots
 - guid: 65
   name_id: 360
@@ -316,7 +364,9 @@
   texture_alias: LokDurd
   item_type: 1
   category: 63
+  cost: 500
   members: true
+
 # Mina Bonteri's Suit
 - guid: 1289
   name_id: 1923
@@ -327,7 +377,9 @@
   texture_alias: MinaBonteri
   item_type: 1
   category: 61
+  cost: 400
   members: true
+
 # Mina Bonteri's Boots
 - guid: 1290
   name_id: 1925
@@ -338,7 +390,9 @@
   texture_alias: MinaBonteri
   item_type: 1
   category: 63
+  cost: 60
   members: true
+
 # Zabrak Sith Robes
 - guid: 757
   name_id: 14780
@@ -349,7 +403,9 @@
   texture_alias: DarthMaul
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Zabrak Sith Gloves
 - guid: 777
   name_id: 956
@@ -360,7 +416,9 @@
   texture_alias: DarthMaul
   item_type: 1
   category: 62
+  cost: 200
   members: true
+
 # Zabrak Sith Boots
 - guid: 774
   name_id: 950
@@ -371,7 +429,9 @@
   texture_alias: DarthMaul
   item_type: 1
   category: 63
+  cost: 200
   members: true
+
 # Asajj Ventress' Battle Suit
 - guid: 569
   name_id: 138
@@ -382,7 +442,9 @@
   texture_alias: AsajjVentress
   item_type: 1
   category: 61
+  cost: 600
   members: true
+
 # Asajj Ventress' Wraps
 - guid: 570
   name_id: 140
@@ -393,7 +455,9 @@
   texture_alias: AsajjVentress
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # Savage Opress' Armor
 - guid: 2256
   name_id: 32973
@@ -404,6 +468,8 @@
   texture_alias: Opress
   item_type: 1
   category: 61
+  cost: 1500
+
 # Savage Opress' Cuffs
 - guid: 2255
   name_id: 32972
@@ -414,6 +480,8 @@
   texture_alias: Opress
   item_type: 1
   category: 62
+  cost: 1000
+
 # Savage Opress' Boots
 - guid: 2257
   name_id: 32974
@@ -424,6 +492,8 @@
   texture_alias: Opress
   item_type: 1
   category: 63
+  cost: 500
+
 # Darth Sidious' Robes
 - guid: 862
   name_id: 1323
@@ -434,6 +504,8 @@
   texture_alias: Dark
   item_type: 1
   category: 61
+  cost: 2000
+
 # Darth Sidious' Hood
 - guid: 910
   name_id: 1418
@@ -444,6 +516,8 @@
   texture_alias: Dark
   item_type: 1
   category: 60
+  cost: 1000
+
 # Sith Warrior Robe
 - guid: 220042
   name_id: 52793
@@ -454,6 +528,7 @@
   texture_alias: SithAffiliation
   item_type: 1
   category: 61
+
 # Sith Warrior Mask
 - guid: 220043
   name_id: 52796
@@ -464,6 +539,7 @@
   texture_alias: SithAffiliation
   item_type: 1
   category: 60
+
 # Sith Warrior Gauntlets
 - guid: 220044
   name_id: 52794
@@ -474,6 +550,7 @@
   texture_alias: SithAffiliation
   item_type: 1
   category: 62
+
 # Sith Warrior Boots
 - guid: 220045
   name_id: 52795
@@ -484,6 +561,7 @@
   texture_alias: SithAffiliation
   item_type: 1
   category: 63
+
 # Sith Infiltrator Armor
 - guid: 220046
   name_id: 2685
@@ -494,6 +572,7 @@
   texture_alias: Phase01
   item_type: 1
   category: 61
+
 # Sith Infiltrator Helm
 - guid: 220047
   name_id: 2683
@@ -504,6 +583,7 @@
   texture_alias: Phase01
   item_type: 1
   category: 60
+
 # Sith Infiltrator Gauntlets
 - guid: 220048
   name_id: 2684
@@ -514,6 +594,7 @@
   texture_alias: Phase01
   item_type: 1
   category: 62
+
 # Sith Infiltrator Greaves
 - guid: 220049
   name_id: 2686
@@ -524,6 +605,7 @@
   texture_alias: Phase01
   item_type: 1
   category: 63
+
 # Sith Marauder Robe
 - guid: 220050
   name_id: 43703
@@ -534,6 +616,7 @@
   texture_alias: Phase03
   item_type: 1
   category: 61
+
 # Sith Marauder Helm
 - guid: 220051
   name_id: 43701
@@ -544,6 +627,7 @@
   texture_alias: Phase03
   item_type: 1
   category: 60
+
 # Sith Marauder Vambraces
 - guid: 220052
   name_id: 43702
@@ -554,6 +638,7 @@
   texture_alias: Phase03
   item_type: 1
   category: 62
+
 # Sith Marauder Greaves
 - guid: 220053
   name_id: 43704
@@ -564,6 +649,7 @@
   texture_alias: Phase03
   item_type: 1
   category: 63
+
 # Sith Inquisitor Suit
 - guid: 220054
   name_id: 4926
@@ -574,6 +660,7 @@
   texture_alias: Phase02
   item_type: 1
   category: 61
+
 # Sith Inquisitor Helm
 - guid: 220055
   name_id: 4924
@@ -584,6 +671,7 @@
   texture_alias: Phase02
   item_type: 1
   category: 60
+
 # Sith Inquisitor Gauntlets
 - guid: 220056
   name_id: 4925
@@ -594,6 +682,7 @@
   texture_alias: Phase02
   item_type: 1
   category: 62
+
 # Sith Inquisitor Boots
 - guid: 220057
   name_id: 4927
@@ -604,6 +693,7 @@
   texture_alias: Phase02
   item_type: 1
   category: 63
+
 # Crimson Kofun Armor
 - guid: 220058
   name_id: 53972
@@ -614,6 +704,7 @@
   texture_alias: SamuraiSith
   item_type: 1
   category: 61
+
 # Crimson Kofun Helmet
 - guid: 220059
   name_id: 53970
@@ -624,6 +715,7 @@
   texture_alias: SamuraiSith
   item_type: 1
   category: 60
+
 # Crimson Kofun Arm Wraps
 - guid: 220060
   name_id: 53971
@@ -634,6 +726,7 @@
   texture_alias: SamuraiSith
   item_type: 1
   category: 62
+
 # Crimson Kofun Leg Wraps
 - guid: 220061
   name_id: 53973
@@ -644,6 +737,7 @@
   texture_alias: SamuraiSith
   item_type: 1
   category: 63
+
 # Dark Sith Cowl
 - guid: 220062
   name_id: 4979
@@ -654,6 +748,7 @@
   texture_alias: RebornRedTrim
   item_type: 1
   category: 60
+
 # Maroon Sith Cowl
 - guid: 220063
   name_id: 4978
@@ -664,6 +759,7 @@
   texture_alias: RebornRedStripes
   item_type: 1
   category: 60
+
 # Red Sith Cowl
 - guid: 220064
   name_id: 4977
@@ -674,6 +770,7 @@
   texture_alias: RebornBlack
   item_type: 1
   category: 60
+
 # Crimson Prowler Suit
 - guid: 220065
   name_id: 60196
@@ -684,6 +781,7 @@
   texture_alias: DarkKnight
   item_type: 1
   category: 61
+
 # Crimson Prowler Hood
 - guid: 220066
   name_id: 60194
@@ -694,6 +792,7 @@
   texture_alias: DarkKnight
   item_type: 1
   category: 60
+
 # Crimson Prowler Gloves
 - guid: 220067
   name_id: 60195
@@ -704,6 +803,7 @@
   texture_alias: DarkKnight
   item_type: 1
   category: 62
+
 # Crimson Prowler Boots
 - guid: 220068
   name_id: 60197

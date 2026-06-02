@@ -9,7 +9,9 @@
   texture_alias: CloneScubaGreen
   item_type: 1
   category: 61
+  cost: 2500
   members: true
+
 # Clone Diver Helmet
 - guid: 1170
   name_id: 2378
@@ -20,7 +22,9 @@
   texture_alias: CloneScubaGreen
   item_type: 1
   category: 60
+  cost: 1500
   members: true
+
 # Clone Diver Gloves
 - guid: 1171
   name_id: 2380
@@ -31,7 +35,9 @@
   texture_alias: CloneScubaGreen
   item_type: 1
   category: 62
+  cost: 500
   members: true
+
 # Clone Diver Fins
 - guid: 1173
   name_id: 2384
@@ -42,7 +48,9 @@
   texture_alias: CloneScubaGreen
   item_type: 1
   category: 63
+  cost: 1500
   members: true
+
 # Commander Gree's Suit
 - guid: 242
   name_id: 836
@@ -53,7 +61,9 @@
   texture_alias: CommanderGree
   item_type: 1
   category: 61
+  cost: 500
   members: true
+
 # Commander Gree's Helmet
 - guid: 240
   name_id: 832
@@ -64,7 +74,9 @@
   texture_alias: CommanderGree
   item_type: 1
   category: 60
+  cost: 400
   members: true
+
 # Commander Gree's Gloves
 - guid: 241
   name_id: 834
@@ -75,7 +87,9 @@
   texture_alias: CommanderGree
   item_type: 1
   category: 62
+  cost: 100
   members: true
+
 # Commander Gree's Boots
 - guid: 243
   name_id: 838
@@ -86,7 +100,9 @@
   texture_alias: CommanderGree
   item_type: 1
   category: 63
+  cost: 100
   members: true
+
 # Captain Rex's Armor
 - guid: 404
   name_id: 8532
@@ -97,7 +113,9 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Captain Rex's Helmet
 - guid: 17
   name_id: 8518
@@ -108,7 +126,9 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 60
+  cost: 1500
   members: true
+
 # Captain Rex's Gloves
 - guid: 29
   name_id: 8524
@@ -119,7 +139,9 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 62
+  cost: 500
   members: true
+
 # Captain Rex's Boots
 - guid: 25
   name_id: 8520
@@ -130,7 +152,9 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 63
+  cost: 500
   members: true
+
 # Captain Rex's Aerial Armor
 - guid: 2888
   name_id: 44893
@@ -141,7 +165,9 @@
   texture_alias: CaptainRexJetpack
   item_type: 1
   category: 61
+  cost: 2500
   members: true
+
 # Captain Rex's Phase II Armor
 - guid: 1608
   name_id: 4307
@@ -152,7 +178,9 @@
   texture_alias: CloneRexV2
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Captain Rex's Phase II Helmet
 - guid: 1606
   name_id: 4305
@@ -163,7 +191,9 @@
   texture_alias: CloneRexV2
   item_type: 1
   category: 60
+  cost: 1500
   members: true
+
 # Captain Rex's Phase II Gloves
 - guid: 1607
   name_id: 4306
@@ -174,7 +204,9 @@
   texture_alias: CloneRexV2
   item_type: 1
   category: 62
+  cost: 500
   members: true
+
 # Captain Rex's Phase II Boots
 - guid: 1609
   name_id: 4308
@@ -185,7 +217,9 @@
   texture_alias: CloneRexV2
   item_type: 1
   category: 63
+  cost: 500
   members: true
+
 # Captain Rex Onderon Suit
 - guid: 160017
   name_id: 52912
@@ -197,6 +231,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Captain Rex Onderon Helmet
 - guid: 160018
   name_id: 52910
@@ -208,6 +243,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Captain Rex Onderon Gloves
 - guid: 160019
   name_id: 52911
@@ -219,6 +255,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Captain Rex Onderon Boots
 - guid: 160020
   name_id: 52913
@@ -230,6 +267,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Captain Rex's Zygerrian Uniform
 - guid: 3260
   name_id: 4461
@@ -240,6 +278,8 @@
   texture_alias: ZygerrianGold
   item_type: 1
   category: 61
+  cost: 1500
+
 # Captain Rex's Zygerrian Helmet
 - guid: 3258
   name_id: 4459
@@ -250,6 +290,8 @@
   texture_alias: ZygerrianGold
   item_type: 1
   category: 60
+  cost: 1000
+
 # Captain Rex's Zygerrian Gloves
 - guid: 3259
   name_id: 4460
@@ -260,6 +302,8 @@
   texture_alias: ZygerrianGold
   item_type: 1
   category: 62
+  cost: 500
+
 # Captain Rex's Zygerrian Boots
 - guid: 3261
   name_id: 4462
@@ -270,6 +314,8 @@
   texture_alias: ZygerrianGold
   item_type: 1
   category: 63
+  cost: 500
+
 # Commander Cody's Armor
 - guid: 403
   name_id: 8530
@@ -280,6 +326,7 @@
   texture_alias: CommanderCody
   item_type: 1
   category: 61
+
 # Commander Cody's Helmet
 - guid: 34
   name_id: 8528
@@ -290,6 +337,7 @@
   texture_alias: CommanderCody
   item_type: 1
   category: 60
+
 # Commander Cody's Gloves
 - guid: 30
   name_id: 8526
@@ -300,6 +348,7 @@
   texture_alias: CommanderCody
   item_type: 1
   category: 62
+
 # Commander Cody's Boots
 - guid: 26
   name_id: 8522
@@ -310,6 +359,7 @@
   texture_alias: CommanderCody
   item_type: 1
   category: 63
+
 # Commander Cody's Phase II Armor
 - guid: 3206
   name_id: 4392
@@ -320,7 +370,9 @@
   texture_alias: Cody
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Commander Cody's Phase II Helmet
 - guid: 3204
   name_id: 4390
@@ -331,7 +383,9 @@
   texture_alias: Cody
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # Commander Cody's Phase II Gloves
 - guid: 3205
   name_id: 4391
@@ -342,7 +396,9 @@
   texture_alias: Cody
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Commander Cody's Phase II Boots
 - guid: 3207
   name_id: 4393
@@ -353,7 +409,9 @@
   texture_alias: Cody
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # Commander Fil's Suit
 - guid: 160033
   name_id: 54554
@@ -365,6 +423,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Commander Fil's Helmet
 - guid: 160034
   name_id: 54552
@@ -376,6 +435,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Commander Fil's Gloves
 - guid: 160035
   name_id: 54553
@@ -387,6 +447,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Commander Fil's Boots
 - guid: 160036
   name_id: 54555
@@ -398,6 +459,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Commander Bly's Armor
 - guid: 585
   name_id: 170
@@ -408,6 +470,7 @@
   texture_alias: CommanderBly
   item_type: 1
   category: 61
+
 # Commander Bly's Helmet
 - guid: 583
   name_id: 166
@@ -418,6 +481,7 @@
   texture_alias: CommanderBly
   item_type: 1
   category: 60
+
 # Commander Bly's Gloves
 - guid: 584
   name_id: 168
@@ -428,6 +492,7 @@
   texture_alias: CommanderBly
   item_type: 1
   category: 62
+
 # Commander Bly's Boots
 - guid: 586
   name_id: 172
@@ -438,6 +503,7 @@
   texture_alias: CommanderBly
   item_type: 1
   category: 63
+
 # Commander Blitz's Suit
 - guid: 160041
   name_id: 54543
@@ -449,6 +515,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Commander Blitz's Helmet
 - guid: 160042
   name_id: 54541
@@ -460,6 +527,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Commander Blitz's Gloves
 - guid: 160043
   name_id: 54542
@@ -471,6 +539,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Commander Blitz's Boots
 - guid: 160044
   name_id: 54544
@@ -482,6 +551,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Commander Bacara Suit
 - guid: 160045
   name_id: 54532
@@ -493,6 +563,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Commander Bacara Helmet
 - guid: 160046
   name_id: 54530
@@ -504,6 +575,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Commander Bacara Gloves
 - guid: 160047
   name_id: 54531
@@ -515,6 +587,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Commander Bacara Boots
 - guid: 160048
   name_id: 54533
@@ -526,6 +599,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Commando Boss' Armor
 - guid: 2357
   name_id: 33103
@@ -536,6 +610,8 @@
   texture_alias: Boss
   item_type: 1
   category: 61
+  cost: 1000
+
 # Commando Boss' Helmet
 - guid: 2355
   name_id: 33102
@@ -546,6 +622,8 @@
   texture_alias: Boss
   item_type: 1
   category: 60
+  cost: 1000
+
 # Commando Boss' Gloves
 - guid: 2356
   name_id: 33104
@@ -556,6 +634,8 @@
   texture_alias: Boss
   item_type: 1
   category: 62
+  cost: 500
+
 # Commando Boss' Boots
 - guid: 2358
   name_id: 33105
@@ -566,6 +646,8 @@
   texture_alias: Boss
   item_type: 1
   category: 63
+  cost: 500
+
 # Commando Scorch's Armor
 - guid: 2361
   name_id: 33107
@@ -576,7 +658,9 @@
   texture_alias: Scorch
   item_type: 1
   category: 61
+  cost: 5000
   members: true
+
 # Commando Scorch's Helmet
 - guid: 2359
   name_id: 33106
@@ -587,7 +671,9 @@
   texture_alias: Scorch
   item_type: 1
   category: 60
+  cost: 6000
   members: true
+
 # Commando Scorch's Gloves
 - guid: 2360
   name_id: 33108
@@ -598,7 +684,9 @@
   texture_alias: Scorch
   item_type: 1
   category: 62
+  cost: 1500
   members: true
+
 # Commando Scorch's Boots
 - guid: 2362
   name_id: 33109
@@ -609,7 +697,9 @@
   texture_alias: Scorch
   item_type: 1
   category: 63
+  cost: 1500
   members: true
+
 # Zag's Armor
 - guid: 2448
   name_id: 43731
@@ -620,6 +710,8 @@
   texture_alias: Zag
   item_type: 1
   category: 61
+  cost: 1500
+
 # Zag's Helmet
 - guid: 2446
   name_id: 43729
@@ -630,6 +722,8 @@
   texture_alias: Zag
   item_type: 1
   category: 60
+  cost: 1000
+
 # Zag's Gloves
 - guid: 2447
   name_id: 43730
@@ -640,6 +734,8 @@
   texture_alias: Zag
   item_type: 1
   category: 62
+  cost: 500
+
 # Zag's Boots
 - guid: 2449
   name_id: 43732
@@ -650,6 +746,8 @@
   texture_alias: Zag
   item_type: 1
   category: 63
+  cost: 500
+
 # Evader's Armor
 - guid: 2408
   name_id: 43691
@@ -660,7 +758,9 @@
   texture_alias: Evader
   item_type: 1
   category: 61
+  cost: 8000
   members: true
+
 # Evader's Helmet
 - guid: 2406
   name_id: 43689
@@ -671,7 +771,9 @@
   texture_alias: Evader
   item_type: 1
   category: 60
+  cost: 5000
   members: true
+
 # Evader's Gloves
 - guid: 2407
   name_id: 43690
@@ -682,7 +784,9 @@
   texture_alias: Evader
   item_type: 1
   category: 62
+  cost: 2500
   members: true
+
 # Evader's Boots
 - guid: 2409
   name_id: 43692
@@ -693,7 +797,9 @@
   texture_alias: Evader
   item_type: 1
   category: 63
+  cost: 2500
   members: true
+
 # Clone Commando Gregor's Armor
 - guid: 160065
   name_id: 54085
@@ -704,6 +810,7 @@
   texture_alias: Gregor
   item_type: 1
   category: 61
+
 # Clone Commando Gregor's Helmet
 - guid: 160066
   name_id: 54083
@@ -714,6 +821,7 @@
   texture_alias: Gregor
   item_type: 1
   category: 60
+
 # Clone Commando Gregor's Gloves
 - guid: 160067
   name_id: 54084
@@ -724,6 +832,7 @@
   texture_alias: Gregor
   item_type: 1
   category: 62
+
 # Clone Commando Gregor's Boots
 - guid: 160068
   name_id: 54086
@@ -734,6 +843,7 @@
   texture_alias: Gregor
   item_type: 1
   category: 63
+
 # Felucian Commando Armor
 - guid: 160069
   name_id: 60181
@@ -744,6 +854,7 @@
   texture_alias: BlackTiger
   item_type: 1
   category: 61
+
 # Felucian Commando Helmet
 - guid: 160070
   name_id: 60179
@@ -754,6 +865,7 @@
   texture_alias: BlackTiger
   item_type: 1
   category: 60
+
 # Felucian Commando Gloves
 - guid: 160071
   name_id: 60180
@@ -764,6 +876,7 @@
   texture_alias: BlackTiger
   item_type: 1
   category: 62
+
 # Felucian Commando Boots
 - guid: 160072
   name_id: 60182
@@ -774,6 +887,7 @@
   texture_alias: BlackTiger
   item_type: 1
   category: 63
+
 # Scraps' Armor
 - guid: 2432
   name_id: 43715
@@ -784,7 +898,9 @@
   texture_alias: Scraps
   item_type: 1
   category: 61
+  cost: 4000
   members: true
+
 # Scraps' Helmet
 - guid: 2430
   name_id: 43713
@@ -795,7 +911,9 @@
   texture_alias: Scraps
   item_type: 1
   category: 60
+  cost: 3000
   members: true
+
 # Scraps' Gloves
 - guid: 2431
   name_id: 43714
@@ -806,7 +924,9 @@
   texture_alias: Scraps
   item_type: 1
   category: 62
+  cost: 750
   members: true
+
 # Scraps' Boots
 - guid: 2433
   name_id: 43716
@@ -817,7 +937,9 @@
   texture_alias: Scraps
   item_type: 1
   category: 63
+  cost: 750
   members: true
+
 # Racket's Armor
 - guid: 2396
   name_id: 43679
@@ -828,7 +950,9 @@
   texture_alias: Bosky
   item_type: 1
   category: 61
+  cost: 1000
   members: true
+
 # Racket's Helmet
 - guid: 2394
   name_id: 43677
@@ -839,7 +963,9 @@
   texture_alias: Bosky
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # Racket's Gloves
 - guid: 2395
   name_id: 43678
@@ -850,7 +976,9 @@
   texture_alias: Bosky
   item_type: 1
   category: 62
+  cost: 300
   members: true
+
 # Racket's Boots
 - guid: 2397
   name_id: 43680
@@ -861,7 +989,9 @@
   texture_alias: Bosky
   item_type: 1
   category: 63
+  cost: 300
   members: true
+
 # Throttle's Armor
 - guid: 2436
   name_id: 43719
@@ -872,7 +1002,9 @@
   texture_alias: Throttle
   item_type: 1
   category: 61
+  cost: 4500
   members: true
+
 # Throttle's Helmet
 - guid: 2434
   name_id: 43717
@@ -883,7 +1015,9 @@
   texture_alias: Throttle
   item_type: 1
   category: 60
+  cost: 3500
   members: true
+
 # Throttle's Gloves
 - guid: 2435
   name_id: 43718
@@ -894,7 +1028,9 @@
   texture_alias: Throttle
   item_type: 1
   category: 62
+  cost: 1000
   members: true
+
 # Throttle's Boots
 - guid: 2437
   name_id: 43720
@@ -905,7 +1041,9 @@
   texture_alias: Throttle
   item_type: 1
   category: 63
+  cost: 1000
   members: true
+
 # Trigger's Armor
 - guid: 2440
   name_id: 43723
@@ -916,7 +1054,9 @@
   texture_alias: Trigger
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Trigger's Helmet
 - guid: 2438
   name_id: 43721
@@ -927,7 +1067,9 @@
   texture_alias: Trigger
   item_type: 1
   category: 60
+  cost: 1500
   members: true
+
 # Trigger's Gloves
 - guid: 2439
   name_id: 43722
@@ -938,7 +1080,9 @@
   texture_alias: Trigger
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Trigger's Boots
 - guid: 2441
   name_id: 43724
@@ -949,7 +1093,9 @@
   texture_alias: Trigger
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # Wookiee Clone Trooper Armor
 - guid: 2444
   name_id: 43727
@@ -960,7 +1106,9 @@
   texture_alias: Wookiee
   item_type: 1
   category: 61
+  cost: 1200
   members: true
+
 # Wookiee Clone Trooper Helmet
 - guid: 2442
   name_id: 43725
@@ -971,7 +1119,9 @@
   texture_alias: Wookiee
   item_type: 1
   category: 60
+  cost: 900
   members: true
+
 # Wookiee Clone Trooper Gloves
 - guid: 2443
   name_id: 43726
@@ -982,7 +1132,9 @@
   texture_alias: Wookiee
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Wookiee Clone Trooper Boots
 - guid: 2445
   name_id: 43728
@@ -993,7 +1145,9 @@
   texture_alias: Wookiee
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # Commander Fox Suit
 - guid: 160093
   name_id: 54281
@@ -1004,6 +1158,7 @@
   texture_alias: CloneFox
   item_type: 1
   category: 61
+
 # Commander Fox Helmet
 - guid: 160094
   name_id: 54279
@@ -1014,6 +1169,7 @@
   texture_alias: CloneFox
   item_type: 1
   category: 60
+
 # Commander Fox Gloves
 - guid: 160095
   name_id: 54280
@@ -1024,6 +1180,7 @@
   texture_alias: CloneFox
   item_type: 1
   category: 62
+
 # Commander Fox Boots
 - guid: 160096
   name_id: 54282
@@ -1034,6 +1191,7 @@
   texture_alias: CloneFox
   item_type: 1
   category: 63
+
 # Commander Neyo's Suit
 - guid: 160097
   name_id: 53966
@@ -1045,6 +1203,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Commander Neyo's Helmet
 - guid: 160098
   name_id: 53964
@@ -1056,6 +1215,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Commander Neyo's Gloves
 - guid: 160099
   name_id: 53965
@@ -1067,6 +1227,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Commander Neyo's Boots
 - guid: 160100
   name_id: 53967
@@ -1078,6 +1239,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Commander Jet's Armor
 - guid: 473
   name_id: 8908
@@ -1088,6 +1250,8 @@
   texture_alias: CommanderJet
   item_type: 1
   category: 61
+  cost: 1500
+
 # Commander Jet's Helmet
 - guid: 476
   name_id: 8914
@@ -1098,6 +1262,8 @@
   texture_alias: CommanderJet
   item_type: 1
   category: 60
+  cost: 1000
+
 # Commander Jet's Gloves
 - guid: 475
   name_id: 8912
@@ -1108,6 +1274,8 @@
   texture_alias: CommanderJet
   item_type: 1
   category: 62
+  cost: 500
+
 # Commander Jet's Boots
 - guid: 474
   name_id: 8910
@@ -1118,6 +1286,8 @@
   texture_alias: CommanderJet
   item_type: 1
   category: 63
+  cost: 500
+
 # Flamethrower Clone Trooper Armor
 - guid: 2182
   name_id: 20301
@@ -1128,6 +1298,8 @@
   texture_alias: Flamethrower
   item_type: 1
   category: 61
+  cost: 1000
+
 # Flamethrower Clone Trooper Helm
 - guid: 2180
   name_id: 20299
@@ -1138,6 +1310,8 @@
   texture_alias: Flamethrower
   item_type: 1
   category: 60
+  cost: 500
+
 # Flamethrower Clone Trooper Gloves
 - guid: 2181
   name_id: 20297
@@ -1148,6 +1322,8 @@
   texture_alias: Flamethrower
   item_type: 1
   category: 62
+  cost: 1000
+
 # Flamethrower Clone Trooper Boots
 - guid: 2183
   name_id: 20303
@@ -1158,6 +1334,8 @@
   texture_alias: Flamethrower
   item_type: 1
   category: 63
+  cost: 500
+
 # Desert Trooper Armor
 - guid: 497
   name_id: 8934
@@ -1168,7 +1346,9 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 61
+  cost: 600
   members: true
+
 # Desert Trooper Helmet
 - guid: 500
   name_id: 8940
@@ -1179,7 +1359,9 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 60
+  cost: 500
   members: true
+
 # Desert Trooper Gloves
 - guid: 499
   name_id: 8938
@@ -1190,7 +1372,9 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 62
+  cost: 200
   members: true
+
 # Desert Trooper Boots
 - guid: 498
   name_id: 8936
@@ -1201,7 +1385,9 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 63
+  cost: 200
   members: true
+
 # Spark's Stealth Pilot Armor
 - guid: 160113
   name_id: 162
@@ -1212,6 +1398,7 @@
   texture_alias: Spark
   item_type: 1
   category: 61
+
 # Spark's Stealth Pilot Helmet
 - guid: 160114
   name_id: 158
@@ -1222,6 +1409,7 @@
   texture_alias: Spark
   item_type: 1
   category: 60
+
 # Spark's Stealth Pilot Gloves
 - guid: 160115
   name_id: 160
@@ -1232,6 +1420,7 @@
   texture_alias: Spark
   item_type: 1
   category: 62
+
 # Spark's Stealth Pilot Boots
 - guid: 160116
   name_id: 164
@@ -1242,6 +1431,7 @@
   texture_alias: Spark
   item_type: 1
   category: 63
+
 # Special Ops Armor
 - guid: 2879
   name_id: 44883
@@ -1252,7 +1442,9 @@
   texture_alias: StealthFlight
   item_type: 1
   category: 61
+  cost: 1300
   members: true
+
 # Special Ops Helm
 - guid: 2877
   name_id: 44881
@@ -1263,7 +1455,9 @@
   texture_alias: StealthFlight
   item_type: 1
   category: 60
+  cost: 900
   members: true
+
 # Special Ops Gloves
 - guid: 2878
   name_id: 44882
@@ -1274,7 +1468,9 @@
   texture_alias: StealthFlight
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Special Ops Boots
 - guid: 2880
   name_id: 44884
@@ -1285,7 +1481,9 @@
   texture_alias: StealthFlight
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # Rookie Echo's Armor
 - guid: 593
   name_id: 186
@@ -1296,7 +1494,9 @@
   texture_alias: Echo
   item_type: 1
   category: 61
+  cost: 800
   members: true
+
 # Rookie Echo's Helmet
 - guid: 591
   name_id: 182
@@ -1307,7 +1507,9 @@
   texture_alias: Echo
   item_type: 1
   category: 60
+  cost: 600
   members: true
+
 # Rookie Echo's Gloves
 - guid: 592
   name_id: 184
@@ -1318,7 +1520,9 @@
   texture_alias: Echo
   item_type: 1
   category: 62
+  cost: 50
   members: true
+
 # Rookie Echo's Boots
 - guid: 594
   name_id: 188
@@ -1329,7 +1533,9 @@
   texture_alias: Echo
   item_type: 1
   category: 63
+  cost: 50
   members: true
+
 # ARC Trooper Echo's Armor
 - guid: 2695
   name_id: 43058
@@ -1340,6 +1546,8 @@
   texture_alias: ARCEcho
   item_type: 1
   category: 61
+  cost: 1500
+
 # ARC Trooper Echo's Helmet
 - guid: 2693
   name_id: 43056
@@ -1350,6 +1558,8 @@
   texture_alias: ARCEcho
   item_type: 1
   category: 60
+  cost: 1000
+
 # ARC Trooper Echo's Gloves
 - guid: 2694
   name_id: 43057
@@ -1360,6 +1570,8 @@
   texture_alias: ARCEcho
   item_type: 1
   category: 62
+  cost: 500
+
 # ARC Trooper Echo's Boots
 - guid: 2696
   name_id: 43059
@@ -1370,6 +1582,8 @@
   texture_alias: ARCEcho
   item_type: 1
   category: 63
+  cost: 500
+
 # ARC Trooper Fives' Armor
 - guid: 2699
   name_id: 43062
@@ -1380,7 +1594,9 @@
   texture_alias: ARCFives
   item_type: 1
   category: 61
+  cost: 1900
   members: true
+
 # ARC Trooper Fives' Helmet
 - guid: 2697
   name_id: 43060
@@ -1391,7 +1607,9 @@
   texture_alias: ARCFives
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # ARC Trooper Fives' Gloves
 - guid: 2698
   name_id: 43061
@@ -1402,7 +1620,9 @@
   texture_alias: ARCFives
   item_type: 1
   category: 62
+  cost: 300
   members: true
+
 # ARC Trooper Fives' Boots
 - guid: 2700
   name_id: 43063
@@ -1413,7 +1633,9 @@
   texture_alias: ARCFives
   item_type: 1
   category: 63
+  cost: 300
   members: true
+
 # Fives' Phase II Armor
 - guid: 3198
   name_id: 4384
@@ -1424,7 +1646,9 @@
   texture_alias: Fives
   item_type: 1
   category: 61
+  cost: 2000
   members: true
+
 # Fives' Phase II Helmet
 - guid: 3196
   name_id: 4382
@@ -1435,7 +1659,9 @@
   texture_alias: Fives
   item_type: 1
   category: 60
+  cost: 800
   members: true
+
 # Fives' Phase II Gloves
 - guid: 3197
   name_id: 4383
@@ -1446,7 +1672,9 @@
   texture_alias: Fives
   item_type: 1
   category: 62
+  cost: 400
   members: true
+
 # Fives' Phase II Boots
 - guid: 3199
   name_id: 4385
@@ -1457,7 +1685,9 @@
   texture_alias: Fives
   item_type: 1
   category: 63
+  cost: 400
   members: true
+
 # ARC Trooper Sergeant's Armor
 - guid: 849
   name_id: 1297
@@ -1468,6 +1698,7 @@
   texture_alias: TCGRank1
   item_type: 1
   category: 61
+
 # ARC Trooper Sergeant's Helmet
 - guid: 899
   name_id: 1396
@@ -1478,6 +1709,7 @@
   texture_alias: TCGRank1
   item_type: 1
   category: 60
+
 # ARC Trooper Sergeant's Gloves
 - guid: 885
   name_id: 1368
@@ -1488,6 +1720,7 @@
   texture_alias: TCGRank1
   item_type: 1
   category: 62
+
 # ARC Trooper Sergeant's Boots
 - guid: 868
   name_id: 1335
@@ -1498,6 +1731,7 @@
   texture_alias: TCGRank1
   item_type: 1
   category: 63
+
 # ARC Trooper Lieutenant's Armor
 - guid: 850
   name_id: 1299
@@ -1508,6 +1742,7 @@
   texture_alias: TCGRank2
   item_type: 1
   category: 61
+
 # ARC Trooper Lieutenant's Helmet
 - guid: 900
   name_id: 1398
@@ -1518,6 +1753,7 @@
   texture_alias: TCGRank2
   item_type: 1
   category: 60
+
 # ARC Trooper Lieutenant's Gloves
 - guid: 886
   name_id: 1370
@@ -1528,6 +1764,7 @@
   texture_alias: TCGRank2
   item_type: 1
   category: 62
+
 # ARC Trooper Lieutenant's Boots
 - guid: 869
   name_id: 1337
@@ -1538,6 +1775,7 @@
   texture_alias: TCGRank2
   item_type: 1
   category: 63
+
 # ARC Trooper Captain's Armor
 - guid: 851
   name_id: 1301
@@ -1548,6 +1786,7 @@
   texture_alias: TCGRank3
   item_type: 1
   category: 61
+
 # ARC Trooper Captain's Helmet
 - guid: 901
   name_id: 1400
@@ -1558,6 +1797,7 @@
   texture_alias: TCGRank3
   item_type: 1
   category: 60
+
 # ARC Trooper Captain's Gloves
 - guid: 887
   name_id: 1372
@@ -1568,6 +1808,7 @@
   texture_alias: TCGRank3
   item_type: 1
   category: 62
+
 # ARC Trooper Captain's Boots
 - guid: 870
   name_id: 1339
@@ -1578,6 +1819,7 @@
   texture_alias: TCGRank3
   item_type: 1
   category: 63
+
 # ARC Trooper Commander's Armor
 - guid: 852
   name_id: 1303
@@ -1588,6 +1830,7 @@
   texture_alias: TCGRank4
   item_type: 1
   category: 61
+
 # ARC Trooper Commander's Helmet
 - guid: 902
   name_id: 1402
@@ -1598,6 +1841,7 @@
   texture_alias: TCGRank4
   item_type: 1
   category: 60
+
 # ARC Trooper Commander's Gloves
 - guid: 888
   name_id: 1374
@@ -1608,6 +1852,7 @@
   texture_alias: TCGRank4
   item_type: 1
   category: 62
+
 # ARC Trooper Commander's Boots
 - guid: 871
   name_id: 1341
@@ -1618,6 +1863,7 @@
   texture_alias: TCGRank4
   item_type: 1
   category: 63
+
 # ARC Trooper General's Armor
 - guid: 854
   name_id: 1307
@@ -1628,6 +1874,7 @@
   texture_alias: TCGRank5
   item_type: 1
   category: 61
+
 # ARC Trooper General's Helmet
 - guid: 904
   name_id: 1406
@@ -1638,6 +1885,7 @@
   texture_alias: TCGRank5
   item_type: 1
   category: 60
+
 # ARC Trooper General's Gloves
 - guid: 889
   name_id: 1376
@@ -1648,6 +1896,7 @@
   texture_alias: TCGRank5
   item_type: 1
   category: 62
+
 # ARC Trooper General's Boots
 - guid: 872
   name_id: 1343
@@ -1658,6 +1907,7 @@
   texture_alias: TCGRank5
   item_type: 1
   category: 63
+
 # Commander Trauma's Armor
 - guid: 2260
   name_id: 32977
@@ -1668,7 +1918,9 @@
   texture_alias: Trauma
   item_type: 1
   category: 61
+  cost: 200
   members: true
+
 # Commander Trauma's Helmet
 - guid: 2258
   name_id: 32975
@@ -1679,7 +1931,9 @@
   texture_alias: Trauma
   item_type: 1
   category: 60
+  cost: 300
   members: true
+
 # Commander Trauma's Gloves
 - guid: 2259
   name_id: 32976
@@ -1690,7 +1944,9 @@
   texture_alias: Trauma
   item_type: 1
   category: 62
+  cost: 100
   members: true
+
 # Commander Trauma's Boots
 - guid: 2261
   name_id: 32978
@@ -1701,7 +1957,9 @@
   texture_alias: Trauma
   item_type: 1
   category: 63
+  cost: 200
   members: true
+
 # Commander Colt's Armor
 - guid: 160161
   name_id: 54514
@@ -1713,6 +1971,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Commander Colt's Helmet
 - guid: 160162
   name_id: 54512
@@ -1724,6 +1983,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Commander Colt's Gloves
 - guid: 160163
   name_id: 54513
@@ -1735,6 +1995,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Commander Colt's Boots
 - guid: 160164
   name_id: 54515
@@ -1746,6 +2007,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Forest Trooper Armor
 - guid: 767
   name_id: 936
@@ -1756,6 +2018,8 @@
   texture_alias: ForestArmor
   item_type: 1
   category: 61
+  cost: 1500
+
 # Forest Trooper Helmet
 - guid: 781
   name_id: 964
@@ -1766,6 +2030,8 @@
   texture_alias: ForestArmor
   item_type: 1
   category: 60
+  cost: 1000
+
 # Forest Trooper Gloves
 - guid: 776
   name_id: 954
@@ -1776,6 +2042,8 @@
   texture_alias: ForestArmor
   item_type: 1
   category: 62
+  cost: 500
+
 # Forest Trooper Boots
 - guid: 771
   name_id: 944
@@ -1786,6 +2054,8 @@
   texture_alias: ForestArmor
   item_type: 1
   category: 63
+  cost: 500
+
 # Kamino ARF Trooper Armor
 - guid: 2884
   name_id: 44888
@@ -1796,6 +2066,8 @@
   texture_alias: CloneKamino
   item_type: 1
   category: 61
+  cost: 1500
+
 # Kamino ARF Trooper Helm
 - guid: 2882
   name_id: 44886
@@ -1806,6 +2078,8 @@
   texture_alias: CloneKamino
   item_type: 1
   category: 60
+  cost: 1250
+
 # Kamino ARF Trooper Gloves
 - guid: 2883
   name_id: 44887
@@ -1816,6 +2090,8 @@
   texture_alias: CloneKamino
   item_type: 1
   category: 62
+  cost: 500
+
 # ARF Trooper Helmet
 - guid: 482
   name_id: 8916
@@ -1826,6 +2102,8 @@
   texture_alias: ArfTrooper
   item_type: 1
   category: 60
+  cost: 250
+
 # Swamp Trooper Armor
 - guid: 160173
   name_id: 8926
@@ -1837,6 +2115,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Swamp Trooper Helmet
 - guid: 160174
   name_id: 8932
@@ -1848,6 +2127,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Swamp Trooper Gloves
 - guid: 160175
   name_id: 8930
@@ -1859,6 +2139,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Swamp Trooper Boots
 - guid: 160176
   name_id: 8928
@@ -1870,6 +2151,7 @@
   item_type: 1
   category: 63
   members: true
+
 # 501st Clone Trooper Suit
 - guid: 160177
   name_id: 54269
@@ -1881,6 +2163,7 @@
   item_type: 1
   category: 61
   members: true
+
 # 501st Clone Trooper Helmet
 - guid: 160178
   name_id: 54267
@@ -1892,6 +2175,7 @@
   item_type: 1
   category: 60
   members: true
+
 # 501st Clone Trooper Gloves
 - guid: 160179
   name_id: 54268
@@ -1903,6 +2187,7 @@
   item_type: 1
   category: 62
   members: true
+
 # 501st Clone Trooper Boots
 - guid: 160180
   name_id: 54270
@@ -1914,6 +2199,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Jet Pack Clone Trooper Armor
 - guid: 597
   name_id: 194
@@ -1924,6 +2210,7 @@
   texture_alias: JetPackTrooper
   item_type: 1
   category: 61
+
 # Jet Pack Clone Trooper Helmet
 - guid: 595
   name_id: 190
@@ -1934,6 +2221,7 @@
   texture_alias: JetPackTrooper
   item_type: 1
   category: 60
+
 # Jet Pack Clone Trooper Gloves
 - guid: 596
   name_id: 192
@@ -1944,6 +2232,7 @@
   texture_alias: JetPackTrooper
   item_type: 1
   category: 62
+
 # Jet Pack Clone Trooper Boots
 - guid: 598
   name_id: 196
@@ -1954,6 +2243,7 @@
   texture_alias: JetPackTrooper
   item_type: 1
   category: 63
+
 # Kix's Clone Trooper Armor
 - guid: 3202
   name_id: 4388
@@ -1964,6 +2254,8 @@
   texture_alias: CloneKix
   item_type: 1
   category: 61
+  cost: 3000
+
 # Kix's Clone Trooper Helmet
 - guid: 3200
   name_id: 4386
@@ -1974,6 +2266,8 @@
   texture_alias: CloneKix
   item_type: 1
   category: 60
+  cost: 2000
+
 # Kix's Clone Trooper Gloves
 - guid: 3201
   name_id: 4387
@@ -1984,6 +2278,8 @@
   texture_alias: CloneKix
   item_type: 1
   category: 62
+  cost: 1000
+
 # Kix's Clone Trooper Boots
 - guid: 3203
   name_id: 4389
@@ -1994,6 +2290,8 @@
   texture_alias: CloneBasic
   item_type: 1
   category: 63
+  cost: 1000
+
 # Boost's Armor
 - guid: 1133
   name_id: 2370
@@ -2004,7 +2302,9 @@
   texture_alias: Boost
   item_type: 1
   category: 61
+  cost: 3500
   members: true
+
 # Boost's Helmet
 - guid: 1131
   name_id: 2366
@@ -2015,7 +2315,9 @@
   texture_alias: Boost
   item_type: 1
   category: 60
+  cost: 3000
   members: true
+
 # Boost's Gloves
 - guid: 1132
   name_id: 2368
@@ -2026,7 +2328,9 @@
   texture_alias: Boost
   item_type: 1
   category: 62
+  cost: 750
   members: true
+
 # Boost's Boots
 - guid: 1134
   name_id: 2372
@@ -2037,7 +2341,9 @@
   texture_alias: Boost
   item_type: 1
   category: 63
+  cost: 750
   members: true
+
 # Commander Wolffe's Armor
 - guid: 2400
   name_id: 43683
@@ -2048,7 +2354,9 @@
   texture_alias: CommanderWolffeV2
   item_type: 1
   category: 61
+  cost: 7000
   members: true
+
 # Commander Wolffe's Helmet
 - guid: 2398
   name_id: 43681
@@ -2059,7 +2367,9 @@
   texture_alias: CommanderWolffeV2
   item_type: 1
   category: 60
+  cost: 5000
   members: true
+
 # Commander Wolffe's Gloves
 - guid: 2399
   name_id: 43682
@@ -2070,7 +2380,9 @@
   texture_alias: CommanderWolffeV2
   item_type: 1
   category: 62
+  cost: 2000
   members: true
+
 # Commander Wolffe's Boots
 - guid: 2401
   name_id: 43684
@@ -2081,7 +2393,9 @@
   texture_alias: CommanderWolffeV2
   item_type: 1
   category: 63
+  cost: 2000
   members: true
+
 # Wolffe's Snow Armor
 - guid: 2826
   name_id: 44757
@@ -2092,6 +2406,8 @@
   texture_alias: CommanderWolffe
   item_type: 1
   category: 61
+  cost: 2000
+
 # Wolffe's Snow Helmet
 - guid: 2824
   name_id: 44755
@@ -2102,6 +2418,8 @@
   texture_alias: CommanderWolffe
   item_type: 1
   category: 60
+  cost: 1000
+
 # Wolffe's Snow Gloves
 - guid: 2825
   name_id: 44756
@@ -2112,6 +2430,8 @@
   texture_alias: CommanderWolffe
   item_type: 1
   category: 62
+  cost: 500
+
 # Wolffe's Snow Boots
 - guid: 2827
   name_id: 44758
@@ -2122,6 +2442,8 @@
   texture_alias: CommanderWolffe
   item_type: 1
   category: 63
+  cost: 500
+
 # Commander Wolffe's Phase II Armor
 - guid: 3086
   name_id: 2943
@@ -2132,7 +2454,9 @@
   texture_alias: Wolffe
   item_type: 1
   category: 61
+  cost: 8000
   members: true
+
 # Commander Wolffe's Phase II Helmet
 - guid: 2504
   name_id: 2388
@@ -2143,7 +2467,9 @@
   texture_alias: Wolffe
   item_type: 1
   category: 60
+  cost: 8000
   members: true
+
 # Commander Wolffe's Phase II Gloves
 - guid: 3085
   name_id: 2941
@@ -2154,7 +2480,9 @@
   texture_alias: Wolffe
   item_type: 1
   category: 62
+  cost: 2500
   members: true
+
 # Commander Wolffe's Phase II Boots
 - guid: 3087
   name_id: 2945
@@ -2165,7 +2493,9 @@
   texture_alias: Wolffe
   item_type: 1
   category: 63
+  cost: 2500
   members: true
+
 # Wolfpack Jetpack
 - guid: 3329
   name_id: 4544
@@ -2176,7 +2506,9 @@
   texture_alias: Rocket
   item_type: 1
   category: 61
+  cost: 1800
   members: true
+
 # Draa's Armor
 - guid: 2404
   name_id: 43687
@@ -2187,7 +2519,9 @@
   texture_alias: Draa
   item_type: 1
   category: 61
+  cost: 1200
   members: true
+
 # Draa's Helmet
 - guid: 2402
   name_id: 43685
@@ -2198,7 +2532,9 @@
   texture_alias: Draa
   item_type: 1
   category: 60
+  cost: 600
   members: true
+
 # Draa's Gloves
 - guid: 2403
   name_id: 43686
@@ -2209,7 +2545,9 @@
   texture_alias: Draa
   item_type: 1
   category: 62
+  cost: 250
   members: true
+
 # Draa's Boots
 - guid: 2405
   name_id: 43688
@@ -2220,7 +2558,9 @@
   texture_alias: Draa
   item_type: 1
   category: 63
+  cost: 250
   members: true
+
 # Burner's Armor
 - guid: 2428
   name_id: 43711
@@ -2231,6 +2571,8 @@
   texture_alias: Redmond
   item_type: 1
   category: 61
+  cost: 1500
+
 # Burner's Helmet
 - guid: 2426
   name_id: 43709
@@ -2241,6 +2583,8 @@
   texture_alias: Redmond
   item_type: 1
   category: 60
+  cost: 1000
+
 # Burner's Gloves
 - guid: 2427
   name_id: 43710
@@ -2251,6 +2595,8 @@
   texture_alias: Redmond
   item_type: 1
   category: 62
+  cost: 500
+
 # Burner's Boots
 - guid: 2429
   name_id: 43712
@@ -2261,6 +2607,8 @@
   texture_alias: Redmond
   item_type: 1
   category: 63
+  cost: 500
+
 # Breaker's Armor
 - guid: 2822
   name_id: 44752
@@ -2271,7 +2619,9 @@
   texture_alias: CaptainBreaker
   item_type: 1
   category: 61
+  cost: 5500
   members: true
+
 # Breaker's Helmet
 - guid: 2820
   name_id: 44750
@@ -2282,7 +2632,9 @@
   texture_alias: CaptainBreaker
   item_type: 1
   category: 60
+  cost: 3500
   members: true
+
 # Breaker's Gloves
 - guid: 2821
   name_id: 44751
@@ -2293,7 +2645,9 @@
   texture_alias: CaptainBreaker
   item_type: 1
   category: 62
+  cost: 1500
   members: true
+
 # Breaker's Boots
 - guid: 2823
   name_id: 44753
@@ -2304,7 +2658,9 @@
   texture_alias: CaptainBreaker
   item_type: 1
   category: 63
+  cost: 1500
   members: true
+
 # Space Trooper Armor
 - guid: 160217
   name_id: 14172
@@ -2315,6 +2671,7 @@
   texture_alias: SpaceTrooper
   item_type: 1
   category: 61
+
 # Space Trooper Helmet
 - guid: 160218
   name_id: 14178
@@ -2325,6 +2682,7 @@
   texture_alias: SpaceTrooper
   item_type: 1
   category: 60
+
 # Space Trooper Gloves
 - guid: 160219
   name_id: 14176
@@ -2335,6 +2693,7 @@
   texture_alias: SpaceTrooper
   item_type: 1
   category: 62
+
 # Space Trooper Boots
 - guid: 160220
   name_id: 14174
@@ -2345,6 +2704,7 @@
   texture_alias: SpaceTrooper
   item_type: 1
   category: 63
+
 # Elite Space Trooper Suit
 - guid: 160221
   name_id: 53650
@@ -2355,6 +2715,7 @@
   texture_alias: SpaceTrooperGlow
   item_type: 1
   category: 61
+
 # Elite Space Trooper Helmet
 - guid: 160222
   name_id: 53648
@@ -2365,6 +2726,7 @@
   texture_alias: SpaceTrooperGlow
   item_type: 1
   category: 60
+
 # Elite Space Trooper Gloves
 - guid: 160223
   name_id: 53649
@@ -2375,6 +2737,7 @@
   texture_alias: SpaceTrooperGlow
   item_type: 1
   category: 62
+
 # Elite Space Trooper Boots
 - guid: 160224
   name_id: 53651
@@ -2385,6 +2748,7 @@
   texture_alias: SpaceTrooperGlow
   item_type: 1
   category: 63
+
 # Super Trooper Armor
 - guid: 384
   name_id: 1186
@@ -2395,6 +2759,8 @@
   texture_alias: SuperTrooper
   item_type: 1
   category: 61
+  cost: 3000
+
 # Super Trooper Helmet
 - guid: 387
   name_id: 1192
@@ -2405,6 +2771,8 @@
   texture_alias: SuperTrooper
   item_type: 1
   category: 60
+  cost: 1500
+
 # Super Trooper Gloves
 - guid: 386
   name_id: 1190
@@ -2415,6 +2783,8 @@
   texture_alias: SuperTrooper
   item_type: 1
   category: 62
+  cost: 2000
+
 # Super Trooper Boots
 - guid: 385
   name_id: 1188
@@ -2425,6 +2795,8 @@
   texture_alias: SuperTrooper
   item_type: 1
   category: 63
+  cost: 1000
+
 # Clone Trooper Armor
 - guid: 402
   name_id: 2506
@@ -2435,6 +2807,8 @@
   texture_alias: CloneBasic
   item_type: 1
   category: 61
+  cost: 200
+
 # Clone Trooper Helmet
 - guid: 18
   name_id: 2505
@@ -2445,6 +2819,8 @@
   texture_alias: CloneBasic
   item_type: 1
   category: 60
+  cost: 200
+
 # Clone Trooper Gloves
 - guid: 14
   name_id: 2507
@@ -2455,6 +2831,8 @@
   texture_alias: White
   item_type: 1
   category: 62
+  cost: 150
+
 # Clone Trooper Boots
 - guid: 10
   name_id: 2508
@@ -2465,6 +2843,8 @@
   texture_alias: White
   item_type: 1
   category: 63
+  cost: 150
+
 # Battle-Damaged Clone Trooper Suit
 - guid: 160233
   name_id: 53725
@@ -2475,6 +2855,7 @@
   texture_alias: CloneDamaged
   item_type: 1
   category: 61
+
 # Battle-Damaged Clone Trooper Helmet
 - guid: 160234
   name_id: 53723
@@ -2485,6 +2866,7 @@
   texture_alias: CloneDamaged
   item_type: 1
   category: 60
+
 # Battle-Damaged Clone Trooper Gloves
 - guid: 160235
   name_id: 53724
@@ -2495,6 +2877,7 @@
   texture_alias: CloneDamaged
   item_type: 1
   category: 62
+
 # Battle-Damaged Clone Trooper Boots
 - guid: 160236
   name_id: 53726
@@ -2505,6 +2888,7 @@
   texture_alias: CloneDamaged
   item_type: 1
   category: 63
+
 # Shock Trooper Suit
 - guid: 160237
   name_id: 54275
@@ -2516,6 +2900,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Shock Trooper Helmet
 - guid: 160238
   name_id: 54273
@@ -2527,6 +2912,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Shock Trooper Gloves
 - guid: 160239
   name_id: 54274
@@ -2538,6 +2924,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Shock Trooper Boots
 - guid: 160240
   name_id: 54276
@@ -2549,6 +2936,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Clone Cadet Casual Red Tunic
 - guid: 996
   name_id: 1587
@@ -2559,6 +2947,8 @@
   texture_alias: YoungAdultClone
   item_type: 1
   category: 61
+  cost: 600
+
 # Clone Cadet Casual Black Boots
 - guid: 997
   name_id: 1589
@@ -2569,6 +2959,8 @@
   texture_alias: YoungAdultClone
   item_type: 1
   category: 63
+  cost: 300
+
 # Clone Cadet Casual Tan Tunic
 - guid: 2784
   name_id: 44317
@@ -2579,6 +2971,8 @@
   texture_alias: YoungAdultCloneTan
   item_type: 1
   category: 61
+  cost: 600
+
 # Clone Cadet Casual Tan Boots
 - guid: 2785
   name_id: 44318
@@ -2589,6 +2983,8 @@
   texture_alias: YoungAdultCloneTan
   item_type: 1
   category: 63
+  cost: 300
+
 # Clone Cadet Casual Grey Tunic
 - guid: 2782
   name_id: 44315
@@ -2599,7 +2995,9 @@
   texture_alias: YoungAdultCloneGrey
   item_type: 1
   category: 61
-# 'Clone Cadet Casual Grey Boots '
+  cost: 600
+
+# Clone Cadet Casual Grey Boots
 - guid: 2783
   name_id: 44316
   description_id: 14
@@ -2609,6 +3007,8 @@
   texture_alias: YoungAdultCloneGrey
   item_type: 1
   category: 63
+  cost: 300
+
 # Sergeant Appo's Suit
 - guid: 160247
   name_id: 54579
@@ -2620,6 +3020,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Sergeant Appo's Helmet
 - guid: 160248
   name_id: 54577
@@ -2631,6 +3032,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Sergeant Appo's Gloves
 - guid: 160249
   name_id: 54578
@@ -2642,6 +3044,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Sergeant Appo's Boots
 - guid: 160250
   name_id: 54580
@@ -2653,6 +3056,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Clone Snowtrooper Armor
 - guid: 457
   name_id: 8888
@@ -2664,6 +3068,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Clone Snowtrooper Helmet
 - guid: 460
   name_id: 8894
@@ -2675,6 +3080,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Clone Snowtrooper Gloves
 - guid: 459
   name_id: 8892
@@ -2686,6 +3092,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Clone Snowtrooper Boots
 - guid: 458
   name_id: 8890
@@ -2697,6 +3104,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Elite Clone Armor
 - guid: 160255
   name_id: 1559
@@ -2707,6 +3115,7 @@
   texture_alias: Burgundy
   item_type: 1
   category: 61
+
 # Elite Clone Helmet
 - guid: 160256
   name_id: 1555
@@ -2717,6 +3126,7 @@
   texture_alias: CloneElite
   item_type: 1
   category: 60
+
 # Elite Clone Gloves
 - guid: 160257
   name_id: 1557
@@ -2727,6 +3137,7 @@
   texture_alias: Burgundy
   item_type: 1
   category: 62
+
 # Elite Clone Boots
 - guid: 160258
   name_id: 1561
@@ -2737,6 +3148,7 @@
   texture_alias: Burgundy
   item_type: 1
   category: 63
+
 # Clone Gunner Armor
 - guid: 160259
   name_id: 866
@@ -2748,6 +3160,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Clone Gunner Helmet
 - guid: 160260
   name_id: 862
@@ -2759,6 +3172,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Clone Gunner Helmet
 - guid: 160261
   name_id: 862
@@ -2770,6 +3184,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Clone Gunner Gloves
 - guid: 160262
   name_id: 864
@@ -2781,6 +3196,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Clone Gunner Boots
 - guid: 160263
   name_id: 868
@@ -2792,6 +3208,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Clone Pilot Helmet
 - guid: 622
   name_id: 244
@@ -2802,6 +3219,8 @@
   texture_alias: RedHawk
   item_type: 1
   category: 60
+  cost: 250
+
 # Grey Darkside Trooper Armor
 - guid: 160265
   name_id: 4915
@@ -2812,6 +3231,7 @@
   texture_alias: ShadowTrooperSilver
   item_type: 1
   category: 61
+
 # Grey Darkside Trooper Helmet
 - guid: 160266
   name_id: 4913
@@ -2822,6 +3242,7 @@
   texture_alias: ShadowTrooperSilver
   item_type: 1
   category: 60
+
 # Grey Darkside Trooper Gloves
 - guid: 160267
   name_id: 4914
@@ -2832,6 +3253,7 @@
   texture_alias: ShadowTrooperSilver
   item_type: 1
   category: 62
+
 # Grey Darkside Trooper Boots
 - guid: 160268
   name_id: 4916
@@ -2842,6 +3264,7 @@
   texture_alias: ShadowTrooperSilver
   item_type: 1
   category: 63
+
 # White Darkside Trooper Armor
 - guid: 160269
   name_id: 4911
@@ -2852,6 +3275,7 @@
   texture_alias: ShadowTrooperBlkWht
   item_type: 1
   category: 61
+
 # White Darkside Trooper Helmet
 - guid: 160270
   name_id: 4909
@@ -2862,6 +3286,7 @@
   texture_alias: ShadowTrooperBlkWht
   item_type: 1
   category: 60
+
 # White Darkside Trooper Gloves
 - guid: 160271
   name_id: 4910
@@ -2872,6 +3297,7 @@
   texture_alias: ShadowTrooperBlkWht
   item_type: 1
   category: 62
+
 # White Darkside Trooper Boots
 - guid: 160272
   name_id: 4912
@@ -2882,6 +3308,7 @@
   texture_alias: ShadowTrooperBlkWht
   item_type: 1
   category: 63
+
 # Red Darkside Trooper Armor
 - guid: 160273
   name_id: 4919
@@ -2892,6 +3319,7 @@
   texture_alias: ShadowTrooperRedGlow
   item_type: 1
   category: 61
+
 # Red Darkside Trooper Helmet
 - guid: 160274
   name_id: 4917
@@ -2902,6 +3330,7 @@
   texture_alias: ShadowTrooperRedGlow
   item_type: 1
   category: 60
+
 # Red Darkside Trooper Gloves
 - guid: 160275
   name_id: 4918
@@ -2912,6 +3341,7 @@
   texture_alias: ShadowTrooperRedGlow
   item_type: 1
   category: 62
+
 # Red Darkside Trooper Boots
 - guid: 160276
   name_id: 4920
@@ -2922,6 +3352,7 @@
   texture_alias: ShadowTrooperRedGlow
   item_type: 1
   category: 63
+
 # Shadow Tech Armor
 - guid: 3278
   name_id: 4480
@@ -2933,6 +3364,7 @@
   item_type: 1
   category: 61
   members: true
+
 # Shadow Tech Helmet
 - guid: 3276
   name_id: 4478
@@ -2944,6 +3376,7 @@
   item_type: 1
   category: 60
   members: true
+
 # Shadow Tech Gloves
 - guid: 3277
   name_id: 4479
@@ -2955,6 +3388,7 @@
   item_type: 1
   category: 62
   members: true
+
 # Shadow Tech Boots
 - guid: 3279
   name_id: 4481
@@ -2966,6 +3400,7 @@
   item_type: 1
   category: 63
   members: true
+
 # Warthog Helmet
 - guid: 3331
   name_id: 4545
@@ -2976,7 +3411,9 @@
   texture_alias: Warthog
   item_type: 1
   category: 60
+  cost: 1000
   members: true
+
 # Phase 2 Red Armor
 - guid: 160282
   description_id: 14
@@ -2986,6 +3423,7 @@
   texture_alias: Phase2Red
   item_type: 1
   category: 61
+
 # Phase 2 Red Helmet
 - guid: 160283
   description_id: 14
@@ -2995,6 +3433,7 @@
   texture_alias: Phase2Red
   item_type: 1
   category: 60
+
 # Phase 2 Red Gloves
 - guid: 160284
   description_id: 14
@@ -3004,6 +3443,7 @@
   texture_alias: Phase2Red
   item_type: 1
   category: 62
+
 # Phase 2 Red Boots
 - guid: 160285
   description_id: 14
@@ -3013,6 +3453,7 @@
   texture_alias: Phase2Red
   item_type: 1
   category: 63
+
 # Grand Officer Armor
 - guid: 160286
   name_id: 52799
@@ -3023,6 +3464,7 @@
   texture_alias: GrandOfficer
   item_type: 1
   category: 61
+
 # Grand Officer Helmet
 - guid: 160287
   name_id: 52802
@@ -3033,6 +3475,7 @@
   texture_alias: GrandOfficer
   item_type: 1
   category: 60
+
 # Grand Officer Gloves
 - guid: 160288
   name_id: 52800
@@ -3043,6 +3486,7 @@
   texture_alias: GrandOfficer
   item_type: 1
   category: 62
+
 # Grand Officer Boots
 - guid: 160289
   name_id: 52801
@@ -3053,6 +3497,7 @@
   texture_alias: GrandOfficer
   item_type: 1
   category: 63
+
 # Barrage's Armor
 - guid: 2412
   name_id: 43695
@@ -3063,7 +3508,9 @@
   texture_alias: Havoc
   item_type: 1
   category: 61
+  cost: 50000
   members: true
+
 # Barrage's Helmet
 - guid: 2410
   name_id: 43693
@@ -3074,7 +3521,9 @@
   texture_alias: Havoc
   item_type: 1
   category: 60
+  cost: 30000
   members: true
+
 # Barrage's Gloves
 - guid: 2411
   name_id: 43694
@@ -3085,7 +3534,9 @@
   texture_alias: Havoc
   item_type: 1
   category: 62
+  cost: 10000
   members: true
+
 # Barrage's Boots
 - guid: 2413
   name_id: 43696
@@ -3096,7 +3547,9 @@
   texture_alias: Havoc
   item_type: 1
   category: 63
+  cost: 10000
   members: true
+
 # Hevy's Training Armor
 - guid: 921
   name_id: 1460
@@ -3107,6 +3560,8 @@
   texture_alias: Hevy
   item_type: 1
   category: 61
+  cost: 1000
+
 # Hevy's Training Helmet
 - guid: 935
   name_id: 1488
@@ -3117,6 +3572,8 @@
   texture_alias: Hevy
   item_type: 1
   category: 60
+  cost: 1000
+
 # Hevy's Training Gloves
 - guid: 932
   name_id: 1482
@@ -3127,6 +3584,8 @@
   texture_alias: Hevy
   item_type: 1
   category: 62
+  cost: 500
+
 # Hevy's Training Boots
 - guid: 926
   name_id: 1470
@@ -3137,3 +3596,4 @@
   texture_alias: Hevy
   item_type: 1
   category: 63
+  cost: 500

@@ -45,6 +45,7 @@
   texture_alias: CloneBasic
   item_type: 1
   category: 64
+  cost: 200
   action_bar:
     ability_keys:
       - "clone_trooper_blaster"
@@ -79,6 +80,7 @@
   texture_alias: Panaka
   item_type: 1
   category: 64
+  cost: 1400
   members: true
   action_bar:
     ability_keys:
@@ -97,6 +99,7 @@
   texture_alias: TuskenRaider
   item_type: 1
   category: 64
+  cost: 800
   members: true
   action_bar:
     ability_keys:
@@ -115,6 +118,7 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 64
+  cost: 2000
   members: true
 
 # Cad Bane's Left Blaster
@@ -128,6 +132,7 @@
   texture_alias: CadBane
   item_type: 1
   category: 64
+  cost: 3000
 
 # Clone Trooper Blaster Rifle
 - guid: 439
@@ -140,6 +145,7 @@
   texture_alias: CommanderCody
   item_type: 1
   category: 64
+  cost: 600
   members: true
   action_bar:
     ability_keys:
@@ -158,6 +164,7 @@
   texture_alias: CadBane
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "cad_bane_right_blaster"
@@ -175,6 +182,7 @@
   texture_alias: AurraSing
   item_type: 1
   category: 64
+  cost: 2000
   members: true
   action_bar:
     ability_keys:
@@ -193,6 +201,7 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 64
+  cost: 1000
   members: true
   action_bar:
     ability_keys:
@@ -228,6 +237,7 @@
   texture_alias: CommanderJet
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "republic_flamethrower"
@@ -245,6 +255,7 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 64
+  cost: 24000
   members: true
   action_bar:
     ability_keys:
@@ -263,6 +274,7 @@
   texture_alias: CloneGunner
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "rotary_blaster_cannon"
@@ -280,6 +292,7 @@
   texture_alias: BlasterRifle
   item_type: 1
   category: 64
+  cost: 3000
   members: true
   action_bar:
     ability_keys:
@@ -298,6 +311,7 @@
   texture_alias: Embo
   item_type: 1
   category: 64
+  cost: 4000
   members: true
   action_bar:
     ability_keys:
@@ -316,6 +330,7 @@
   texture_alias: IonPapanoida
   item_type: 1
   category: 64
+  cost: 2000
   members: true
   action_bar:
     ability_keys:
@@ -334,6 +349,7 @@
   texture_alias: AurraSingSniper
   item_type: 1
   category: 64
+  cost: 1500
   members: true
   action_bar:
     ability_keys:
@@ -352,6 +368,7 @@
   texture_alias: AurraSingSniper
   item_type: 1
   category: 64
+  cost: 1500
   members: true
 
 # Satine's Royal Guard Staff
@@ -365,6 +382,7 @@
   texture_alias: SRG
   item_type: 1
   category: 64
+  cost: 1500
   action_bar:
     ability_keys:
       - "satine_royal_guard_staff"
@@ -381,6 +399,7 @@
   model_name: Wield_PoleArm_DoubleheadedSpear.adr
   item_type: 1
   category: 64
+  cost: 3000
   members: true
   action_bar:
     ability_keys:
@@ -416,6 +435,7 @@
   texture_alias: Balnab
   item_type: 1
   category: 64
+  cost: 1500
   members: true
   action_bar:
     ability_keys:
@@ -434,6 +454,7 @@
   texture_alias: NightSister
   item_type: 1
   category: 64
+  cost: 2000
   members: true
   action_bar:
     ability_keys:
@@ -452,6 +473,7 @@
   texture_alias: Opress
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "savage_opress_pike"
@@ -486,6 +508,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -504,6 +527,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -522,6 +546,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -540,6 +565,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -558,6 +584,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -576,6 +603,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -594,6 +622,7 @@
   texture_alias: Basic
   item_type: 1
   category: 64
+  cost: 500
   members: true
   action_bar:
     ability_keys:
@@ -612,6 +641,7 @@
   texture_alias: Vigilance
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "vigilance"
@@ -629,6 +659,7 @@
   texture_alias: Vigilance
   item_type: 1
   category: 64
+  cost: 3000
 
 # Skeletal Clone Trooper Scythe
 - guid: 3092
@@ -659,6 +690,7 @@
   texture_alias: Umbaran
   item_type: 1
   category: 64
+  cost: 1500
   members: true
   action_bar:
     ability_keys:
@@ -677,6 +709,7 @@
   texture_alias: Zygerrian
   item_type: 1
   category: 64
+  cost: 1500
   members: true
   action_bar:
     ability_keys:
@@ -694,6 +727,7 @@
   model_name: Wield_PoleArm_ElectroStaff.adr
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "captain_rex_zygerrian_electrostaff"
@@ -729,6 +763,7 @@
   texture_alias: RakoHardeen
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "rako_hardeen_sniper_rifle"
@@ -746,6 +781,7 @@
   texture_alias: CadBane
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "cad_bane_blaster_rifle"
@@ -763,6 +799,7 @@
   texture_alias: Cryo
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "cryo_cannon"
@@ -780,6 +817,7 @@
   texture_alias: Plasma
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "plasma_thrower"
@@ -797,6 +835,7 @@
   texture_alias: IonBlaster
   item_type: 1
   category: 64
+  cost: 3000
   action_bar:
     ability_keys:
       - "ion_blaster"
@@ -814,6 +853,7 @@
   texture_alias: BobaFett
   item_type: 1
   category: 64
+  cost: 1500
   action_bar:
     ability_keys:
       - "quarzite_boba_fett_blaster"
@@ -831,6 +871,7 @@
   texture_alias: BobaFett
   item_type: 1
   category: 64
+  cost: 1500
 
 # Cold Warrior Rifle
 - guid: 80000
