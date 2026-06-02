@@ -23,6 +23,7 @@
       unknown: 0
     - guid: 402
       unknown: 0
+
 # Original Anakin Skywalker
 - guid: 2
   name_id: 8602
@@ -45,6 +46,7 @@
       unknown: 0
     - guid: 435
       unknown: 0
+
 # Primary Hilts
 - guid: 3
   name_id: 0
@@ -185,6 +187,7 @@
       unknown: 0
     - guid: 230100
       unknown: 0
+
 # Primary Colors
 - guid: 4
   name_id: 0
@@ -225,6 +228,7 @@
       unknown: 0
     - guid: 100012
       unknown: 0
+
 # Primary Shapes
 - guid: 5
   name_id: 0
@@ -279,6 +283,7 @@
       unknown: 0
     - guid: 90019
       unknown: 0
+
 # Secondary Hilts
 - guid: 8
   name_id: 0
@@ -397,6 +402,7 @@
       unknown: 0
     - guid: 230102
       unknown: 0
+
 # Secondary Shapes
 - guid: 9
   name_id: 0
@@ -451,6 +457,7 @@
       unknown: 0
     - guid: 120019
       unknown: 0
+
 # F1-V3L
 - guid: 10
   name_id: 7217
@@ -467,6 +474,7 @@
   items:
     - guid: 542
       unknown: 0
+
 # 5P-0T
 - guid: 11
   name_id: 9151
@@ -483,6 +491,7 @@
   items:
     - guid: 632
       unknown: 0
+
 # BR-3R
 - guid: 12
   name_id: 8859
@@ -499,6 +508,7 @@
   items:
     - guid: 554
       unknown: 0
+
 # PR-0B07
 - guid: 13
   name_id: 7218
@@ -515,6 +525,7 @@
   items:
     - guid: 543
       unknown: 0
+
 # T0-D0
 - guid: 14
   name_id: 9152
@@ -531,6 +542,7 @@
   items:
     - guid: 633
       unknown: 0
+
 # 5T-U85
 - guid: 15
   name_id: 7225
@@ -547,6 +559,7 @@
   items:
     - guid: 544
       unknown: 0
+
 # Cad Bane
 - guid: 18
   name_id: 8600
@@ -573,6 +586,7 @@
       unknown: 0
     - guid: 512
       unknown: 0
+
 # Darth Sidious
 - guid: 19
   name_id: 8601
@@ -593,6 +607,7 @@
       unknown: 0
     - guid: 910
       unknown: 0
+
 # Original Obi-Wan Kenobi
 - guid: 20
   name_id: 8603
@@ -615,6 +630,7 @@
       unknown: 0
     - guid: 536
       unknown: 0
+
 # Mace Windu
 - guid: 21
   name_id: 8604
@@ -637,6 +653,7 @@
       unknown: 0
     - guid: 535
       unknown: 0
+
 # Luminara Unduli
 - guid: 22
   name_id: 8605
@@ -659,6 +676,7 @@
       unknown: 0
     - guid: 606
       unknown: 0
+
 # Kit Fisto
 - guid: 23
   name_id: 8606
@@ -681,6 +699,7 @@
       unknown: 0
     - guid: 532
       unknown: 0
+
 # Adi Gallia
 - guid: 24
   name_id: 8607
@@ -705,6 +724,7 @@
       unknown: 0
     - guid: 780
       unknown: 0
+
 # Original Ahsoka Tano
 - guid: 25
   name_id: 8608
@@ -727,6 +747,7 @@
       unknown: 0
     - guid: 422
       unknown: 0
+
 # Long Padawan Robes
 - guid: 26
   name_id: 8609
@@ -749,6 +770,7 @@
       unknown: 0
     - guid: 538
       unknown: 0
+
 # Green Padawan Robes
 - guid: 27
   name_id: 8610
@@ -771,6 +793,7 @@
       unknown: 0
     - guid: 538
       unknown: 0
+
 # Simple Padawan Robes
 - guid: 28
   name_id: 8611
@@ -793,6 +816,7 @@
       unknown: 0
     - guid: 538
       unknown: 0
+
 # ARF Trooper
 - guid: 29
   name_id: 8612
@@ -817,6 +841,7 @@
       unknown: 0
     - guid: 482
       unknown: 0
+
 # Captain Rex
 - guid: 30
   name_id: 8613
@@ -843,6 +868,7 @@
       unknown: 0
     - guid: 514
       unknown: 0
+
 # Commander Jet
 - guid: 31
   name_id: 8614
@@ -867,6 +893,7 @@
       unknown: 0
     - guid: 520
       unknown: 0
+
 # Clone Pilot
 - guid: 32
   name_id: 8615
@@ -889,6 +916,7 @@
       unknown: 0
     - guid: 622
       unknown: 0
+
 # Phase II Clone Trooper - This is guessed based on pattern of name IDs and descriptions.
 - guid: 33
   name_id: 8616
@@ -911,6 +939,7 @@
       unknown: 0
     - guid: 230063
       unknown: 0
+
 # Clone Snowtrooper
 - guid: 34
   name_id: 8617
@@ -933,6 +962,7 @@
       unknown: 0
     - guid: 460
       unknown: 0
+
 # Captain Argyus
 - guid: 36
   name_id: 8619
@@ -955,6 +985,7 @@
       unknown: 0
     - guid: 488
       unknown: 0
+
 # Asajj Ventress
 - guid: 37
   name_id: 8620
@@ -977,6 +1008,7 @@
       unknown: 0
     - guid: 570
       unknown: 0
+
 # Original Count Dooku
 - guid: 38
   name_id: 8621
@@ -995,6 +1027,7 @@
       unknown: 0
     - guid: 873
       unknown: 0
+
 # Hondo Ohnaka
 - guid: 39
   name_id: 8622
@@ -1017,6 +1050,7 @@
       unknown: 0
     - guid: 908
       unknown: 0
+
 # Blinged-Out Clone Trooper
 - guid: 40
   name_id: 8623
@@ -1041,6 +1075,7 @@
       unknown: 0
     - guid: 752
       unknown: 0
+
 # Pink Tusken Raider
 - guid: 42
   name_id: 8626
@@ -1065,6 +1100,7 @@
       unknown: 0
     - guid: 613
       unknown: 0
+
 # Purple Fur Wampa Suit
 - guid: 43
   name_id: 8627
@@ -1087,6 +1123,7 @@
       unknown: 0
     - guid: 783
       unknown: 0
+
 # Tusken Raider
 - guid: 44
   name_id: 8628
@@ -1111,6 +1148,7 @@
       unknown: 0
     - guid: 629
       unknown: 0
+
 # Commander Cody
 - guid: 45
   name_id: 8629
@@ -1133,6 +1171,7 @@
       unknown: 0
     - guid: 403
       unknown: 0
+
 # Desert Trooper
 - guid: 46
   name_id: 8631
@@ -1157,6 +1196,7 @@
       unknown: 0
     - guid: 521
       unknown: 0
+
 # Admiral Yularen
 - guid: 48
   name_id: 8633
@@ -1177,6 +1217,7 @@
       unknown: 0
     - guid: 568
       unknown: 0
+
 # Republic General Snow Uniform
 - guid: 49
   name_id: 8634
@@ -1199,6 +1240,7 @@
       unknown: 0
     - guid: 254
       unknown: 0
+
 # Han Solo
 - guid: 50
   name_id: 8635
@@ -1219,6 +1261,7 @@
       unknown: 0
     - guid: 516
       unknown: 0
+
 # Boba Fett
 - guid: 51
   name_id: 8637
@@ -1243,6 +1286,7 @@
       unknown: 0
     - guid: 578
       unknown: 0
+
 # Zabrak Sith
 - guid: 52
   name_id: 8638
@@ -1265,6 +1309,7 @@
       unknown: 0
     - guid: 777
       unknown: 0
+
 # Aurra Sing
 - guid: 57
   name_id: 8643
@@ -1289,6 +1334,7 @@
       unknown: 0
     - guid: 574
       unknown: 0
+
 # Pre Vizsla
 - guid: 58
   name_id: 8644
@@ -1313,6 +1359,7 @@
       unknown: 0
     - guid: 527
       unknown: 0
+
 # Captain Typho
 - guid: 60
   name_id: 8646
@@ -1337,6 +1384,7 @@
       unknown: 0
     - guid: 913
       unknown: 0
+
 # Forest Trooper
 - guid: 61
   name_id: 8647
@@ -1359,6 +1407,7 @@
       unknown: 0
     - guid: 781
       unknown: 0
+
 # Republic Technician
 - guid: 62
   name_id: 8648
@@ -1381,6 +1430,7 @@
       unknown: 0
     - guid: 250
       unknown: 0
+
 # Medical Fleet Officer
 - guid: 64
   name_id: 8650
@@ -1403,6 +1453,7 @@
       unknown: 0
     - guid: 262
       unknown: 0
+
 # Lok Durd
 - guid: 66
   name_id: 8652
@@ -1423,6 +1474,7 @@
       unknown: 0
     - guid: 66
       unknown: 0
+
 # Bail Organa
 - guid: 67
   name_id: 8653
@@ -1441,6 +1493,7 @@
       unknown: 0
     - guid: 1101
       unknown: 0
+
 # Senator Kharrus
 - guid: 73
   name_id: 8659
@@ -1459,6 +1512,7 @@
       unknown: 0
     - guid: 1122
       unknown: 0
+
 # Senator Ballroom Wear
 - guid: 75
   name_id: 8661
@@ -1479,6 +1533,7 @@
       unknown: 0
     - guid: 995
       unknown: 0
+
 # Nuvo Vindi
 - guid: 78
   name_id: 8664
@@ -1501,6 +1556,7 @@
       unknown: 0
     - guid: 905
       unknown: 0
+
 # Orn Free Taa
 - guid: 81
   name_id: 8667
@@ -1519,6 +1575,7 @@
       unknown: 0
     - guid: 264
       unknown: 0
+
 # Coruscant Underworld Scrapper
 - guid: 83
   name_id: 8669
@@ -1541,6 +1598,7 @@
       unknown: 0
     - guid: 395
       unknown: 0
+
 # Cassie Cryar
 - guid: 84
   name_id: 8670
@@ -1561,6 +1619,7 @@
       unknown: 0
     - guid: 235
       unknown: 0
+
 # Confederacy Ship Minis I
 - guid: 94
   name_id: 8450
@@ -1585,6 +1644,7 @@
       unknown: 0
     - guid: 159
       unknown: 0
+
 # Gungan Set
 - guid: 97
   name_id: 8453
@@ -1615,6 +1675,7 @@
       unknown: 0
     - guid: 42
       unknown: 0
+
 # Coruscant Diplomat Set
 - guid: 98
   name_id: 8454
@@ -1647,6 +1708,7 @@
       unknown: 0
     - guid: 673
       unknown: 0
+
 # Kashyyyk
 - guid: 99
   name_id: 8455
@@ -1677,6 +1739,7 @@
       unknown: 0
     - guid: 125
       unknown: 0
+
 # Lower City Coruscant Set
 - guid: 101
   name_id: 8457
@@ -1707,6 +1770,7 @@
       unknown: 0
     - guid: 114
       unknown: 0
+
 # Mon Calamari Set
 - guid: 102
   name_id: 8458
@@ -1739,6 +1803,7 @@
       unknown: 0
     - guid: 690
       unknown: 0
+
 # Naboo Royalty Set
 - guid: 103
   name_id: 8459
@@ -1769,6 +1834,7 @@
       unknown: 0
     - guid: 133
       unknown: 0
+
 # Party Deck Set
 - guid: 104
   name_id: 8460
@@ -1799,6 +1865,7 @@
       unknown: 0
     - guid: 698
       unknown: 0
+
 # Republic Heroes Minis Set I
 - guid: 105
   name_id: 8461
@@ -1823,6 +1890,7 @@
       unknown: 0
     - guid: 151
       unknown: 0
+
 # Republic Ship Minis Set I
 - guid: 106
   name_id: 8462
@@ -1847,6 +1915,7 @@
       unknown: 0
     - guid: 160
       unknown: 0
+
 # Starship Set
 - guid: 107
   name_id: 8463
@@ -1875,6 +1944,7 @@
       unknown: 0
     - guid: 140
       unknown: 0
+
 # Zephyr-G Speeder Set
 - guid: 110
   name_id: 8466
@@ -1895,6 +1965,7 @@
       unknown: 0
     - guid: 648
       unknown: 0
+
 # Starhawk Speeder Set
 - guid: 111
   name_id: 8467
@@ -1915,6 +1986,7 @@
       unknown: 0
     - guid: 654
       unknown: 0
+
 # BARC Speeder Set
 - guid: 112
   name_id: 8468
@@ -1933,6 +2005,7 @@
       unknown: 0
     - guid: 645
       unknown: 0
+
 # Jedi Starfighter Set I
 - guid: 114
   name_id: 8470
@@ -1953,6 +2026,7 @@
       unknown: 0
     - guid: 748
       unknown: 0
+
 # Dance Pack I
 - guid: 118
   name_id: 8474
@@ -1973,6 +2047,7 @@
       unknown: 0
     - guid: 45
       unknown: 0
+
 # Holoprojector Pack I
 - guid: 119
   name_id: 8475
@@ -1995,6 +2070,7 @@
       unknown: 0
     - guid: 746
       unknown: 0
+
 # Jedi Mind Trick Pack I
 - guid: 120
   name_id: 8476
@@ -2017,6 +2093,7 @@
       unknown: 0
     - guid: 662
       unknown: 0
+
 # Jedi Mind Trick Pack II
 - guid: 121
   name_id: 8477
@@ -2039,6 +2116,7 @@
       unknown: 0
     - guid: 2084
       unknown: 0
+
 # Hair Style
 - guid: 122
   name_id: 0
@@ -2291,6 +2369,7 @@
       unknown: 0
     - guid: 40000
       unknown: 0
+
 # Hair Color
 - guid: 123
   name_id: 0
@@ -2349,6 +2428,7 @@
       unknown: 0
     - guid: 30000
       unknown: 0
+
 # Eye Color
 - guid: 124
   name_id: 0
@@ -2389,6 +2469,7 @@
       unknown: 0
     - guid: 10000
       unknown: 0
+
 # Skin Tone
 - guid: 125
   name_id: 0
@@ -2463,6 +2544,7 @@
       unknown: 0
     - guid: 60000
       unknown: 0
+
 # Face Design
 - guid: 126
   name_id: 0
@@ -2603,6 +2685,7 @@
       unknown: 0
     - guid: 50000
       unknown: 0
+
 # Species
 - guid: 127
   name_id: 0
@@ -2643,6 +2726,7 @@
       unknown: 0
     - guid: 70000
       unknown: 0
+
 # R3-S6
 - guid: 131
   name_id: 2480
@@ -2659,6 +2743,7 @@
   items:
     - guid: 546
       unknown: 0
+
 # R2-D2
 - guid: 132
   name_id: 2482
@@ -2675,6 +2760,7 @@
   items:
     - guid: 545
       unknown: 0
+
 # B3-3P5
 - guid: 133
   name_id: 7557
@@ -2691,6 +2777,7 @@
   items:
     - guid: 547
       unknown: 0
+
 # M1-L0
 - guid: 134
   name_id: 7558
@@ -2707,6 +2794,7 @@
   items:
     - guid: 548
       unknown: 0
+
 # B0-LT5
 - guid: 135
   name_id: 7559
@@ -2723,6 +2811,7 @@
   items:
     - guid: 549
       unknown: 0
+
 # N0-80T
 - guid: 136
   name_id: 7560
@@ -2739,6 +2828,7 @@
   items:
     - guid: 550
       unknown: 0
+
 # N-30H
 - guid: 137
   name_id: 7563
@@ -2755,6 +2845,7 @@
   items:
     - guid: 551
       unknown: 0
+
 # J3-3V3
 - guid: 138
   name_id: 7561
@@ -2771,6 +2862,7 @@
   items:
     - guid: 552
       unknown: 0
+
 # D-0T
 - guid: 139
   name_id: 7562
@@ -2787,6 +2879,7 @@
   items:
     - guid: 553
       unknown: 0
+
 # Facial Hair
 - guid: 140
   name_id: 0
@@ -2831,6 +2924,7 @@
       unknown: 0
     - guid: 20000
       unknown: 0
+
 # Commander Bly
 - guid: 142
   name_id: 264
@@ -2853,6 +2947,7 @@
       unknown: 0
     - guid: 586
       unknown: 0
+
 # Death Watch
 - guid: 143
   name_id: 266
@@ -2877,6 +2972,7 @@
       unknown: 0
     - guid: 758
       unknown: 0
+
 # Rookie Echo
 - guid: 144
   name_id: 268
@@ -2901,6 +2997,7 @@
       unknown: 0
     - guid: 594
       unknown: 0
+
 # Jet Pack Trooper
 - guid: 145
   name_id: 33640
@@ -2923,6 +3020,7 @@
       unknown: 0
     - guid: 598
       unknown: 0
+
 # Kyle Katarn
 - guid: 146
   name_id: 272
@@ -2945,6 +3043,7 @@
       unknown: 0
     - guid: 786
       unknown: 0
+
 # Plo Koon
 - guid: 148
   name_id: 276
@@ -2969,6 +3068,7 @@
       unknown: 0
     - guid: 617
       unknown: 0
+
 # Secondary Colors
 - guid: 149
   name_id: 0
@@ -3009,6 +3109,7 @@
       unknown: 0
     - guid: 130012
       unknown: 0
+
 # Super Trooper
 - guid: 155
   name_id: 1591
@@ -3033,6 +3134,7 @@
       unknown: 0
     - guid: 520
       unknown: 0
+
 # Ancient Cobal Jedi
 - guid: 156
   name_id: 898
@@ -3055,6 +3157,7 @@
       unknown: 0
     - guid: 790
       unknown: 0
+
 # Commander Gree
 - guid: 158
   name_id: 902
@@ -3079,6 +3182,7 @@
       unknown: 0
     - guid: 439
       unknown: 0
+
 # Ancient Miko Jedi
 - guid: 159
   name_id: 904
@@ -3101,6 +3205,7 @@
       unknown: 0
     - guid: 761
       unknown: 0
+
 # Ancient Savek Sith
 - guid: 162
   name_id: 908
@@ -3125,6 +3230,7 @@
       unknown: 0
     - guid: 764
       unknown: 0
+
 # Spiked Trooper
 - guid: 163
   name_id: 910
@@ -3147,6 +3253,7 @@
       unknown: 0
     - guid: 272
       unknown: 0
+
 # Jedi Starfighter Set II
 - guid: 164
   name_id: 494
@@ -3167,6 +3274,7 @@
       unknown: 0
     - guid: 52
       unknown: 0
+
 # Embo
 - guid: 165
   name_id: 14802
@@ -3191,6 +3299,7 @@
       unknown: 0
     - guid: 906
       unknown: 0
+
 # Shaak Ti
 - guid: 167
   name_id: 14812
@@ -3211,6 +3320,7 @@
       unknown: 0
     - guid: 928
       unknown: 0
+
 # Mouse Droid Part Pack
 - guid: 168
   name_id: 1239
@@ -3229,6 +3339,7 @@
       unknown: 0
     - guid: 444
       unknown: 0
+
 # Mini AT-AT Part Pack
 - guid: 169
   name_id: 1240
@@ -3247,6 +3358,7 @@
       unknown: 0
     - guid: 564
       unknown: 0
+
 # Rabbit Droid Part Pack
 - guid: 170
   name_id: 1241
@@ -3265,6 +3377,7 @@
       unknown: 0
     - guid: 446
       unknown: 0
+
 # Probe Droid Parts
 - guid: 171
   name_id: 1242
@@ -3285,6 +3398,7 @@
       unknown: 0
     - guid: 659
       unknown: 0
+
 # Techno-Service Droid Part Pack
 - guid: 172
   name_id: 1243
@@ -3305,6 +3419,7 @@
       unknown: 0
     - guid: 562
       unknown: 0
+
 # Power Droid Part Pack
 - guid: 173
   name_id: 1244
@@ -3325,6 +3440,7 @@
       unknown: 0
     - guid: 436
       unknown: 0
+
 # Astromech Part Pack I
 - guid: 174
   name_id: 1245
@@ -3345,6 +3461,7 @@
       unknown: 0
     - guid: 427
       unknown: 0
+
 # Protocol Droid Part Pack I
 - guid: 175
   name_id: 1246
@@ -3365,6 +3482,7 @@
       unknown: 0
     - guid: 447
       unknown: 0
+
 # Party Pad
 - guid: 176
   name_id: 750
@@ -3381,6 +3499,7 @@
   items:
     - guid: 20
       unknown: 0
+
 # Hidden Armory
 - guid: 178
   name_id: 754
@@ -3397,6 +3516,7 @@
   items:
     - guid: 22
       unknown: 0
+
 # Droid Destruction Room
 - guid: 179
   name_id: 756
@@ -3413,6 +3533,7 @@
   items:
     - guid: 23
       unknown: 0
+
 # Personal Hangar
 - guid: 180
   name_id: 758
@@ -3429,6 +3550,7 @@
   items:
     - guid: 24
       unknown: 0
+
 # Ancient Shotem Jedi
 - guid: 186
   name_id: 15466
@@ -3453,6 +3575,7 @@
       unknown: 0
     - guid: 909
       unknown: 0
+
 # Ancient Ermi Jedi
 - guid: 187
   name_id: 15468
@@ -3477,6 +3600,7 @@
       unknown: 0
     - guid: 912
       unknown: 0
+
 # Lando Calrissian
 - guid: 188
   name_id: 2598
@@ -3495,6 +3619,7 @@
       unknown: 0
     - guid: 927
       unknown: 0
+
 # Card Commander Booster Pack
 - guid: 190
   name_id: 2596
@@ -3511,6 +3636,7 @@
   items:
     - guid: 952
       unknown: 0
+
 # ARC Trooper Sergeant
 - guid: 192
   name_id: 1539
@@ -3533,6 +3659,7 @@
       unknown: 0
     - guid: 899
       unknown: 0
+
 # ARC Trooper Lieutenant
 - guid: 193
   name_id: 1541
@@ -3555,6 +3682,7 @@
       unknown: 0
     - guid: 900
       unknown: 0
+
 # ARC Trooper Captain
 - guid: 194
   name_id: 1543
@@ -3577,6 +3705,7 @@
       unknown: 0
     - guid: 901
       unknown: 0
+
 # ARC Trooper Commander
 - guid: 195
   name_id: 1545
@@ -3599,6 +3728,7 @@
       unknown: 0
     - guid: 902
       unknown: 0
+
 # ARC Trooper General
 - guid: 196
   name_id: 1547
@@ -3621,6 +3751,7 @@
       unknown: 0
     - guid: 904
       unknown: 0
+
 # Holocrons
 - guid: 197
   name_id: 2636
@@ -3643,6 +3774,7 @@
       unknown: 0
     - guid: 969
       unknown: 0
+
 # The Mace Window
 - guid: 198
   name_id: 2645
@@ -3659,6 +3791,7 @@
   items:
     - guid: 978
       unknown: 0
+
 # RA-7
 - guid: 199
   name_id: 1592
@@ -3675,6 +3808,7 @@
   items:
     - guid: 998
       unknown: 0
+
 # Hevy
 - guid: 200
   name_id: 1606
@@ -3699,6 +3833,7 @@
       unknown: 0
     - guid: 935
       unknown: 0
+
 # Lama Su
 - guid: 201
   name_id: 1608
@@ -3717,6 +3852,7 @@
       unknown: 0
     - guid: 992
       unknown: 0
+
 # Clone Cadet Casual Red Gear
 - guid: 202
   name_id: 1610
@@ -3735,6 +3871,7 @@
       unknown: 0
     - guid: 997
       unknown: 0
+
 # King Katuunko
 - guid: 203
   name_id: 1668
@@ -3757,6 +3894,7 @@
       unknown: 0
     - guid: 1105
       unknown: 0
+
 # Toydarian Royal Guard
 - guid: 204
   name_id: 1670
@@ -3779,6 +3917,7 @@
       unknown: 0
     - guid: 1126
       unknown: 0
+
 # 1M-AU5
 - guid: 205
   name_id: 17994
@@ -3795,6 +3934,7 @@
   items:
     - guid: 2092
       unknown: 0
+
 # Ion Papanoida
 - guid: 206
   name_id: 1719
@@ -3819,6 +3959,7 @@
       unknown: 0
     - guid: 1144
       unknown: 0
+
 # Baron Papanoida
 - guid: 207
   name_id: 1721
@@ -3841,6 +3982,7 @@
       unknown: 0
     - guid: 1116
       unknown: 0
+
 # B3-T4
 - guid: 208
   name_id: 16259
@@ -3857,6 +3999,7 @@
   items:
     - guid: 917
       unknown: 0
+
 # Mandalorian Police Captain
 - guid: 209
   name_id: 1821
@@ -3879,6 +4022,7 @@
       unknown: 0
     - guid: 1150
       unknown: 0
+
 # Satine's Royal Guard
 - guid: 210
   name_id: 1825
@@ -3903,6 +4047,7 @@
       unknown: 0
     - guid: 1167
       unknown: 0
+
 # Tee Va
 - guid: 211
   name_id: 1823
@@ -3923,6 +4068,7 @@
       unknown: 0
     - guid: 1179
       unknown: 0
+
 # Holoprojector Pack II
 - guid: 212
   name_id: 1827
@@ -3945,6 +4091,7 @@
       unknown: 0
     - guid: 2108
       unknown: 0
+
 # Green 74-Z Speeder Bike
 - guid: 213
   name_id: 1884
@@ -3956,11 +4103,12 @@
   preview_model_id: 729
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 650
       unknown: 0
+
 # Geonosis Campaign Trophy
 - guid: 214
   name_id: 1948
@@ -3977,6 +4125,7 @@
   items:
     - guid: 1383
       unknown: 0
+
 # Gold Jedi Starfighter
 - guid: 215
   name_id: 1979
@@ -3988,11 +4137,12 @@
   preview_model_id: 1321
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 1384
       unknown: 0
+
 # Blossoming Cherry Tree
 - guid: 219
   name_id: 43491
@@ -4009,6 +4159,7 @@
   items:
     - guid: 2746
       unknown: 0
+
 # Card Commander: Heroes and Villains Series 1
 - guid: 220
   name_id: 2200
@@ -4025,6 +4176,7 @@
   items:
     - guid: 1417
       unknown: 0
+
 # Jawa Holoprojector
 - guid: 223
   name_id: 2292
@@ -4041,6 +4193,7 @@
   items:
     - guid: 1418
       unknown: 0
+
 # Card Commander Tournament Trophies
 - guid: 224
   name_id: 2295
@@ -4061,6 +4214,7 @@
       unknown: 0
     - guid: 33
       unknown: 0
+
 # Ultimate FX Gungan Lightsaber
 - guid: 226
   name_id: 2650
@@ -4077,6 +4231,7 @@
   items:
     - guid: 1992
       unknown: 0
+
 # Vigilance and Negotiator
 - guid: 227
   name_id: 2921
@@ -4095,6 +4250,7 @@
       unknown: 0
     - guid: 2910
       unknown: 0
+
 # Wampa Suit
 - guid: 503
   name_id: 940
@@ -4117,6 +4273,7 @@
       unknown: 0
     - guid: 784
       unknown: 0
+
 # Mandalorian Secret Service
 - guid: 504
   name_id: 1864
@@ -4139,6 +4296,7 @@
       unknown: 0
     - guid: 1161
       unknown: 0
+
 # Mandalorian Cadet
 - guid: 505
   name_id: 1866
@@ -4159,6 +4317,7 @@
       unknown: 0
     - guid: 1185
       unknown: 0
+
 # Duchess Satine
 - guid: 506
   name_id: 1868
@@ -4179,6 +4338,7 @@
       unknown: 0
     - guid: 1182
       unknown: 0
+
 # Mandalorian Set
 - guid: 507
   name_id: 18561
@@ -4209,6 +4369,7 @@
       unknown: 0
     - guid: 1255
       unknown: 0
+
 # Assassin Aurra Sing
 - guid: 508
   name_id: 18658
@@ -4233,6 +4394,7 @@
       unknown: 0
     - guid: 1273
       unknown: 0
+
 # Zillo Beast Costume
 - guid: 509
   name_id: 18766
@@ -4255,6 +4417,7 @@
       unknown: 0
     - guid: 914
       unknown: 0
+
 # Mask Pack I
 - guid: 510
   name_id: 18768
@@ -4275,6 +4438,7 @@
       unknown: 0
     - guid: 1190
       unknown: 0
+
 # Mask Pack II
 - guid: 511
   name_id: 18770
@@ -4299,6 +4463,7 @@
       unknown: 0
     - guid: 1191
       unknown: 0
+
 # Protocol Droid Grievous Costume
 - guid: 512
   name_id: 18772
@@ -4310,11 +4475,12 @@
   preview_model_id: 1138
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2109
       unknown: 0
+
 # Astromech Ghost Costumes
 - guid: 513
   name_id: 18774
@@ -4326,7 +4492,7 @@
   preview_model_id: 1140
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2085
@@ -4337,6 +4503,7 @@
       unknown: 0
     - guid: 2089
       unknown: 0
+
 # K-3RNL
 - guid: 514
   name_id: 18776
@@ -4348,11 +4515,12 @@
   preview_model_id: 1141
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2115
       unknown: 0
+
 # J-4CK
 - guid: 515
   name_id: 18778
@@ -4364,11 +4532,12 @@
   preview_model_id: 1142
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2114
       unknown: 0
+
 # Halloween Decorations Pack I
 - guid: 516
   name_id: 18891
@@ -4380,7 +4549,7 @@
   preview_model_id: 1139
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2117
@@ -4397,6 +4566,7 @@
       unknown: 0
     - guid: 2129
       unknown: 0
+
 # Halloween Decorations Pack II
 - guid: 527
   name_id: 1878
@@ -4408,7 +4578,7 @@
   preview_model_id: 1159
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2116
@@ -4425,6 +4595,7 @@
       unknown: 0
     - guid: 2128
       unknown: 0
+
 # Personal Holoprojectors
 - guid: 528
   name_id: 1879
@@ -4447,6 +4618,7 @@
       unknown: 0
     - guid: 2113
       unknown: 0
+
 # Astromech Part Pack II
 - guid: 529
   name_id: 19263
@@ -4465,6 +4637,7 @@
       unknown: 0
     - guid: 558
       unknown: 0
+
 # Protocol Droid Part Pack II
 - guid: 530
   name_id: 19264
@@ -4483,6 +4656,7 @@
       unknown: 0
     - guid: 559
       unknown: 0
+
 # Quinlan Vos Gear
 - guid: 531
   name_id: 19635
@@ -4505,6 +4679,7 @@
       unknown: 0
     - guid: 2134
       unknown: 0
+
 # Ahsoka Tano
 - guid: 532
   name_id: 19735
@@ -4529,6 +4704,7 @@
       unknown: 0
     - guid: 2141
       unknown: 0
+
 # Anakin Skywalker
 - guid: 533
   name_id: 19737
@@ -4549,6 +4725,7 @@
       unknown: 0
     - guid: 1280
       unknown: 0
+
 # Coruscant Engineer
 - guid: 534
   name_id: 19739
@@ -4571,6 +4748,7 @@
       unknown: 0
     - guid: 1284
       unknown: 0
+
 # Mina Bonteri
 - guid: 535
   name_id: 19741
@@ -4589,6 +4767,7 @@
       unknown: 0
     - guid: 1290
       unknown: 0
+
 # Chancellor Palpatine
 - guid: 536
   name_id: 16649
@@ -4607,6 +4786,7 @@
       unknown: 0
     - guid: 878
       unknown: 0
+
 # Ancient Bravis Sith
 - guid: 537
   name_id: 20010
@@ -4631,6 +4811,7 @@
       unknown: 0
     - guid: 911
       unknown: 0
+
 # Chata Hyoki
 - guid: 538
   name_id: 20064
@@ -4653,6 +4834,7 @@
       unknown: 0
     - guid: 2151
       unknown: 0
+
 # Robonino
 - guid: 539
   name_id: 20065
@@ -4673,6 +4855,7 @@
       unknown: 0
     - guid: 2154
       unknown: 0
+
 # Flamethrower Clone Trooper
 - guid: 540
   name_id: 20331
@@ -4697,6 +4880,7 @@
       unknown: 0
     - guid: 2183
       unknown: 0
+
 # Life Day Robes
 - guid: 541
   name_id: 20332
@@ -4715,6 +4899,7 @@
       unknown: 0
     - guid: 2185
       unknown: 0
+
 # Nutcracker Clone Trooper
 - guid: 542
   name_id: 20333
@@ -4737,6 +4922,7 @@
       unknown: 0
     - guid: 2193
       unknown: 0
+
 # Life Day Clone Trooper
 - guid: 543
   name_id: 20334
@@ -4759,6 +4945,7 @@
       unknown: 0
     - guid: 2201
       unknown: 0
+
 # Y-Wing Pack I
 - guid: 544
   name_id: 20403
@@ -4777,6 +4964,7 @@
       unknown: 0
     - guid: 2207
       unknown: 0
+
 # Life Day Decorations Pack I
 - guid: 545
   name_id: 30438
@@ -4807,6 +4995,7 @@
       unknown: 0
     - guid: 2223
       unknown: 0
+
 # Life Day Decorations Pack II
 - guid: 546
   name_id: 30440
@@ -4818,7 +5007,7 @@
   preview_model_id: 1229
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2224
@@ -4839,6 +5028,7 @@
       unknown: 0
     - guid: 2232
       unknown: 0
+
 # 6R-0WL
 - guid: 547
   name_id: 20048
@@ -4855,6 +5045,7 @@
   items:
     - guid: 2146
       unknown: 0
+
 # P3-NUT
 - guid: 548
   name_id: 20049
@@ -4871,6 +5062,7 @@
   items:
     - guid: 2147
       unknown: 0
+
 # Astromech Life Day Parts
 - guid: 549
   name_id: 32296
@@ -4889,6 +5081,7 @@
       unknown: 0
     - guid: 2205
       unknown: 0
+
 # Protocol Droid Life Day Parts
 - guid: 550
   name_id: 32297
@@ -4905,6 +5098,7 @@
   items:
     - guid: 2156
       unknown: 0
+
 # Mouse Droid Life Day Parts
 - guid: 551
   name_id: 32298
@@ -4923,6 +5117,7 @@
       unknown: 0
     - guid: 2158
       unknown: 0
+
 # Geonosis Holoprojector Pack
 - guid: 552
   name_id: 32451
@@ -4941,6 +5136,7 @@
       unknown: 0
     - guid: 2235
       unknown: 0
+
 # Attack Cruiser House
 - guid: 553
   name_id: 32453
@@ -4957,6 +5153,7 @@
   items:
     - guid: 2236
       unknown: 0
+
 # Weapon Moves Pack I
 - guid: 554
   name_id: 32689
@@ -4977,6 +5174,7 @@
       unknown: 0
     - guid: 2239
       unknown: 0
+
 # Cruiser Furniture Set I
 - guid: 555
   name_id: 32694
@@ -5009,6 +5207,7 @@
       unknown: 0
     - guid: 1381
       unknown: 0
+
 # Cruiser Furniture Set II
 - guid: 556
   name_id: 32696
@@ -5037,6 +5236,7 @@
       unknown: 0
     - guid: 1379
       unknown: 0
+
 # Cruiser Furniture Set III
 - guid: 557
   name_id: 32698
@@ -5067,6 +5267,7 @@
       unknown: 0
     - guid: 1382
       unknown: 0
+
 # Cruiser Furniture Set IV
 - guid: 558
   name_id: 32700
@@ -5095,6 +5296,7 @@
       unknown: 0
     - guid: 1376
       unknown: 0
+
 # Count Dooku
 - guid: 560
   name_id: 32942
@@ -5115,6 +5317,7 @@
       unknown: 0
     - guid: 2242
       unknown: 0
+
 # Mother Talzin
 - guid: 561
   name_id: 32943
@@ -5135,6 +5338,7 @@
       unknown: 0
     - guid: 2246
       unknown: 0
+
 # Nightsister
 - guid: 562
   name_id: 32944
@@ -5159,6 +5363,7 @@
       unknown: 0
     - guid: 2254
       unknown: 0
+
 # Obi-Wan Kenobi
 - guid: 563
   name_id: 32945
@@ -5181,6 +5386,7 @@
       unknown: 0
     - guid: 2249
       unknown: 0
+
 # Apprentice Savage Opress
 - guid: 564
   name_id: 32987
@@ -5203,6 +5409,7 @@
       unknown: 0
     - guid: 2266
       unknown: 0
+
 # Nightsister Asajj Ventress
 - guid: 565
   name_id: 32988
@@ -5225,6 +5432,7 @@
       unknown: 0
     - guid: 2265
       unknown: 0
+
 # Nightbrother
 - guid: 566
   name_id: 32989
@@ -5245,6 +5453,7 @@
       unknown: 0
     - guid: 2269
       unknown: 0
+
 # Commander Trauma
 - guid: 567
   name_id: 32990
@@ -5269,6 +5478,7 @@
       unknown: 0
     - guid: 2261
       unknown: 0
+
 # Scorch
 - guid: 595
   name_id: 33114
@@ -5293,6 +5503,7 @@
       unknown: 0
     - guid: 2362
       unknown: 0
+
 # Boss
 - guid: 596
   name_id: 33115
@@ -5315,6 +5526,7 @@
       unknown: 0
     - guid: 2358
       unknown: 0
+
 # Savage Opress
 - guid: 597
   name_id: 33116
@@ -5337,6 +5549,7 @@
       unknown: 0
     - guid: 2363
       unknown: 0
+
 # Card Commander Booster Pack II
 - guid: 599
   name_id: 33196
@@ -5353,6 +5566,7 @@
   items:
     - guid: 2373
       unknown: 0
+
 # Series 2 Holocrons
 - guid: 600
   name_id: 33198
@@ -5371,6 +5585,7 @@
       unknown: 0
     - guid: 2372
       unknown: 0
+
 # Mortis Son
 - guid: 601
   name_id: 33565
@@ -5393,6 +5608,7 @@
       unknown: 0
     - guid: 2377
       unknown: 0
+
 # Mortis Father
 - guid: 602
   name_id: 33786
@@ -5413,6 +5629,7 @@
       unknown: 0
     - guid: 2380
       unknown: 0
+
 # Blue 74-Z Speeder
 - guid: 603
   name_id: 5840
@@ -5424,11 +5641,12 @@
   preview_model_id: 730
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 651
       unknown: 0
+
 # Cupid Clone Trooper
 - guid: 607
   name_id: 33890
@@ -5453,6 +5671,7 @@
       unknown: 0
     - guid: 2392
       unknown: 0
+
 # Mortis Force Forms Holoprojector Pack
 - guid: 608
   name_id: 33889
@@ -5471,6 +5690,7 @@
       unknown: 0
     - guid: 2387
       unknown: 0
+
 # Mouse Droid Valentine's Day Candy Dispenser
 - guid: 609
   name_id: 33898
@@ -5482,11 +5702,12 @@
   preview_model_id: 0
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2381
       unknown: 0
+
 # Power Droid Valentine's Day Potion Pack
 - guid: 610
   name_id: 33899
@@ -5498,11 +5719,12 @@
   preview_model_id: 1395
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2382
       unknown: 0
+
 # H3-4RT
 - guid: 611
   name_id: 33908
@@ -5519,6 +5741,7 @@
   items:
     - guid: 2393
       unknown: 0
+
 # ARC Trooper Echo
 - guid: 625
   name_id: 43064
@@ -5541,6 +5764,7 @@
       unknown: 0
     - guid: 2696
       unknown: 0
+
 # ARC Trooper Fives
 - guid: 626
   name_id: 43065
@@ -5565,6 +5789,7 @@
       unknown: 0
     - guid: 2700
       unknown: 0
+
 # Mustafar Construction Set
 - guid: 627
   name_id: 43101
@@ -5599,6 +5824,7 @@
       unknown: 0
     - guid: 1402
       unknown: 0
+
 # Standard Construction Set
 - guid: 628
   name_id: 43102
@@ -5629,6 +5855,7 @@
       unknown: 0
     - guid: 1392
       unknown: 0
+
 # Mustafar Lot
 - guid: 629
   name_id: 43126
@@ -5645,6 +5872,7 @@
   items:
     - guid: 2702
       unknown: 0
+
 # Saesee Tiin
 - guid: 630
   name_id: 43191
@@ -5667,6 +5895,7 @@
       unknown: 0
     - guid: 2708
       unknown: 0
+
 # Commander Osi Sobeck
 - guid: 631
   name_id: 43192
@@ -5685,6 +5914,7 @@
       unknown: 0
     - guid: 2707
       unknown: 0
+
 # Jedi Starfighter Pack III
 - guid: 632
   name_id: 43215
@@ -5703,6 +5933,7 @@
       unknown: 0
     - guid: 2710
       unknown: 0
+
 # Ryloth Construction Set
 - guid: 633
   name_id: 43217
@@ -5737,6 +5968,7 @@
       unknown: 0
     - guid: 1413
       unknown: 0
+
 # Ryloth Lot
 - guid: 634
   name_id: 43219
@@ -5753,6 +5985,7 @@
   items:
     - guid: 2711
       unknown: 0
+
 # Astromech Smokescreen Attachment
 - guid: 635
   name_id: 43433
@@ -5769,6 +6002,7 @@
   items:
     - guid: 2714
       unknown: 0
+
 # Holoprojector Pack III
 - guid: 636
   name_id: 43529
@@ -5787,6 +6021,7 @@
       unknown: 0
     - guid: 2754
       unknown: 0
+
 # Garnac
 - guid: 637
   name_id: 43516
@@ -5803,6 +6038,7 @@
   items:
     - guid: 2747
       unknown: 0
+
 # Sochek
 - guid: 638
   name_id: 43517
@@ -5821,6 +6057,7 @@
       unknown: 0
     - guid: 2751
       unknown: 0
+
 # Kalifa
 - guid: 639
   name_id: 43518
@@ -5839,6 +6076,7 @@
       unknown: 0
     - guid: 2749
       unknown: 0
+
 # Aedalus
 - guid: 640
   name_id: 43358
@@ -5855,6 +6093,7 @@
   items:
     - guid: 2752
       unknown: 0
+
 # Convor Gear
 - guid: 641
   name_id: 43528
@@ -5873,6 +6112,7 @@
       unknown: 0
     - guid: 2716
       unknown: 0
+
 # Commando Sergeant Racket
 - guid: 642
   name_id: 43733
@@ -5897,6 +6137,7 @@
       unknown: 0
     - guid: 2397
       unknown: 0
+
 # Commander Wolffe
 - guid: 643
   name_id: 43734
@@ -5919,6 +6160,7 @@
       unknown: 0
     - guid: 2401
       unknown: 0
+
 # Draa
 - guid: 644
   name_id: 43735
@@ -5943,6 +6185,7 @@
       unknown: 0
     - guid: 2405
       unknown: 0
+
 # Commando Evader
 - guid: 645
   name_id: 43736
@@ -5965,6 +6208,7 @@
       unknown: 0
     - guid: 2409
       unknown: 0
+
 # Commando Barrage
 - guid: 646
   name_id: 43737
@@ -5987,6 +6231,7 @@
       unknown: 0
     - guid: 2413
       unknown: 0
+
 # ARC Captain Burner
 - guid: 650
   name_id: 43741
@@ -6009,6 +6254,7 @@
       unknown: 0
     - guid: 2429
       unknown: 0
+
 # Commando Captain Scraps
 - guid: 651
   name_id: 43742
@@ -6031,6 +6277,7 @@
       unknown: 0
     - guid: 2433
       unknown: 0
+
 # Commando Throttle
 - guid: 652
   name_id: 43743
@@ -6053,6 +6300,7 @@
       unknown: 0
     - guid: 2437
       unknown: 0
+
 # Commando Trigger
 - guid: 653
   name_id: 43744
@@ -6075,6 +6323,7 @@
       unknown: 0
     - guid: 2441
       unknown: 0
+
 # Wookiee Clone Trooper
 - guid: 654
   name_id: 43745
@@ -6097,6 +6346,7 @@
       unknown: 0
     - guid: 2445
       unknown: 0
+
 # Commando Zag
 - guid: 655
   name_id: 43746
@@ -6119,6 +6369,7 @@
       unknown: 0
     - guid: 2449
       unknown: 0
+
 # Spring Fever
 - guid: 657
   name_id: 43859
@@ -6135,6 +6386,7 @@
   items:
     - guid: 1415
       unknown: 0
+
 # Covert Anakin Skywalker
 - guid: 658
   name_id: 44014
@@ -6155,6 +6407,7 @@
       unknown: 0
     - guid: 2771
       unknown: 0
+
 # Flat Panel Pack I
 - guid: 659
   name_id: 44016
@@ -6181,6 +6434,7 @@
       unknown: 0
     - guid: 2763
       unknown: 0
+
 # Flat Panel Pack II
 - guid: 660
   name_id: 44018
@@ -6205,6 +6459,7 @@
       unknown: 0
     - guid: 2768
       unknown: 0
+
 # Yoda Holoprojector
 - guid: 661
   name_id: 44020
@@ -6221,6 +6476,7 @@
   items:
     - guid: 2772
       unknown: 0
+
 # Ancient Dahgee Jedi
 - guid: 662
   name_id: 44198
@@ -6243,6 +6499,7 @@
       unknown: 0
     - guid: 944
       unknown: 0
+
 # Fiery Ahsoka Tano
 - guid: 663
   name_id: 44200
@@ -6263,6 +6520,7 @@
       unknown: 0
     - guid: 2776
       unknown: 0
+
 # Clone Cadet Casual Grey Gear
 - guid: 664
   name_id: 44319
@@ -6281,6 +6539,7 @@
       unknown: 0
     - guid: 2783
       unknown: 0
+
 # Clone Cadet Casual Tan Gear
 - guid: 665
   name_id: 44321
@@ -6299,6 +6558,7 @@
       unknown: 0
     - guid: 2785
       unknown: 0
+
 # Sassy Ahsoka Tano
 - guid: 669
   name_id: 44401
@@ -6319,6 +6579,7 @@
       unknown: 0
     - guid: 2789
       unknown: 0
+
 # Attack Cruiser Gunnery Room
 - guid: 670
   name_id: 44403
@@ -6335,6 +6596,7 @@
   items:
     - guid: 1419
       unknown: 0
+
 # Gnarls
 - guid: 671
   name_id: 44405
@@ -6351,6 +6613,7 @@
   items:
     - guid: 2786
       unknown: 0
+
 # Kashyyyk Lightsaber
 - guid: 672
   name_id: 44513
@@ -6367,6 +6630,7 @@
   items:
     - guid: 2801
       unknown: 0
+
 # Aquatic Obi-Wan Kenobi
 - guid: 673
   name_id: 44534
@@ -6387,6 +6651,7 @@
       unknown: 0
     - guid: 2796
       unknown: 0
+
 # Adept Ahsoka Tano
 - guid: 674
   name_id: 44536
@@ -6407,6 +6672,7 @@
       unknown: 0
     - guid: 2793
       unknown: 0
+
 # Weapon Moves Pack II
 - guid: 675
   name_id: 44538
@@ -6425,6 +6691,7 @@
       unknown: 0
     - guid: 2798
       unknown: 0
+
 # C-3PO
 - guid: 676
   name_id: 44531
@@ -6441,6 +6708,7 @@
   items:
     - guid: 541
       unknown: 0
+
 # Eeetch
 - guid: 677
   name_id: 44540
@@ -6457,6 +6725,7 @@
   items:
     - guid: 2802
       unknown: 0
+
 # General Grievous Holoprojector
 - guid: 678
   name_id: 44671
@@ -6473,6 +6742,7 @@
   items:
     - guid: 2807
       unknown: 0
+
 # Icy Anakin Skywalker
 - guid: 679
   name_id: 44702
@@ -6493,6 +6763,7 @@
       unknown: 0
     - guid: 2818
       unknown: 0
+
 # Talz Holoprojector
 - guid: 680
   name_id: 44672
@@ -6509,6 +6780,7 @@
   items:
     - guid: 2808
       unknown: 0
+
 # Sparklers
 - guid: 681
   name_id: 44704
@@ -6537,6 +6809,7 @@
       unknown: 0
     - guid: 2815
       unknown: 0
+
 # Mouse Droid Top Hat Attachment
 - guid: 682
   name_id: 44706
@@ -6553,6 +6826,7 @@
   items:
     - guid: 2819
       unknown: 0
+
 # 7L-VN
 - guid: 683
   name_id: 44708
@@ -6569,6 +6843,7 @@
   items:
     - guid: 2804
       unknown: 0
+
 # Captain Breaker
 - guid: 684
   name_id: 44774
@@ -6591,6 +6866,7 @@
       unknown: 0
     - guid: 2823
       unknown: 0
+
 # Jabba Holoprojector
 - guid: 685
   name_id: 44754
@@ -6607,6 +6883,7 @@
   items:
     - guid: 2831
       unknown: 0
+
 # Snow Commander Wolffe
 - guid: 686
   name_id: 44776
@@ -6629,6 +6906,7 @@
       unknown: 0
     - guid: 2827
       unknown: 0
+
 # Dance Pack II
 - guid: 687
   name_id: 44778
@@ -6649,6 +6927,7 @@
       unknown: 0
     - guid: 2830
       unknown: 0
+
 # Cad Bane Holoprojector
 - guid: 688
   name_id: 44762
@@ -6665,6 +6944,7 @@
   items:
     - guid: 2832
       unknown: 0
+
 # Mission on Iceberg Three Campaign Trophy
 - guid: 689
   name_id: 44802
@@ -6681,6 +6961,7 @@
   items:
     - guid: 2833
       unknown: 0
+
 # Iceberg Three Lot
 - guid: 690
   name_id: 44902
@@ -6697,6 +6978,7 @@
   items:
     - guid: 2892
       unknown: 0
+
 # Fiery Obi-Wan Kenobi
 - guid: 691
   name_id: 44904
@@ -6717,6 +6999,7 @@
       unknown: 0
     - guid: 2837
       unknown: 0
+
 # Jedi Temple Lounge Set
 - guid: 692
   name_id: 44906
@@ -6751,6 +7034,7 @@
       unknown: 0
     - guid: 2847
       unknown: 0
+
 # Ancient Mestare Jedi
 - guid: 693
   name_id: 44908
@@ -6773,6 +7057,7 @@
       unknown: 0
     - guid: 895
       unknown: 0
+
 # Jedi Temple Main Hall Set
 - guid: 694
   name_id: 44910
@@ -6793,6 +7078,7 @@
       unknown: 0
     - guid: 2850
       unknown: 0
+
 # Jedi Temple Officers' Club Set I
 - guid: 695
   name_id: 44912
@@ -6823,6 +7109,7 @@
       unknown: 0
     - guid: 2858
       unknown: 0
+
 # Jedi Temple Officers' Club Set II
 - guid: 696
   name_id: 44914
@@ -6851,6 +7138,7 @@
       unknown: 0
     - guid: 2865
       unknown: 0
+
 # Mustafar Anakin Skywalker
 - guid: 697
   name_id: 44916
@@ -6871,6 +7159,7 @@
       unknown: 0
     - guid: 2868
       unknown: 0
+
 # Gamorrean Guard Holoprojector
 - guid: 698
   name_id: 44918
@@ -6887,6 +7176,7 @@
   items:
     - guid: 2890
       unknown: 0
+
 # Republic Hero Decoration Pack
 - guid: 699
   name_id: 44920
@@ -6911,6 +7201,7 @@
       unknown: 0
     - guid: 1446
       unknown: 0
+
 # Cold Weather Plo Koon
 - guid: 700
   name_id: 44922
@@ -6933,6 +7224,7 @@
       unknown: 0
     - guid: 2872
       unknown: 0
+
 # Cold Weather Kit Fisto
 - guid: 701
   name_id: 44924
@@ -6955,6 +7247,7 @@
       unknown: 0
     - guid: 2876
       unknown: 0
+
 # Special Ops Trooper
 - guid: 702
   name_id: 44926
@@ -6977,6 +7270,7 @@
       unknown: 0
     - guid: 2880
       unknown: 0
+
 # Vicious Savage Opress
 - guid: 703
   name_id: 44928
@@ -6999,6 +7293,7 @@
       unknown: 0
     - guid: 2881
       unknown: 0
+
 # Kamino ARF Trooper
 - guid: 704
   name_id: 44930
@@ -7021,6 +7316,7 @@
       unknown: 0
     - guid: 2884
       unknown: 0
+
 # Even Piell
 - guid: 705
   name_id: 44932
@@ -7041,6 +7337,7 @@
       unknown: 0
     - guid: 2887
       unknown: 0
+
 # Aerial Captain Rex
 - guid: 706
   name_id: 44934
@@ -7063,6 +7360,7 @@
       unknown: 0
     - guid: 2888
       unknown: 0
+
 # Aerial Saesee Tiin
 - guid: 707
   name_id: 44936
@@ -7083,6 +7381,7 @@
       unknown: 0
     - guid: 2889
       unknown: 0
+
 # Seripas Holoprojector
 - guid: 708
   name_id: 44938
@@ -7099,6 +7398,7 @@
   items:
     - guid: 2891
       unknown: 0
+
 # Kashyyyk Obi-Wan Kenobi
 - guid: 709
   name_id: 2726
@@ -7119,6 +7419,7 @@
       unknown: 0
     - guid: 2453
       unknown: 0
+
 # Clone Trooper Decoration Pack
 - guid: 710
   name_id: 2727
@@ -7141,6 +7442,7 @@
       unknown: 0
     - guid: 1447
       unknown: 0
+
 # Jedi Temple War Room Set
 - guid: 711
   name_id: 2728
@@ -7173,6 +7475,7 @@
       unknown: 0
     - guid: 1466
       unknown: 0
+
 # Jedi Temple Archives Set
 - guid: 712
   name_id: 2729
@@ -7199,6 +7502,7 @@
       unknown: 0
     - guid: 1457
       unknown: 0
+
 # AT-AT Puppy Attachment
 - guid: 713
   name_id: 2730
@@ -7215,6 +7519,7 @@
   items:
     - guid: 2713
       unknown: 0
+
 # Mandalorian Mercenary
 - guid: 714
   name_id: 2731
@@ -7237,6 +7542,7 @@
       unknown: 0
     - guid: 2457
       unknown: 0
+
 # Kamino Lot
 - guid: 715
   name_id: 2732
@@ -7253,6 +7559,7 @@
   items:
     - guid: 2503
       unknown: 0
+
 # Savage Opress Holoprojector
 - guid: 716
   name_id: 2734
@@ -7269,6 +7576,7 @@
   items:
     - guid: 2898
       unknown: 0
+
 # Kamino Construction Set
 - guid: 717
   name_id: 2733
@@ -7303,6 +7611,7 @@
       unknown: 0
     - guid: 1430
       unknown: 0
+
 # Vector
 - guid: 718
   name_id: 2735
@@ -7319,6 +7628,7 @@
   items:
     - guid: 2899
       unknown: 0
+
 # Ziro Holoprojector
 - guid: 720
   name_id: 2830
@@ -7335,6 +7645,7 @@
   items:
     - guid: 2906
       unknown: 0
+
 # Blaster Turrets
 - guid: 721
   name_id: 2832
@@ -7359,6 +7670,7 @@
       unknown: 0
     - guid: 1481
       unknown: 0
+
 # Particle Beam Turrets
 - guid: 722
   name_id: 2834
@@ -7383,6 +7695,7 @@
       unknown: 0
     - guid: 1526
       unknown: 0
+
 # Jedi Temple Hangar Set
 - guid: 723
   name_id: 2836
@@ -7413,6 +7726,7 @@
       unknown: 0
     - guid: 1554
       unknown: 0
+
 # Jedi Temple Training Room Set I
 - guid: 724
   name_id: 2838
@@ -7441,6 +7755,7 @@
       unknown: 0
     - guid: 1561
       unknown: 0
+
 # Jedi Temple Training Room Set II
 - guid: 725
   name_id: 2840
@@ -7475,6 +7790,7 @@
       unknown: 0
     - guid: 1571
       unknown: 0
+
 # Tranquil Ahsoka
 - guid: 726
   name_id: 2842
@@ -7495,6 +7811,7 @@
       unknown: 0
     - guid: 2460
       unknown: 0
+
 # Astromech Dance Datacard Pack
 - guid: 727
   name_id: 2844
@@ -7515,6 +7832,7 @@
       unknown: 0
     - guid: 2905
       unknown: 0
+
 # Anti-Air Turrets
 - guid: 728
   name_id: 2846
@@ -7539,6 +7857,7 @@
       unknown: 0
     - guid: 1471
       unknown: 0
+
 # Thermal Grenade Turrets
 - guid: 729
   name_id: 2848
@@ -7563,6 +7882,7 @@
       unknown: 0
     - guid: 1541
       unknown: 0
+
 # Jedi Temple Workshop Set
 - guid: 730
   name_id: 2850
@@ -7585,6 +7905,7 @@
       unknown: 0
     - guid: 1575
       unknown: 0
+
 # Camo Obi-Wan Kenobi
 - guid: 731
   name_id: 2852
@@ -7605,6 +7926,7 @@
       unknown: 0
     - guid: 2463
       unknown: 0
+
 # Kowakian Monkey Lizard Holoprojector
 - guid: 732
   name_id: 2854
@@ -7621,6 +7943,7 @@
   items:
     - guid: 2907
       unknown: 0
+
 # ARC Trooper Turrets
 - guid: 733
   name_id: 2856
@@ -7645,6 +7968,7 @@
       unknown: 0
     - guid: 1476
       unknown: 0
+
 # Energy Converter Turrets
 - guid: 734
   name_id: 2858
@@ -7669,6 +7993,7 @@
       unknown: 0
     - guid: 1491
       unknown: 0
+
 # Diver Anakin Skywalker
 - guid: 735
   name_id: 2899
@@ -7691,6 +8016,7 @@
       unknown: 0
     - guid: 1313
       unknown: 0
+
 # Diver Padme Amidala
 - guid: 736
   name_id: 2901
@@ -7713,6 +8039,7 @@
       unknown: 0
     - guid: 1317
       unknown: 0
+
 # Captain Ackbar
 - guid: 737
   name_id: 2903
@@ -7733,6 +8060,7 @@
       unknown: 0
     - guid: 1309
       unknown: 0
+
 # Mon Calamari Holoprojector Pack
 - guid: 738
   name_id: 2905
@@ -7751,6 +8079,7 @@
       unknown: 0
     - guid: 2914
       unknown: 0
+
 # Missile Turrets
 - guid: 739
   name_id: 2907
@@ -7775,6 +8104,7 @@
       unknown: 0
     - guid: 1516
       unknown: 0
+
 # Ion Cannon Turrets
 - guid: 740
   name_id: 2909
@@ -7799,6 +8129,7 @@
       unknown: 0
     - guid: 1506
       unknown: 0
+
 # Gungan Warrior
 - guid: 741
   name_id: 2911
@@ -7821,6 +8152,7 @@
       unknown: 0
     - guid: 1322
       unknown: 0
+
 # Lee-Char
 - guid: 742
   name_id: 2913
@@ -7841,6 +8173,7 @@
       unknown: 0
     - guid: 1320
       unknown: 0
+
 # Clone Diver
 - guid: 743
   name_id: 2915
@@ -7863,6 +8196,7 @@
       unknown: 0
     - guid: 1173
       unknown: 0
+
 # Karkarodon Warrior Holoprojector
 - guid: 744
   name_id: 2917
@@ -7879,6 +8213,7 @@
   items:
     - guid: 2915
       unknown: 0
+
 # Turbolaser Battery Turrets
 - guid: 745
   name_id: 2919
@@ -7903,6 +8238,7 @@
       unknown: 0
     - guid: 1546
       unknown: 0
+
 # Ion Repeater Turrets
 - guid: 746
   name_id: 4228
@@ -7927,6 +8263,7 @@
       unknown: 0
     - guid: 1511
       unknown: 0
+
 # Boost
 - guid: 747
   name_id: 4230
@@ -7949,6 +8286,7 @@
       unknown: 0
     - guid: 1134
       unknown: 0
+
 # Attack Cruiser Trophy Box
 - guid: 748
   name_id: 2934
@@ -7965,6 +8303,7 @@
   items:
     - guid: 1576
       unknown: 0
+
 # Republic Defender Trophy Box
 - guid: 749
   name_id: 2936
@@ -7981,6 +8320,7 @@
   items:
     - guid: 1577
       unknown: 0
+
 # Starfighter Trophy Box
 - guid: 750
   name_id: 2938
@@ -7997,6 +8337,7 @@
   items:
     - guid: 1578
       unknown: 0
+
 # Orphne Holoprojector
 - guid: 751
   name_id: 4232
@@ -8013,6 +8354,7 @@
   items:
     - guid: 2920
       unknown: 0
+
 # King Manchucho Holoprojector
 - guid: 752
   name_id: 4234
@@ -8029,6 +8371,7 @@
   items:
     - guid: 3070
       unknown: 0
+
 # Magnaguard Holoprojector
 - guid: 753
   name_id: 4236
@@ -8045,6 +8388,7 @@
   items:
     - guid: 3071
       unknown: 0
+
 # Mortar Cannon Turrets
 - guid: 754
   name_id: 4238
@@ -8069,6 +8413,7 @@
       unknown: 0
     - guid: 1521
       unknown: 0
+
 # Babbo
 - guid: 755
   name_id: 4240
@@ -8085,6 +8430,7 @@
   items:
     - guid: 3073
       unknown: 0
+
 # Duppa
 - guid: 756
   name_id: 4242
@@ -8101,6 +8447,7 @@
   items:
     - guid: 3074
       unknown: 0
+
 # Aliens
 - guid: 757
   name_id: 4252
@@ -8127,6 +8474,7 @@
       unknown: 0
     - guid: 1584
       unknown: 0
+
 # Phase II Commander Wolffe
 - guid: 759
   name_id: 2386
@@ -8149,6 +8497,7 @@
       unknown: 0
     - guid: 3087
       unknown: 0
+
 # Boss Lyonie
 - guid: 760
   name_id: 2391
@@ -8167,6 +8516,7 @@
       unknown: 0
     - guid: 3078
       unknown: 0
+
 # Aktik
 - guid: 761
   name_id: 2393
@@ -8183,6 +8533,7 @@
   items:
     - guid: 3079
       unknown: 0
+
 # Pirate Jedi
 - guid: 763
   name_id: 4256
@@ -8205,6 +8556,7 @@
       unknown: 0
     - guid: 1599
       unknown: 0
+
 # Balnab Hunter
 - guid: 764
   name_id: 4258
@@ -8227,6 +8579,7 @@
       unknown: 0
     - guid: 1637
       unknown: 0
+
 # Deactivator Turrets
 - guid: 766
   name_id: 4262
@@ -8251,6 +8604,7 @@
       unknown: 0
     - guid: 1486
       unknown: 0
+
 # Power Surger Turrets
 - guid: 767
   name_id: 4264
@@ -8275,6 +8629,7 @@
       unknown: 0
     - guid: 1531
       unknown: 0
+
 # DU-3
 - guid: 769
   name_id: 4268
@@ -8291,6 +8646,7 @@
   items:
     - guid: 3080
       unknown: 0
+
 # K0-5D
 - guid: 770
   name_id: 4270
@@ -8307,6 +8663,7 @@
   items:
     - guid: 3081
       unknown: 0
+
 # Y-Wing Pack II
 - guid: 771
   name_id: 4272
@@ -8327,6 +8684,7 @@
       unknown: 0
     - guid: 3099
       unknown: 0
+
 # Force Powers Pack I
 - guid: 772
   name_id: 4274
@@ -8345,6 +8703,7 @@
       unknown: 0
     - guid: 3096
       unknown: 0
+
 # Skeletal Clone Trooper
 - guid: 773
   name_id: 4281
@@ -8369,6 +8728,7 @@
       unknown: 0
     - guid: 3092
       unknown: 0
+
 # Crates and Codes
 - guid: 777
   name_id: 4485
@@ -8385,6 +8745,7 @@
   items:
     - guid: 1776
       unknown: 0
+
 # Umbaran Soldier
 - guid: 779
   name_id: 4309
@@ -8407,6 +8768,7 @@
       unknown: 0
     - guid: 3172
       unknown: 0
+
 # Captain Rex Phase II
 - guid: 780
   name_id: 4311
@@ -8429,6 +8791,7 @@
       unknown: 0
     - guid: 1609
       unknown: 0
+
 # Energy Generator Turrets
 - guid: 781
   name_id: 4313
@@ -8453,6 +8816,7 @@
       unknown: 0
     - guid: 1496
       unknown: 0
+
 # Dance Pack III
 - guid: 782
   name_id: 4315
@@ -8473,6 +8837,7 @@
       unknown: 0
     - guid: 3171
       unknown: 0
+
 # Mandalorian Deathwatch
 - guid: 783
   name_id: 4322
@@ -8495,6 +8860,7 @@
       unknown: 0
     - guid: 3168
       unknown: 0
+
 # Asteroid Lot
 - guid: 784
   name_id: 4324
@@ -8511,6 +8877,7 @@
   items:
     - guid: 3173
       unknown: 0
+
 # Character Themed Construction Set
 - guid: 785
   name_id: 4338
@@ -8545,6 +8912,7 @@
       unknown: 0
     - guid: 3183
       unknown: 0
+
 # Asteroid Construction Set
 - guid: 786
   name_id: 4350
@@ -8579,6 +8947,7 @@
       unknown: 0
     - guid: 3193
       unknown: 0
+
 # Arc Trooper Fives Phase II
 - guid: 787
   name_id: 4356
@@ -8601,6 +8970,7 @@
       unknown: 0
     - guid: 3199
       unknown: 0
+
 # Umbaran Lot
 - guid: 788
   name_id: 4358
@@ -8617,6 +8987,7 @@
   items:
     - guid: 3218
       unknown: 0
+
 # Umbaran Construction Set
 - guid: 789
   name_id: 4360
@@ -8651,6 +9022,7 @@
       unknown: 0
     - guid: 3217
       unknown: 0
+
 # Umbaran Vehicles Pack I
 - guid: 790
   name_id: 4362
@@ -8669,6 +9041,7 @@
       unknown: 0
     - guid: 3221
       unknown: 0
+
 # Gravity Well Turrets
 - guid: 791
   name_id: 4364
@@ -8693,6 +9066,7 @@
       unknown: 0
     - guid: 1501
       unknown: 0
+
 # Kix
 - guid: 792
   name_id: 4366
@@ -8715,6 +9089,7 @@
       unknown: 0
     - guid: 3203
       unknown: 0
+
 # Stairs Pack I
 - guid: 794
   name_id: 4370
@@ -8745,6 +9120,7 @@
       unknown: 0
     - guid: 3245
       unknown: 0
+
 # Commander Cody Phase II
 - guid: 795
   name_id: 4372
@@ -8767,6 +9143,7 @@
       unknown: 0
     - guid: 3207
       unknown: 0
+
 # Reprogrammed Droid Guests
 - guid: 797
   name_id: 4376
@@ -8789,6 +9166,7 @@
       unknown: 0
     - guid: 3230
       unknown: 0
+
 # Republic Vehicles Pack I
 - guid: 798
   name_id: 4378
@@ -8809,6 +9187,7 @@
       unknown: 0
     - guid: 3225
       unknown: 0
+
 # Erial
 - guid: 799
   name_id: 4380
@@ -8825,6 +9204,7 @@
   items:
     - guid: 3219
       unknown: 0
+
 # Zygerrian Ahsoka Tano
 - guid: 806
   name_id: 4438
@@ -8843,6 +9223,7 @@
       unknown: 0
     - guid: 3249
       unknown: 0
+
 # Zygerrian Guard
 - guid: 807
   name_id: 4440
@@ -8865,6 +9246,7 @@
       unknown: 0
     - guid: 3254
       unknown: 0
+
 # Mon Calamari Guests
 - guid: 808
   name_id: 4442
@@ -8885,6 +9267,7 @@
       unknown: 0
     - guid: 3257
       unknown: 0
+
 # Zygerrian Captain Rex
 - guid: 809
   name_id: 4444
@@ -8909,6 +9292,7 @@
       unknown: 0
     - guid: 3262
       unknown: 0
+
 # Republic Vehicles Pack II
 - guid: 810
   name_id: 4446
@@ -8929,6 +9313,7 @@
       unknown: 0
     - guid: 3265
       unknown: 0
+
 # Flat Panels Pack III
 - guid: 811
   name_id: 4448
@@ -8955,6 +9340,7 @@
       unknown: 0
     - guid: 3273
       unknown: 0
+
 # Shadow Tech Armor
 - guid: 818
   name_id: 4532
@@ -8979,6 +9365,7 @@
       unknown: 0
     - guid: 3280
       unknown: 0
+
 # Camouflaged Death Watch Armor
 - guid: 819
   name_id: 4533
@@ -9001,6 +9388,7 @@
       unknown: 0
     - guid: 2490
       unknown: 0
+
 # R2-KT
 - guid: 821
   name_id: 16258
@@ -9017,6 +9405,7 @@
   items:
     - guid: 916
       unknown: 0
+
 # AT-RT Mount
 - guid: 835
   name_id: 4484
@@ -9033,6 +9422,7 @@
   items:
     - guid: 3281
       unknown: 0
+
 # Festive Obi-Wan Kenobi
 - guid: 836
   name_id: 4496
@@ -9055,6 +9445,7 @@
       unknown: 0
     - guid: 3310
       unknown: 0
+
 # Kowakian Monkey Lizard Costumes
 - guid: 837
   name_id: 4505
@@ -9073,6 +9464,7 @@
       unknown: 0
     - guid: 3275
       unknown: 0
+
 # Rancor Holoprojector
 - guid: 839
   name_id: 4499
@@ -9089,6 +9481,7 @@
   items:
     - guid: 2450
       unknown: 0
+
 # Fang
 - guid: 840
   name_id: 4500
@@ -9105,6 +9498,7 @@
   items:
     - guid: 3100
       unknown: 0
+
 # BR-RR
 - guid: 841
   name_id: 4501
@@ -9121,6 +9515,7 @@
   items:
     - guid: 3284
       unknown: 0
+
 # Phileas
 - guid: 842
   name_id: 4502
@@ -9137,6 +9532,7 @@
   items:
     - guid: 3282
       unknown: 0
+
 # Balloon Attachment
 - guid: 843
   name_id: 4503
@@ -9153,6 +9549,7 @@
   items:
     - guid: 3285
       unknown: 0
+
 # Jedi Meditation Trees
 - guid: 844
   name_id: 50641
@@ -9171,6 +9568,7 @@
       unknown: 0
     - guid: 3287
       unknown: 0
+
 # Barnibus
 - guid: 845
   name_id: 50607
@@ -9187,6 +9585,7 @@
   items:
     - guid: 3283
       unknown: 0
+
 # Potted Galactic Plants I
 - guid: 848
   name_id: 4554
@@ -9209,6 +9608,7 @@
       unknown: 0
     - guid: 3326
       unknown: 0
+
 # Wolfpack Rocket Jetpack
 - guid: 849
   name_id: 4555
@@ -9225,6 +9625,7 @@
   items:
     - guid: 3329
       unknown: 0
+
 # Warthog
 - guid: 850
   name_id: 4556
@@ -9241,6 +9642,7 @@
   items:
     - guid: 3331
       unknown: 0
+
 # Lux Bonteri
 - guid: 851
   name_id: 4557
@@ -9263,6 +9665,7 @@
       unknown: 0
     - guid: 3335
       unknown: 0
+
 # Bo Katan
 - guid: 852
   name_id: 4558
@@ -9285,6 +9688,7 @@
       unknown: 0
     - guid: 3339
       unknown: 0
+
 # Mortis Guests
 - guid: 853
   name_id: 4559
@@ -9303,6 +9707,7 @@
       unknown: 0
     - guid: 3343
       unknown: 0
+
 # Cad Bane's Fugitive Outfit
 - guid: 856
   name_id: 4572
@@ -9327,6 +9732,7 @@
       unknown: 0
     - guid: 3351
       unknown: 0
+
 # Moralo Eval's Prison Outfit
 - guid: 857
   name_id: 4573
@@ -9343,6 +9749,7 @@
   items:
     - guid: 3352
       unknown: 0
+
 # Clone Trooper Guests
 - guid: 858
   name_id: 4574
@@ -9359,6 +9766,7 @@
   items:
     - guid: 3353
       unknown: 0
+
 # Rako Hardeen's Fugitive Outfit
 - guid: 859
   name_id: 4575
@@ -9383,6 +9791,7 @@
       unknown: 0
     - guid: 3357
       unknown: 0
+
 # Sniper Droid Holoprojector
 - guid: 860
   name_id: 4576
@@ -9399,6 +9808,7 @@
   items:
     - guid: 3222
       unknown: 0
+
 # Hutt Guests
 - guid: 861
   name_id: 4577
@@ -9417,6 +9827,7 @@
       unknown: 0
     - guid: 3359
       unknown: 0
+
 # Marrok
 - guid: 863
   name_id: 50866
@@ -9433,6 +9844,7 @@
   items:
     - guid: 3366
       unknown: 0
+
 # Twazzi
 - guid: 864
   name_id: 4616
@@ -9453,6 +9865,7 @@
       unknown: 0
     - guid: 3376
       unknown: 0
+
 # Jynx
 - guid: 865
   name_id: 50744
@@ -9469,6 +9882,7 @@
   items:
     - guid: 3341
       unknown: 0
+
 # Derrown
 - guid: 866
   name_id: 4627
@@ -9491,6 +9905,7 @@
       unknown: 0
     - guid: 3386
       unknown: 0
+
 # Felucian Lot
 - guid: 867
   name_id: 4607
@@ -9507,6 +9922,7 @@
   items:
     - guid: 3372
       unknown: 0
+
 # Ghorroh
 - guid: 868
   name_id: 50899
@@ -9523,6 +9939,7 @@
   items:
     - guid: 3373
       unknown: 0
+
 # Umbaran Furniture Pieces
 - guid: 869
   name_id: 4609
@@ -9547,6 +9964,7 @@
       unknown: 0
     - guid: 3364
       unknown: 0
+
 # Felucian Set
 - guid: 870
   name_id: 4646
@@ -9575,6 +9993,7 @@
       unknown: 0
     - guid: 3397
       unknown: 0
+
 # Ithorian Guests
 - guid: 871
   name_id: 4647
@@ -9593,6 +10012,7 @@
       unknown: 0
     - guid: 3400
       unknown: 0
+
 # Experimental Weapons Pack
 - guid: 872
   name_id: 4648
@@ -9613,6 +10033,7 @@
       unknown: 0
     - guid: 3371
       unknown: 0
+
 # Galactic Potted Plants II
 - guid: 873
   name_id: 4649
@@ -9635,6 +10056,7 @@
       unknown: 0
     - guid: 3325
       unknown: 0
+
 # Klug
 - guid: 874
   name_id: 4650
@@ -9651,6 +10073,7 @@
   items:
     - guid: 3398
       unknown: 0
+
 # Bounty Hunter Asajj Ventress
 - guid: 875
   name_id: 4651
@@ -9673,6 +10096,7 @@
       unknown: 0
     - guid: 150039
       unknown: 0
+
 # Boba Fett
 - guid: 876
   name_id: 4652
@@ -9687,6 +10111,7 @@
   for_sale: true
   members_only: false
   items: []
+
 # Dengar
 - guid: 877
   name_id: 4653
@@ -9709,6 +10134,7 @@
       unknown: 0
     - guid: 3412
       unknown: 0
+
 # Gundark Holoprojector
 - guid: 878
   name_id: 4654
@@ -9725,6 +10151,7 @@
   items:
     - guid: 3405
       unknown: 0
+
 # Sith Holocron
 - guid: 879
   name_id: 4673
@@ -9741,6 +10168,7 @@
   items:
     - guid: 3404
       unknown: 0
+
 # Quarzite Boba Fett
 - guid: 880
   name_id: 4689
@@ -9767,6 +10195,7 @@
       unknown: 0
     - guid: 3419
       unknown: 0
+
 # Jedi Veranda Furniture
 - guid: 881
   name_id: 4690
@@ -9795,6 +10224,7 @@
       unknown: 0
     - guid: 3432
       unknown: 0
+
 # C-21 Highsinger Holoprojector
 - guid: 882
   name_id: 4691
@@ -9811,6 +10241,7 @@
   items:
     - guid: 3433
       unknown: 0
+
 # Darth Maul Holoprojector
 - guid: 883
   name_id: 4692
@@ -9827,6 +10258,7 @@
   items:
     - guid: 3434
       unknown: 0
+
 # Krismo Sodi
 - guid: 884
   name_id: 4693
@@ -9849,6 +10281,7 @@
       unknown: 0
     - guid: 3438
       unknown: 0
+
 # Plo Koon Holoprojector
 - guid: 885
   name_id: 4694
@@ -9865,6 +10298,7 @@
   items:
     - guid: 3439
       unknown: 0
+
 # Quarzite Boba Fett
 - guid: 1005
   name_id: 4689
@@ -9891,6 +10325,7 @@
       unknown: 0
     - guid: 3419
       unknown: 0
+
 # Krismo Sodi
 - guid: 1006
   name_id: 4693
@@ -9913,6 +10348,7 @@
       unknown: 0
     - guid: 3438
       unknown: 0
+
 # Plo Koon Holoprojector
 - guid: 1007
   name_id: 4694
@@ -9929,6 +10365,7 @@
   items:
     - guid: 3439
       unknown: 0
+
 # Boosts
 - guid: 10000
   for_sale: true
