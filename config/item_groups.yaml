@@ -58,7 +58,7 @@
   preview_model_id: 0
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 63
@@ -295,7 +295,7 @@
   preview_model_id: 0
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 300
