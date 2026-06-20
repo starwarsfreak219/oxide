@@ -6,7 +6,7 @@
   icon_set_id: 1024
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Battle Droid Holoprojector
@@ -16,7 +16,7 @@
   icon_set_id: 1018
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 500
 
 # Commando Droid Holoprojector
@@ -26,7 +26,7 @@
   icon_set_id: 1016
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Droideka Holoprojector
@@ -36,7 +36,7 @@
   icon_set_id: 1020
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1500
 
 # Bith Holoprojector
@@ -46,7 +46,7 @@
   icon_set_id: 1014
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Jawa Holoprojector
@@ -56,7 +56,7 @@
   icon_set_id: 1961
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Gotal Holoprojector
@@ -66,7 +66,7 @@
   icon_set_id: 1340
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Ithorian Holoprojector
@@ -76,7 +76,7 @@
   icon_set_id: 1339
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Gungan Holoprojector
@@ -86,7 +86,7 @@
   icon_set_id: 1341
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Mace Windu Handheld Holoprojector
@@ -96,7 +96,7 @@
   icon_set_id: 1401
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Yoda Handheld Holoprojector
@@ -106,7 +106,7 @@
   icon_set_id: 1400
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Commander Cody Handheld Holoprojector
@@ -116,7 +116,7 @@
   icon_set_id: 1402
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Anakin Skywalker Handheld Holoprojector
@@ -126,7 +126,7 @@
   icon_set_id: 1403
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1000
 
 # Geonosian Holoprojector
@@ -136,7 +136,7 @@
   icon_set_id: 1540
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2500
   members: true
 
@@ -147,7 +147,7 @@
   icon_set_id: 1542
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -158,7 +158,7 @@
   icon_set_id: 1736
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2000
 
 # Mortis Son Force Form Holoprojector
@@ -168,7 +168,7 @@
   icon_set_id: 1738
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2000
 
 # Rancor Holoprojector
@@ -178,7 +178,7 @@
   icon_set_id: 2587
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 20000
   members: true
 
@@ -189,7 +189,7 @@
   icon_set_id: 1851
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2500
 
 # Underworld Ithorian Holoprojector
@@ -199,7 +199,7 @@
   icon_set_id: 1853
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1500
 
 # Yoda Holoprojector
@@ -209,7 +209,7 @@
   icon_set_id: 1951
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # General Grievous Holoprojector
@@ -219,7 +219,7 @@
   icon_set_id: 1999
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # Talz Holoprojector
@@ -229,7 +229,7 @@
   icon_set_id: 2000
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -240,7 +240,7 @@
   icon_set_id: 2035
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2500
 
 # Cad Bane Holoprojector
@@ -250,7 +250,7 @@
   icon_set_id: 2036
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -261,7 +261,7 @@
   icon_set_id: 2131
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -272,7 +272,7 @@
   icon_set_id: 2132
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -283,7 +283,7 @@
   icon_set_id: 2160
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 10000
   members: true
 
@@ -294,7 +294,7 @@
   icon_set_id: 2300
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
   members: true
 
@@ -305,7 +305,7 @@
   icon_set_id: 2308
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true
 
@@ -316,7 +316,7 @@
   icon_set_id: 2319
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 6000
   members: true
 
@@ -327,7 +327,7 @@
   icon_set_id: 2321
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 2000
   members: true
 
@@ -338,7 +338,7 @@
   icon_set_id: 2320
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # Orphne Holoprojector
@@ -348,7 +348,7 @@
   icon_set_id: 2375
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 1500
 
 # King Manchucho Holoprojector
@@ -358,7 +358,7 @@
   icon_set_id: 2374
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
   members: true
 
@@ -369,7 +369,7 @@
   icon_set_id: 2376
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # Sniper Droid Holoprojector
@@ -379,7 +379,7 @@
   icon_set_id: 2648
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # Gundark Holoprojector
@@ -389,7 +389,7 @@
   icon_set_id: 2718
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 15000
   members: true
 
@@ -400,7 +400,7 @@
   icon_set_id: 2745
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 5000
   members: true
 
@@ -411,7 +411,7 @@
   icon_set_id: 2746
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 3000
 
 # Plo Koon Holoprojector
@@ -421,6 +421,6 @@
   icon_set_id: 2748
   slot: !Equipment None
   item_type: 1
-  category: 82
+  category: 54
   cost: 4000
   members: true

@@ -1720,7 +1720,7 @@
   preview_model_id: 616
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 115
@@ -1815,7 +1815,7 @@
   preview_model_id: 618
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 126
@@ -2772,7 +2772,7 @@
   preview_model_id: 264
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 547
@@ -2823,7 +2823,7 @@
   preview_model_id: 644
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 550
@@ -2840,7 +2840,7 @@
   preview_model_id: 646
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 551
@@ -2874,7 +2874,7 @@
   preview_model_id: 645
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 553
@@ -3929,7 +3929,7 @@
   preview_model_id: 1099
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2092
@@ -3994,7 +3994,7 @@
   preview_model_id: 1104
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 917
@@ -4120,7 +4120,7 @@
   preview_model_id: 1300
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 1383
@@ -4154,7 +4154,7 @@
   preview_model_id: 1503
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2746
@@ -4205,7 +4205,7 @@
   preview_model_id: 1566
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 31
@@ -4976,7 +4976,7 @@
   preview_model_id: 1228
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2216
@@ -5057,7 +5057,7 @@
   preview_model_id: 1319
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2147
@@ -5074,7 +5074,7 @@
   preview_model_id: 31
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2155
@@ -5093,7 +5093,7 @@
   preview_model_id: 164
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2156
@@ -5110,7 +5110,7 @@
   preview_model_id: 259
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2157
@@ -6703,7 +6703,7 @@
   preview_model_id: 164
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 541
@@ -6720,7 +6720,7 @@
   preview_model_id: 1612
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2802
@@ -6821,7 +6821,7 @@
   preview_model_id: 0
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2819
@@ -6838,7 +6838,7 @@
   preview_model_id: 1622
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2804
@@ -6956,7 +6956,7 @@
   preview_model_id: 1662
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 2833
@@ -9561,7 +9561,7 @@
   preview_model_id: 2229
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 3286
@@ -10163,7 +10163,7 @@
   preview_model_id: 2328
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 3404
@@ -10310,7 +10310,7 @@
   preview_model_id: 2350
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 3413
@@ -10337,7 +10337,7 @@
   preview_model_id: 2349
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 3435
@@ -10360,7 +10360,7 @@
   preview_model_id: 2341
   preview_animation_id: 0
   is_new: false
-  for_sale: true
+  for_sale: false
   members_only: false
   items:
     - guid: 3439

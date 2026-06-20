@@ -175,11 +175,60 @@ definitions:
     sort_order: 36
     visible: true
 
-  # Testing - My Gear?
-  - guid: 77
-    name_id: 1219
-    icon_set_id: 424
-    sort_order: 1
+  # Speeders - Inventory
+  - guid: 37
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
+  # Ships - Inventory
+  - guid: 38
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
+  # Chairs
+  - guid: 40
+    name_id: 316
+    icon_set_id: 786
+    sort_order: 40
+    visible: true
+
+  # Tables
+  - guid: 41
+    name_id: 317
+    icon_set_id: 787
+    sort_order: 41
+    visible: true
+
+  # Sofas
+  - guid: 42
+    name_id: 318
+    icon_set_id: 788
+    sort_order: 42
+    visible: true
+
+  # Beds
+  - guid: 43
+    name_id: 319
+    icon_set_id: 789
+    sort_order: 43
+    visible: true
+
+  # Misc
+  - guid: 44
+    name_id: 320
+    icon_set_id: 790
+    sort_order: 44
+    visible: true
+
+  # Holoprojectors - Inventory
+  - guid: 54
+    name_id: 114
+    icon_set_id: 669
+    sort_order: 54
     visible: true
 
   # My Headgear
@@ -222,6 +271,27 @@ definitions:
     name_id: 8506
     icon_set_id: 423
     sort_order: 65
+    visible: true
+
+  # Modules
+  - guid: 66
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
+  # Droid Parts - Inventory
+  - guid: 67
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
+  # Vehicles - Inventory
+  - guid: 68
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
     visible: true
 
   # Actions - Inventory
@@ -287,13 +357,6 @@ definitions:
     sort_order: 81
     visible: true
 
-  # Holoprojectors - Inventory - Testing
-  - guid: 82
-    name_id: 114
-    icon_set_id: 669
-    sort_order: 82
-    visible: true
-
   # Mind Tricks - Inventory - Testing
   - guid: 83
     name_id: 115
@@ -343,6 +406,13 @@ definitions:
     sort_order: 1
     visible: true
 
+  # My Gear - Inventory
+  - guid: 92
+    name_id: 1219
+    icon_set_id: 424
+    sort_order: 1
+    visible: true
+
   # Mounts
   - guid: 93
     name_id: 4483
@@ -362,6 +432,13 @@ definitions:
     name_id: 4485
     icon_set_id: 2582
     sort_order: 96
+    visible: true
+
+  # Consumables - Inventory
+  - guid: 99
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
     visible: true
 
   # Clone Trooper Gear
@@ -420,41 +497,6 @@ definitions:
     sort_order: 111
     visible: true
 
-  # Chairs
-  - guid: 40
-    name_id: 316
-    icon_set_id: 786
-    sort_order: 40
-    visible: true
-
-  # Tables
-  - guid: 41
-    name_id: 317
-    icon_set_id: 787
-    sort_order: 41
-    visible: true
-
-  # Sofas
-  - guid: 42
-    name_id: 318
-    icon_set_id: 788
-    sort_order: 42
-    visible: true
-
-  # Beds
-  - guid: 43
-    name_id: 319
-    icon_set_id: 789
-    sort_order: 43
-    visible: true
-
-  # Misc
-  - guid: 44
-    name_id: 320
-    icon_set_id: 790
-    sort_order: 44
-    visible: true
-
   # Mission Tokens
   - guid: 114
     name_id: 54332
@@ -485,39 +527,8 @@ definitions:
     visible: true
 
 relations:
-
-  # Testing relations
-  #
-  - parent_guid: 10
-    child_guid: 4
-
-  - parent_guid: 10
-    child_guid: 5
-
-  - parent_guid: 10
-    child_guid: 6
-
-  - parent_guid: 10
-    child_guid: 7
-
-  - parent_guid: 10
-    child_guid: 8
-
-  - parent_guid: 10
-    child_guid: 9
-
-  - parent_guid: 10
-    child_guid: 23
-
-  - parent_guid: 10
-    child_guid: 24
-
-  - parent_guid: 10
-    child_guid: 25
-
   # Store = 2     --- Item Sets use this category
   # My Gear = 70  --- Single Items use this category
-
 
   # Root -> Portal
   - parent_guid: -1
@@ -530,10 +541,6 @@ relations:
   # Root -> My Gear
   - parent_guid: -1
     child_guid: 70
-
-  # Root -> Gear
-  # - parent_guid: -1
-  #   child_guid: 11
 
   # Store -> Gear
   - parent_guid: 2
@@ -604,8 +611,8 @@ relations:
     child_guid: 96
 
   # Equipment -> Weapons
-  - parent_guid: 11
-    child_guid: 64
+  # - parent_guid: 11
+  #   child_guid: 64
 
   # Equipment -> Clone Trooper Gear
   - parent_guid: 11
@@ -743,9 +750,9 @@ relations:
   - parent_guid: 69
     child_guid: 81
 
-  # Actions - Inventory -> Holoprojectors
+  # Actions - Inventory -> Holoprojectors - Inventory
   - parent_guid: 69
-    child_guid: 82
+    child_guid: 54
 
   # Actions - Inventory -> Mind Tricks
   - parent_guid: 69
@@ -761,7 +768,7 @@ relations:
 
   # My Gear -> Gear
   - parent_guid: 70
-    child_guid: 77
+    child_guid: 92
 
   # My Gear -> Actions
   - parent_guid: 70
@@ -776,23 +783,23 @@ relations:
     child_guid: 114
 
   # Gear -> My Headgear
-  - parent_guid: 77
+  - parent_guid: 92
     child_guid: 60
 
   # Gear -> My Clothes
-  - parent_guid: 77
+  - parent_guid: 92
     child_guid: 61
 
   # Gear -> My Gloves
-  - parent_guid: 77
+  - parent_guid: 92
     child_guid: 62
 
   # Gear -> My Shoes
-  - parent_guid: 77
+  - parent_guid: 92
     child_guid: 63
 
   # Gear -> My Weapons
-  - parent_guid: 77
+  - parent_guid: 92
     child_guid: 64
 
   # Card Games -> Card Commander
