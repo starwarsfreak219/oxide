@@ -11,6 +11,7 @@ pub enum InventoryOpCode {
     PreviewCustomization = 0xb,
     EquipCustomization = 0xc,
     EquipSaber = 0xd,
+    EquipSet = 0xe,
 }
 
 impl SerializePacket for InventoryOpCode {
@@ -26,7 +27,7 @@ pub struct UnequipSlot {
     pub battle_class: u32,
 }
 
-#[derive(DeserializePacket)]
+#[derive(Clone, DeserializePacket, Debug)]
 pub struct EquipGuid {
     pub item_guid: u32,
     pub battle_class: u32,
@@ -41,4 +42,9 @@ pub struct PreviewCustomization {
 #[derive(DeserializePacket)]
 pub struct EquipCustomization {
     pub item_guid: u32,
+}
+
+#[derive(DeserializePacket)]
+pub struct EquipSet {
+    pub set_id: u32,
 }

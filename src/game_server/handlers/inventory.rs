@@ -15,7 +15,7 @@ use crate::{
         packets::{
             client_update::{EquipItem, UnequipItem, UpdateActionBarSlot, UpdateCredits},
             inventory::{
-                EquipCustomization, EquipGuid, InventoryOpCode, PreviewCustomization, UnequipSlot,
+                EquipCustomization, EquipGuid, InventoryOpCode, PreviewCustomization, UnequipSlot, EquipSet,
             },
             item::{Attachment, EquipmentSlot, WieldType},
             player_update::{
@@ -49,6 +49,31 @@ pub struct DefaultSaber {
     color_item_guid: u32,
 }
 
+#[derive(Deserialize, Clone, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct ItemGroupEntry {
+    pub guid: u32,
+    pub unknown: u32,
+}
+
+#[derive(Deserialize, Clone, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct ItemGroup {
+    pub guid: u32, // This maps to set_id!
+    pub name_id: u32,
+    pub description_id: u32,
+    pub sort_order: u32,
+    pub icon_set_id: u32,
+    pub category: u32,
+    pub page: u32,
+    pub preview_model_id: u32,
+    pub preview_animation_id: u32,
+    pub is_new: bool,
+    pub for_sale: bool,
+    pub members_only: bool,
+    pub items: Vec<ItemGroupEntry>,
+}
+
 pub fn load_default_sabers(config_dir: &Path) -> Result<BTreeMap<u32, DefaultSaber>, ConfigError> {
     let mut file = File::open(config_dir.join("default_sabers.yaml"))?;
     let default_sabers: Vec<DefaultSaber> = serde_yaml::from_reader(&mut file)?;
@@ -67,6 +92,17 @@ pub fn load_customizations(config_dir: &Path) -> Result<BTreeMap<u32, Customizat
         .collect())
 }
 
+pub fn load_item_groups(config_dir: &Path) -> Result<BTreeMap<u32, ItemGroup>, ConfigError> {
+    let mut file = File::open(config_dir.join("item_groups.yaml"))?;
+    let item_groups: Vec<ItemGroup> = serde_yaml::from_reader(&mut file)?;
+
+    // Map the list so we can instantly look up a group by its `guid` (set_id)
+    Ok(item_groups
+        .into_iter()
+        .map(|group| (group.guid, group))
+        .collect())
+}
+
 pub fn load_customization_item_mappings(
     config_dir: &Path,
 ) -> Result<BTreeMap<u32, Vec<u32>>, ConfigError> {
@@ -80,6 +116,7 @@ pub fn process_inventory_packet(
     sender: u32,
 ) -> Result<Vec<Broadcast>, ProcessPacketError> {
     let raw_op_code: u16 = DeserializePacket::deserialize(cursor)?;
+    eprintln!("---> INVENTORY PACKET RECEIVED: OpCode {}", raw_op_code);
     match InventoryOpCode::try_from(raw_op_code) {
         Ok(op_code) => match op_code {
             InventoryOpCode::UnequipSlot => process_unequip_slot(game_server, cursor, sender),
@@ -90,6 +127,10 @@ pub fn process_inventory_packet(
             }
             InventoryOpCode::EquipCustomization => {
                 process_equip_customization(game_server, cursor, sender)
+            }
+            InventoryOpCode::EquipSet => {
+                // eprintln!("---> MATCHED: Routing to process_equip_set!");
+                process_equip_set(game_server, cursor, sender)
             }
         },
         Err(_) => Err(ProcessPacketError::new(
@@ -423,6 +464,7 @@ fn process_equip_guid(
     sender: u32,
 ) -> Result<Vec<Broadcast>, ProcessPacketError> {
     let equip_guid: EquipGuid = DeserializePacket::deserialize(cursor)?;
+    // eprintln!("---> HIT: Reached the equipment handler function!");
     game_server
         .lock_enforcer()
         .read_characters(|_| CharacterLockRequest {
@@ -474,6 +516,7 @@ fn process_equip_saber(
     sender: u32,
 ) -> Result<Vec<Broadcast>, ProcessPacketError> {
     let equip_guid: EquipGuid = DeserializePacket::deserialize(cursor)?;
+    // eprintln!("---> SUCCESS: Deserialized EquipGuid as: {:?}", equip_guid);
     let (shape_slot, color_slot) = match &equip_guid.slot {
         EquipmentSlot::PrimaryWeapon => (
             EquipmentSlot::PrimarySaberShape,
@@ -693,6 +736,101 @@ fn process_equip_customization(
                         ],
                     ),
                 ])
+            },
+        })
+}
+
+fn process_equip_set(
+    game_server: &GameServer,
+    cursor: &mut Cursor<&[u8]>,
+    sender: u32,
+) -> Result<Vec<Broadcast>, ProcessPacketError> {
+    let equip_set: EquipSet = DeserializePacket::deserialize(cursor)?;
+
+    // 1. Fetch the Set definition by searching the global YAML list
+        let Some(item_group) = game_server.item_groups.definitions.iter().find(|group| group.guid == equip_set.set_id as i32) else {
+            // eprintln!("---> ERROR: Set ID {} not found in global item_groups!", equip_set.set_id);
+            return Ok(Vec::new());
+        };
+
+    game_server
+        .lock_enforcer()
+        .read_characters(|_| CharacterLockRequest {
+            read_guids: vec![],
+            write_guids: vec![player_guid(sender)],
+            character_consumer: |characters_table_read_handle, _, mut characters_write, _| {
+
+                let mut broadcasts = Vec::new();
+
+                // Keep track of the player's current battle class
+                let battle_class = {
+                    let character_write_handle = characters_write.get(&player_guid(sender)).unwrap();
+                    let CharacterType::Player(player) = &character_write_handle.stats.character_type else {
+                        return Ok(Vec::new());
+                    };
+                    player.inventory.active_battle_class
+                };
+
+                // 2. Loop through the items defined in the YAML
+                for group_item in &item_group.items {
+
+                    let Some(item_def) = game_server.items().get(&group_item.guid) else {
+                        eprintln!("Item {} in Set {} does not exist in the item registry.", group_item.guid, equip_set.set_id);
+                        continue;
+                    };
+
+                    let slot: EquipmentSlot = item_def.slot.into();
+                    let equip_guid = EquipGuid {
+                        item_guid: group_item.guid,
+                        battle_class,
+                        slot,
+                    };
+
+                    // Check if this item is a Lightsaber Hilt in the default registry
+                    if let Some(saber) = game_server.default_sabers().get(&group_item.guid) {
+
+                        // Determine the correct crystal slots based on if this is a primary or secondary weapon
+                        let (shape_slot, color_slot) = match slot {
+                            EquipmentSlot::PrimaryWeapon => (EquipmentSlot::PrimarySaberShape, EquipmentSlot::PrimarySaberColor),
+                            EquipmentSlot::SecondaryWeapon => (EquipmentSlot::SecondarySaberShape, EquipmentSlot::SecondarySaberColor),
+                            _ => (EquipmentSlot::PrimarySaberShape, EquipmentSlot::PrimarySaberColor), // Fallback
+                        };
+
+                        // 1. Equip the Hilt
+                        if let Ok((mut item_broadcasts, _)) = equip_item_in_slot(sender, &equip_guid, characters_table_read_handle, &mut characters_write, game_server, None) {
+                            broadcasts.append(&mut item_broadcasts);
+                        }
+
+                        // 2. Equip the Color Crystal
+                        let mut tint = 0;
+                        let color_guid = EquipGuid { item_guid: saber.color_item_guid, battle_class, slot: color_slot };
+                        if let Ok((mut color_broadcasts, t)) = equip_item_in_slot(sender, &color_guid, characters_table_read_handle, &mut characters_write, game_server, None) {
+                            broadcasts.append(&mut color_broadcasts);
+                            tint = t; // Capture the tint from the color crystal
+                        }
+
+                        // 3. Equip the Shape Crystal (using the captured color tint)
+                        let shape_guid = EquipGuid { item_guid: saber.shape_item_guid, battle_class, slot: shape_slot };
+                        if let Ok((mut shape_broadcasts, _)) = equip_item_in_slot(sender, &shape_guid, characters_table_read_handle, &mut characters_write, game_server, Some(tint)) {
+                            broadcasts.append(&mut shape_broadcasts);
+                        }
+
+                    } else {
+                        // It's a standard item (armor, blaster, etc), equip normally
+                        if let Ok((mut item_broadcasts, _)) = equip_item_in_slot(
+                            sender,
+                            &equip_guid,
+                            characters_table_read_handle,
+                            &mut characters_write,
+                            game_server,
+                            None,
+                        ) {
+                            broadcasts.append(&mut item_broadcasts);
+                        }
+                    }
+                }
+
+                Ok(broadcasts)
             },
         })
 }
