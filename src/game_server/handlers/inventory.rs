@@ -116,7 +116,7 @@ pub fn process_inventory_packet(
     sender: u32,
 ) -> Result<Vec<Broadcast>, ProcessPacketError> {
     let raw_op_code: u16 = DeserializePacket::deserialize(cursor)?;
-    eprintln!("---> INVENTORY PACKET RECEIVED: OpCode {}", raw_op_code);
+    // eprintln!("---> INVENTORY PACKET RECEIVED: OpCode {}", raw_op_code);
     match InventoryOpCode::try_from(raw_op_code) {
         Ok(op_code) => match op_code {
             InventoryOpCode::UnequipSlot => process_unequip_slot(game_server, cursor, sender),
