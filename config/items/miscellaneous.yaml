@@ -5,6 +5,7 @@
   description_id: 14
   icon_set_id: 2583
   cost: 2000
+  members_cost_expression: x
   slot: !Equipment None
   item_type: 1
   max_stack_size: 1000

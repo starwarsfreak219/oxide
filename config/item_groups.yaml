@@ -538,7 +538,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 633
       unknown: 0
@@ -555,7 +555,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 544
       unknown: 0
@@ -620,7 +620,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 405
       unknown: 0
@@ -666,7 +666,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 534
       unknown: 0
@@ -712,7 +712,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 187
       unknown: 0
@@ -737,7 +737,7 @@
   preview_animation_id: 904
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 190
       unknown: 0
@@ -854,7 +854,7 @@
   preview_animation_id: 908
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 17
       unknown: 0
@@ -998,7 +998,7 @@
   preview_animation_id: 905
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 300
       unknown: 0
@@ -1136,7 +1136,7 @@
   preview_animation_id: 906
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 59
       unknown: 0
@@ -1184,7 +1184,7 @@
   preview_animation_id: 912
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 497
       unknown: 0
@@ -1209,7 +1209,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 11
       unknown: 0
@@ -1299,7 +1299,7 @@
   preview_animation_id: 903
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 437
       unknown: 0
@@ -1322,7 +1322,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 513
       unknown: 0
@@ -1372,7 +1372,7 @@
   preview_animation_id: 907
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 58
       unknown: 0
@@ -1420,7 +1420,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 247
       unknown: 0
@@ -1443,7 +1443,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 259
       unknown: 0
@@ -1466,7 +1466,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 64
       unknown: 0
@@ -1487,7 +1487,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1100
       unknown: 0
@@ -1506,7 +1506,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1121
       unknown: 0
@@ -1546,7 +1546,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 856
       unknown: 0
@@ -1569,7 +1569,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 263
       unknown: 0
@@ -1588,7 +1588,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 392
       unknown: 0
@@ -1611,7 +1611,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 233
       unknown: 0
@@ -1688,7 +1688,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 665
       unknown: 0
@@ -1847,7 +1847,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 691
       unknown: 0
@@ -1903,7 +1903,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 153
       unknown: 0
@@ -1928,7 +1928,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 134
       unknown: 0
@@ -1978,7 +1978,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 652
       unknown: 0
@@ -2018,7 +2018,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 50
       unknown: 0
@@ -2039,7 +2039,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 43
       unknown: 0
@@ -2083,7 +2083,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 565
       unknown: 0
@@ -2756,7 +2756,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 545
       unknown: 0
@@ -2960,7 +2960,7 @@
   preview_animation_id: 909
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 587
       unknown: 0
@@ -2985,7 +2985,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 439
       unknown: 0
@@ -3056,7 +3056,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 63
       unknown: 0
@@ -3170,7 +3170,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 240
       unknown: 0
@@ -3218,7 +3218,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 265
       unknown: 0
@@ -3287,7 +3287,7 @@
   preview_animation_id: 909
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 759
       unknown: 0
@@ -3312,7 +3312,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 763
       unknown: 0
@@ -3411,7 +3411,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 560
       unknown: 0
@@ -3432,7 +3432,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 428
       unknown: 0
@@ -3453,7 +3453,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 309
       unknown: 0
@@ -3474,7 +3474,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 311
       unknown: 0
@@ -3495,7 +3495,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 20
       unknown: 0
@@ -3512,7 +3512,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 22
       unknown: 0
@@ -3529,7 +3529,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 23
       unknown: 0
@@ -3546,7 +3546,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 24
       unknown: 0
@@ -3588,7 +3588,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 789
       unknown: 0
@@ -3846,7 +3846,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 991
       unknown: 0
@@ -3907,7 +3907,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1123
       unknown: 0
@@ -3947,7 +3947,7 @@
   preview_animation_id: 907
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 987
       unknown: 0
@@ -4012,7 +4012,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1147
       unknown: 0
@@ -4060,7 +4060,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1162
       unknown: 0
@@ -4309,7 +4309,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1183
       unknown: 0
@@ -4351,7 +4351,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1248
       unknown: 0
@@ -4738,7 +4738,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1281
       unknown: 0
@@ -4761,7 +4761,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1289
       unknown: 0
@@ -4780,7 +4780,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 859
       unknown: 0
@@ -5130,7 +5130,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2234
       unknown: 0
@@ -5187,7 +5187,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1347
       unknown: 0
@@ -5220,7 +5220,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1351
       unknown: 0
@@ -5249,7 +5249,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1344
       unknown: 0
@@ -5351,7 +5351,7 @@
   preview_animation_id: 914
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2250
       unknown: 0
@@ -5376,7 +5376,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 536
       unknown: 0
@@ -5445,7 +5445,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2267
       unknown: 0
@@ -5466,7 +5466,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 439
       unknown: 0
@@ -5491,7 +5491,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 439
       unknown: 0
@@ -5621,7 +5621,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2378
       unknown: 0
@@ -5777,7 +5777,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 439
       unknown: 0
@@ -5908,7 +5908,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2706
       unknown: 0
@@ -6051,7 +6051,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2750
       unknown: 0
@@ -6070,7 +6070,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2748
       unknown: 0
@@ -6089,7 +6089,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2752
       unknown: 0
@@ -6125,7 +6125,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 439
       unknown: 0
@@ -6150,7 +6150,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2398
       unknown: 0
@@ -6173,7 +6173,7 @@
   preview_animation_id: 912
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 521
       unknown: 0
@@ -6198,7 +6198,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2406
       unknown: 0
@@ -6221,7 +6221,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2410
       unknown: 0
@@ -6267,7 +6267,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2430
       unknown: 0
@@ -6290,7 +6290,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2434
       unknown: 0
@@ -6313,7 +6313,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2438
       unknown: 0
@@ -6447,7 +6447,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2764
       unknown: 0
@@ -6489,7 +6489,7 @@
   preview_animation_id: 902
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 227
       unknown: 0
@@ -6609,7 +6609,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2786
       unknown: 0
@@ -6643,7 +6643,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2794
       unknown: 0
@@ -6776,7 +6776,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2808
       unknown: 0
@@ -6856,7 +6856,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2820
       unknown: 0
@@ -6940,7 +6940,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2832
       unknown: 0
@@ -6991,7 +6991,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2835
       unknown: 0
@@ -7122,7 +7122,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2859
       unknown: 0
@@ -7172,7 +7172,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2890
       unknown: 0
@@ -7214,7 +7214,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2869
       unknown: 0
@@ -7237,7 +7237,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2873
       unknown: 0
@@ -7260,7 +7260,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2877
       unknown: 0
@@ -7329,7 +7329,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2885
       unknown: 0
@@ -7373,7 +7373,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2703
       unknown: 0
@@ -7394,7 +7394,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2891
       unknown: 0
@@ -7432,7 +7432,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1437
       unknown: 0
@@ -7488,7 +7488,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1452
       unknown: 0
@@ -7572,7 +7572,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2898
       unknown: 0
@@ -7624,7 +7624,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2899
       unknown: 0
@@ -7641,7 +7641,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2906
       unknown: 0
@@ -7658,7 +7658,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1477
       unknown: 0
@@ -7683,7 +7683,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1522
       unknown: 0
@@ -7708,7 +7708,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1547
       unknown: 0
@@ -7739,7 +7739,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1555
       unknown: 0
@@ -7845,7 +7845,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1467
       unknown: 0
@@ -7895,7 +7895,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1572
       unknown: 0
@@ -7939,7 +7939,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2907
       unknown: 0
@@ -7981,7 +7981,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1487
       unknown: 0
@@ -8052,7 +8052,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1307
       unknown: 0
@@ -8073,7 +8073,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2913
       unknown: 0
@@ -8142,7 +8142,7 @@
   preview_animation_id: 906
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1314
       unknown: 0
@@ -8165,7 +8165,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1318
       unknown: 0
@@ -8186,7 +8186,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1170
       unknown: 0
@@ -8251,7 +8251,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1507
       unknown: 0
@@ -8276,7 +8276,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1131
       unknown: 0
@@ -8367,7 +8367,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3070
       unknown: 0
@@ -8426,7 +8426,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3073
       unknown: 0
@@ -8443,7 +8443,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3074
       unknown: 0
@@ -8487,7 +8487,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2504
       unknown: 0
@@ -8510,7 +8510,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3077
       unknown: 0
@@ -8569,7 +8569,7 @@
   preview_animation_id: 910
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1585
       unknown: 0
@@ -8592,7 +8592,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1482
       unknown: 0
@@ -8676,7 +8676,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3097
       unknown: 0
@@ -8697,7 +8697,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3095
       unknown: 0
@@ -8758,7 +8758,7 @@
   preview_animation_id: 909
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3162
       unknown: 0
@@ -8781,7 +8781,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 1606
       unknown: 0
@@ -8890,7 +8890,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3174
       unknown: 0
@@ -8925,7 +8925,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3184
       unknown: 0
@@ -8960,7 +8960,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3196
       unknown: 0
@@ -9000,7 +9000,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3208
       unknown: 0
@@ -9102,7 +9102,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3238
       unknown: 0
@@ -9133,7 +9133,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3204
       unknown: 0
@@ -9179,7 +9179,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3223
       unknown: 0
@@ -9200,7 +9200,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3219
       unknown: 0
@@ -9236,7 +9236,7 @@
   preview_animation_id: 909
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3250
       unknown: 0
@@ -9259,7 +9259,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3255
       unknown: 0
@@ -9305,7 +9305,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3263
       unknown: 0
@@ -9477,7 +9477,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 2450
       unknown: 0
@@ -9511,7 +9511,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3284
       unknown: 0
@@ -9545,7 +9545,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3285
       unknown: 0
@@ -9581,7 +9581,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3283
       unknown: 0
@@ -9621,7 +9621,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3329
       unknown: 0
@@ -9638,7 +9638,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3331
       unknown: 0
@@ -9701,7 +9701,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3342
       unknown: 0
@@ -9745,7 +9745,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3352
       unknown: 0
@@ -9762,7 +9762,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3353
       unknown: 0
@@ -9821,7 +9821,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3358
       unknown: 0
@@ -9857,7 +9857,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3374
       unknown: 0
@@ -9895,7 +9895,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3383
       unknown: 0
@@ -9977,7 +9977,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3391
       unknown: 0
@@ -10006,7 +10006,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3399
       unknown: 0
@@ -10124,7 +10124,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3409
       unknown: 0
@@ -10147,7 +10147,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3405
       unknown: 0
@@ -10208,7 +10208,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3426
       unknown: 0
@@ -10237,7 +10237,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3433
       unknown: 0
@@ -10294,7 +10294,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: true
-  members_only: false
+  members_only: true
   items:
     - guid: 3439
       unknown: 0
@@ -10361,7 +10361,7 @@
   preview_animation_id: 0
   is_new: false
   for_sale: false
-  members_only: false
+  members_only: true
   items:
     - guid: 3439
       unknown: 0

@@ -41,8 +41,8 @@
   model_name: Furniture_Gungan_Bed01.adr
   item_type: 29
   category: 43
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Gungan Chair
 - guid: 36
@@ -53,8 +53,8 @@
   model_name: Furniture_Gungan_Chair01.adr
   item_type: 29
   category: 40
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Gungan Couch
 - guid: 37
@@ -65,8 +65,8 @@
   model_name: Furniture_Gungan_Couch01.adr
   item_type: 29
   category: 42
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Gungan Fan
 - guid: 38
@@ -77,8 +77,8 @@
   model_name: Furniture_Gungan_Fan01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Gungan Painting
 - guid: 39
@@ -89,8 +89,8 @@
   model_name: Furniture_Gungan_Painting01.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Gungan Potted Plant
 - guid: 40
@@ -101,8 +101,8 @@
   model_name: Furniture_Gungan_PottedPlant01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Gungan Rug
 - guid: 41
@@ -113,8 +113,8 @@
   model_name: Furniture_Gungan_Rug01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Gungan Table
 - guid: 42
@@ -125,8 +125,8 @@
   model_name: Furniture_Gungan_Table01.adr
   item_type: 29
   category: 41
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Trade Federation Droid Control Ship Mini
 - guid: 46
@@ -137,8 +137,8 @@
   model_name: Furniture_MiniShips_DroidControlShip01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Coruscant Lower City Bed
 - guid: 107
@@ -150,6 +150,7 @@
   item_type: 29
   category: 43
   max_stack_size: 1000
+  cost: 600
 
 # Coruscant Lower City Big Lamp
 - guid: 108
@@ -161,6 +162,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
 
 # Coruscant Lower City Large Table
 - guid: 109
@@ -172,6 +174,7 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 350
 
 # Coruscant Lower City Chair
 - guid: 110
@@ -183,6 +186,7 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 50
 
 # Coruscant Lower City Sofa
 - guid: 111
@@ -194,6 +198,7 @@
   item_type: 29
   category: 42
   max_stack_size: 1000
+  cost: 400
 
 # Coruscant Lower City Small Lamp
 - guid: 112
@@ -205,6 +210,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
 
 # Coruscant Lower City Small Table
 - guid: 113
@@ -216,6 +222,7 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 150
 
 # Coruscant Lower City Small Work Station
 - guid: 114
@@ -227,6 +234,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 200
 
 # Kashyyyk Chair
 - guid: 115
@@ -414,6 +422,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Starship Captain's Chair
 - guid: 135
@@ -425,6 +435,8 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Starship Control Panel
 - guid: 136
@@ -436,6 +448,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Starship Game Table
 - guid: 137
@@ -447,6 +461,8 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 1500
+  members: true
 
 # Starship Holoprojector
 - guid: 138
@@ -458,6 +474,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 2500
+  members: true
 
 # Starship Recessed Lighting
 - guid: 139
@@ -469,6 +487,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Starship SeatRow
 - guid: 140
@@ -480,6 +500,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
+  members: true
 
 # Anakin Skywalker Original Mini
 - guid: 142
@@ -664,6 +686,8 @@
   item_type: 29
   category: 43
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Coruscant Diplomat Chair
 - guid: 666
@@ -675,6 +699,8 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 75
+  members: true
 
 # Coruscant Diplomat Fan
 - guid: 667
@@ -686,6 +712,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Coruscant Diplomat Holoprojector
 - guid: 668
@@ -696,8 +724,9 @@
   model_name: Furniture_CoruscantHighClass_Holoprojector01.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Coruscant Diplomat Lamp
 - guid: 669
@@ -709,6 +738,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
+  members: true
 
 # Coruscant Diplomat Love Seat
 - guid: 670
@@ -720,6 +751,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Coruscant Diplomat Security System
 - guid: 671
@@ -731,6 +764,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 2000
+  members: true
 
 # Coruscant Diplomat Table
 - guid: 672
@@ -742,6 +777,8 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Coruscant Diplomat Tree
 - guid: 673
@@ -753,6 +790,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Mon Calamari Bath
 - guid: 682
@@ -764,6 +803,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 500
 
 # Mon Calamari Bed
 - guid: 683
@@ -775,6 +815,7 @@
   item_type: 29
   category: 43
   max_stack_size: 1000
+  cost: 1000
 
 # Mon Calamari Chair
 - guid: 684
@@ -786,6 +827,7 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 250
 
 # Mon Calamari Fountain
 - guid: 685
@@ -797,6 +839,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 500
 
 # Mon Calamari Lamp
 - guid: 686
@@ -808,6 +851,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 750
 
 # Mon Calamari Water Sculpture
 - guid: 687
@@ -819,6 +863,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 750
 
 # Mon Calamari Sofa
 - guid: 688
@@ -830,6 +875,7 @@
   item_type: 29
   category: 42
   max_stack_size: 1000
+  cost: 500
 
 # Mon Clamari Table
 - guid: 689
@@ -841,6 +887,7 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 250
 
 # Mon Calamari Sandquarium
 - guid: 690
@@ -852,6 +899,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 1000
 
 # Party Deck Bench
 - guid: 691
@@ -863,6 +911,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Party Deck Chair
 - guid: 692
@@ -874,6 +924,8 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Party Deck Light Ball Pole
 - guid: 693
@@ -885,6 +937,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Party Deck Fire Pit
 - guid: 694
@@ -896,6 +950,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 2000
+  members: true
 
 # Party Deck Grill
 - guid: 695
@@ -907,6 +963,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Party Deck Stool
 - guid: 696
@@ -918,6 +976,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Party Deck Table
 - guid: 697
@@ -929,6 +989,8 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 700
+  members: true
 
 # Party Deck Torch
 - guid: 698
@@ -940,6 +1002,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # The Mace Window
 - guid: 978
@@ -951,6 +1015,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 1000
 
 # Mandalorian Holoboard
 - guid: 1248
@@ -962,6 +1027,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 4000
+  members: true
 
 # Mandalorian Table
 - guid: 1249
@@ -973,6 +1040,8 @@
   item_type: 29
   category: 41
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Mandalorian Control Console
 - guid: 1250
@@ -984,6 +1053,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 2000
+  members: true
 
 # Mandalorian Dorm Computer
 - guid: 1251
@@ -995,6 +1066,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 3000
+  members: true
 
 # Mandalorian Topiary Tree
 - guid: 1252
@@ -1006,6 +1079,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Mandalorian Chair
 - guid: 1253
@@ -1017,6 +1092,8 @@
   item_type: 29
   category: 40
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Mandalorian Couch
 - guid: 1254
@@ -1028,6 +1105,8 @@
   item_type: 29
   category: 42
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Mandalorian Aquarium
 - guid: 1255
@@ -1039,6 +1118,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 4000
+  members: true
 
 # Large Triple Bars
 - guid: 1344
@@ -1050,6 +1131,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Medium Triple Bars
 - guid: 1345
@@ -1061,6 +1144,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 125
+  members: true
 
 # Small Triple Bars
 - guid: 1346
@@ -1072,6 +1157,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 100
+  members: true
 
 # Rectangular Bulkhead
 - guid: 1347
@@ -1083,6 +1170,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
+  members: true
 
 # Large White Canister
 - guid: 1348
@@ -1094,6 +1183,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 80
 
 # Medium Grey Canister
 - guid: 1349
@@ -1105,6 +1195,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 40
 
 # Large Crate
 - guid: 1351
@@ -1116,6 +1207,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 375
+  members: true
 
 # Medium Crate
 - guid: 1352
@@ -1127,6 +1220,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 40
 
 # Small Crate
 - guid: 1353
@@ -1138,6 +1232,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
+  members: true
 
 # Extra Large Crate
 - guid: 1354
@@ -1149,6 +1245,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Rectangular Footlocker
 - guid: 1355
@@ -1160,6 +1258,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 100
+  members: true
 
 # White Light Globe
 - guid: 1356
@@ -1171,6 +1271,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 175
+  members: true
 
 # Large Ramp
 - guid: 1357
@@ -1182,6 +1284,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Medium Ramp
 - guid: 1358
@@ -1193,6 +1297,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 375
+  members: true
 
 # Small Ramp
 - guid: 1359
@@ -1204,6 +1310,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Square Bulkhead
 - guid: 1361
@@ -1215,6 +1323,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 25
+  members: true
 
 # Catwalk
 - guid: 1362
@@ -1226,6 +1336,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 175
+  members: true
 
 # Chest Footlocker
 - guid: 1366
@@ -1237,6 +1349,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Small Pillar
 - guid: 1368
@@ -1248,6 +1362,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Medium Pillar
 - guid: 1369
@@ -1259,6 +1375,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 375
+  members: true
 
 # Large Pillar
 - guid: 1370
@@ -1270,6 +1388,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Red Spotlight
 - guid: 1371
@@ -1281,6 +1401,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
 
 # Triple-Paned Window
 - guid: 1372
@@ -1292,6 +1413,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
 
 # Single-Paned Window
 - guid: 1373
@@ -1303,6 +1425,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 50
 
 # Corner Catwalk
 - guid: 1374
@@ -1314,6 +1437,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Green Light Globe
 - guid: 1375
@@ -1325,6 +1450,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 175
+  members: true
 
 # Red Light Globe
 - guid: 1376
@@ -1336,6 +1463,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 100
 
 # Yellow Light Globe
 - guid: 1378
@@ -1347,6 +1475,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 175
+  members: true
 
 # Green Spotlight
 - guid: 1379
@@ -1358,6 +1488,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # White Spotlight
 - guid: 1381
@@ -1369,6 +1501,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Yellow Spotlight
 - guid: 1382
@@ -1380,6 +1514,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Geonosis Campaign Trophy
 - guid: 1383
@@ -1401,8 +1537,8 @@
   model_name: Furniture_BuildingSetGeneric_BoxLarge01.adr
   item_type: 29
   category: 0
-  cost: 80
   max_stack_size: 1000
+  cost: 80
 
 # Medium Standard Crate
 - guid: 1386
@@ -1413,8 +1549,8 @@
   model_name: Furniture_BuildingSetGeneric_BoxMedium01.adr
   item_type: 29
   category: 0
-  cost: 40
   max_stack_size: 1000
+  cost: 40
 
 # Small Standard Crate
 - guid: 1387
@@ -1425,8 +1561,8 @@
   model_name: Furniture_BuildingSetGeneric_BoxSmall01.adr
   item_type: 29
   category: 0
-  cost: 20
   max_stack_size: 1000
+  cost: 20
 
 # Standard Ceiling Tile
 - guid: 1388
@@ -1437,8 +1573,8 @@
   model_name: Furniture_BuildingSetGeneric_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Standard Doorway Panel
 - guid: 1389
@@ -1449,8 +1585,8 @@
   model_name: Furniture_BuildingSetGeneric_Door01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Standard Floor Tile
 - guid: 1390
@@ -1461,8 +1597,8 @@
   model_name: Furniture_BuildingSetGeneric_Floor01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Standard Wall Panel
 - guid: 1391
@@ -1473,8 +1609,8 @@
   model_name: Furniture_BuildingSetGeneric_Wall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Standard Window Panel
 - guid: 1392
@@ -1485,8 +1621,8 @@
   model_name: Furniture_BuildingSetGeneric_Window01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Mustafar Ceiling Tile
 - guid: 1393
@@ -1497,8 +1633,8 @@
   model_name: Furniture_BuildingSetMustafar_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Mustafar Large Crate
 - guid: 1394
@@ -1509,8 +1645,8 @@
   model_name: Furniture_BuildingSetMustafar_Crate_Large01.adr
   item_type: 29
   category: 0
-  cost: 80
   max_stack_size: 1000
+  cost: 80
 
 # Mustafar Medium Crate
 - guid: 1395
@@ -1521,8 +1657,8 @@
   model_name: Furniture_BuildingSetMustafar_Crate_Meium01.adr
   item_type: 29
   category: 0
-  cost: 40
   max_stack_size: 1000
+  cost: 40
 
 # Mustafar Small Crate
 - guid: 1396
@@ -1533,8 +1669,8 @@
   model_name: Furniture_BuildingSetMustafar_Crate_Small01.adr
   item_type: 29
   category: 0
-  cost: 20
   max_stack_size: 1000
+  cost: 20
 
 # Mustafar Door Panel
 - guid: 1397
@@ -1545,8 +1681,8 @@
   model_name: Furniture_BuildingSetMustafar_Doorway01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Mustafar Floor Tile
 - guid: 1398
@@ -1557,8 +1693,8 @@
   model_name: Furniture_BuildingSetMustafar_Floor01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Mustafar Lava Rock
 - guid: 1399
@@ -1569,8 +1705,8 @@
   model_name: Furniture_BuildingSetMustafar_Lava_Rock01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Mustafar Pipes
 - guid: 1400
@@ -1581,8 +1717,8 @@
   model_name: Furniture_BuildingSetMustafar_Pipes01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Mustafar Wall Panel
 - guid: 1401
@@ -1593,8 +1729,8 @@
   model_name: Furniture_BuildingSetMustafar_Wall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Mustafar Window Panel
 - guid: 1402
@@ -1605,8 +1741,8 @@
   model_name: Furniture_BuildingSetMustafar_Window01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Ryloth Bunker
 - guid: 1404
@@ -1617,8 +1753,8 @@
   model_name: Furniture_BuildingSetRyloth_Bunker01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Ryloth Ceiling Tile
 - guid: 1405
@@ -1629,8 +1765,8 @@
   model_name: Furniture_BuildingSetRyloth_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Ryloth Large Crate
 - guid: 1406
@@ -1641,8 +1777,8 @@
   model_name: Furniture_BuildingSetRyloth_Crate_LArge_01.adr
   item_type: 29
   category: 0
-  cost: 80
   max_stack_size: 1000
+  cost: 80
 
 # Ryloth Medium Crate
 - guid: 1407
@@ -1653,8 +1789,8 @@
   model_name: Furniture_BuildingSetRyloth_Crate_Medium_01.adr
   item_type: 29
   category: 0
-  cost: 40
   max_stack_size: 1000
+  cost: 40
 
 # Ryloth Small Crate
 - guid: 1408
@@ -1665,8 +1801,8 @@
   model_name: Furniture_BuildingSetRyloth_Crate_Small_01.adr
   item_type: 29
   category: 0
-  cost: 20
   max_stack_size: 1000
+  cost: 20
 
 # Ryloth Floor Tile
 - guid: 1409
@@ -1677,8 +1813,8 @@
   model_name: Furniture_BuildingSetRyloth_Floor01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Ryloth Rock Spire
 - guid: 1410
@@ -1689,8 +1825,8 @@
   model_name: Furniture_BuildingSetRyloth_SmallRockSpire_01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Ryloth Wall Panel
 - guid: 1411
@@ -1701,8 +1837,8 @@
   model_name: Furniture_BuildingSetRyloth_Wall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Ryloth Window Panel
 - guid: 1412
@@ -1713,8 +1849,8 @@
   model_name: Furniture_BuildingSetRyloth_Window01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Ryloth Doorway Panel
 - guid: 1413
@@ -1725,8 +1861,8 @@
   model_name: Furniture_BuildingSetRyloth_Door01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Kamino Large Canister
 - guid: 1421
@@ -1737,8 +1873,8 @@
   model_name: Furniture_BuildingSetKamino_CannisterLarge01.adr
   item_type: 29
   category: 0
-  cost: 80
   max_stack_size: 1000
+  cost: 80
 
 # Kamino Medium Canister
 - guid: 1422
@@ -1749,8 +1885,8 @@
   model_name: Furniture_BuildingSetKamino_CannisterMedium01.adr
   item_type: 29
   category: 0
-  cost: 40
   max_stack_size: 1000
+  cost: 40
 
 # Kamino Small Canister
 - guid: 1423
@@ -1761,8 +1897,8 @@
   model_name: Furniture_BuildingSetKamino_CannisterSmall01.adr
   item_type: 29
   category: 0
-  cost: 20
   max_stack_size: 1000
+  cost: 20
 
 # Kamino Ceiling Panel
 - guid: 1424
@@ -1773,8 +1909,8 @@
   model_name: Furniture_BuildingSetKamino_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Kamino Curved Door Wall
 - guid: 1425
@@ -1785,8 +1921,8 @@
   model_name: Furniture_BuildingSetKamino_Door01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Kamino Floor Panel
 - guid: 1426
@@ -1797,8 +1933,8 @@
   model_name: Furniture_BuildingSetKamino_Floor01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Kamino Double Tower
 - guid: 1427
@@ -1809,8 +1945,8 @@
   model_name: Furniture_BuildingSetKamino_Tower01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Kamino Tower Antenna
 - guid: 1428
@@ -1821,8 +1957,8 @@
   model_name: Furniture_BuildingSetKamino_Tower02.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Kamino Curved Wall
 - guid: 1429
@@ -1833,8 +1969,8 @@
   model_name: Furniture_BuildingSetKamino_Wall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Kamino Curved Window Wall
 - guid: 1430
@@ -1845,8 +1981,8 @@
   model_name: Furniture_BuildingSetKamino_Window01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Ahsoka Tano Hero Decal
 - guid: 1431
@@ -1857,8 +1993,8 @@
   model_name: Furniture_Fatheads_Ahsoka_01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Anakin Skywalker Hero Decal
 - guid: 1432
@@ -1869,8 +2005,8 @@
   model_name: Furniture_Fatheads_Anakin_01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # C-3PO Decal
 - guid: 1434
@@ -1881,8 +2017,8 @@
   model_name: Furniture_Fatheads_C3PO_01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Clone Trooper Decal
 - guid: 1437
@@ -1893,8 +2029,9 @@
   model_name: Furniture_Fatheads_CloneTrooler_01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
+  members: true
 
 # Commander Cody Decal
 - guid: 1438
@@ -1905,8 +2042,9 @@
   model_name: Furniture_Fatheads_Cody_01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Commander Stone Decal
 - guid: 1439
@@ -1917,8 +2055,9 @@
   model_name: Furniture_Fatheads_CommanderStone_01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Obi-Wan Kenobi Decal
 - guid: 1445
@@ -1929,8 +2068,8 @@
   model_name: Furniture_Fatheads_ObiWan_01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # R2-D2 Decal
 - guid: 1446
@@ -1941,8 +2080,8 @@
   model_name: Furniture_Fatheads_R2D2_01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Captain Rex Decal
 - guid: 1447
@@ -1953,8 +2092,9 @@
   model_name: Furniture_Fatheads_Rex_01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Jedi Archives Spinning Bust
 - guid: 1452
@@ -1965,8 +2105,9 @@
   model_name: Furniture_Archives_AnimatedBust01.adr
   item_type: 29
   category: 0
-  cost: 2000
   max_stack_size: 1000
+  cost: 2000
+  members: true
 
 # Jedi Archives Shelving
 - guid: 1453
@@ -1977,8 +2118,9 @@
   model_name: Furniture_Archives_Bookshelf01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Jedi Archives Chair
 - guid: 1454
@@ -1988,9 +2130,10 @@
   slot: !Equipment None
   model_name: Furniture_Archives_Chair01.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 40
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Jedi Archives Desk
 - guid: 1455
@@ -2001,8 +2144,9 @@
   model_name: Furniture_Archives_Desk01.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
+  members: true
 
 # Jedi Archives Light Fixture
 - guid: 1456
@@ -2013,8 +2157,9 @@
   model_name: Furniture_Archives_Light01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Jedi Archives Rope Barrier
 - guid: 1457
@@ -2025,8 +2170,9 @@
   model_name: Furniture_Archives_VelvetRope01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # War Room Chair
 - guid: 1458
@@ -2036,9 +2182,9 @@
   slot: !Equipment None
   model_name: Furniture_WarRoom_Chair01.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 40
   max_stack_size: 1000
+  cost: 250
 
 # War Room Long Workstation
 - guid: 1459
@@ -2049,8 +2195,8 @@
   model_name: Furniture_WarRoom_Computer01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # War Room Regular Workstation
 - guid: 1460
@@ -2061,8 +2207,8 @@
   model_name: Furniture_WarRoom_Computer02.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
 
 # War Room Small Workstation
 - guid: 1461
@@ -2073,8 +2219,8 @@
   model_name: Furniture_WarRoom_Computer03.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # War Room Holotable
 - guid: 1462
@@ -2084,9 +2230,9 @@
   slot: !Equipment None
   model_name: Furniture_WarRoom_Holotable01.adr
   item_type: 29
-  category: 0
-  cost: 500
+  category: 41
   max_stack_size: 1000
+  cost: 500
 
 # War Room Light
 - guid: 1463
@@ -2097,8 +2243,8 @@
   model_name: Furniture_WarRoom_Light01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
 
 # War Room Tracking Screen
 - guid: 1464
@@ -2109,8 +2255,8 @@
   model_name: Furniture_WarRoom_Screen01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # War Room Light Screen 1
 - guid: 1465
@@ -2121,8 +2267,8 @@
   model_name: Furniture_WarRoom_WallScreen01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # War Room Light Screen 2
 - guid: 1466
@@ -2133,8 +2279,8 @@
   model_name: Furniture_WarRoom_WallScreen02.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Anti-Air Turret I
 - guid: 1467
@@ -2145,8 +2291,9 @@
   model_name: Furniture_Turrets_AntiAir_Rank1.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Anti-Air Turret II
 - guid: 1468
@@ -2157,8 +2304,9 @@
   model_name: Furniture_Turrets_AntiAir_Rank2.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Anti-Air Turret III
 - guid: 1469
@@ -2169,8 +2317,9 @@
   model_name: Furniture_Turrets_AntiAir_Rank3.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Anti-Air Turret IV
 - guid: 1470
@@ -2181,8 +2330,9 @@
   model_name: Furniture_Turrets_AntiAir_Rank4.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Anti-Air Turret V
 - guid: 1471
@@ -2193,8 +2343,9 @@
   model_name: Furniture_Turrets_AntiAir_Rank5.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # ARC Trooper Turret I
 - guid: 1472
@@ -2205,8 +2356,8 @@
   model_name: Furniture_Turrets_ArcTrooper_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # ARC Trooper Turret II
 - guid: 1473
@@ -2217,8 +2368,8 @@
   model_name: Furniture_Turrets_ArcTrooper_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # ARC Trooper Turret III
 - guid: 1474
@@ -2229,8 +2380,8 @@
   model_name: Furniture_Turrets_ArcTrooper_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # ARC Trooper Turret IV
 - guid: 1475
@@ -2241,8 +2392,8 @@
   model_name: Furniture_Turrets_ArcTrooper_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # ARC Trooper Turret V
 - guid: 1476
@@ -2253,8 +2404,8 @@
   model_name: Furniture_Turrets_ArcTrooper_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Blaster Turret I
 - guid: 1477
@@ -2265,8 +2416,9 @@
   model_name: Furniture_Turrets_BlasterTurret_Rank1.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Blaster Turret II
 - guid: 1478
@@ -2277,8 +2429,9 @@
   model_name: Furniture_Turrets_BlasterTurret_Rank2.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Blaster Turret III
 - guid: 1479
@@ -2289,8 +2442,9 @@
   model_name: Furniture_Turrets_BlasterTurret_Rank3.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Blaster Turret IV
 - guid: 1480
@@ -2301,8 +2455,9 @@
   model_name: Furniture_Turrets_BlasterTurret_Rank4.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Blaster Turret V
 - guid: 1481
@@ -2313,8 +2468,9 @@
   model_name: Furniture_Turrets_BlasterTurret_Rank5.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Deactivator Turret I
 - guid: 1482
@@ -2325,8 +2481,9 @@
   model_name: Furniture_Turrets_Deactivator_Rank1.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Deactivator Turret II
 - guid: 1483
@@ -2337,8 +2494,9 @@
   model_name: Furniture_Turrets_Deactivator_Rank2.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Deactivator Turret III
 - guid: 1484
@@ -2349,8 +2507,9 @@
   model_name: Furniture_Turrets_Deactivator_Rank3.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Deactivator Turret IV
 - guid: 1485
@@ -2361,8 +2520,9 @@
   model_name: Furniture_Turrets_Deactivator_Rank4.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Deactivator Turret V
 - guid: 1486
@@ -2373,8 +2533,9 @@
   model_name: Furniture_Turrets_Deactivator_Rank5.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Energy Converter Turret I
 - guid: 1487
@@ -2385,8 +2546,9 @@
   model_name: Furniture_Turrets_EnergyConverter_Rank1.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Energy Converter Turret II
 - guid: 1488
@@ -2397,8 +2559,9 @@
   model_name: Furniture_Turrets_EnergyConverter_Rank2.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Energy Converter Turret III
 - guid: 1489
@@ -2409,8 +2572,9 @@
   model_name: Furniture_Turrets_EnergyConverter_Rank3.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Energy Converter Turret IV
 - guid: 1490
@@ -2421,8 +2585,9 @@
   model_name: Furniture_Turrets_EnergyConverter_Rank4.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Energy Converter Turret V
 - guid: 1491
@@ -2433,8 +2598,9 @@
   model_name: Furniture_Turrets_EnergyConverter_Rank5.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Energy Generator Turret I
 - guid: 1492
@@ -2445,8 +2611,8 @@
   model_name: Furniture_Turrets_EnergyGenerator_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Energy Generator Turret II
 - guid: 1493
@@ -2457,8 +2623,8 @@
   model_name: Furniture_Turrets_EnergyGenerator_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Energy Generator Turret III
 - guid: 1494
@@ -2469,8 +2635,8 @@
   model_name: Furniture_Turrets_EnergyGenerator_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Energy Generator Turret IV
 - guid: 1495
@@ -2481,8 +2647,8 @@
   model_name: Furniture_Turrets_EnergyGenerator_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Energy Generator Turret V
 - guid: 1496
@@ -2493,8 +2659,8 @@
   model_name: Furniture_Turrets_EnergyGenerator_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Gravity Well Projector Turret I
 - guid: 1497
@@ -2505,8 +2671,8 @@
   model_name: Furniture_Turrets_GravityWellProjector_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Gravity Well Projector Turret II
 - guid: 1498
@@ -2517,8 +2683,8 @@
   model_name: Furniture_Turrets_GravityWellProjector_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Gravity Well Projector Turret III
 - guid: 1499
@@ -2529,8 +2695,8 @@
   model_name: Furniture_Turrets_GravityWellProjector_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Gravity Well Projector Turret IV
 - guid: 1500
@@ -2541,8 +2707,8 @@
   model_name: Furniture_Turrets_GravityWellProjector_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Gravity Well Projector Turret V
 - guid: 1501
@@ -2553,8 +2719,8 @@
   model_name: Furniture_Turrets_GravityWellProjector_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Ion Cannon Turret I
 - guid: 1502
@@ -2565,8 +2731,8 @@
   model_name: Furniture_Turrets_IonCannon_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Ion Cannon Turret II
 - guid: 1503
@@ -2577,8 +2743,8 @@
   model_name: Furniture_Turrets_IonCannon_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Ion Cannon Turret III
 - guid: 1504
@@ -2589,8 +2755,8 @@
   model_name: Furniture_Turrets_IonCannon_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Ion Cannon Turret IV
 - guid: 1505
@@ -2601,8 +2767,8 @@
   model_name: Furniture_Turrets_IonCannon_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Ion Cannon Turret V
 - guid: 1506
@@ -2613,8 +2779,8 @@
   model_name: Furniture_Turrets_IonCannon_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Ion Repeater Turret I
 - guid: 1507
@@ -2625,8 +2791,9 @@
   model_name: Furniture_Turrets_IonRepeater_Rank1.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Ion Repeater Turret II
 - guid: 1508
@@ -2637,8 +2804,9 @@
   model_name: Furniture_Turrets_IonRepeater_Rank2.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Ion Repeater Turret III
 - guid: 1509
@@ -2649,8 +2817,9 @@
   model_name: Furniture_Turrets_IonRepeater_Rank3.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Ion Repeater Turret IV
 - guid: 1510
@@ -2661,8 +2830,9 @@
   model_name: Furniture_Turrets_IonRepeater_Rank4.adr
   item_type: 29
   category: 0
-  cost: 650
   max_stack_size: 1000
+  cost: 650
+  members: true
 
 # Ion Repeater Turret V
 - guid: 1511
@@ -2673,8 +2843,9 @@
   model_name: Furniture_Turrets_IonRepeater_Rank5.adr
   item_type: 29
   category: 0
-  cost: 800
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Missile Turret I
 - guid: 1512
@@ -2685,8 +2856,8 @@
   model_name: Furniture_Turrets_MissileTurret_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Missile Turret II
 - guid: 1513
@@ -2697,8 +2868,8 @@
   model_name: Furniture_Turrets_MissileTurret_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Missile Turret III
 - guid: 1514
@@ -2709,8 +2880,8 @@
   model_name: Furniture_Turrets_MissileTurret_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Missile Turret IV
 - guid: 1515
@@ -2721,8 +2892,8 @@
   model_name: Furniture_Turrets_MissileTurret_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Missile Turret V
 - guid: 1516
@@ -2733,8 +2904,8 @@
   model_name: Furniture_Turrets_MissileTurret_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Mortar Cannon Turret I
 - guid: 1517
@@ -2745,8 +2916,8 @@
   model_name: Furniture_Turrets_MortarCannon_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Mortar Cannon Turret II
 - guid: 1518
@@ -2757,8 +2928,8 @@
   model_name: Furniture_Turrets_MortarCannon_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Mortar Cannon Turret III
 - guid: 1519
@@ -2769,8 +2940,8 @@
   model_name: Furniture_Turrets_MortarCannon_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Mortar Cannon Turret IV
 - guid: 1520
@@ -2781,8 +2952,8 @@
   model_name: Furniture_Turrets_MortarCannon_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Mortar Cannon Turret V
 - guid: 1521
@@ -2793,8 +2964,8 @@
   model_name: Furniture_Turrets_MortarCannon_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Particle Beam Turret I
 - guid: 1522
@@ -2805,8 +2976,9 @@
   model_name: Furniture_Turrets_ParticleBeam_Rank1.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Particle Beam Turret II
 - guid: 1523
@@ -2817,8 +2989,9 @@
   model_name: Furniture_Turrets_ParticleBeam_Rank2.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Particle Beam Turret III
 - guid: 1524
@@ -2829,8 +3002,9 @@
   model_name: Furniture_Turrets_ParticleBeam_Rank3.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Particle Beam Turret IV
 - guid: 1525
@@ -2841,8 +3015,9 @@
   model_name: Furniture_Turrets_ParticleBeam_Rank4.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Particle Beam Turret V
 - guid: 1526
@@ -2853,8 +3028,9 @@
   model_name: Furniture_Turrets_ParticleBeam_Rank5.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Power Surger Turret I
 - guid: 1527
@@ -2865,8 +3041,8 @@
   model_name: Furniture_Turrets_PowerSurger_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Power Surger Turret II
 - guid: 1528
@@ -2877,8 +3053,8 @@
   model_name: Furniture_Turrets_PowerSurger_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Power Surger Turret III
 - guid: 1529
@@ -2889,8 +3065,8 @@
   model_name: Furniture_Turrets_PowerSurger_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Power Surger Turret IV
 - guid: 1530
@@ -2901,8 +3077,8 @@
   model_name: Furniture_Turrets_PowerSurger_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Power Surger Turret V
 - guid: 1531
@@ -2913,8 +3089,8 @@
   model_name: Furniture_Turrets_PowerSurger_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Repeating Blaster Turret I - Estimated guid based on repeating data
 - guid: 1532
@@ -2985,8 +3161,8 @@
   model_name: Furniture_Turrets_ThermalGrenadeTurret_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Thermal Grenade Turret II
 - guid: 1538
@@ -2997,8 +3173,8 @@
   model_name: Furniture_Turrets_ThermalGrenadeTurret_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Thermal Grenade Turret III
 - guid: 1539
@@ -3009,8 +3185,8 @@
   model_name: Furniture_Turrets_ThermalGrenadeTurret_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Thermal Grenade Turret IV
 - guid: 1540
@@ -3021,8 +3197,8 @@
   model_name: Furniture_Turrets_ThermalGrenadeTurret_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Thermal Grenade Turret V
 - guid: 1541
@@ -3033,8 +3209,8 @@
   model_name: Furniture_Turrets_ThermalGrenadeTurret_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Turbolaser Turret I
 - guid: 1542
@@ -3045,8 +3221,8 @@
   model_name: Furniture_Turrets_TurbolaserBattery_Rank1.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
 
 # Turbolaser Turret II
 - guid: 1543
@@ -3057,8 +3233,8 @@
   model_name: Furniture_Turrets_TurbolaserBattery_Rank2.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Turbolaser Turret III
 - guid: 1544
@@ -3069,8 +3245,8 @@
   model_name: Furniture_Turrets_TurbolaserBattery_Rank3.adr
   item_type: 29
   category: 0
-  cost: 700
   max_stack_size: 1000
+  cost: 700
 
 # Turbolaser Turret IV
 - guid: 1545
@@ -3081,8 +3257,8 @@
   model_name: Furniture_Turrets_TurbolaserBattery_Rank4.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
 
 # Turbolaser Turret V
 - guid: 1546
@@ -3093,8 +3269,8 @@
   model_name: Furniture_Turrets_TurbolaserBattery_Rank5.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Hangar Missile Rack
 - guid: 1547
@@ -3105,8 +3281,9 @@
   model_name: Furniture_Hangar_MissileRack01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Six Hangar Crates
 - guid: 1548
@@ -3117,8 +3294,9 @@
   model_name: Furniture_Hangar_Crates01.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Three Hangar Crates
 - guid: 1549
@@ -3129,8 +3307,9 @@
   model_name: Furniture_Hangar_Crates02.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Hangar Cannister and Hangar Crates
 - guid: 1550
@@ -3141,8 +3320,9 @@
   model_name: Furniture_Hangar_Crates03.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Hangar Crate Pile
 - guid: 1551
@@ -3153,8 +3333,9 @@
   model_name: Furniture_Hangar_Crates04.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Open Hangar Cannisters
 - guid: 1552
@@ -3165,8 +3346,9 @@
   model_name: Furniture_Hangar_InfestedBarrel01.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Closed Hangar Cannisters
 - guid: 1553
@@ -3177,8 +3359,9 @@
   model_name: Furniture_Hangar_Cannisters01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Red Hangar Light
 - guid: 1554
@@ -3189,8 +3372,9 @@
   model_name: Furniture_Hangar_LightPole01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Training Room Wall
 - guid: 1555
@@ -3201,8 +3385,9 @@
   model_name: Furniture_TrainingRoom_TrainingWall01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Training Room Pillar
 - guid: 1556
@@ -3213,8 +3398,9 @@
   model_name: Furniture_TrainingRoom_TrainingPillar01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
+  members: true
 
 # Straight Training Room Guardrail
 - guid: 1557
@@ -3225,8 +3411,9 @@
   model_name: Furniture_TrainingRoom_FenceStraight01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Curved Training Room Guardrail
 - guid: 1558
@@ -3237,8 +3424,9 @@
   model_name: Furniture_TrainingRoom_FenceCurve01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Training Room Rail Gate
 - guid: 1559
@@ -3249,8 +3437,9 @@
   model_name: Furniture_TrainingRoom_FenceGate01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Training Room Monkey Bars
 - guid: 1560
@@ -3261,8 +3450,9 @@
   model_name: Furniture_TrainingRoom_Monkeybars01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Training Room Wall Tanks
 - guid: 1561
@@ -3273,8 +3463,9 @@
   model_name: Furniture_TrainingRoom_WallTanks01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Training Room Jedi Sign
 - guid: 1562
@@ -3285,8 +3476,8 @@
   model_name: Furniture_TrainingRoom_Screen01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Training Room Lightsaber Sign
 - guid: 1563
@@ -3297,8 +3488,8 @@
   model_name: Furniture_TrainingRoom_Screen02.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Training Room Republic Sign
 - guid: 1564
@@ -3309,8 +3500,8 @@
   model_name: Furniture_TrainingRoom_Screen03.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Training Room Sign
 - guid: 1565
@@ -3321,8 +3512,8 @@
   model_name: Furniture_TrainingRoom_Screen04.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Training Room Plo Koon Poster
 - guid: 1566
@@ -3333,8 +3524,8 @@
   model_name: Furniture_TrainingRoom_Poster01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
 
 # Training Room Boot Dooku Poster
 - guid: 1567
@@ -3345,8 +3536,8 @@
   model_name: Furniture_TrainingRoom_Poster02.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
 
 # Training Room Clone Strength Poster
 - guid: 1568
@@ -3357,8 +3548,8 @@
   model_name: Furniture_TrainingRoom_Poster03.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
 
 # Training Room Missile Poster
 - guid: 1569
@@ -3369,8 +3560,8 @@
   model_name: Furniture_TrainingRoom_Poster04.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Training Room B2 Target Poster
 - guid: 1570
@@ -3381,8 +3572,8 @@
   model_name: Furniture_TrainingRoom_Poster05.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
 
 # Training Room B1 Target Poster
 - guid: 1571
@@ -3393,8 +3584,8 @@
   model_name: Furniture_TrainingRoom_Poster06.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
 
 # Workshop Table
 - guid: 1572
@@ -3404,9 +3595,10 @@
   slot: !Equipment None
   model_name: Furniture_Workshop_Table01.adr
   item_type: 29
-  category: 0
-  cost: 200
+  category: 41
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Workshop Rack
 - guid: 1573
@@ -3417,8 +3609,9 @@
   model_name: Furniture_Workshop_Rack01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Workshop Droid Diagnostic Machine
 - guid: 1574
@@ -3429,8 +3622,9 @@
   model_name: Furniture_Workshop_Droid01.adr
   item_type: 29
   category: 0
-  cost: 800
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Workshop Hanging Light
 - guid: 1575
@@ -3441,8 +3635,9 @@
   model_name: Furniture_Workshop_Light01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Attack Cruiser Trophy Box
 - guid: 1576
@@ -3487,8 +3682,8 @@
   texture_alias: Jawa
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Bith
 - guid: 1580
@@ -3500,8 +3695,8 @@
   texture_alias: PeachWithKlooHorn
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Gotal
 - guid: 1581
@@ -3513,8 +3708,8 @@
   texture_alias: BlueSuit
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Gungan
 - guid: 1582
@@ -3526,8 +3721,8 @@
   texture_alias: GenericGreen
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Talz
 - guid: 1583
@@ -3538,8 +3733,8 @@
   model_name: Holo_Talz.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Gamorrean Guard
 - guid: 1584
@@ -3550,8 +3745,8 @@
   model_name: Holo_GamorreanGuard.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # General Grievous Cutout
 - guid: 2116
@@ -3563,6 +3758,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Asajj Ventress Cutout
 - guid: 2117
@@ -3574,6 +3771,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Count Dooku Lantern
 - guid: 2118
@@ -3585,6 +3784,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Wide Pumpkin
 - guid: 2119
@@ -3596,6 +3797,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Tall Pumpkin
 - guid: 2120
@@ -3607,6 +3809,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # General Grievous Lantern
 - guid: 2121
@@ -3618,6 +3822,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Jedi Lantern
 - guid: 2122
@@ -3629,6 +3835,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Asajj Ventress Lantern
 - guid: 2123
@@ -3640,6 +3847,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Scarecrow Bot
 - guid: 2124
@@ -3651,6 +3859,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Spiderweb 1
 - guid: 2125
@@ -3662,6 +3871,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Spiderweb 2
 - guid: 2126
@@ -3673,6 +3883,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Spiderweb 3
 - guid: 2127
@@ -3684,6 +3896,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Spiderweb 4
 - guid: 2128
@@ -3695,6 +3909,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Spiderweb 5
 - guid: 2129
@@ -3706,6 +3921,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Life Day Twinkle Garland
 - guid: 2216
@@ -3717,6 +3934,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Long Green Life Day Orb Light
 - guid: 2217
@@ -3728,6 +3947,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Red Life Day Orb Light
 - guid: 2218
@@ -3739,6 +3960,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Long Blue Life Day Orb Light
 - guid: 2219
@@ -3750,6 +3973,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Yellow Life Day Orb Light
 - guid: 2220
@@ -3761,6 +3986,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Red and Yellow Life Day Orb Light
 - guid: 2221
@@ -3772,6 +3999,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Medium Life Day Present
 - guid: 2222
@@ -3783,6 +4012,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Life Day Garland Lights 2
 - guid: 2223
@@ -3794,6 +4025,8 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
+  members: true
 
 # Green and Yellow Life Day Orb Light
 - guid: 2224
@@ -3805,6 +4038,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Blue and Red Life Day Orb Light
 - guid: 2225
@@ -3816,6 +4050,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Short Blue Life Day Orb Light
 - guid: 2226
@@ -3827,6 +4062,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Short Green Life Day Orb Light
 - guid: 2227
@@ -3838,6 +4074,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Large Life Day Present
 - guid: 2228
@@ -3849,6 +4086,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Small Life Day Present
 - guid: 2229
@@ -3860,6 +4098,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Life Day Garland Lights 1
 - guid: 2230
@@ -3871,6 +4110,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Life Day Garland Lights 3
 - guid: 2231
@@ -3882,6 +4122,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Life Day Wroshyr Tree
 - guid: 2232
@@ -3893,6 +4134,7 @@
   item_type: 29
   category: 0
   max_stack_size: 1000
+  cost: 0
 
 # Blossoming Cherry Tree
 - guid: 2746
@@ -3914,8 +4156,8 @@
   model_name: Furniture_Walls_ThinWall01_ArchivesBlue.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Lightsaber Burn-Out Panel
 - guid: 2759
@@ -3926,8 +4168,8 @@
   model_name: Furniture_Walls_WallWithHole_GreyCut.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Light Border Panel
 - guid: 2760
@@ -3938,8 +4180,8 @@
   model_name: Furniture_Walls_ThinWall01_BluePillLights.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Corrugated Panel
 - guid: 2761
@@ -3950,8 +4192,8 @@
   model_name: Furniture_Walls_ThinWall01_CorrugatedGrey.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Citadel Panel
 - guid: 2762
@@ -3962,8 +4204,8 @@
   model_name: Furniture_Walls_ThinWall01_MaroonCitadel.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Outer Coruscant Panel
 - guid: 2763
@@ -3974,8 +4216,8 @@
   model_name: Furniture_Walls_ThinWall01_OuterCorusant.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Construction Panel
 - guid: 2764
@@ -3986,8 +4228,9 @@
   model_name: Furniture_Walls_ThinWall01_CargoCautionPaint.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Inner Coruscant Panel
 - guid: 2765
@@ -3998,8 +4241,9 @@
   model_name: Furniture_Walls_ThinWall01_InteriorCorusant.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Tiled Panel
 - guid: 2766
@@ -4010,8 +4254,9 @@
   model_name: Furniture_Walls_ThinWall01_Rectangles.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Simple Panel
 - guid: 2767
@@ -4022,8 +4267,9 @@
   model_name: Furniture_Walls_ThinWall01_SimpleGrey.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Square Border Panel
 - guid: 2768
@@ -4034,8 +4280,9 @@
   model_name: Furniture_Walls_ThinWall01_SquareTiles.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Mission on Iceberg Three Campaign Trophy
 - guid: 2833
@@ -4056,9 +4303,9 @@
   slot: !Equipment None
   model_name: Housing_Furniture_Lounge_Bench01.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 41
   max_stack_size: 1000
+  cost: 250
 
 # Jedi Lounge Couch
 - guid: 2839
@@ -4068,9 +4315,9 @@
   slot: !Equipment None
   model_name: Housing_Furniture_Lounge_Couch01.adr
   item_type: 29
-  category: 0
-  cost: 500
+  category: 42
   max_stack_size: 1000
+  cost: 500
 
 # Jedi Lounge Game Table
 - guid: 2840
@@ -4080,9 +4327,9 @@
   slot: !Equipment None
   model_name: Housing_Furniture_Lounge_Gameboard01.adr
   item_type: 29
-  category: 0
-  cost: 1000
+  category: 41
   max_stack_size: 1000
+  cost: 1000
 
 # Jedi Lounge Chair
 - guid: 2841
@@ -4092,9 +4339,9 @@
   slot: !Equipment None
   model_name: Housing_Furniture_Lounge_Chair02.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 40
   max_stack_size: 1000
+  cost: 250
 
 # Jedi Lounge Armchair
 - guid: 2842
@@ -4104,9 +4351,9 @@
   slot: !Equipment None
   model_name: Housing_Furniture_Lounge_Chair01.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 40
   max_stack_size: 1000
+  cost: 250
 
 # Jedi Lounge Light Sconce
 - guid: 2843
@@ -4117,8 +4364,8 @@
   model_name: Housing_Furniture_Lounge_Lamp01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Jedi Lounge Gray Banner
 - guid: 2844
@@ -4129,8 +4376,8 @@
   model_name: Housing_Furniture_Lounge_Banner06.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Jedi Lounge Red Banner
 - guid: 2845
@@ -4141,8 +4388,8 @@
   model_name: Housing_Furniture_Lounge_Banner02.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Jedi Lounge Orange Banner
 - guid: 2846
@@ -4153,8 +4400,8 @@
   model_name: Housing_Furniture_Lounge_Banner01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Jedi Lounge Gold Banner
 - guid: 2847
@@ -4165,8 +4412,8 @@
   model_name: Housing_Furniture_Lounge_Banner04.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Main Hall Statue
 - guid: 2848
@@ -4177,8 +4424,8 @@
   model_name: Furniture_JediHallway_Statue01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Main Hall Light Sconce
 - guid: 2849
@@ -4189,8 +4436,8 @@
   model_name: Furniture_JediHallway_Sconce01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Main Hall Pillar
 - guid: 2850
@@ -4201,8 +4448,8 @@
   model_name: Furniture_JediHallway_Pillar01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
 
 # Officers' Club Table
 - guid: 2851
@@ -4212,9 +4459,9 @@
   slot: !Equipment None
   model_name: Furniture_Club_Table01.adr
   item_type: 29
-  category: 0
-  cost: 500
+  category: 41
   max_stack_size: 1000
+  cost: 500
 
 # Officers' Club Chair
 - guid: 2852
@@ -4224,9 +4471,9 @@
   slot: !Equipment None
   model_name: Furniture_Club_Chair01.adr
   item_type: 29
-  category: 0
-  cost: 250
+  category: 40
   max_stack_size: 1000
+  cost: 250
 
 # Officers' Club Counter
 - guid: 2853
@@ -4237,8 +4484,8 @@
   model_name: Furniture_Club_Bar01.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Officers' Club Stool
 - guid: 2854
@@ -4249,8 +4496,8 @@
   model_name: Furniture_Club_Barstool01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Officers' Club Dancing Clones Sign
 - guid: 2855
@@ -4261,8 +4508,8 @@
   model_name: Furniture_Club_DancingCloneSign01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Officers' Club Sign 6
 - guid: 2856
@@ -4273,8 +4520,8 @@
   model_name: Furniture_Club_Sign03.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Officers' Club Sign 7
 - guid: 2857
@@ -4285,8 +4532,8 @@
   model_name: Furniture_Club_Sign04.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
 
 # Officers' Club Plant
 - guid: 2858
@@ -4297,8 +4544,8 @@
   model_name: Furniture_Club_Plant01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
 
 # Officers' Club Sign 1
 - guid: 2859
@@ -4309,8 +4556,9 @@
   model_name: Furniture_Club_Sign01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Officers' Club Sign 2
 - guid: 2860
@@ -4321,8 +4569,9 @@
   model_name: Furniture_Club_Sign02.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Officers' Club Sign 3
 - guid: 2861
@@ -4333,8 +4582,9 @@
   model_name: Furniture_Club_Sign06.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Officers' Club Sign 4
 - guid: 2862
@@ -4345,8 +4595,9 @@
   model_name: Furniture_Club_Sign07.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Officers' Club Sign 5
 - guid: 2863
@@ -4357,8 +4608,9 @@
   model_name: Furniture_Club_Sign05.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Officers' Club Clone Banner 1
 - guid: 2864
@@ -4369,8 +4621,9 @@
   model_name: Furniture_Club_Banner05.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Officers' Club Clone Banner 2
 - guid: 2865
@@ -4381,8 +4634,9 @@
   model_name: Furniture_Club_Banner06.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Cody Character Cube
 - guid: 3174
@@ -4393,8 +4647,9 @@
   model_name: Furniture_BuildingSetCharacters_CharacterCubeL_Cody.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Rex Character Cube
 - guid: 3175
@@ -4405,8 +4660,9 @@
   model_name: Furniture_BuildingSetCharacters_CharacterCubeL_Rex.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Large Cody Crate
 - guid: 3176
@@ -4417,8 +4673,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateL01_Cody.adr
   item_type: 29
   category: 0
-  cost: 800
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Large Rex Crate
 - guid: 3177
@@ -4429,8 +4686,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateL01_Rex.adr
   item_type: 29
   category: 0
-  cost: 800
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Medium Cody Crate
 - guid: 3178
@@ -4441,8 +4699,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateM01_Cody.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Medium Rex Crate
 - guid: 3179
@@ -4453,8 +4712,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateM01_Rex.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Small Cody Crate
 - guid: 3180
@@ -4465,8 +4725,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateSm01_Cody.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Small Rex Crate
 - guid: 3181
@@ -4477,8 +4738,9 @@
   model_name: Furniture_BuildingSetCharacters_CrateSm01_Rex.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Cody's Character Panel
 - guid: 3182
@@ -4489,8 +4751,9 @@
   model_name: Furniture_BuildingSetCharacters_Panel_Cody.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Rex's Character Panel
 - guid: 3183
@@ -4501,8 +4764,9 @@
   model_name: Furniture_BuildingSetCharacters_Panel_Rex.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Large Asteroid Box
 - guid: 3184
@@ -4513,8 +4777,9 @@
   model_name: Furniture_BuildingSetAsteroid_BoxLarge01.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Medium Asteroid Box
 - guid: 3185
@@ -4525,8 +4790,9 @@
   model_name: Furniture_BuildingSetAsteroid_BoxMedium01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Small Asteroid Box
 - guid: 3186
@@ -4537,8 +4803,9 @@
   model_name: Furniture_BuildingSetAsteroid_BoxSmall01.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Asteroid Ceiling
 - guid: 3187
@@ -4549,8 +4816,9 @@
   model_name: Furniture_BuildingSetAsteroid_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Asteroid Door
 - guid: 3188
@@ -4561,8 +4829,9 @@
   model_name: Furniture_BuildingSetAsteroid_Door01.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Asteroid Floor
 - guid: 3189
@@ -4573,8 +4842,9 @@
   model_name: Furniture_BuildingSetAsteroid_Floor01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Asteroid Pipes
 - guid: 3190
@@ -4585,8 +4855,9 @@
   model_name: Furniture_BuildingSetAsteroid_Pipes01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Asteroid Signal Light
 - guid: 3191
@@ -4597,8 +4868,9 @@
   model_name: Furniture_BuildingSetAsteroid_SignalLight01.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Asteroid Wall
 - guid: 3192
@@ -4609,8 +4881,9 @@
   model_name: Furniture_BuildingSetAsteroid_Wall01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Asteroid Window
 - guid: 3193
@@ -4621,8 +4894,9 @@
   model_name: Furniture_BuildingSetAsteroid_Window01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Large Umbaran Box
 - guid: 3208
@@ -4633,8 +4907,9 @@
   model_name: Furniture_BuildingSetUmbara_BoxLarge01.adr
   item_type: 29
   category: 0
-  cost: 600
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Medium Umbaran Box
 - guid: 3209
@@ -4645,8 +4920,9 @@
   model_name: Furniture_BuildingSetUmbara_BoxMedium01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Small Umbaran Box
 - guid: 3210
@@ -4657,8 +4933,9 @@
   model_name: Furniture_BuildingSetUmbara_BoxSmall01.adr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Umbaran Ceiling Panel
 - guid: 3211
@@ -4669,8 +4946,9 @@
   model_name: Furniture_BuildingSetUmbara_Ceiling01.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Umbaran Door
 - guid: 3212
@@ -4681,8 +4959,9 @@
   model_name: Furniture_BuildingSetUmbara_Door01.adr
   item_type: 29
   category: 0
-  cost: 350
   max_stack_size: 1000
+  cost: 350
+  members: true
 
 # Umbaran Floor Panel
 - guid: 3213
@@ -4693,8 +4972,9 @@
   model_name: Furniture_BuildingSetUmbara_Floor01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Umbaran Flower
 - guid: 3214
@@ -4705,8 +4985,9 @@
   model_name: Furniture_BuildingSetUmbara_Plant01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Umbaran Tendril
 - guid: 3215
@@ -4717,8 +4998,9 @@
   model_name: Furniture_BuildingSetUmbara_Plant02.adr
   item_type: 29
   category: 0
-  cost: 150
   max_stack_size: 1000
+  cost: 150
+  members: true
 
 # Umbaran Wall
 - guid: 3216
@@ -4729,8 +5011,9 @@
   model_name: Furniture_BuildingSetUmbara_Wall01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Umbaran Window
 - guid: 3217
@@ -4741,8 +5024,9 @@
   model_name: Furniture_BuildingSetUmbara_Window01.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Umbaran Hover Tank
 - guid: 3220
@@ -4753,8 +5037,8 @@
   model_name: Ship_UmbaranHoverTankOpen.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # Umbaran Starfighter
 - guid: 3221
@@ -4765,8 +5049,8 @@
   model_name: Ship_UmbaranStarfighter_Open.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
 
 # AT-RT
 - guid: 3223
@@ -4778,8 +5062,9 @@
   texture_alias: Basic
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # BARC Speeder
 - guid: 3224
@@ -4791,8 +5076,9 @@
   texture_alias: Maroon
   item_type: 29
   category: 0
-  cost: 1500
   max_stack_size: 1000
+  cost: 1500
+  members: true
 
 # BARC Speeder with Sidecar
 - guid: 3225
@@ -4804,8 +5090,9 @@
   texture_alias: Maroon
   item_type: 29
   category: 0
-  cost: 2000
   max_stack_size: 1000
+  cost: 2000
+  members: true
 
 # Reprogrammed Super Battle Droid
 - guid: 3227
@@ -4816,8 +5103,8 @@
   model_name: Holo_SuperBattleDroid.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Reprogrammed Battle Droid
 - guid: 3228
@@ -4829,8 +5116,8 @@
   texture_alias: Soldier
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Reprogrammed Commando Droid
 - guid: 3229
@@ -4842,8 +5129,8 @@
   texture_alias: Soldier
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Reprogrammed Droideka
 - guid: 3230
@@ -4855,8 +5142,8 @@
   texture_alias: Destroyer
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
 
 # Counter-clockwise Spiral Handrail
 - guid: 3238
@@ -4867,8 +5154,9 @@
   model_name: Furniture_StairSet_CCWSpiralRailing5M.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Counter-clockwise Spiral Staircase
 - guid: 3239
@@ -4879,8 +5167,9 @@
   model_name: Furniture_StairSet_CCWSpiralStairs5M.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
+  members: true
 
 # Clockwise Spiral Handrail
 - guid: 3240
@@ -4891,8 +5180,9 @@
   model_name: Furniture_StairSet_CWSpiralRailing5M.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Clockwise Spiral Staircase
 - guid: 3241
@@ -4903,8 +5193,9 @@
   model_name: Furniture_StairSet_CWSpiralStairs5M.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
+  members: true
 
 # Small Handrail
 - guid: 3242
@@ -4915,8 +5206,9 @@
   model_name: Furniture_StairSet_Railing2M.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
+  members: true
 
 # Large Handrail
 - guid: 3243
@@ -4927,8 +5219,9 @@
   model_name: Furniture_StairSet_Railing3M.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Small Staircase
 - guid: 3244
@@ -4939,8 +5232,9 @@
   model_name: Furniture_StairSet_Stairs2M.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Large Staircase
 - guid: 3245
@@ -4951,8 +5245,9 @@
   model_name: Furniture_StairSet_Stairs3M.adr
   item_type: 29
   category: 0
-  cost: 450
   max_stack_size: 1000
+  cost: 450
+  members: true
 
 # Mon Calamari
 - guid: 3255
@@ -4964,8 +5259,9 @@
   texture_alias: Ackbar
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Karkaradon
 - guid: 3256
@@ -4977,8 +5273,9 @@
   texture_alias: Brown
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Quarren
 - guid: 3257
@@ -4989,8 +5286,9 @@
   model_name: Holo_NossorRi.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Blue-Striped BARC Speeder
 - guid: 3263
@@ -5001,8 +5299,9 @@
   model_name: JediTemple_Hangar_BARC.adr
   item_type: 29
   category: 0
-  cost: 1000
   max_stack_size: 1000
+  cost: 1000
+  members: true
 
 # Black Starhawk
 - guid: 3264
@@ -5013,8 +5312,9 @@
   model_name: JediTemple_Hangar_Starhawk.adr
   item_type: 29
   category: 0
-  cost: 750
   max_stack_size: 1000
+  cost: 750
+  members: true
 
 # Rustic Zephyr-G
 - guid: 3265
@@ -5025,8 +5325,9 @@
   model_name: JediTemple_Hangar_ZephyrG.adr
   item_type: 29
   category: 0
-  cost: 500
   max_stack_size: 1000
+  cost: 500
+  members: true
 
 # Marble-Patterned Panel
 - guid: 3268
@@ -5037,8 +5338,8 @@
   model_name: Furniture_Panels_MarbleWall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Rugged Bricked Panel
 - guid: 3269
@@ -5049,8 +5350,8 @@
   model_name: Furniture_Panels_RockWall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Natural Hardwood Panel
 - guid: 3270
@@ -5061,8 +5362,8 @@
   model_name: Furniture_Panels_WoodWindow01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Republic Rayshielded Panel
 - guid: 3271
@@ -5073,8 +5374,8 @@
   model_name: Furniture_Panels_EnergyWall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Metallic Marbled Infused Panel
 - guid: 3272
@@ -5085,8 +5386,8 @@
   model_name: Furniture_Panels_MarbleBlueWall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Calming Cerulean Panel
 - guid: 3273
@@ -5097,8 +5398,8 @@
   model_name: Furniture_Panels_PowerWall01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Orange Meditation Tree
 - guid: 3286
@@ -5109,8 +5410,8 @@
   model_name: Furniture_MeditationTree01.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  cost: 0
 
 # Purple Meditation Tree
 - guid: 3287
@@ -5121,8 +5422,8 @@
   model_name: Furniture_MeditationTree02.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  cost: 0
 
 # Potted Amber Fern
 - guid: 3319
@@ -5133,8 +5434,8 @@
   model_name: Furniture_Plants_LargeColorPlant01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Large Potted Bouquet
 - guid: 3320
@@ -5145,8 +5446,8 @@
   model_name: Furniture_Plants_LargeFlowerPot01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Potted Amethyst-Colored Bouquet
 - guid: 3321
@@ -5157,8 +5458,8 @@
   model_name: Furniture_Plants_LargeFlowerPot02.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Potted Apricot-Colored Bouquet
 - guid: 3322
@@ -5169,8 +5470,8 @@
   model_name: Furniture_Plants_LargeFlowerPot03.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Potted Pine-green Colored Bouquet
 - guid: 3323
@@ -5181,8 +5482,8 @@
   model_name: Furniture_Plants_LargeFlowerPot04.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Succulent Potted Cactus
 - guid: 3324
@@ -5193,8 +5494,8 @@
   model_name: Furniture_Plants_LargeGreenPlant01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Potted Topiary
 - guid: 3325
@@ -5205,8 +5506,8 @@
   model_name: Furniture_Plants_LargeMixedPlant01.adr
   item_type: 29
   category: 0
-  cost: 100
   max_stack_size: 1000
+  cost: 100
 
 # Petite Evergreen Shrub
 - guid: 3326
@@ -5217,8 +5518,8 @@
   model_name: Furniture_Plants_SmallGreenPlant01.adr
   item_type: 29
   category: 0
-  cost: 50
   max_stack_size: 1000
+  cost: 50
 
 # Mortis' Daughter
 - guid: 3342
@@ -5229,8 +5530,9 @@
   model_name: Holo_MortisDaughterGriffin.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Mortis' Son
 - guid: 3343
@@ -5241,8 +5543,9 @@
   model_name: Holo_MortisSonGargoyle.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Clone Trooper
 - guid: 3353
@@ -5253,8 +5556,9 @@
   model_name: Grp_HumanMale_clonePhaseII.agr
   item_type: 29
   category: 0
-  cost: 400
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Ziro
 - guid: 3358
@@ -5265,8 +5569,9 @@
   model_name: Holo_HuttZiro.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Jabba
 - guid: 3359
@@ -5277,8 +5582,9 @@
   model_name: Holo_HuttJabba.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Umbaran Barracks Bunk Bed
 - guid: 3360
@@ -5288,9 +5594,9 @@
   slot: !Equipment None
   model_name: Furniture_Umbara_Bunkbeds01.adr
   item_type: 29
-  category: 0
-  cost: 0
+  category: 43
   max_stack_size: 1000
+  members: true
 
 # Umbaran Storage Canister
 - guid: 3361
@@ -5301,8 +5607,8 @@
   model_name: Furniture_Umbara_Cannister01.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  members: true
 
 # Umbaran Computer Terminal
 - guid: 3362
@@ -5313,8 +5619,8 @@
   model_name: Furniture_Umbara_Computer01.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  members: true
 
 # Umbaran Hangar Lamp
 - guid: 3363
@@ -5325,8 +5631,8 @@
   model_name: Furniture_Umbara_HangarLight01.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  members: true
 
 # Umbaran Storage Rack
 - guid: 3364
@@ -5337,8 +5643,8 @@
   model_name: Furniture_Umbara_Rack01.adr
   item_type: 29
   category: 0
-  cost: 0
   max_stack_size: 1000
+  members: true
 
 # Felucian Bed
 - guid: 3391
@@ -5348,9 +5654,10 @@
   slot: !Equipment None
   model_name: Furniture_Felucia_Bed.adr
   item_type: 29
-  category: 0
-  cost: 800
+  category: 43
   max_stack_size: 1000
+  cost: 800
+  members: true
 
 # Felucian Chair
 - guid: 3392
@@ -5360,9 +5667,10 @@
   slot: !Equipment None
   model_name: Furniture_Felucia_Chair.adr
   item_type: 29
-  category: 0
-  cost: 200
+  category: 40
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Felucian Couch
 - guid: 3393
@@ -5372,9 +5680,10 @@
   slot: !Equipment None
   model_name: Furniture_Felucia_Couch.adr
   item_type: 29
-  category: 0
-  cost: 400
+  category: 42
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Felucian Lamp
 - guid: 3394
@@ -5385,8 +5694,9 @@
   model_name: Furniture_Felucia_Lamp.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Felucian Planter
 - guid: 3395
@@ -5397,8 +5707,9 @@
   model_name: Furniture_Felucia_Planter.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Felucian Rug
 - guid: 3396
@@ -5409,8 +5720,9 @@
   model_name: Furniture_Felucia_Rug.adr
   item_type: 29
   category: 0
-  cost: 300
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Felucian Table
 - guid: 3397
@@ -5420,9 +5732,10 @@
   slot: !Equipment None
   model_name: Furniture_Felucia_Table.adr
   item_type: 29
-  category: 0
-  cost: 700
+  category: 41
   max_stack_size: 1000
+  cost: 700
+  members: true
 
 # Ithorian Guest
 - guid: 3399
@@ -5434,8 +5747,9 @@
   texture_alias: Ithorian
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Underworld Ithorian Guest
 - guid: 3400
@@ -5446,8 +5760,9 @@
   model_name: Holo_IthorianSpectro.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Sith Holocron
 - guid: 3404
@@ -5469,8 +5784,9 @@
   model_name: Furniture_Veranda_Wall_Hanging01.adr
   item_type: 29
   category: 0
-  cost: 200
   max_stack_size: 1000
+  cost: 200
+  members: true
 
 # Veranda Table
 - guid: 3427
@@ -5480,9 +5796,10 @@
   slot: !Equipment None
   model_name: Furniture_Veranda_Table01.adr
   item_type: 29
-  category: 0
-  cost: 600
+  category: 41
   max_stack_size: 1000
+  cost: 600
+  members: true
 
 # Veranda Rug
 - guid: 3428
@@ -5493,8 +5810,9 @@
   model_name: Furniture_Veranda_Rug01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Veranda Ceiling Fan
 - guid: 3429
@@ -5505,8 +5823,9 @@
   model_name: Furniture_Veranda_Fan01.adr
   item_type: 29
   category: 0
-  cost: 250
   max_stack_size: 1000
+  cost: 250
+  members: true
 
 # Veranda Couch
 - guid: 3430
@@ -5516,9 +5835,10 @@
   slot: !Equipment None
   model_name: Furniture_Veranda_Couch01.adr
   item_type: 29
-  category: 0
-  cost: 400
+  category: 42
   max_stack_size: 1000
+  cost: 400
+  members: true
 
 # Veranda Chair
 - guid: 3431
@@ -5528,9 +5848,10 @@
   slot: !Equipment None
   model_name: Furniture_Veranda_Chair01.adr
   item_type: 29
-  category: 0
-  cost: 300
+  category: 40
   max_stack_size: 1000
+  cost: 300
+  members: true
 
 # Veranda Bed
 - guid: 3432
@@ -5540,6 +5861,7 @@
   slot: !Equipment None
   model_name: Furniture_Veranda_Bed01.adr
   item_type: 29
-  category: 0
-  cost: 700
+  category: 43
   max_stack_size: 1000
+  cost: 700
+  members: true

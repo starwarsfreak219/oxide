@@ -542,7 +542,7 @@ relations:
   - parent_guid: -1
     child_guid: 70
 
-  # Store -> Gear
+  # Store -> Equipment
   - parent_guid: 2
     child_guid: 11
 
