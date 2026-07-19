@@ -261,6 +261,7 @@
   model_name: Grp_R2_Nutcracker.agr
   item_type: 1
   category: 0
+  cost: 3000
 
 # H3-4RT
 - guid: 2393

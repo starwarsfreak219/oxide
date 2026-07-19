@@ -1,0 +1,20 @@
+---
+# Gold Nanite
+- guid: 7000
+  name_id: 53676
+  icon_set_id: 3601
+  slot: !Equipment None
+  item_type: 1
+  category: 505
+  max_stack_size: 1000
+  cost: 100
+
+# Silver Nanite
+- guid: 7001
+  name_id: 53675
+  icon_set_id: 3603
+  slot: !Equipment None
+  item_type: 1
+  category: 505
+  max_stack_size: 1000
+  cost: 10

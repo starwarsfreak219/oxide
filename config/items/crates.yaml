@@ -1,0 +1,27 @@
+---
+# Sealed Cargo Crate
+- guid: 1777
+  name_id: 45050
+  icon_set_id: 2584
+  slot: !Equipment None
+  item_type: 1
+  category: 96
+  max_stack_size: 1000
+
+# Sith Cargo Crate
+- guid: 3714
+  name_id: 52656
+  icon_set_id: 3046
+  slot: !Equipment None
+  item_type: 1
+  category: 96
+  max_stack_size: 1000
+
+# Exile Cargo Crate
+- guid: 4602
+  name_id: 54603
+  icon_set_id: 3845
+  slot: !Equipment None
+  item_type: 1
+  category: 96
+  max_stack_size: 1000

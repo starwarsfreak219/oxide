@@ -1,0 +1,20 @@
+---
+# Dark Side
+- guid: 5000
+  name_id: 53031
+  description_id: 14
+  icon_set_id: 3119
+  slot: !Equipment None
+  item_type: 1
+  category: 0
+  cost: 3000
+
+# Mercenary
+- guid: 5001
+  name_id: 53032
+  description_id: 14
+  icon_set_id: 3121
+  slot: !Equipment None
+  item_type: 1
+  category: 0
+  cost: 3000

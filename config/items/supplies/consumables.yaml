@@ -1,0 +1,140 @@
+---
+# Large Medpack
+- guid: 7002
+  name_id: 52022
+  icon_set_id: 2958
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Large Focus
+- guid: 7003
+  name_id: 52025
+  icon_set_id: 2955
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Large Field Kit
+- guid: 7004
+  name_id: 52028
+  icon_set_id: 2961
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Grow Mind Trick - Apprentice
+- guid: 7005
+  name_id: 52810
+  icon_set_id: 3054
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Grow Mind Trick - Adept
+- guid: 7006
+  name_id: 52811
+  icon_set_id: 3053
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Shrink Mind Trick - Apprentice
+- guid: 7007
+  name_id: 52812
+  icon_set_id: 3056
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Shrink Mind Trick - Adept
+- guid: 7008
+  name_id: 52813
+  icon_set_id: 3055
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Gungan Style Holo-Dance Projector
+- guid: 7009
+  name_id: 53069
+  icon_set_id: 3147
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Medpack Supply Pack
+- guid: 7010
+  name_id: 53652
+  icon_set_id: 3220
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Focus Supply Pack
+- guid: 7011
+  name_id: 53653
+  icon_set_id: 3221
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Field Kit Supply Pack
+- guid: 7012
+  name_id: 53654
+  icon_set_id: 3222
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 10
+
+# Medium Medpack
+- guid: 7013
+  name_id: 52021
+  icon_set_id: 2959
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 700
+
+# Medium Focus
+- guid: 7014
+  name_id: 52024
+  icon_set_id: 2956
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 700
+
+# Medium Field Kit
+- guid: 7015
+  name_id: 52027
+  icon_set_id: 2962
+  slot: !Equipment None
+  item_type: 1
+  category: 99
+  max_stack_size: 1000
+  cost: 900

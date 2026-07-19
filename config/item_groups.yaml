@@ -55,7 +55,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -196,7 +196,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -237,7 +237,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -292,7 +292,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -411,7 +411,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2125,7 +2125,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2378,7 +2378,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2437,7 +2437,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2478,7 +2478,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2553,7 +2553,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2694,7 +2694,7 @@
   icon_set_id: 0
   category: 0
   page: 9
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -2888,7 +2888,7 @@
   icon_set_id: 0
   category: 0
   page: 8
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -3077,7 +3077,7 @@
   icon_set_id: 0
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -3645,7 +3645,7 @@
   icon_set_id: 949
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -3668,7 +3668,7 @@
   icon_set_id: 950
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -3691,7 +3691,7 @@
   icon_set_id: 951
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -3714,7 +3714,7 @@
   icon_set_id: 952
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -3737,7 +3737,7 @@
   icon_set_id: 953
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -3760,7 +3760,7 @@
   icon_set_id: 1330
   category: 80
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -4077,7 +4077,7 @@
   icon_set_id: 1357
   category: 21
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -4168,7 +4168,7 @@
   icon_set_id: 1956
   category: 80
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -4604,7 +4604,7 @@
   icon_set_id: 1399
   category: 21
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -5126,7 +5126,7 @@
   icon_set_id: 1541
   category: 21
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -5575,7 +5575,7 @@
   icon_set_id: 1663
   category: 80
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -5699,7 +5699,7 @@
   icon_set_id: 1677
   category: 72
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -6011,7 +6011,7 @@
   icon_set_id: 1852
   category: 21
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -6818,7 +6818,7 @@
   icon_set_id: 2011
   category: 72
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -8069,7 +8069,7 @@
   icon_set_id: 2322
   category: 21
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -8737,7 +8737,7 @@
   icon_set_id: 2583
   category: 95
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -9349,7 +9349,7 @@
   icon_set_id: 2601
   category: 101
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -9374,7 +9374,7 @@
   icon_set_id: 2602
   category: 104
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -9948,7 +9948,7 @@
   icon_set_id: 2453
   category: 30
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: false
@@ -10105,7 +10105,7 @@
   icon_set_id: 2716
   category: 0
   page: 0
-  preview_model_id: 0
+  preview_model_id: 44
   preview_animation_id: 0
   is_new: false
   for_sale: true
@@ -10310,7 +10310,7 @@
   preview_model_id: 2350
   preview_animation_id: 0
   is_new: false
-  for_sale: false
+  for_sale: true
   members_only: false
   items:
     - guid: 3413
@@ -10337,7 +10337,7 @@
   preview_model_id: 2349
   preview_animation_id: 0
   is_new: false
-  for_sale: false
+  for_sale: true
   members_only: false
   items:
     - guid: 3435
@@ -10360,10 +10360,286 @@
   preview_model_id: 2341
   preview_animation_id: 0
   is_new: false
-  for_sale: false
+  for_sale: true
   members_only: true
   items:
     - guid: 3439
+      unknown: 0
+
+# Sith Battle Class
+- guid: 5000
+  name_id: 53031
+  description_id: 53033
+  sort_order: 0
+  icon_set_id: 3119
+  category: 27
+  page: 0
+  preview_model_id: 2554
+  preview_animation_id: 903
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 5000
+      unknown: 0
+
+# Mercenary Battle Class
+- guid: 5001
+  name_id: 53032
+  description_id: 53034
+  sort_order: 0
+  icon_set_id: 3121
+  category: 27
+  page: 0
+  preview_model_id: 2565
+  preview_animation_id: 908
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 5001
+      unknown: 0
+
+# Sith Battle Class
+- guid: 5005
+  name_id: 53031
+  description_id: 53033
+  sort_order: 0
+  icon_set_id: 3119
+  category: 86
+  page: 0
+  preview_model_id: 2554
+  preview_animation_id: 903
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 5000
+      unknown: 0
+
+# Gold Nanite
+- guid: 5006
+  name_id: 53676
+  description_id: 54239
+  sort_order: 0
+  icon_set_id: 3601
+  category: 502
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7000
+      unknown: 0
+
+# Silver Nanite
+- guid: 5007
+  name_id: 53675
+  description_id: 54238
+  sort_order: 0
+  icon_set_id: 3603
+  category: 502
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7001
+      unknown: 0
+
+# Large Medpack
+- guid: 5008
+  name_id: 52022
+  description_id: 52921
+  sort_order: 0
+  icon_set_id: 2958
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7002
+      unknown: 0
+
+# Large Focus
+- guid: 5009
+  name_id: 52025
+  description_id: 52922
+  sort_order: 0
+  icon_set_id: 2955
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7003
+      unknown: 0
+
+# Large Field Kit
+- guid: 5010
+  name_id: 52028
+  description_id: 52923
+  sort_order: 0
+  icon_set_id: 2961
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7004
+      unknown: 0
+
+# Grow Mind Trick - Apprentice
+- guid: 5011
+  name_id: 52810
+  description_id: 52814
+  sort_order: 0
+  icon_set_id: 3054
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7005
+      unknown: 0
+
+# Grow Mind Trick - Adept
+- guid: 5012
+  name_id: 52811
+  description_id: 52815
+  sort_order: 0
+  icon_set_id: 3053
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7006
+      unknown: 0
+
+# Shrink Mind Trick - Apprentice
+- guid: 5013
+  name_id: 52812
+  description_id: 52816
+  sort_order: 0
+  icon_set_id: 3056
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7007
+      unknown: 0
+
+# Shrink Mind Trick - Adept
+- guid: 5014
+  name_id: 52813
+  description_id: 52817
+  sort_order: 0
+  icon_set_id: 3055
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7008
+      unknown: 0
+
+# Gungan Style Holo-Dance Projector
+- guid: 5015
+  name_id: 53069
+  description_id: 53072
+  sort_order: 0
+  icon_set_id: 3147
+  category: 78
+  page: 0
+  preview_model_id: 2569
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7009
+      unknown: 0
+
+# Combat Supply Packs
+- guid: 5016
+  name_id: 53670
+  description_id: 53671
+  sort_order: 0
+  icon_set_id: 3223
+  category: 78
+  page: 0
+  preview_model_id: 2602
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7010
+      unknown: 0
+    - guid: 7011
+      unknown: 0
+    - guid: 7012
+      unknown: 0
+
+# Medium Medpack
+- guid: 5017
+  name_id: 52021
+  description_id: 52925
+  sort_order: 0
+  icon_set_id: 2959
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7013
+      unknown: 0
+
+# Medium Focus
+- guid: 5018
+  name_id: 52024
+  description_id: 52927
+  sort_order: 0
+  icon_set_id: 2956
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7014
+      unknown: 0
+
+# Medium Field Kit
+- guid: 5019
+  name_id: 52027
+  description_id: 52929
+  sort_order: 0
+  icon_set_id: 2962
+  category: 78
+  page: 0
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  items:
+    - guid: 7015
       unknown: 0
 
 # Boosts
