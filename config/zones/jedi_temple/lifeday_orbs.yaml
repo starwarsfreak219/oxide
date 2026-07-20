@@ -13,7 +13,11 @@ jedi_temple:
         y: 0
         z: 0
         w: 0
-      is_spawned: false
+      removal_mode: &orb_removal_config
+        !Graceful
+        fade_duration_millis: 1000
+        removal_delay_millis: 0
+      force_despawn: true
       tickable_procedures:
         spawn:
           weight: 300
@@ -30,10 +34,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -60,7 +60,8 @@ jedi_temple:
         y: 0
         z: 0
         w: 0
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       tickable_procedures:
         spawn:
           weight: 300
@@ -77,10 +78,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -107,7 +104,8 @@ jedi_temple:
         y: 0
         z: 0
         w: 0
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       tickable_procedures:
         spawn:
           weight: 300
@@ -124,10 +122,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -154,7 +148,8 @@ jedi_temple:
         y: 0
         z: 0
         w: 0
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       tickable_procedures:
         spawn:
           weight: 150
@@ -171,10 +166,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -215,15 +206,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -240,10 +229,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -286,15 +271,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -311,10 +294,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -368,15 +347,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -394,10 +371,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -425,15 +398,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 100
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -451,10 +422,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -490,15 +457,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -515,10 +480,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -556,15 +517,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -581,10 +540,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -622,15 +577,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -648,10 +601,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -687,15 +636,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -712,10 +659,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -753,15 +696,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -778,10 +719,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -819,15 +756,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -844,10 +779,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -885,15 +816,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -910,10 +839,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -955,15 +880,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -980,10 +903,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1025,15 +944,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1050,10 +967,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1099,15 +1012,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1125,10 +1036,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1160,15 +1067,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 100
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1186,10 +1091,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1225,15 +1126,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1250,10 +1149,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1291,15 +1186,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1316,10 +1209,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1361,15 +1250,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1387,10 +1274,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1426,15 +1309,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1451,10 +1332,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1492,15 +1369,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1517,10 +1392,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1558,15 +1429,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1584,10 +1453,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1631,15 +1496,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1656,10 +1519,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1709,15 +1568,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1734,10 +1591,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -1795,15 +1648,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1821,10 +1672,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1856,15 +1703,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 100
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1882,10 +1727,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty
@@ -1929,15 +1770,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -1954,10 +1793,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -2007,15 +1842,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       enable_interact_popup: false
       show_name: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -2032,10 +1865,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: spawn
@@ -2085,15 +1914,13 @@ jedi_temple:
         z: 0
         w: 0
       cursor: 54
-      is_spawned: false
+      removal_mode: *orb_removal_config
+      force_despawn: true
       show_name: false
       enable_interact_popup: false
       one_shot_interaction:
         award_credits: 25
         despawn_npc: true
-        removal_mode: !Graceful
-          fade_duration_millis: 1000
-          removal_delay_millis: 0
         duration_millis: 1000
       tickable_procedures:
         spawn:
@@ -2111,10 +1938,6 @@ jedi_temple:
         remove:
           steps:
             - spawned_state: Despawn
-              removal_mode:
-                Graceful:
-                  fade_duration_millis: 1000
-                  removal_delay_millis: 0
               min_duration_millis: 1000
           next_possible_procedures:
             - procedure: empty

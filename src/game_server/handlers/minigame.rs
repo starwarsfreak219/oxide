@@ -250,10 +250,7 @@ pub enum MinigameType {
     SaberStrike {
         saber_strike_stage_id: u32,
     },
-    SaberDuel {
-        #[serde(flatten)]
-        config: Box<SaberDuelConfig>,
-    },
+    SaberDuel(Box<SaberDuelConfig>),
 }
 
 impl MinigameType {
@@ -497,7 +494,7 @@ impl SharedMinigameTypeData {
                 _ => SharedMinigameTypeData::default(),
             },
             MinigameType::SaberStrike { .. } => SharedMinigameTypeData::default(),
-            MinigameType::SaberDuel { config } => SharedMinigameTypeData::SaberDuel {
+            MinigameType::SaberDuel(config) => SharedMinigameTypeData::SaberDuel {
                 game: Box::new(SaberDuelGame::new(
                     *config.to_owned(),
                     player1,
@@ -748,7 +745,7 @@ pub struct MinigameChallengeConfig {
     pub min_players: u32,
     pub max_players: u32,
     pub start_sound_id: Option<u32>,
-    pub required_item_guid: Option<u32>,
+    pub required_item_guid: Option<i32>,
     pub members_only: bool,
     pub minigame_type: MinigameType,
     pub zone_template_guid: Option<u8>,
@@ -843,7 +840,7 @@ pub struct MinigameCampaignStageConfig {
     pub start_sound_id: Option<u32>,
     #[serde(default = "default_true")]
     pub show_end_score_screen: bool,
-    pub required_item_guid: Option<u32>,
+    pub required_item_guid: Option<i32>,
     pub members_only: bool,
     #[serde(default = "default_true")]
     pub require_previous_completed: bool,
@@ -1006,7 +1003,7 @@ struct MinigameStageGroupConfig {
     pub icon_id: u32,
     pub stage_icon_id: u32,
     pub stage_select_map_name: String,
-    pub required_item_guid: Option<u32>,
+    pub required_item_guid: Option<i32>,
     pub members_only: bool,
     #[serde(default = "default_true")]
     pub require_previous_completed: bool,
@@ -1577,6 +1574,7 @@ impl<'de> Deserialize<'de> for DailyResetOffset {
 }
 
 #[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
 struct DeserializableMinigameConfigs {
     #[serde(rename(deserialize = "daily_reset_utc_offset_seconds"))]
     daily_reset_offset: DailyResetOffset,

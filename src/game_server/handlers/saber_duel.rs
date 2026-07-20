@@ -13,7 +13,7 @@ use serde::{Deserialize, Deserializer};
 use crate::game_server::{
     handlers::{
         character::{
-            default_spawn_animation_id, AmbientNpc, BaseNpc, Character, CharacterType,
+            default_spawn_animation_id, BaseNpc, Character, CharacterType, HoverDescriptionMode,
             MinigameMatchmakingGroup, MinigameStatus, PlayerInventory,
         },
         inventory::{
@@ -28,6 +28,7 @@ use crate::game_server::{
     packets::{
         item::{EquipmentSlot, WieldType},
         minigame::{MinigameHeader, ScoreEntry, ScoreType},
+        player_update::Hostility,
         saber_duel::{
             SaberDuelApplyForcePower, SaberDuelBoutInfo, SaberDuelBoutStart, SaberDuelBoutTied,
             SaberDuelBoutWon, SaberDuelForcePower, SaberDuelForcePowerDefinition,
@@ -60,9 +61,9 @@ struct SaberDuelAiForcePower {
 #[derive(Clone, Debug, Default, Deserialize)]
 #[serde(deny_unknown_fields)]
 struct SaberDuelEquippableSaber {
-    hilt_item_guid: u32,
-    shape_item_guid: u32,
-    color_item_guid: u32,
+    hilt_item_guid: i32,
+    shape_item_guid: i32,
+    color_item_guid: i32,
 }
 
 #[derive(Clone, Debug, Default, Deserialize)]
@@ -657,32 +658,33 @@ impl SaberDuelGame {
             Pos::default(),
             chunk_size,
             1.0,
-            CharacterType::AmbientNpc(AmbientNpc {
-                base_npc: BaseNpc {
-                    texture_alias: "".to_string(),
-                    name_id: self.config.ai.name_id,
-                    terrain_object_id: 0,
-                    name_offset_x: 0.0,
-                    name_offset_y: 0.0,
-                    name_offset_z: 0.0,
-                    enable_interact_popup: false,
-                    interact_popup_radius: None,
-                    show_name: false,
-                    bounce_area_id: -1,
-                    enable_gravity: true,
-                    enable_tilt: false,
-                    use_terrain_model: false,
-                    attachments,
-                    composite_effect_id: None,
-                    sub_title_id: None,
-                    clickable: true,
-                    spawn_animation_id: default_spawn_animation_id(),
-                },
+            CharacterType::AmbientNpc(Box::new(BaseNpc {
+                texture_alias: "".to_string(),
+                name_id: self.config.ai.name_id,
+                terrain_object_id: 0,
+                name_offset_x: 0.0,
+                name_offset_y: 0.0,
+                name_offset_z: 0.0,
+                enable_interact_popup: false,
+                interact_popup_radius: None,
+                show_name: false,
+                show_health: false,
+                hostility: Hostility::default(),
+                bounce_area_id: Some(-1),
+                enable_gravity: true,
+                enable_tilt: false,
+                use_terrain_model: false,
+                attachments,
+                composite_effect_id: None,
+                sub_title_id: None,
+                clickable: true,
+                spawn_animation_id: default_spawn_animation_id(),
+                hover_description: HoverDescriptionMode::default(),
                 procedure_on_interact: None,
                 one_shot_interaction: None,
+                triggered_npc_guids: Vec::new(),
                 notification_icon: None,
-                triggered_npc_guids: None,
-            }),
+            })),
             None,
             None,
             0.0,

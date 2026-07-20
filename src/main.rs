@@ -8,7 +8,6 @@ use protocol::{BufferSize, DisconnectReason, MAX_BUFFER_SIZE};
 use serde::Deserialize;
 use std::cell::Cell;
 use std::fs::File;
-use std::io::Error;
 use std::net::{IpAddr, SocketAddr, UdpSocket};
 use std::path::{Path, PathBuf};
 use std::sync::{Arc, LazyLock};
@@ -18,12 +17,14 @@ use std::{env, panic, process};
 use tokio::spawn;
 
 use crate::channel_manager::{ChannelManager, ReceiveResult};
+use crate::config::ConfigError;
 use crate::game_server::GameServer;
 use crate::protocol::Channel;
 
+mod asset_server;
 mod channel_manager;
+mod config;
 mod game_server;
-mod http;
 mod protocol;
 
 thread_local! {
@@ -77,25 +78,6 @@ macro_rules! debug {
     }};
 }
 
-#[derive(Debug)]
-pub enum ConfigError {
-    Io(Error),
-    Deserialize(serde_yaml::Error),
-    ConstraintViolated(String),
-}
-
-impl From<Error> for ConfigError {
-    fn from(value: Error) -> Self {
-        ConfigError::Io(value)
-    }
-}
-
-impl From<serde_yaml::Error> for ConfigError {
-    fn from(value: serde_yaml::Error) -> Self {
-        ConfigError::Deserialize(value)
-    }
-}
-
 #[derive(Parser, Debug)]
 #[command(about, long_about = None)]
 struct Args {
@@ -119,7 +101,7 @@ async fn main() {
         Arc::new(load_server_options(config_dir).expect("Unable to read server options"));
     server_options.validate();
 
-    spawn(http::start(
+    spawn(asset_server::start(
         server_options.bind_ip,
         server_options.https_port,
         config_dir,
@@ -185,12 +167,12 @@ async fn main() {
         &game_server_arc,
     );
 
-    let mainigame_tick_dequeue = tick(Duration::from_millis(
+    let minigame_tick_dequeue = tick(Duration::from_millis(
         server_options.minigame_tick_period_millis,
     ));
     spawn_minigame_tick_threads(
         &channel_manager_arc,
-        mainigame_tick_dequeue,
+        minigame_tick_dequeue,
         client_enqueue.clone(),
         &server_options,
         &game_server_arc,
