@@ -53,6 +53,22 @@ pub enum EquipmentSlot {
 }
 
 impl EquipmentSlot {
+    pub fn action_bar_priority(self) -> u32 {
+        match self {
+            EquipmentSlot::SecondaryWeapon => 1,
+            EquipmentSlot::PrimaryWeapon => 2,
+            EquipmentSlot::PrimarySaberShape => 3,
+            EquipmentSlot::PrimarySaberColor => 3,
+            EquipmentSlot::SecondarySaberShape => 4,
+            EquipmentSlot::SecondarySaberColor => 4,
+            EquipmentSlot::Head => 5,
+            EquipmentSlot::Hands => 6,
+            EquipmentSlot::Body => 7,
+            EquipmentSlot::Feet => 8,
+            EquipmentSlot::None => 0,
+        }
+    }
+
     pub fn is_weapon(self) -> bool {
         self == EquipmentSlot::PrimaryWeapon || self == EquipmentSlot::SecondaryWeapon
     }
@@ -169,9 +185,9 @@ pub struct BaseAttachmentGroup {
 
 #[derive(Clone, SerializePacket)]
 pub struct Item {
-    pub definition_id: u32,
+    pub definition_id: i32,
     pub tint: u32,
-    pub guid: u32,
+    pub guid: i32,
     pub quantity: u32,
     pub num_consumed: u32,
     pub last_use_time: u32,
@@ -192,7 +208,7 @@ pub struct ItemStat {}
 
 #[derive(Clone, Deserialize, SerializePacket)]
 #[serde(deny_unknown_fields)]
-pub struct ItemAbility {
+pub struct SpecialItemAbility {
     pub ability_slot: u32,
     pub ability_id: u32,
     pub unknown3: u32,
@@ -205,7 +221,7 @@ pub struct ItemAbility {
 #[derive(Clone, Deserialize, SerializePacket)]
 #[serde(deny_unknown_fields)]
 pub struct ItemDefinition {
-    pub guid: u32,
+    pub guid: i32,
     pub name_id: u32,
     pub description_id: u32,
     pub icon_set_id: u32,
@@ -222,7 +238,7 @@ pub struct ItemDefinition {
     pub texture_alias: String,
     pub required_gender: u32,
     pub item_type: u32,
-    pub category: u32,
+    pub category: i32,
     pub members: bool,
     pub non_minigame: bool,
     pub weapon_trail_effect: u32,
@@ -246,7 +262,7 @@ pub struct ItemDefinition {
     pub customization_id: u32,
     pub unknown40: u32,
     pub stats: Vec<ItemStat>,
-    pub abilities: Vec<ItemAbility>,
+    pub special_abilities: Vec<SpecialItemAbility>,
 }
 
 #[derive(SerializePacket, DeserializePacket)]

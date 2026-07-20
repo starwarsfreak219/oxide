@@ -14,13 +14,15 @@ use crate::{
         handlers::{
             character::BaseNpcConfig,
             dialog::{DialogChoiceConfig, DialogChoiceInstance, DialogChoiceTemplate},
-            distance3_pos, offset_destination,
+            distance3_pos,
+            item::ItemConfig,
+            offset_destination,
         },
         packets::{
             client_update::Position,
             command::MoveToInteract,
             housing::BuildArea,
-            item::{ItemDefinition, WieldType},
+            item::WieldType,
             login::{ClientBeginZoning, ZoneDetails},
             player_update::Customization,
             tunnel::TunneledPacket,
@@ -669,8 +671,8 @@ impl ZoneInstance {
         characters_read: &BTreeMap<u64, CharacterReadGuard<'_>>,
         moved_character_handle: &Character,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
     ) -> Vec<Broadcast> {
         let mut broadcasts = Vec::new();
 
@@ -683,7 +685,7 @@ impl ZoneInstance {
                         diff_packets.append(&mut character.stats.add_packets(
                             false,
                             mount_configs,
-                            item_definitions,
+                            item_configs,
                             customizations,
                         ));
                     } else {
@@ -701,7 +703,7 @@ impl ZoneInstance {
             moved_character_handle.stats.add_packets(
                 false,
                 mount_configs,
-                item_definitions,
+                item_configs,
                 customizations,
             ),
         ));
@@ -1298,7 +1300,7 @@ pub fn interact_with_character(
                                 ));
                             };
 
-                            if !target_read_handle.stats.is_spawned {
+                            if !target_read_handle.stats.is_spawned() {
                                 return Err(ProcessPacketError::new(
                                     ProcessPacketErrorType::ConstraintViolated,
                                     format!("Received request to interact with inactive NPC {target} from {requester}"),
