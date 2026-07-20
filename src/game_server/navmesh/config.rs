@@ -1,11 +1,21 @@
-use std::{collections::HashMap, fs::File, path::Path};
+use std::{
+    collections::HashMap,
+    fs::File,
+    path::{Path, PathBuf},
+    sync::Arc,
+};
 
 use glam::Vec2;
 use kiddo::{immutable::float::kdtree::ImmutableKdTree, SquaredEuclidean};
+use oxide_bvh::{read_bvh, Bvh};
 use polyanya::{Layer, Mesh, Triangulation};
 use serde::Deserialize;
 
-use crate::{game_server::navmesh::Navmesh, ConfigError};
+use crate::{
+    config::{list_files_with_extension, merge_config_dir},
+    game_server::navmesh::{Collision, Navmesh},
+    info, ConfigError,
+};
 
 type Polygon = Vec<[f32; 3]>;
 
@@ -81,9 +91,32 @@ struct NavmeshConfig {
 
 type NavmeshConfigs = HashMap<String, NavmeshConfig>;
 
-pub fn load_navmeshes(config_dir: &Path) -> Result<HashMap<String, Navmesh>, ConfigError> {
-    let mut file = File::open(config_dir.join("navmeshes.yaml"))?;
-    let configs: NavmeshConfigs = serde_yaml::from_reader(&mut file)?;
+fn load_bvh(path: PathBuf) -> Result<Bvh, ConfigError> {
+    let file = File::open(path)?;
+    Ok(read_bvh(&file)?)
+}
+
+pub fn load_bvhs(config_dir: &Path) -> Result<HashMap<String, Arc<Bvh>>, ConfigError> {
+    let paths = list_files_with_extension(&config_dir.join("bvhs"), "bvh")?;
+    let mut bvhs = HashMap::new();
+
+    for path in paths.into_iter() {
+        let stem = path.file_stem().unwrap_or_default();
+        let name = stem.to_str().ok_or_else(|| {
+            ConfigError::ConstraintViolated(format!("{stem:?} must be valid UTF-8"))
+        })?;
+        bvhs.insert(name.to_owned(), Arc::new(load_bvh(path)?));
+    }
+
+    Ok(bvhs)
+}
+
+pub fn load_navmeshes(
+    config_dir: &Path,
+    bvhs: &HashMap<String, Arc<Bvh>>,
+) -> Result<HashMap<String, (Navmesh, Collision)>, ConfigError> {
+    let navmeshes_dir = config_dir.join("navmeshes");
+    let configs: NavmeshConfigs = merge_config_dir(&navmeshes_dir)?;
 
     if configs
         .iter()
@@ -141,7 +174,15 @@ pub fn load_navmeshes(config_dir: &Path) -> Result<HashMap<String, Navmesh>, Con
             mesh.set_search_delta(config.search_delta);
             mesh.set_search_steps(config.search_steps);
 
-            (asset_name, Navmesh::Complex(mesh))
+            let collision = match bvhs.get(&asset_name).cloned() {
+                Some(bvh) => Collision::Bvh(bvh),
+                None => {
+                    info!("Missing BVH for {asset_name}. Defaulting to empty BVH.");
+                    Collision::Empty
+                }
+            };
+
+            (asset_name, (Navmesh::Complex(mesh), collision))
         })
         .collect())
 }

@@ -15,23 +15,24 @@ use crate::{
             combat::ThreatTable,
             dialog::handle_dialog_buttons,
             inventory::{attachments_from_equipped_items, wield_type_from_inventory},
+            item::ItemConfig,
             lock_enforcer::CharacterWriteGuard,
             unique_guid::AMBIENT_NPC_DISCRIMINANT,
         },
-        navmesh::{Navmesh, NavmeshWaypoint, NonLinearPathState},
+        navmesh::{Collision, Navmesh, NavmeshWaypoint, NonLinearPathState},
         packets::{
             chat::{ActionBarTextColor, SendStringId},
             client_update::UpdateCredits,
             command::{EnterDialog, ExitDialog, PlaySoundIdOnTarget},
-            item::{Attachment, BaseAttachmentGroup, EquipmentSlot, ItemDefinition, WieldType},
+            item::{Attachment, BaseAttachmentGroup, EquipmentSlot, WieldType},
             minigame::ScoreEntry,
             player_update::{
                 AddCompositeEffectTag, AddNotifications, AddNpc, AddPc, Customization,
-                CustomizationSlot, Hostility, HudMessage, Icon, MoveOnRail, NameplateImage,
-                NotificationData, NpcRelevance, PhysicsState, PlayCompositeEffect, QueueAnimation,
-                RemoveCompositeEffectTag, RemoveGracefully, RemoveStandard, RemoveTemporaryModel,
-                SetAnimation, SingleNotification, SingleNpcRelevance, UpdateSpeed,
-                UpdateTemporaryModel,
+                CustomizationSlot, HitPointModification, Hostility, HudMessage, Icon, MoveOnRail,
+                NameplateImage, NotificationData, NpcRelevance, PhysicsState, PlayCompositeEffect,
+                QueueAnimation, RemoveCompositeEffectTag, RemoveGracefully, RemoveStandard,
+                RemoveTemporaryModel, SetAnimation, SingleNotification, SingleNpcRelevance,
+                UpdateSpeed, UpdateTemporaryModel,
             },
             tunnel::TunneledPacket,
             ui::{ExecuteScriptWithIntParams, ExecuteScriptWithStringParams},
@@ -65,6 +66,10 @@ pub fn coerce_to_broadcast_supplier(
 pub const CHAT_BUBBLE_VISIBLE_RADIUS: f32 = 32.0;
 pub const ORIGIN_RESET_TAG_ID: u32 = 1;
 pub const ORIGIN_RESET_COMPOSITE_EFFECT_ID: u32 = 2764;
+
+const fn default_health() -> u16 {
+    u16::MAX
+}
 
 const fn default_stand_animation_id() -> i32 {
     1
@@ -100,6 +105,10 @@ const fn default_weight() -> u32 {
 
 pub const fn default_spawn_animation_id() -> i32 {
     1
+}
+
+const fn default_ability_height() -> f32 {
+    1.5
 }
 
 const fn default_hud_message_millis() -> u32 {
@@ -257,6 +266,11 @@ pub struct BaseNpcConfig {
     #[serde(default)]
     pub speed: f32,
     pub cursor: Option<u8>,
+    #[serde(default = "default_health")]
+    pub health: u16,
+    pub max_health: Option<u16>,
+    #[serde(default)]
+    pub hostility: Hostility,
     #[serde(default)]
     pub hover_description: HoverDescriptionMode,
     #[serde(default = "default_true")]
@@ -270,7 +284,8 @@ pub struct BaseNpcConfig {
     #[serde(default = "default_true")]
     pub show_name: bool,
     #[serde(default)]
-    pub bounce_area_id: i32,
+    pub show_health: bool,
+    pub bounce_area_id: Option<i32>,
     #[serde(default)]
     pub physics: PhysicsState,
     #[serde(default = "default_true")]
@@ -284,8 +299,10 @@ pub struct BaseNpcConfig {
     #[serde(default)]
     pub first_possible_procedures: Vec<String>,
     pub synchronize_with: Option<String>,
-    #[serde(default = "default_true")]
-    pub is_spawned: bool,
+    #[serde(default)]
+    pub force_despawn: bool,
+    #[serde(default)]
+    pub removal_mode: RemovalMode,
     pub composite_effect_id: Option<u32>,
     #[serde(default = "default_true")]
     pub clickable: bool,
@@ -297,6 +314,8 @@ pub struct BaseNpcConfig {
     pub max_distance_from_origin: f32,
     #[serde(default)]
     pub auto_target_radius: f32,
+    #[serde(default = "default_ability_height")]
+    pub ability_height: f32,
     #[serde(default)]
     pub enemy_types: HashSet<String>,
     #[serde(default)]
@@ -321,7 +340,9 @@ pub struct BaseNpc {
     pub enable_interact_popup: bool,
     pub interact_popup_radius: Option<f32>,
     pub show_name: bool,
-    pub bounce_area_id: i32,
+    pub show_health: bool,
+    pub hostility: Hostility,
+    pub bounce_area_id: Option<i32>,
     pub enable_gravity: bool,
     pub enable_tilt: bool,
     pub use_terrain_model: bool,
@@ -342,7 +363,7 @@ impl BaseNpc {
         character: &CharacterStats,
         override_is_spawned: bool,
     ) -> Vec<Vec<u8>> {
-        if !character.is_spawned && !override_is_spawned {
+        if !character.is_spawned() && !override_is_spawned {
             return Vec::new();
         }
 
@@ -362,7 +383,7 @@ impl BaseNpc {
                     rot: character.rot,
                     spawn_animation_id: self.spawn_animation_id,
                     attachments: self.attachments.clone(),
-                    hostility: Hostility::Neutral,
+                    hostility: self.hostility,
                     unknown10: 1,
                     texture_alias: self.texture_alias.clone(),
                     tint_name: "".to_string(),
@@ -393,7 +414,7 @@ impl BaseNpc {
                     disable_interact_popup: !self.enable_interact_popup,
                     unused_death_animation_id: 0, // can cause crashes when death anim is enabled upon removal, but has no visual effect
                     unknown34: false,
-                    show_health: false,
+                    show_health: self.show_health,
                     hide_despawn_fade: false,
                     enable_tilt: self.enable_tilt,
                     base_attachment_group: BaseAttachmentGroup {
@@ -410,7 +431,7 @@ impl BaseNpc {
                         w: 0.0,
                     },
                     unknown40: 0,
-                    bounce_area_id: self.bounce_area_id,
+                    bounce_area_id: self.bounce_area_id.unwrap_or(-1),
                     image_set_id: 0,
                     clickable: self.clickable,
                     rider_guid: 0,
@@ -481,6 +502,21 @@ impl BaseNpc {
                         }),
                         unknown2: false,
                     }],
+                },
+            }));
+        }
+
+        if character.health < character.max_health && self.show_health {
+            packets.push(GamePacket::serialize(&TunneledPacket {
+                unknown1: true,
+                inner: HitPointModification {
+                    attacker_guid: 0,
+                    receiver_guid: Guid::guid(character),
+                    show_hp_delta: false,
+                    max_hp: character.max_health as i32,
+                    new_hp: character.health as i32,
+                    hp_delta: (character.health as i32).saturating_sub(character.max_health as i32),
+                    critical: false,
                 },
             }));
         }
@@ -667,8 +703,6 @@ pub struct OneShotInteractionConfig {
     #[serde(default)]
     pub hud_message: HudMessageType,
     #[serde(default)]
-    pub removal_mode: RemovalMode,
-    #[serde(default)]
     pub despawn_npc: bool,
     pub duration_millis: u64,
 }
@@ -683,7 +717,6 @@ pub struct OneShotInteractionTemplate {
     pub composite_effect_delay_millis: u32,
     pub dialog_option_id: Option<u32>,
     pub hud_message: HudMessageType,
-    pub removal_mode: RemovalMode,
     pub despawn_npc: bool,
     pub duration_millis: u64,
 }
@@ -717,7 +750,6 @@ impl OneShotInteractionTemplate {
             animation_delay_seconds: config.animation_delay_seconds,
             composite_effect_id: config.composite_effect_id,
             composite_effect_delay_millis: config.composite_effect_delay_millis,
-            removal_mode: config.removal_mode,
             despawn_npc: config.despawn_npc,
             duration_millis: config.duration_millis,
         }
@@ -736,8 +768,8 @@ impl OneShotInteractionTemplate {
         let mut packets_for_sender = Vec::new();
 
         if self.despawn_npc {
-            character.is_spawned = false;
-            packets_for_all.extend(character.remove_packets(self.removal_mode));
+            character.force_despawn = true;
+            packets_for_all.extend(character.remove_packets(character.removal_mode));
         }
 
         if let Some(animation_id) = self.one_shot_animation_id {
@@ -905,8 +937,6 @@ pub struct TickableStep {
     #[serde(default)]
     pub script: ScriptType,
     #[serde(default)]
-    pub removal_mode: RemovalMode,
-    #[serde(default)]
     pub spawned_state: SpawnedState,
     #[serde(default)]
     pub cursor: CursorUpdate,
@@ -914,7 +944,9 @@ pub struct TickableStep {
 }
 
 impl TickableStep {
-    pub fn reselect_possible_pos(&self, character: &CharacterStats) -> Option<NavmeshWaypoint> {
+    pub fn reset_for_spawn(&self, character: &mut CharacterStats) -> Option<NavmeshWaypoint> {
+        character.refresh_health();
+
         if character.possible_pos.is_empty() {
             return None;
         }
@@ -940,43 +972,43 @@ impl TickableStep {
         nearby_player_guids: &[u32],
         nearby_characters: &BTreeMap<u64, CharacterWriteGuard>,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
     ) -> (Vec<Broadcast>, Option<NavmeshWaypoint>) {
         let mut packets_for_all = Vec::new();
         let mut pos_update: Option<NavmeshWaypoint> = None;
 
         match self.spawned_state {
             SpawnedState::Always => {
-                if !character.is_spawned {
-                    character.is_spawned = true;
-                    pos_update = self.reselect_possible_pos(character);
+                if !character.is_spawned() {
+                    character.force_despawn = false;
+                    pos_update = self.reset_for_spawn(character);
                     packets_for_all.extend(character.add_packets(
                         false,
                         mount_configs,
-                        item_definitions,
+                        item_configs,
                         customizations,
                     ));
                 }
             }
             SpawnedState::OnFirstStepTick => {
-                if !character.is_spawned {
-                    // Spawn the character without updating its state to prevent it from being visible
+                if !character.is_spawned() {
+                    // Spawn the character without updating force_despawn to prevent it from being visible
                     // to players joining the room mid-step
-                    pos_update = self.reselect_possible_pos(character);
+                    pos_update = self.reset_for_spawn(character);
                     packets_for_all.extend(character.add_packets(
                         true, // Override is_spawned
                         mount_configs,
-                        item_definitions,
+                        item_configs,
                         customizations,
                     ));
                 }
             }
             SpawnedState::Despawn => {
-                // Skip checking if the character is spawned before despawning it and instead check if
-                // its state needs updating as OnFirstStepTick doesn't maintain states
-                character.is_spawned = false;
-                packets_for_all.extend(character.remove_packets(self.removal_mode));
+                // Skip checking if the character is spawned before despawning it and instead ensure
+                // force_despawn is true as OnFirstStepTick doesn't maintain this field
+                character.force_despawn = true;
+                packets_for_all.extend(character.remove_packets(character.removal_mode));
             }
             SpawnedState::Keep => {}
         }
@@ -1318,7 +1350,7 @@ pub struct TickableProcedureConfig {
 }
 
 pub enum TickResult {
-    TickedCurrentProcedure(Vec<Broadcast>, Option<UpdatePlayerPos>),
+    TickedCurrentProcedure(Vec<Broadcast>, Option<(UpdatePlayerPos, Pos)>),
     MustChangeProcedure(String),
 }
 
@@ -1368,7 +1400,7 @@ impl TickableProcedure {
             (WeightedAliasIndex::new(weights), references)
         };
 
-        let procedure = TickableProcedure {
+        TickableProcedure {
             steps: config.steps,
             current_step_index: None,
             last_step_change: Instant::now(),
@@ -1376,11 +1408,7 @@ impl TickableProcedure {
             distribution: distribution.expect("Couldn't create weighted alias index"),
             next_possible_procedures,
             is_interruptible: config.is_interruptible,
-        };
-
-        procedure.panic_if_removal_exceeds_duration();
-
-        procedure
+        }
     }
 
     pub fn tick(
@@ -1390,8 +1418,8 @@ impl TickableProcedure {
         nearby_player_guids: &[u32],
         nearby_characters: &BTreeMap<u64, CharacterWriteGuard>,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
         tick_duration: Duration,
         navmesh: &Navmesh,
     ) -> TickResult {
@@ -1407,11 +1435,14 @@ impl TickableProcedure {
                     self.pos_update_progress
                         .as_mut()
                         .map(|pos_update_progress| {
-                            pos_update_progress.tick(
-                                Guid::guid(character),
-                                character.speed.total(),
-                                tick_duration,
-                                character.rot,
+                            (
+                                pos_update_progress.tick(
+                                    Guid::guid(character),
+                                    character.speed.total(),
+                                    tick_duration,
+                                    character.rot,
+                                ),
+                                pos_update_progress.pos_at_tick_start(),
                             )
                         });
                 let reached_destination = self
@@ -1448,7 +1479,7 @@ impl TickableProcedure {
                     nearby_player_guids,
                     nearby_characters,
                     mount_configs,
-                    item_definitions,
+                    item_configs,
                     customizations,
                 );
 
@@ -1456,11 +1487,14 @@ impl TickableProcedure {
                     Box::new(NonLinearPathState::new(old_pos, pos_update, navmesh, 0.0))
                 });
                 let first_pos_update = pos_update_progress.as_mut().map(|pos_update_progress| {
-                    pos_update_progress.tick(
-                        Guid::guid(character),
-                        character.speed.total(),
-                        tick_duration,
-                        character.rot,
+                    (
+                        pos_update_progress.tick(
+                            Guid::guid(character),
+                            character.speed.total(),
+                            tick_duration,
+                            character.rot,
+                        ),
+                        pos_update_progress.pos_at_tick_start(),
                     )
                 });
 
@@ -1492,28 +1526,6 @@ impl TickableProcedure {
 
     pub fn is_interruptible(&self) -> bool {
         self.is_interruptible
-    }
-
-    fn panic_if_removal_exceeds_duration(&self) {
-        for step in &self.steps {
-            if let RemovalMode::Graceful {
-                removal_delay_millis,
-                removal_effect_delay_millis,
-                fade_duration_millis,
-                ..
-            } = step.removal_mode
-            {
-                let total_removal_time =
-                    removal_delay_millis + removal_effect_delay_millis + fade_duration_millis;
-
-                if total_removal_time > step.min_duration_millis as u32 {
-                    panic!(
-                        "(Removal delay: {}) + (Effect Delay: {}) + (Fade duration: {}) exceeded (Step duration: {})",
-                        removal_delay_millis, removal_effect_delay_millis, fade_duration_millis, step.min_duration_millis
-                    );
-                }
-            }
-        }
     }
 }
 
@@ -1607,11 +1619,11 @@ impl TickableProcedureTracker {
         nearby_player_guids: &[u32],
         nearby_characters: &BTreeMap<u64, CharacterWriteGuard>,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
         tick_duration: Duration,
         navmesh: &Navmesh,
-    ) -> (Vec<Broadcast>, Option<UpdatePlayerPos>) {
+    ) -> (Vec<Broadcast>, Option<(UpdatePlayerPos, Pos)>) {
         if self.procedures.is_empty() {
             return (Vec::new(), None);
         }
@@ -1627,7 +1639,7 @@ impl TickableProcedureTracker {
                 nearby_player_guids,
                 nearby_characters,
                 mount_configs,
-                item_definitions,
+                item_configs,
                 customizations,
                 tick_duration,
                 navmesh,
@@ -1696,7 +1708,7 @@ fn trigger_synchronized_interaction(
     supplier?(game_server)
 }
 
-pub type EquippedItemMap = BTreeMap<EquipmentSlot, u32>;
+pub type EquippedItemMap = BTreeMap<EquipmentSlot, i32>;
 
 #[derive(Clone)]
 pub struct BattleClass {
@@ -1707,15 +1719,15 @@ pub struct BattleClass {
 pub struct PlayerInventory {
     battle_classes: BTreeMap<u32, BattleClass>,
     pub active_battle_class: u32,
-    temporary_items: BTreeMap<EquipmentSlot, Option<u32>>,
-    inventory: BTreeSet<u32>,
+    temporary_items: BTreeMap<EquipmentSlot, Option<i32>>,
+    inventory: BTreeSet<i32>,
 }
 
 impl PlayerInventory {
     pub fn new(
         battle_classes: BTreeMap<u32, BattleClass>,
         active_battle_class: u32,
-        inventory: BTreeSet<u32>,
+        inventory: BTreeSet<i32>,
     ) -> Self {
         PlayerInventory {
             battle_classes,
@@ -1743,7 +1755,7 @@ impl PlayerInventory {
         items
     }
 
-    pub fn equipped_item(&self, battle_class: u32, slot: EquipmentSlot) -> Option<u32> {
+    pub fn equipped_item(&self, battle_class: u32, slot: EquipmentSlot) -> Option<i32> {
         self.temporary_items
             .get(&slot)
             .copied()
@@ -1761,7 +1773,7 @@ impl PlayerInventory {
         &mut self,
         battle_class_guid: u32,
         slot: EquipmentSlot,
-        item_guid: u32,
+        item_guid: i32,
     ) -> Result<bool, ProcessPacketError> {
         if !self.inventory.contains(&item_guid) {
             return Err(ProcessPacketError::new(
@@ -1805,7 +1817,7 @@ impl PlayerInventory {
             && !self.temporary_items.contains_key(&slot))
     }
 
-    pub fn equip_item_temporarily(&mut self, slot: EquipmentSlot, item_guid: Option<u32>) {
+    pub fn equip_item_temporarily(&mut self, slot: EquipmentSlot, item_guid: Option<i32>) {
         self.temporary_items.insert(slot, item_guid);
     }
 
@@ -1813,7 +1825,7 @@ impl PlayerInventory {
         self.temporary_items.clear();
     }
 
-    pub fn owns_item(&self, item_guid: u32) -> bool {
+    pub fn owns_item(&self, item_guid: i32) -> bool {
         self.inventory.contains(&item_guid)
     }
 }
@@ -1880,6 +1892,18 @@ pub struct PreviousLocation {
 }
 
 #[derive(Clone)]
+pub struct PlayerAbilityGroup {
+    pub source_item_id: i32,
+    pub ability_keys: Vec<String>,
+    pub priority: u32,
+}
+
+#[derive(Clone)]
+pub struct PlayerActionBar {
+    pub weapon_abilities: Vec<PlayerAbilityGroup>,
+}
+
+#[derive(Clone)]
 pub struct Player {
     pub first_load: bool,
     pub ready: bool,
@@ -1888,13 +1912,14 @@ pub struct Player {
     pub member: bool,
     pub credits: u32,
     pub inventory: PlayerInventory,
-    pub customizations: BTreeMap<CustomizationSlot, u32>,
+    pub customizations: BTreeMap<CustomizationSlot, i32>,
     pub minigame_stats: PlayerMinigameStats,
     pub minigame_status: Option<MinigameStatus>,
     pub update_previous_location_on_leave: bool,
     pub previous_location: PreviousLocation,
     pub toggles: Toggles,
     pub role: Role,
+    pub action_bar: PlayerActionBar,
 }
 
 impl Player {
@@ -1902,8 +1927,8 @@ impl Player {
         &self,
         character: &CharacterStats,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
     ) -> Vec<Vec<u8>> {
         if !self.ready {
             return Vec::new();
@@ -1955,7 +1980,7 @@ impl Player {
                     &self
                         .inventory
                         .equipped_items(self.inventory.active_battle_class),
-                    item_definitions,
+                    item_configs,
                 )
                 .into_iter()
                 .map(|attachment| attachment.into())
@@ -2087,6 +2112,9 @@ pub struct BaseNpcTemplate {
     pub stand_animation_id: i32,
     pub mount_id: Option<u32>,
     pub cursor: Option<u8>,
+    pub health: u16,
+    pub max_health: u16,
+    pub removal_mode: RemovalMode,
     pub interact_radius: f32,
     pub auto_interact_radius: f32,
     pub move_to_interact_offset: f32,
@@ -2094,11 +2122,12 @@ pub struct BaseNpcTemplate {
     pub tickable_procedures: HashMap<String, TickableProcedureConfig>,
     pub first_possible_procedures: Vec<String>,
     pub synchronize_with: Option<String>,
-    pub is_spawned: bool,
+    pub force_despawn: bool,
     pub physics: PhysicsState,
     pub max_distance_from_target: f32,
     pub max_distance_from_origin: f32,
     pub auto_target_radius: f32,
+    pub ability_height: f32,
     pub enemy_types: HashSet<String>,
     pub enemy_prioritization: HashMap<String, i8>,
     pub texture_alias: String,
@@ -2111,6 +2140,8 @@ pub struct BaseNpcTemplate {
     pub enable_interact_popup: bool,
     pub interact_popup_radius: Option<f32>,
     pub show_name: bool,
+    pub show_health: bool,
+    pub hostility: Hostility,
     pub bounce_area_id: i32,
     pub enable_gravity: bool,
     pub enable_tilt: bool,
@@ -2141,7 +2172,7 @@ impl BaseNpcTemplate {
             if config.triggered_npc_keys_on_interact.contains(base_key) {
                 panic!(
                     "(NPC: {}) in (Zone GUID: {}) contains a self-reference in its (Triggered NPC Keys: {:?})",
-                    npc_name, zone_guid, &config.triggered_npc_keys_on_interact,
+                    npc_name, zone_guid, config.triggered_npc_keys_on_interact,
                 );
             }
         }
@@ -2178,10 +2209,13 @@ impl BaseNpcTemplate {
             synchronize_with: config.synchronize_with.clone(),
             stand_animation_id: config.stand_animation_id,
             cursor: config.cursor,
+            health: config.health,
+            max_health: config.max_health.unwrap_or(config.health),
+            removal_mode: config.removal_mode,
             interact_radius: config.interact_radius,
             auto_interact_radius: config.auto_interact_radius.unwrap_or(0.0),
             move_to_interact_offset: config.move_to_interact_offset,
-            is_spawned: config.is_spawned,
+            force_despawn: config.force_despawn,
             physics: config.physics,
             mount_id: None,
             wield_type: WieldType::None,
@@ -2200,7 +2234,9 @@ impl BaseNpcTemplate {
             enable_interact_popup: config.enable_interact_popup,
             interact_popup_radius: config.interact_popup_radius,
             show_name: config.show_name,
-            bounce_area_id: config.bounce_area_id,
+            show_health: config.show_health,
+            hostility: config.hostility,
+            bounce_area_id: config.bounce_area_id.unwrap_or(-1),
             enable_gravity: config.enable_gravity,
             enable_tilt: config.enable_tilt,
             use_terrain_model: config.use_terrain_model,
@@ -2214,6 +2250,7 @@ impl BaseNpcTemplate {
             triggered_npc_keys_on_interact: config.triggered_npc_keys_on_interact.clone(),
             notification_icon: config.notification_icon,
             navmesh: config.navmesh,
+            ability_height: config.ability_height,
         }
     }
 
@@ -2259,7 +2296,7 @@ impl BaseNpcTemplate {
                     mount_multiplier: 1.0,
                 },
                 cursor: self.cursor,
-                is_spawned: self.is_spawned,
+                force_despawn: self.force_despawn,
                 physics: self.physics,
                 name: None,
                 squad_guid: None,
@@ -2269,9 +2306,12 @@ impl BaseNpcTemplate {
                 auto_target_radius: self.auto_target_radius,
                 enemy_types: self.enemy_types.clone(),
                 threat_table: self.enemy_prioritization.clone().into(),
-                health: 1,
+                health: self.health,
+                max_health: self.max_health,
+                removal_mode: self.removal_mode,
                 composite_effect_tags: BTreeMap::new(),
                 navmesh: self.navmesh.clone(),
+                ability_height: self.ability_height,
             },
             tickable_procedure_tracker: TickableProcedureTracker::new(
                 self.tickable_procedures.clone(),
@@ -2298,7 +2338,9 @@ impl BaseNpcTemplate {
             enable_interact_popup: self.enable_interact_popup,
             interact_popup_radius: self.interact_popup_radius,
             show_name: self.show_name,
-            bounce_area_id: self.bounce_area_id,
+            show_health: self.show_health,
+            hostility: self.hostility,
+            bounce_area_id: Some(self.bounce_area_id),
             enable_gravity: self.enable_gravity,
             enable_tilt: self.enable_tilt,
             use_terrain_model: self.use_terrain_model,
@@ -2392,7 +2434,7 @@ pub struct CharacterStats {
     speed: CharacterStat,
     pub jump_height_multiplier: CharacterStat,
     pub cursor: Option<u8>,
-    pub is_spawned: bool,
+    pub force_despawn: bool,
     pub physics: PhysicsState,
     pub name: Option<String>,
     pub squad_guid: Option<u64>,
@@ -2402,27 +2444,38 @@ pub struct CharacterStats {
     pub max_distance_from_target: f32,
     pub max_distance_from_origin: f32,
     pub auto_target_radius: f32,
+    pub ability_height: f32,
     pub enemy_types: HashSet<String>,
     pub threat_table: ThreatTable,
-    pub health: u32,
+    pub health: u16,
+    pub max_health: u16,
+    pub removal_mode: RemovalMode,
     pub composite_effect_tags: BTreeMap<u32, u32>,
     pub navmesh: Option<String>,
 }
 
 impl CharacterStats {
+    pub fn is_spawned(&self) -> bool {
+        !self.force_despawn && self.health > 0
+    }
+
+    pub fn refresh_health(&mut self) {
+        self.health = self.max_health;
+    }
+
     pub fn add_packets(
         &self,
         override_is_spawned: bool,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
     ) -> Vec<Vec<u8>> {
         let mut packets = match &self.character_type {
             CharacterType::AmbientNpc(ambient_npc) => {
                 ambient_npc.add_packets(self, override_is_spawned)
             }
             CharacterType::Player(player) => {
-                player.add_packets(self, mount_configs, item_definitions, customizations)
+                player.add_packets(self, mount_configs, item_configs, customizations)
             }
             CharacterType::Fixture(house_guid, fixture) => fixture_packets(
                 *house_guid,
@@ -2637,7 +2690,7 @@ impl Character {
                 character_type,
                 mount: mount_id,
                 cursor,
-                is_spawned: true,
+                force_despawn: false,
                 physics: PhysicsState::default(),
                 name: None,
                 squad_guid: None,
@@ -2663,9 +2716,12 @@ impl Character {
                 auto_target_radius: 0.0,
                 enemy_types: HashSet::new(),
                 threat_table: ThreatTable::default(),
-                health: 1,
+                health: u16::MAX,
+                max_health: u16::MAX,
+                removal_mode: RemovalMode::default(),
                 composite_effect_tags: BTreeMap::new(),
                 navmesh: None,
+                ability_height: default_ability_height(),
             },
             tickable_procedure_tracker: TickableProcedureTracker::new(
                 tickable_procedures,
@@ -2705,7 +2761,7 @@ impl Character {
                 character_type: CharacterType::Player(Box::new(data)),
                 mount: None,
                 cursor: None,
-                is_spawned: true,
+                force_despawn: false,
                 physics: PhysicsState::default(),
                 interact_radius: 0.0,
                 auto_interact_radius: 0.0,
@@ -2732,9 +2788,12 @@ impl Character {
                     .enemy_types_applied_to_players
                     .clone(),
                 threat_table: ThreatTable::default(),
-                health: 1,
+                health: u16::MAX,
+                max_health: u16::MAX,
+                removal_mode: RemovalMode::default(),
                 composite_effect_tags: BTreeMap::new(),
                 navmesh: None,
+                ability_height: default_ability_height(),
             },
             tickable_procedure_tracker: TickableProcedureTracker::new(HashMap::new(), Vec::new()),
             synchronize_with: None,
@@ -2762,148 +2821,40 @@ impl Character {
         &mut self,
         now: Instant,
         nearby_player_guids: &[u32],
-        nearby_characters: &BTreeMap<u64, CharacterWriteGuard>,
+        nearby_characters: &mut BTreeMap<u64, CharacterWriteGuard>,
         mount_configs: &BTreeMap<u32, MountConfig>,
-        item_definitions: &BTreeMap<u32, ItemDefinition>,
-        customizations: &BTreeMap<u32, Customization>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
         tick_duration: Duration,
         navmesh: &Navmesh,
+        collision: &Collision,
     ) -> (Vec<Broadcast>, Option<UpdatePlayerPos>) {
         self.update_target(nearby_characters, navmesh);
 
-        let speed = self.stats.speed.total();
+        let (mut broadcasts, pos_update) = self.seek_next_pos(
+            now,
+            nearby_player_guids,
+            nearby_characters,
+            mount_configs,
+            item_configs,
+            customizations,
+            tick_duration,
+            navmesh,
+        );
 
-        match &mut self.stats.target_state {
-            TargetState::None => self.tickable_procedure_tracker.tick(
-                &mut self.stats,
-                now,
+        broadcasts.append(
+            &mut self.use_ability(
+                pos_update
+                    .map(|(_, current_pos)| current_pos)
+                    .unwrap_or(self.stats.pos),
                 nearby_player_guids,
                 nearby_characters,
-                mount_configs,
-                item_definitions,
-                customizations,
                 tick_duration,
-                navmesh,
+                collision,
             ),
-            TargetState::Targeting {
-                guid,
-                origin_pos,
-                origin_rot,
-                pos_update_progress,
-            } => {
-                let broadcasts = Vec::new();
-                let pos_update;
+        );
 
-                if let Some(target_read_handle) = nearby_characters.get(guid) {
-                    let distance_from_origin =
-                        distance3_pos(target_read_handle.stats.pos, *origin_pos);
-                    let too_far_from_origin =
-                        distance_from_origin > self.stats.max_distance_from_origin;
-
-                    if !too_far_from_origin {
-                        let destination = target_read_handle.stats.pos;
-                        if pos_update_progress.destination_differs_from(
-                            destination,
-                            STANDING,
-                            self.stats.max_distance_from_target,
-                        ) {
-                            **pos_update_progress = NonLinearPathState::new(
-                                self.stats.pos,
-                                NavmeshWaypoint::without_rot(destination, STANDING),
-                                navmesh,
-                                self.stats.max_distance_from_target,
-                            );
-                        }
-
-                        pos_update = Some(pos_update_progress.tick(
-                            self.stats.guid,
-                            speed,
-                            tick_duration,
-                            self.stats.rot,
-                        ));
-
-                        return (broadcasts, pos_update);
-                    }
-                }
-
-                **pos_update_progress = NonLinearPathState::new(
-                    self.stats.pos,
-                    NavmeshWaypoint {
-                        pos: *origin_pos,
-                        rot_x: Some(origin_rot.x),
-                        rot_y: Some(origin_rot.y),
-                        rot_z: Some(origin_rot.z),
-                        rot_x_offset: 0.0,
-                        rot_y_offset: 0.0,
-                        rot_z_offset: 0.0,
-                        character_state: STANDING,
-                    },
-                    navmesh,
-                    0.0,
-                );
-                pos_update = Some(pos_update_progress.tick(
-                    self.stats.guid,
-                    speed,
-                    tick_duration,
-                    self.stats.rot,
-                ));
-                self.stats.target_state = TargetState::ReturningToOrigin {
-                    pos_update_progress: pos_update_progress.clone(),
-                };
-                self.stats
-                    .composite_effect_tags
-                    .insert(ORIGIN_RESET_TAG_ID, ORIGIN_RESET_COMPOSITE_EFFECT_ID);
-
-                (
-                    vec![Broadcast::Multi(
-                        nearby_player_guids.to_vec(),
-                        vec![GamePacket::serialize(&TunneledPacket {
-                            unknown1: true,
-                            inner: AddCompositeEffectTag {
-                                guid: self.stats.guid,
-                                tag_id: ORIGIN_RESET_TAG_ID,
-                                composite_effect_id: ORIGIN_RESET_COMPOSITE_EFFECT_ID,
-                                triggered_by_guid: 0,
-                                unknown2: 0,
-                            },
-                        })],
-                    )],
-                    pos_update,
-                )
-            }
-            TargetState::ReturningToOrigin {
-                pos_update_progress,
-            } => {
-                let pos_update = Some(pos_update_progress.tick(
-                    self.stats.guid,
-                    speed,
-                    tick_duration,
-                    self.stats.rot,
-                ));
-                if !pos_update_progress.reached_destination() {
-                    return (Vec::new(), pos_update);
-                }
-
-                self.stats.target_state = TargetState::None;
-                self.stats.threat_table.clear();
-                self.stats
-                    .composite_effect_tags
-                    .remove(&ORIGIN_RESET_TAG_ID);
-                (
-                    vec![Broadcast::Multi(
-                        nearby_player_guids.to_vec(),
-                        vec![GamePacket::serialize(&TunneledPacket {
-                            unknown1: true,
-                            inner: RemoveCompositeEffectTag {
-                                guid: self.stats.guid,
-                                tag_id: ORIGIN_RESET_TAG_ID,
-                            },
-                        })],
-                    )],
-                    pos_update,
-                )
-            }
-        }
+        (broadcasts, pos_update.map(|(packet, _)| packet))
     }
 
     pub fn current_tickable_procedure(&self) -> Option<&String> {
@@ -3063,6 +3014,180 @@ impl Character {
                     )),
                 };
             }
+        }
+    }
+
+    fn seek_next_pos(
+        &mut self,
+        now: Instant,
+        nearby_player_guids: &[u32],
+        nearby_characters: &mut BTreeMap<u64, CharacterWriteGuard>,
+        mount_configs: &BTreeMap<u32, MountConfig>,
+        item_configs: &BTreeMap<i32, ItemConfig>,
+        customizations: &BTreeMap<i32, Customization>,
+        tick_duration: Duration,
+        navmesh: &Navmesh,
+    ) -> (Vec<Broadcast>, Option<(UpdatePlayerPos, Pos)>) {
+        let speed = self.stats.speed.total();
+
+        match &mut self.stats.target_state {
+            TargetState::None => self.tickable_procedure_tracker.tick(
+                &mut self.stats,
+                now,
+                nearby_player_guids,
+                nearby_characters,
+                mount_configs,
+                item_configs,
+                customizations,
+                tick_duration,
+                navmesh,
+            ),
+            TargetState::Targeting {
+                guid,
+                origin_pos,
+                origin_rot,
+                pos_update_progress,
+            } => {
+                let pos_update;
+
+                if let Some(target_read_handle) = nearby_characters.get(guid) {
+                    let distance_from_origin =
+                        distance3_pos(target_read_handle.stats.pos, *origin_pos);
+                    let too_far_from_origin =
+                        distance_from_origin > self.stats.max_distance_from_origin;
+
+                    if !too_far_from_origin {
+                        let destination = target_read_handle.stats.pos;
+                        if pos_update_progress.destination_differs_from(
+                            destination,
+                            STANDING,
+                            self.stats.max_distance_from_target,
+                        ) {
+                            **pos_update_progress = NonLinearPathState::new(
+                                self.stats.pos,
+                                NavmeshWaypoint::without_rot(destination, STANDING),
+                                navmesh,
+                                self.stats.max_distance_from_target,
+                            );
+                        }
+
+                        pos_update = Some((
+                            pos_update_progress.tick(
+                                self.stats.guid,
+                                speed,
+                                tick_duration,
+                                self.stats.rot,
+                            ),
+                            pos_update_progress.pos_at_tick_start(),
+                        ));
+
+                        return (Vec::new(), pos_update);
+                    }
+                }
+
+                **pos_update_progress = NonLinearPathState::new(
+                    self.stats.pos,
+                    NavmeshWaypoint {
+                        pos: *origin_pos,
+                        rot_x: Some(origin_rot.x),
+                        rot_y: Some(origin_rot.y),
+                        rot_z: Some(origin_rot.z),
+                        rot_x_offset: 0.0,
+                        rot_y_offset: 0.0,
+                        rot_z_offset: 0.0,
+                        character_state: STANDING,
+                    },
+                    navmesh,
+                    0.0,
+                );
+                pos_update = Some((
+                    pos_update_progress.tick(self.stats.guid, speed, tick_duration, self.stats.rot),
+                    pos_update_progress.pos_at_tick_start(),
+                ));
+                self.stats.target_state = TargetState::ReturningToOrigin {
+                    pos_update_progress: pos_update_progress.clone(),
+                };
+                self.stats
+                    .composite_effect_tags
+                    .insert(ORIGIN_RESET_TAG_ID, ORIGIN_RESET_COMPOSITE_EFFECT_ID);
+
+                (
+                    vec![Broadcast::Multi(
+                        nearby_player_guids.to_vec(),
+                        vec![GamePacket::serialize(&TunneledPacket {
+                            unknown1: true,
+                            inner: AddCompositeEffectTag {
+                                guid: self.stats.guid,
+                                tag_id: ORIGIN_RESET_TAG_ID,
+                                composite_effect_id: ORIGIN_RESET_COMPOSITE_EFFECT_ID,
+                                triggered_by_guid: 0,
+                                unknown2: 0,
+                            },
+                        })],
+                    )],
+                    pos_update,
+                )
+            }
+            TargetState::ReturningToOrigin {
+                pos_update_progress,
+            } => {
+                let pos_update = Some((
+                    pos_update_progress.tick(self.stats.guid, speed, tick_duration, self.stats.rot),
+                    pos_update_progress.pos_at_tick_start(),
+                ));
+                if !pos_update_progress.reached_destination() {
+                    return (Vec::new(), pos_update);
+                }
+
+                self.stats.target_state = TargetState::None;
+                self.stats.threat_table.clear();
+                self.stats
+                    .composite_effect_tags
+                    .remove(&ORIGIN_RESET_TAG_ID);
+                (
+                    vec![Broadcast::Multi(
+                        nearby_player_guids.to_vec(),
+                        vec![GamePacket::serialize(&TunneledPacket {
+                            unknown1: true,
+                            inner: RemoveCompositeEffectTag {
+                                guid: self.stats.guid,
+                                tag_id: ORIGIN_RESET_TAG_ID,
+                            },
+                        })],
+                    )],
+                    pos_update,
+                )
+            }
+        }
+    }
+
+    fn use_ability(
+        &mut self,
+        current_pos: Pos,
+        nearby_player_guids: &[u32],
+        nearby_characters: &mut BTreeMap<u64, CharacterWriteGuard>,
+        _: Duration,
+        collision: &Collision,
+    ) -> Vec<Broadcast> {
+        match &self.stats.target_state {
+            TargetState::None => Vec::new(),
+            TargetState::Targeting { guid, .. } => {
+                let Some(target_read_handle) = nearby_characters.get(guid) else {
+                    return Vec::new();
+                };
+
+                if collision.has_line_of_sight(
+                    current_pos,
+                    self.stats.ability_height,
+                    target_read_handle.stats.pos,
+                    target_read_handle.stats.ability_height,
+                ) {
+                    return vec![Broadcast::Multi(nearby_player_guids.to_vec(), vec![])];
+                }
+
+                Vec::new()
+            }
+            TargetState::ReturningToOrigin { .. } => Vec::new(),
         }
     }
 }

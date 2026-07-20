@@ -1,3 +1,4 @@
+pub mod ability;
 pub mod chat;
 pub mod clicked_location;
 pub mod client_update;
@@ -12,7 +13,6 @@ pub mod minigame;
 pub mod mount;
 pub mod player_data;
 pub mod player_update;
-pub mod purchase;
 pub mod reference_data;
 pub mod saber_duel;
 pub mod saber_strike;
@@ -53,6 +53,7 @@ pub enum OpCode {
     ClientBeginZoning = 0x1f,
     Combat = 0x20,
     PlayerUpdate = 0x23,
+    Ability = 0x24,
     ClientUpdate = 0x26,
     Minigame = 0x27,
     Inventory = 0x2a,
@@ -641,7 +642,14 @@ pub struct RewardBundle {
 }
 
 #[derive(
-    Copy, Clone, Debug, TryFromPrimitive, IntoPrimitive, SerializePacket, DeserializePacket,
+    Copy,
+    Clone,
+    Debug,
+    TryFromPrimitive,
+    IntoPrimitive,
+    SerializePacket,
+    DeserializePacket,
+    PartialEq,
 )]
 #[repr(u32)]
 pub enum ActionBarType {
@@ -651,7 +659,15 @@ pub enum ActionBarType {
 }
 
 #[derive(
-    Copy, Clone, Debug, TryFromPrimitive, IntoPrimitive, SerializePacket, DeserializePacket,
+    Copy,
+    Clone,
+    Debug,
+    PartialEq,
+    TryFromPrimitive,
+    IntoPrimitive,
+    SerializePacket,
+    Deserialize,
+    DeserializePacket,
 )]
 #[repr(u32)]
 pub enum AbilitySubType {

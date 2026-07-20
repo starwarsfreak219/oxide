@@ -28,6 +28,7 @@ use crate::game_server::{
     packets::{
         item::{EquipmentSlot, WieldType},
         minigame::{MinigameHeader, ScoreEntry, ScoreType},
+        player_update::Hostility,
         saber_duel::{
             SaberDuelApplyForcePower, SaberDuelBoutInfo, SaberDuelBoutStart, SaberDuelBoutTied,
             SaberDuelBoutWon, SaberDuelForcePower, SaberDuelForcePowerDefinition,
@@ -60,9 +61,9 @@ struct SaberDuelAiForcePower {
 #[derive(Clone, Debug, Default, Deserialize)]
 #[serde(deny_unknown_fields)]
 struct SaberDuelEquippableSaber {
-    hilt_item_guid: u32,
-    shape_item_guid: u32,
-    color_item_guid: u32,
+    hilt_item_guid: i32,
+    shape_item_guid: i32,
+    color_item_guid: i32,
 }
 
 #[derive(Clone, Debug, Default, Deserialize)]
@@ -667,7 +668,9 @@ impl SaberDuelGame {
                 enable_interact_popup: false,
                 interact_popup_radius: None,
                 show_name: false,
-                bounce_area_id: -1,
+                show_health: false,
+                hostility: Hostility::default(),
+                bounce_area_id: Some(-1),
                 enable_gravity: true,
                 enable_tilt: false,
                 use_terrain_model: false,

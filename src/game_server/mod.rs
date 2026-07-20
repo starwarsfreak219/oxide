@@ -5,11 +5,13 @@ use std::io::{Cursor, Error};
 use std::num::ParseIntError;
 use std::path::Path;
 use std::str::ParseBoolError;
+use std::sync::Arc;
 use std::time::{Duration, Instant};
 use std::vec;
 
 use crossbeam_channel::Sender;
 use enum_iterator::Sequence;
+use handlers::ability::{load_abilities, process_ability, AbilityConfig};
 use handlers::character::{
     Character, CharacterCategory, CharacterType, Chunk, MinigameMatchmakingGroup,
 };
@@ -23,7 +25,7 @@ use handlers::inventory::{
     customizations_from_guids, load_customization_item_mappings, load_customizations,
     load_default_sabers, process_inventory_packet, update_saber_tints, DefaultSaber,
 };
-use handlers::item::load_item_definitions;
+use handlers::item::{load_items, ItemConfig};
 use handlers::lock_enforcer::{
     CharacterLockEnforcer, CharacterLockRequest, CharacterTableWriteHandle, LockEnforcerSource,
     ZoneLockEnforcer, ZoneLockRequest, ZoneTableWriteHandle,
@@ -35,7 +37,6 @@ use handlers::minigame::{
 };
 use handlers::mount::{load_mounts, process_mount_packet, MountConfig};
 use handlers::reference_data::{load_categories, load_item_classes, load_item_groups};
-use handlers::store::{load_cost_map, CostEntry};
 use handlers::test_data::make_test_nameplate_image;
 use handlers::tick::{
     enqueue_tickable_chunks, enqueue_tickable_minigames, tick_matchmaking_groups, tick_minigame,
@@ -49,8 +50,8 @@ use handlers::zone::{
     load_zones, teleport_anywhere, teleport_within_zone, DestinationZoneInstance,
     PointOfInterestConfig, ZoneInstance, ZoneTemplate,
 };
+use oxide_bvh::Bvh;
 use packets::client_update::{Health, Power, PreloadCharactersDone, Stat, StatId, Stats};
-use packets::item::ItemDefinition;
 use packets::login::{LoginRequest, WelcomeScreen, ZoneDetailsDone};
 use packets::player_update::{Customization, InitCustomizations, QueueAnimation, UpdateWieldType};
 use packets::reference_data::{CategoryDefinitions, ItemClassDefinitions, ItemGroupDefinitions};
@@ -61,11 +62,12 @@ use packets::zone::PointOfInterestTeleportRequest;
 use packets::{GamePacket, OpCode};
 use rand::Rng;
 
+use crate::config::ConfigError;
 use crate::game_server::handlers::combat::{load_enemy_types, EnemyTypeConfig};
+use crate::game_server::handlers::store::{redirect_packets, ItemCostMap};
 use crate::game_server::handlers::tick::reset_daily_minigames;
-use crate::game_server::navmesh::config::load_navmeshes;
-use crate::game_server::navmesh::Navmesh;
-use crate::ConfigError;
+use crate::game_server::navmesh::config::{load_bvhs, load_navmeshes};
+use crate::game_server::navmesh::{Collision, Navmesh};
 use packet_serialize::{DeserializePacket, DeserializePacketError};
 
 mod handlers;
@@ -184,19 +186,21 @@ pub enum TickableNpcSynchronization {
 }
 
 pub struct GameServer {
+    abilities: HashMap<String, AbilityConfig>,
+    bvhs: HashMap<String, Arc<Bvh>>,
     categories: CategoryDefinitions,
-    costs: BTreeMap<u32, CostEntry>,
-    customizations: BTreeMap<u32, Customization>,
-    customization_item_mappings: BTreeMap<u32, Vec<u32>>,
-    default_sabers: BTreeMap<u32, DefaultSaber>,
+    costs: ItemCostMap,
+    customizations: BTreeMap<i32, Customization>,
+    customization_item_mappings: BTreeMap<i32, Vec<i32>>,
+    default_sabers: BTreeMap<i32, DefaultSaber>,
     enemy_types: EnemyTypeConfig,
     lock_enforcer_source: LockEnforcerSource,
-    items: BTreeMap<u32, ItemDefinition>,
+    items: BTreeMap<i32, ItemConfig>,
     item_classes: ItemClassDefinitions,
     item_groups: ItemGroupDefinitions,
     minigames: AllMinigameConfigs,
     mounts: BTreeMap<u32, MountConfig>,
-    navmeshes: HashMap<String, Navmesh>,
+    navmeshes: HashMap<String, (Navmesh, Collision)>,
     points_of_interest: BTreeMap<u32, (u8, PointOfInterestConfig)>,
     start_time: Instant,
     zone_templates: BTreeMap<u8, ZoneTemplate>,
@@ -205,29 +209,33 @@ pub struct GameServer {
 
 impl GameServer {
     pub fn new(config_dir: &Path) -> Result<Self, ConfigError> {
+        let abilities = load_abilities(config_dir)?;
+        let bvhs = load_bvhs(config_dir)?;
         let characters = GuidTable::new();
         let (templates, zones, points_of_interest) = load_zones(config_dir)?;
-        let item_definitions = load_item_definitions(config_dir)?;
-        let item_groups = load_item_groups(config_dir)?;
+        let (items, mut costs) = load_items(config_dir, &abilities)?;
+        let item_groups = load_item_groups(config_dir, &items, &mut costs)?;
         Ok(GameServer {
+            abilities,
             categories: load_categories(config_dir)?,
-            costs: load_cost_map(config_dir, &item_definitions, &item_groups)?,
+            costs,
             customizations: load_customizations(config_dir)?,
             customization_item_mappings: load_customization_item_mappings(config_dir)?,
             default_sabers: load_default_sabers(config_dir)?,
             enemy_types: load_enemy_types(config_dir)?,
             lock_enforcer_source: LockEnforcerSource::from(characters, zones, GuidTable::new()),
-            items: item_definitions,
+            items,
             item_classes: load_item_classes(config_dir)?,
             item_groups: ItemGroupDefinitions {
                 definitions: item_groups,
             },
             minigames: load_all_minigames(config_dir)?,
             mounts: load_mounts(config_dir)?,
-            navmeshes: load_navmeshes(config_dir)?,
+            navmeshes: load_navmeshes(config_dir, &bvhs)?,
             points_of_interest,
             start_time: Instant::now(),
             zone_templates: templates,
+            bvhs,
             commands: load_commands(config_dir)?,
         })
     }
@@ -432,6 +440,7 @@ impl GameServer {
                         inner: GamePacket::serialize(&StoreItemList::from(&self.costs)),
                     };
                     sender_only_packets.push(GamePacket::serialize(&store_items));
+                    sender_only_packets.append(&mut redirect_packets());
 
                     let mut character_broadcasts = self.lock_enforcer().read_characters(|characters_table_read_handle| {
                         let possible_index = characters_table_read_handle.index1(player_guid(sender));
@@ -642,6 +651,9 @@ impl GameServer {
                                 },
                         })?;
                 }
+                OpCode::Ability => {
+                    broadcasts.append(&mut process_ability(&mut cursor)?);
+                }
                 OpCode::ClickedLocation => {
                     broadcasts.append(&mut process_clicked_location(self, sender, &mut cursor)?);
                 }
@@ -817,19 +829,27 @@ impl GameServer {
         Ok(broadcasts)
     }
 
-    pub fn costs(&self) -> &BTreeMap<u32, CostEntry> {
+    pub fn abilities(&self) -> &HashMap<String, AbilityConfig> {
+        &self.abilities
+    }
+
+    pub fn bvhs(&self) -> &HashMap<String, Arc<Bvh>> {
+        &self.bvhs
+    }
+
+    pub fn costs(&self) -> &ItemCostMap {
         &self.costs
     }
 
-    pub fn customizations(&self) -> &BTreeMap<u32, Customization> {
+    pub fn customizations(&self) -> &BTreeMap<i32, Customization> {
         &self.customizations
     }
 
-    pub fn customization_item_mappings(&self) -> &BTreeMap<u32, Vec<u32>> {
+    pub fn customization_item_mappings(&self) -> &BTreeMap<i32, Vec<i32>> {
         &self.customization_item_mappings
     }
 
-    pub fn default_sabers(&self) -> &BTreeMap<u32, DefaultSaber> {
+    pub fn default_sabers(&self) -> &BTreeMap<i32, DefaultSaber> {
         &self.default_sabers
     }
 
@@ -837,7 +857,7 @@ impl GameServer {
         &self.enemy_types
     }
 
-    pub fn items(&self) -> &BTreeMap<u32, ItemDefinition> {
+    pub fn items(&self) -> &BTreeMap<i32, ItemConfig> {
         &self.items
     }
 
@@ -857,7 +877,7 @@ impl GameServer {
         &self.mounts
     }
 
-    pub fn navmeshes(&self) -> &HashMap<String, Navmesh> {
+    pub fn navmeshes(&self) -> &HashMap<String, (Navmesh, Collision)> {
         &self.navmeshes
     }
 
