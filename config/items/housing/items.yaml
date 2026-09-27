@@ -5553,7 +5553,7 @@
   description_id: 14
   icon_set_id: 2666
   slot: !Equipment None
-  model_name: Grp_HumanMale_clonePhaseII.agr
+  model_name: Char_CloneSeason4NPC.adr
   item_type: 29
   category: 0
   max_stack_size: 1000

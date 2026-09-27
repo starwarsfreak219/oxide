@@ -10,6 +10,7 @@
   texture_alias: TuskenRaiderPink
   item_type: 1
   category: 64
+  cost: 1199
   members: true
   action_bar:
     ability_keys:
@@ -118,7 +119,7 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 64
-  cost: 2000
+  cost: 1999
   members: true
 
 # Cad Bane's Left Blaster
@@ -201,7 +202,7 @@
   texture_alias: CaptainRex
   item_type: 1
   category: 64
-  cost: 1000
+  cost: 999
   members: true
   action_bar:
     ability_keys:
@@ -255,7 +256,7 @@
   texture_alias: CloneDesert
   item_type: 1
   category: 64
-  cost: 24000
+  cost: 23999
   members: true
   action_bar:
     ability_keys:
@@ -311,7 +312,7 @@
   texture_alias: Embo
   item_type: 1
   category: 64
-  cost: 4000
+  cost: 3999
   members: true
   action_bar:
     ability_keys:
@@ -330,7 +331,7 @@
   texture_alias: IonPapanoida
   item_type: 1
   category: 64
-  cost: 2000
+  cost: 1999
   members: true
   action_bar:
     ability_keys:
@@ -435,7 +436,7 @@
   texture_alias: Balnab
   item_type: 1
   category: 64
-  cost: 1500
+  cost: 1499
   members: true
   action_bar:
     ability_keys:
@@ -454,7 +455,7 @@
   texture_alias: NightSister
   item_type: 1
   category: 64
-  cost: 2000
+  cost: 1999
   members: true
   action_bar:
     ability_keys:
@@ -989,6 +990,7 @@
   model_name: Wield_HeavyHipGun_HeavyHipGun02.adr
   item_type: 1
   category: 64
+  cost: 9999
   members: true
   action_bar:
     ability_keys:
@@ -1126,6 +1128,7 @@
   texture_alias: Steela
   item_type: 1
   category: 64
+  cost: 1049
   members: true
   action_bar:
     ability_keys:
@@ -1321,6 +1324,7 @@
   texture_alias: Steela
   item_type: 1
   category: 64
+  cost: 749
   members: true
   action_bar:
     ability_keys:

@@ -75,7 +75,7 @@
   slot: !Equipment None
   item_type: 1
   category: 37
-  cost: 1000
+  cost: 999
   members: true
 
 # Blue Starhawk Speeder
@@ -86,7 +86,7 @@
   slot: !Equipment None
   item_type: 1
   category: 37
-  cost: 1000
+  cost: 999
   members: true
 
 # Swirly Starhawk Speeder
@@ -97,5 +97,5 @@
   slot: !Equipment None
   item_type: 1
   category: 37
-  cost: 1000
+  cost: 999
   members: true

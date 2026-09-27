@@ -138,10 +138,11 @@ definitions:
     sort_order: 5
     visible: true
 
-  # My Furniture
-  - guid: 65
-    name_id: 8506
-    icon_set_id: 423
+  # Housing (Testing) - Unconfirmed ID
+  # Does not show up in the Inventory Menu
+  - guid: 39
+    name_id: 1222
+    icon_set_id: 1229
     sort_order: 6
     visible: true
 
@@ -150,6 +151,16 @@ definitions:
     name_id: 1224
     icon_set_id: 428
     sort_order: 7
+    visible: true
+
+  #
+  # Inventory -> Housing (Testing)
+  #
+  # My Furniture
+  - guid: 65
+    name_id: 8506
+    icon_set_id: 423
+    sort_order: 6
     visible: true
 
   #
@@ -173,7 +184,7 @@ definitions:
   # Inventory -> Supplies
   #
   # Components
-  - guid: 505
+  - guid: 79
     name_id: 54260
     icon_set_id: 3604
     sort_order: 1
@@ -618,10 +629,119 @@ definitions:
   #
   # Boost Points
   - guid: 36
-    name_id: 0
+    name_id: 4943
     icon_set_id: 0
     sort_order: 36
     visible: true
+
+  # Credits Purchase
+  - guid: 25
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: true
+
+  # Unknown category (excluded from marketplace)
+  - guid: 45
+    name_id: 0
+    icon_set_id: 0
+    sort_order: 0
+    visible: false
+
+  #
+  # My Gear - Testing
+  #
+  - guid: 28
+    name_id: 50480
+    icon_set_id: 1213
+    sort_order: 7
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 50 does not show up in the menu...
+  - guid: 50
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 7
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 51 does not show up in the menu...
+  - guid: 51
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 8
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 52 does not show up in the menu...
+  - guid: 52
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 9
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 56 does not show up in the menu...
+  - guid: 56
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 10
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 57 does not show up in the menu...
+  - guid: 57
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 11
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 58 does not show up in the menu...
+  - guid: 58
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 12
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 59 does not show up in the menu...
+  - guid: 59
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 13
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 79 does not show up in the menu...
+  # Components
+  # - guid: 79
+  #   name_id: 53463
+  #   icon_set_id: 1213
+  #   sort_order: 14
+  #   visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 94 does not show up in the menu...
+  - guid: 94
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 15
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 97 does not show up in the menu...
+  - guid: 97
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 16
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 118 does not show up in the menu...
+  - guid: 118
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 17
+    visible: true
+  # Does not show up in the My Character Menu? V
+  # name_id 119 does not show up in the menu...
+  - guid: 119
+    name_id: 50479
+    icon_set_id: 1213
+    sort_order: 18
+    visible: true
+  # Up to 300 tested... Removed ones that showed up.
 
 relations:
   # Store = 2     --- Item Sets use this category
@@ -984,7 +1104,43 @@ relations:
 
   # My Gear -> Housing
   - parent_guid: 70
+    child_guid: 39
+
+  # My Gear -> Housing -> Furniture
+  - parent_guid: 39
     child_guid: 65
+
+  #
+  # My Gear - Testing
+  #
+  # - parent_guid: 70
+  #   child_guid: 39
+  - parent_guid: 70
+    child_guid: 28
+  - parent_guid: 70
+    child_guid: 50
+  - parent_guid: 70
+    child_guid: 51
+  - parent_guid: 70
+    child_guid: 52
+  - parent_guid: 70
+    child_guid: 56
+  - parent_guid: 70
+    child_guid: 57
+  - parent_guid: 70
+    child_guid: 58
+  - parent_guid: 70
+    child_guid: 59
+  # - parent_guid: 70
+  #   child_guid: 79
+  - parent_guid: 70
+    child_guid: 94
+  - parent_guid: 70
+    child_guid: 97
+  - parent_guid: 70
+    child_guid: 118
+  - parent_guid: 70
+    child_guid: 119
 
   #
   # Mounts & Companions - Inventory
@@ -1029,7 +1185,7 @@ relations:
 
   # Supplies - Inventory -> Components - Inventory
   - parent_guid: 503
-    child_guid: 505
+    child_guid: 79
 
   #
   # Card Games

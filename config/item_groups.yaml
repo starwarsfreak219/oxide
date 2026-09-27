@@ -2727,6 +2727,21 @@
     - guid: 70000
       unknown: 0
 
+# Limited Time Items
+- guid: 129
+  name_id: 2586
+  description_id: 0
+  sort_order: 0
+  icon_set_id: 0
+  category: 0
+  page: 0
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
+  for_sale: false
+  members_only: false
+  items: []
+
 # R3-S6
 - guid: 131
   name_id: 2480
@@ -2878,51 +2893,6 @@
   members_only: false
   items:
     - guid: 553
-      unknown: 0
-
-# Facial Hair
-- guid: 140
-  name_id: 0
-  description_id: 0
-  sort_order: 0
-  icon_set_id: 0
-  category: 0
-  page: 8
-  preview_model_id: 44
-  preview_animation_id: 0
-  is_new: false
-  for_sale: true
-  members_only: false
-  items:
-    - guid: 20014
-      unknown: 0
-    - guid: 20013
-      unknown: 0
-    - guid: 20012
-      unknown: 0
-    - guid: 20011
-      unknown: 0
-    - guid: 20010
-      unknown: 0
-    - guid: 20009
-      unknown: 0
-    - guid: 20008
-      unknown: 0
-    - guid: 20007
-      unknown: 0
-    - guid: 20006
-      unknown: 0
-    - guid: 20005
-      unknown: 0
-    - guid: 20004
-      unknown: 0
-    - guid: 20003
-      unknown: 0
-    - guid: 20002
-      unknown: 0
-    - guid: 20001
-      unknown: 0
-    - guid: 20000
       unknown: 0
 
 # Commander Bly
@@ -3620,6 +3590,51 @@
     - guid: 927
       unknown: 0
 
+# Facial Hair
+- guid: 189
+  name_id: 0
+  description_id: 0
+  sort_order: 0
+  icon_set_id: 0
+  category: 0
+  page: 8
+  preview_model_id: 44
+  preview_animation_id: 0
+  is_new: false
+  for_sale: true
+  members_only: false
+  items:
+    - guid: 20014
+      unknown: 0
+    - guid: 20013
+      unknown: 0
+    - guid: 20012
+      unknown: 0
+    - guid: 20011
+      unknown: 0
+    - guid: 20010
+      unknown: 0
+    - guid: 20009
+      unknown: 0
+    - guid: 20008
+      unknown: 0
+    - guid: 20007
+      unknown: 0
+    - guid: 20006
+      unknown: 0
+    - guid: 20005
+      unknown: 0
+    - guid: 20004
+      unknown: 0
+    - guid: 20003
+      unknown: 0
+    - guid: 20002
+      unknown: 0
+    - guid: 20001
+      unknown: 0
+    - guid: 20000
+      unknown: 0
+
 # Card Commander Booster Pack
 - guid: 190
   name_id: 2596
@@ -4176,6 +4191,21 @@
   items:
     - guid: 1417
       unknown: 0
+
+# Coins
+- guid: 222
+  name_id: 0
+  description_id: 0
+  sort_order: 0
+  icon_set_id: 0
+  category: 0
+  page: 0
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
+  for_sale: false
+  members_only: false
+  items: []
 
 # Jawa Holoprojector
 - guid: 223
@@ -5550,6 +5580,23 @@
     - guid: 2363
       unknown: 0
 
+# Credit Bundles
+- guid: 598
+  name_id: 0
+  description_id: 0
+  sort_order: 0
+  icon_set_id: 0
+  category: 25
+  page: 0
+  preview_model_id: 0
+  preview_animation_id: 0
+  is_new: false
+  for_sale: false
+  members_only: false
+  items:
+    - guid: 2373
+      unknown: 0
+
 # Card Commander Booster Pack II
 - guid: 599
   name_id: 33196
@@ -6099,7 +6146,7 @@
   name_id: 43528
   description_id: 43530
   sort_order: 0
-  icon_set_id: 1846
+  icon_set_id: 1847
   category: 85
   page: 0
   preview_model_id: 1498
@@ -6618,7 +6665,7 @@
 - guid: 672
   name_id: 44513
   description_id: 44514
-  sort_order: 902
+  sort_order: 0
   icon_set_id: 1993
   category: 102
   page: 0

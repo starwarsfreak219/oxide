@@ -2110,6 +2110,7 @@
   texture_alias: Nikto
   item_type: 1
   category: 61
+  cost: 1490
 
 # Nikto Helmet
 - guid: 190171
@@ -2121,6 +2122,7 @@
   texture_alias: Nikto
   item_type: 1
   category: 60
+  cost: 990
 
 # Nikto Gloves
 - guid: 190172
@@ -2132,6 +2134,7 @@
   texture_alias: Nikto
   item_type: 1
   category: 62
+  cost: 990
 
 # Nikto Boots
 - guid: 190173
@@ -2143,6 +2146,7 @@
   texture_alias: Nikto
   item_type: 1
   category: 63
+  cost: 990
 
 # Ming Po Robe
 - guid: 190174

@@ -10,7 +10,7 @@
   texture_alias: Ventress
   item_type: 25
   category: 64
-  cost: 1000
+  cost: 999
   members: true
 
 # Ahsoka Tano's Offhand Lightsaber

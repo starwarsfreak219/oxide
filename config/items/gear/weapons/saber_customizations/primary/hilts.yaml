@@ -10,7 +10,7 @@
   texture_alias: PloKoon
   item_type: 25
   category: 64
-  cost: 2500
+  cost: 2499
   members: true
   action_bar:
     ability_keys:
@@ -48,7 +48,7 @@
   texture_alias: Ahsoka
   item_type: 25
   category: 64
-  cost: 4000
+  cost: 3999
   members: true
   action_bar:
     ability_keys:
@@ -103,7 +103,7 @@
   texture_alias: AdiGallia
   item_type: 25
   category: 64
-  cost: 800
+  cost: 799
   members: true
   action_bar:
     ability_keys:
@@ -212,7 +212,7 @@
   texture_alias: ObiWan
   item_type: 25
   category: 64
-  cost: 900
+  cost: 899
   members: true
   action_bar:
     ability_keys:
@@ -267,7 +267,7 @@
   texture_alias: Ventress
   item_type: 25
   category: 64
-  cost: 1000
+  cost: 999
   members: true
   action_bar:
     ability_keys:
@@ -716,6 +716,7 @@
   texture_alias: Byph
   item_type: 25
   category: 64
+  cost: 799
   members: true
   action_bar:
     ability_keys:
@@ -981,6 +982,7 @@
   texture_alias: Petro
   item_type: 25
   category: 64
+  cost: 799
   members: true
   action_bar:
     ability_keys:
