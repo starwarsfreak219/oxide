@@ -27,7 +27,7 @@ definitions:
   # Store
   - guid: 2
     name_id: 100
-    icon_set_id: 1440 # potentially 1230 as well
+    icon_set_id: 1440  # potentially 1230 as well
     sort_order: 2
     visible: true
 
@@ -741,7 +741,6 @@ definitions:
     icon_set_id: 1213
     sort_order: 18
     visible: true
-  # Up to 300 tested... Removed ones that showed up.
 
 relations:
   # Store = 2     --- Item Sets use this category
