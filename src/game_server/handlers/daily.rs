@@ -5,20 +5,23 @@ use rand::{seq::SliceRandom, thread_rng, Rng};
 use rand_distr::{Distribution, WeightedAliasIndex};
 use serde::Deserialize;
 
-use crate::game_server::{
-    handlers::{
-        character::MinigameWinStatus,
-        minigame::{
-            award_credits, DailyGamePlayability, DailyResetOffset, MinigameCountdown,
-            MinigameStageConfig, PlayerMinigameStats,
+use crate::{
+    game_server::{
+        handlers::{
+            character::MinigameWinStatus,
+            minigame::{
+                award_credits, DailyGamePlayability, MinigameCountdown, MinigameStageConfig,
+                PlayerMinigameStats,
+            },
         },
+        packets::{
+            minigame::{FlashPayload, MinigameHeader, ScoreEntry, ScoreType},
+            tunnel::TunneledPacket,
+            GamePacket,
+        },
+        Broadcast, ProcessPacketError, ProcessPacketErrorType,
     },
-    packets::{
-        minigame::{FlashPayload, MinigameHeader, ScoreEntry, ScoreType},
-        tunnel::TunneledPacket,
-        GamePacket,
-    },
-    Broadcast, ProcessPacketError, ProcessPacketErrorType,
+    UtcOffset,
 };
 
 #[derive(Clone, Debug, Deserialize)]
@@ -300,7 +303,7 @@ impl DailyHolocronGame {
         &mut self,
         sender: u32,
         minigame_stats: &PlayerMinigameStats,
-        daily_reset_offset: &DailyResetOffset,
+        daily_reset_offset: UtcOffset,
     ) -> Result<Vec<Broadcast>, ProcessPacketError> {
         if !matches!(self.state, DailyHolocronGameState::WaitingForConnection) {
             return Err(ProcessPacketError::new(
@@ -664,10 +667,14 @@ impl DailyTriviaGame {
         let question = &self.questions[next_question_index as usize];
         self.state = DailyTriviaGameState::AnsweringQuestion {
             question_index: next_question_index,
-            bonus_timer: MinigameCountdown::new_with_event(Duration::from_secs(
-                self.bonus_seconds_per_question
-                    .saturating_add(self.bonus_timer_start_delay_seconds) as u64,
-            )),
+            bonus_timer: MinigameCountdown::new_with_event(
+                Duration::from_secs(
+                    self.bonus_seconds_per_question
+                        .saturating_add(self.bonus_timer_start_delay_seconds)
+                        as u64,
+                ),
+                Instant::now(),
+            ),
         };
 
         Ok(vec![Broadcast::Single(
@@ -725,7 +732,8 @@ impl DailyTriviaGame {
                 ),
             ));
         };
-        bonus_timer.pause_or_resume(true);
+        let now = Instant::now();
+        bonus_timer.pause_or_resume(true, now);
 
         let question = &mut self.questions[*question_index as usize];
         question.selected_answers[selected_answer_index as usize] = true;
@@ -749,8 +757,7 @@ impl DailyTriviaGame {
             };
 
         let broadcasts = if question.correct_answer_index == selected_answer_index {
-            let seconds_remaining =
-                bonus_timer.time_until_next_event(Instant::now()).as_secs() as i32;
+            let seconds_remaining = bonus_timer.time_until_next_event(now).as_secs() as i32;
             let question_score = base_question_score
                 .saturating_add(
                     seconds_remaining.saturating_mul(self.score_per_bonus_second_remaining),
@@ -784,7 +791,7 @@ impl DailyTriviaGame {
                 })],
             )]
         } else {
-            bonus_timer.pause_or_resume(false);
+            bonus_timer.pause_or_resume(false, now);
             vec![Broadcast::Single(
                 sender,
                 vec![GamePacket::serialize(&TunneledPacket {

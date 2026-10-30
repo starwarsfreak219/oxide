@@ -1,5 +1,6 @@
 use std::time::{Duration, Instant};
 
+use chrono::{DateTime, FixedOffset};
 use crossbeam_channel::Sender;
 
 use crate::{
@@ -68,6 +69,7 @@ pub fn enqueue_tickable_chunks(
 pub fn tick_single_chunk(
     game_server: &GameServer,
     now: Instant,
+    calendar_now: &DateTime<FixedOffset>,
     instance_guid: u64,
     chunk: Chunk,
     synchronization: TickableNpcSynchronization,
@@ -130,6 +132,7 @@ pub fn tick_single_chunk(
 
                     let (mut character_broadcasts, character_pos_update) = tickable_character.tick(
                         now,
+                        calendar_now,
                         &nearby_player_guids,
                         &mut characters_write,
                         game_server.mounts(),
@@ -296,6 +299,7 @@ pub fn enqueue_tickable_minigames(
 pub fn tick_minigame(
     game_server: &GameServer,
     now: Instant,
+    tick_duration: Duration,
     minigame_group: MinigameMatchmakingGroup,
 ) -> Vec<Broadcast> {
     let minigame_data_lock_enforcer: MinigameDataLockEnforcer = game_server.lock_enforcer().into();
@@ -305,7 +309,7 @@ pub fn tick_minigame(
         minigame_data_consumer: |_, _, mut minigame_data_write, _| {
             let mut broadcasts = Vec::new();
             for minigame_data in minigame_data_write.values_mut() {
-                broadcasts.append(&mut minigame_data.tick(now));
+                broadcasts.append(&mut minigame_data.tick(now, tick_duration));
             }
 
             broadcasts
@@ -351,7 +355,7 @@ pub fn reset_daily_minigames(game_server: &GameServer) -> Vec<Broadcast> {
                             },
                         };
 
-                        let (portal_entries, daily_updates) = game_server.minigames().update_dailies_for_player(&player.minigame_stats);
+                        let (portal_entries, daily_updates) = game_server.minigames().update_dailies_for_player(&player.minigame_stats, game_server.utc_offset());
 
                         let mut packets = vec![GamePacket::serialize(&TunneledPacket {
                             unknown1: true,
